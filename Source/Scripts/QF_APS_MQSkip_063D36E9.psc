@@ -14,6 +14,9 @@ Actor Player = Game.GetPlayer()
 
 (MQ101 as MQ101QuestScript).FactionPath = 1
 APMQ101Controller.DestroyHelgen()
+MQ101.SetStage(200)
+MQ101.SetStage(210)
+MQ101.SetStage(250)
 MQ101.SetStage(500)
 MQ101.SetStage(800)
 MQ101.SetStage(1000)

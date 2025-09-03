@@ -14,8 +14,11 @@ Function destroyHelgen() global
 	; Stage20
 	q101scr.CartPathAmbientMarker.disable()
 
-	q101scr.SetStage(145)
-	q101scr.SetStage(200)
+  q101scr.SetStage(145)
+  q101scr.SetStage(150)
+  q101scr.SetStage(180)
+  q101scr.SetStage(190)
+  q101scr.SetStage(195)
 EndFunction
 
 QF_MQ101_0003372B_new Property Fragment
@@ -102,17 +105,7 @@ Function QuickStartKeep(bool imperials)
     PlayerRef.MoveTo(Fragment.PlayerSonKeepMarker1)
   EndIf
   Utility.Wait(1)
-  ; Disable Helgen Guards
-  Fragment.HelgenDisEnabMarker.DisableNoWait()
-  ; disable stuff around Helgen
-  Fragment.FortNeugradEnableMarker.Disable()
-  ; disable temp end gate
-  Fragment.TempEndGate.Disable()
-  ; destroy Helgen
-  SetStage(145)
-  SetStage(180)
-  SetStage(190)
-  SetStage(195)
+  destroyHelgen()
 
   ;make sure the right controls are enabled/disabled
   Game.DisablePlayerControls(abCamSwitch = True)
