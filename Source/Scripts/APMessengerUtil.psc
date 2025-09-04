@@ -14,14 +14,15 @@ Message Property Split Auto
 ; ============================== TIME SKIPS
 ; =========================================================
 
-Function SkipKeepEntrance()
+Function SkipKeepEntrance(bool skipImod = false)
     int choice = split.show()
     If choice == 0
         return
+	ElseIf !skipImod
+		Utility.Wait(1.1)
+		WarpTime.Apply()
+		Utility.Wait(2.5)
     endif
-    Utility.Wait(1.1)
-    WarpTime.Apply()
-    Utility.Wait(2.5)
     If choice == 1
         MQ101.SetStage(6)
     elseif choice == 2
