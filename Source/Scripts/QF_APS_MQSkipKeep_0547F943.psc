@@ -2,14 +2,6 @@
 ;NEXT FRAGMENT INDEX 3
 Scriptname QF_APS_MQSkipKeep_0547F943 Extends Quest Hidden
 
-;BEGIN FRAGMENT Fragment_2
-Function Fragment_2()
-;BEGIN CODE
-SetStage(5)
-;END CODE
-EndFunction
-;END FRAGMENT
-
 ;BEGIN FRAGMENT Fragment_0
 Function Fragment_0()
 ;BEGIN CODE

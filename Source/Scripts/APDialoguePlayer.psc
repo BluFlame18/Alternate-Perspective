@@ -27,6 +27,19 @@ Event MenuOpen(string asEventName, string asStringArg, float afNumArg, form akSe
 		UI.Invoke("CustomMenu", "_root.main.openMenu")
 	Else
 		String[] files = JContainers.contentsOfDirectoryAtPath(GetEventPath(), ".json")
+		int i = 0
+		While (i < files.Length)
+			If (StringUtil.Find(files[i], "AlternatePerspective.json") != -1)
+				If (i != 0)
+					String altPerspPath = files[i]
+					files[i] = files[0]
+					files[0] = altPerspPath
+				EndIf
+				i = files.Length
+			Else
+				i += 1
+			EndIf
+		EndWhile
 		UI.InvokeStringA("CustomMenu", "_root.main.openMenu", files)
 	EndIf
 EndEvent

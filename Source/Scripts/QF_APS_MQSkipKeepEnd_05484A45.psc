@@ -2,24 +2,14 @@
 ;NEXT FRAGMENT INDEX 2
 Scriptname QF_APS_MQSkipKeepEnd_05484A45 Extends Quest Hidden
 
-;BEGIN FRAGMENT Fragment_1
-Function Fragment_1()
-;BEGIN CODE
-stop()
-;END CODE
-EndFunction
-;END FRAGMENT
-
 ;BEGIN FRAGMENT Fragment_0
 Function Fragment_0()
 ;BEGIN CODE
 int choice = SplitMsg.Show()
 
 APMQ101Controller.destroyHelgen()
-MQ101.SetStage(200) ; 210 for imperials, 220 for stormcloaks
 MQ101.SetStage(200 + choice * 10) ; 210 for imperials, 220 for stormcloaks
 MQ101.SetStage(250)
-MQ101.SetStage(500)
 MQ101.SetStage(550)
 MQ101.SetStage(700)
 MQ101.SetStage(710)
@@ -42,6 +32,14 @@ companion.Enable()
 companion.EvaluatePackage()
 
 SetStage(10)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_1
+Function Fragment_1()
+;BEGIN CODE
+stop()
 ;END CODE
 EndFunction
 ;END FRAGMENT
