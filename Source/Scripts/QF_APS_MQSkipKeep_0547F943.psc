@@ -1,11 +1,11 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 2
+;NEXT FRAGMENT INDEX 3
 Scriptname QF_APS_MQSkipKeep_0547F943 Extends Quest Hidden
 
-;BEGIN FRAGMENT Fragment_1
-Function Fragment_1()
+;BEGIN FRAGMENT Fragment_2
+Function Fragment_2()
 ;BEGIN CODE
-stop()
+SetStage(5)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -17,6 +17,14 @@ HelgenDialogue.SkipKeepEntrance(true)
 
 
 SetStage(10)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_1
+Function Fragment_1()
+;BEGIN CODE
+stop()
 ;END CODE
 EndFunction
 ;END FRAGMENT
