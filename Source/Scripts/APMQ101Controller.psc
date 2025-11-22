@@ -62,6 +62,7 @@ ObjectReference Property Cart2PlayerMarker Auto
 ObjectReference Property Cart1Prisoner01Marker Auto
 ObjectReference Property HadvarMarker Auto
 ObjectReference Property HadvarHorseMarker Auto
+ObjectReference Property HadvarLedgerMarker Auto
 
 Cell Property StartCell Auto
 bool Property isintrotransition Auto Hidden
