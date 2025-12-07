@@ -741,7 +741,7 @@ borderCollision.Enable()
 
 ; set weather & gametime
 ; SkyrimClear.ForceActive(true) ; weather override
-MUSDungeonChargen.Add() ; Play music \o/ idk if this is necessary, lets just try it
+MUSDungeonChargen.Add()
 
 ; Disable controls
 Game.DisablePlayerControls(abMovement = false, abSneaking = true, abMenu = false, abActivate = true)
@@ -752,7 +752,9 @@ Alias_ImperialSoldierHelgen02.GetReference().MoveToMyEditorLocation()
 Alias_Elenwen.GetRef().MoveTo(Alias_ElenwenStartMarker.GetRef())
 Alias_GeneralTullius.GetRef().MoveTo(Alias_TulliusStartMarker.GetRef())
 Alias_GeneralTullius.GetActorRef().EvaluatePackage()
-Alias_Hadvar.GetRef().MoveTo(Alias_HadvarStartMarker.GetRef())
+ObjectReference hadvar = Alias_Hadvar.GetReference()
+hadvar.MoveTo(Alias_HadvarStartMarker.GetRef())
+hadvar.Enable()
 Alias_Ralof.GetRef().MoveTo(Alias_RalofStartMarker.GetRef())
 Alias_ImperialSoldier01.GetRef().Moveto(Alias_SoldierMarker1.GetRef())
 Alias_ImperialSoldier02.GetRef().Moveto(Alias_SoldierMarker2.GetRef())
@@ -2193,9 +2195,8 @@ EndIf
 ; fade menu to fade in)
 Utility.Wait(1.5)
 ; imagespace modifier
-; TODO: re-add fade
-; Game.FadeOutGame(False, true, 14.0, 15.0)
-; Game.ShowTitleSequenceMenu()
+Game.FadeOutGame(False, true, 14.0, 15.0)
+Game.ShowTitleSequenceMenu()
 kmyquest.RegisterForSingleUpdate(4)
 ; play intro music
 IntroMusic.Add()
