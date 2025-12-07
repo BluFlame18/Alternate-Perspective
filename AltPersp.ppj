@@ -61,5 +61,8 @@
         <ZipFile Name="Classic Start - @Ver" RootDir="@patches" Compression="deflate">
         	<Include>Classic Start</Include>
         </ZipFile>
+        <ZipFile Name="Messenger Spawn - @Ver" RootDir="@patches" Compression="deflate">
+        	<Include>Messenger Spawn</Include>
+        </ZipFile>
     </ZipFiles>
 </PapyrusProject>
