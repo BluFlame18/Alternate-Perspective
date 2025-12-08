@@ -2149,10 +2149,8 @@ Player.EquipItem(PrisonerCuffsPlayer, abSilent = true)
 ; debug.trace(self + " ready to move player")
 Player.moveto(kmyQuest.Cart2PlayerMarker)
 
-ObjectReference hadvarHorse = Alias_HadvarHorse.GetReference()
-ObjectReference hadvar = Alias_Hadvar.GetReference()
-
 ; Horses back to CharGen
+Alias_HadvarHorse.GetReference().MoveTo(kmyQuest.HadvarHorseMarker)
 Alias_TulliusHorse.GetReference().MoveTo(kmyQuest.TulliusHorseMarker)
 Alias_CartHorse1.GetRef().MoveTo(kmyQuest.Cart1HorseMarker)
 Alias_CartHorse2.GetRef().MoveTo(kmyQuest.Cart2HorseMarker)
@@ -2162,8 +2160,7 @@ Alias_CartHorse2.GetRef().MoveTo(kmyQuest.Cart2HorseMarker)
 ; everybody else into position
 Alias_Elenwen.GetRef().MoveTo(Alias_ElenwenStartMarker.GetRef())
 Alias_GeneralTullius.GetRef().MoveTo(kmyQuest.TulliusStartMarker)
-hadvar.MoveTo(kmyQuest.HadvarMarker)
-hadvar.Enable()
+Alias_Hadvar.GetReference().MoveTo(kmyQuest.HadvarMarker)
 Alias_Ralof.GetRef().MoveTo(kmyQuest.Cart2RalofMarker)
 Alias_ImperialSoldier01.GetRef().Moveto(kmyQuest.Cart1SoldierMarker)
 Alias_ImperialSoldier02.GetRef().Moveto(kmyQuest.Cart1SoldierMarker)
@@ -2175,14 +2172,9 @@ Alias_StormcloakPrisoner04.GetRef().Moveto(kmyQuest.Cart1Prisoner04Marker)
 Alias_Prisoner01.GetRef().Moveto(kmyQuest.Cart2Prisoner01Marker)
 
 ; enable horses & carts
-hadvarHorse.MoveTo(kmyQuest.HadvarHorseMarker)
 Alias_CartHorse1.GetRef().Enable()
 Alias_Cart1.GetReference().Enable()
 Alias_Cart2.GetReference().Enable()
-
-Utility.Wait(0.3)
-hadvarHorse.MoveTo(kmyQuest.HadvarHorseMarker)
-hadvar.MoveTo(kmyQuest.HadvarMarker)
 
 ; variable basically only says if in start cell or nah
 ; if its just a transition from somewhere else, dont manipulate the weather
