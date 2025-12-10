@@ -12,7 +12,7 @@
         <Variable Name="patches" Value=".\patches"/>
         <Variable Name="Rel" Value=".\.releases"/>
         <Variable Name="MO2" Value=".."/>
-        <Variable Name="Ver" Value="4.0.3"/>
+        <Variable Name="Ver" Value="4.1.0"/>
     </Variables>
     <Imports>
         <Import>@ThisProject\Source\Scripts</Import>
@@ -39,29 +39,17 @@
             <Include>Source</Include>
             <Include>textures</Include>
         </ZipFile>
-        <ZipFile Name="@ModName @Ver LE" RootDir="@ThisProject" Compression="deflate">
-        	<Include>AlternatePerspective.esp</Include>
-            <Include Path="meshes\Actors\Character\FaceGenData\FaceGeom\AlternatePerspective.esp">meshesLE\Actors</Include>
-            <Include Path="meshes\AlternatePerspective\architecture\farmhouse\interior">meshesLE\AlternatePerspective\architecture\farmhouse\interior</Include>
-            <Include Path="meshes\AlternatePerspective\clutter\helgen">meshesLE\AlternatePerspective\clutter\helgen</Include>
-            <Include>Scripts</Include>
-            <Include>Seq</Include>
-            <Include>Sound</Include>
-            <Include>Source</Include>
-            <Include>textures</Include>
-            <Include>LICENSE</Include>
-        </ZipFile>
         <!-- Patches -->
-        <ZipFile Name="@ModName 2.6 - AE Bone Wolf" RootDir="@patches" Compression="deflate">
+        <ZipFile Name="@ModName - AE Bone Wolf" RootDir="@patches" Compression="deflate">
         	<Include>AE Bone Wolf</Include>
         </ZipFile>
         <ZipFile Name="No Startroom Markers" RootDir="@patches" Compression="deflate">
         	<Include>No Startroom Markers</Include>
         </ZipFile>
-        <ZipFile Name="Classic Start - @Ver" RootDir="@patches" Compression="deflate">
+        <ZipFile Name="Classic Start" RootDir="@patches" Compression="deflate">
         	<Include>Classic Start</Include>
         </ZipFile>
-        <ZipFile Name="Messenger Spawn - @Ver" RootDir="@patches" Compression="deflate">
+        <ZipFile Name="Messenger Spawn" RootDir="@patches" Compression="deflate">
         	<Include>Messenger Spawn</Include>
         </ZipFile>
     </ZipFiles>
