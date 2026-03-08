@@ -112,6 +112,7 @@ Function knockoutPlayer()
   PlayerRef.ResetHealthAndLimbs()
   FadeToBlackHoldImod.PopTo(FadeUpFromBlack) ; fade the Screen back in
   PlayerRef.PlayIdle(TG05_GetUp)
+  SetHudCartMode(false) ;FIx the infamous TrueHUD bug
   ; Utility.Wait(1.5)
   ; Player should be free to move now & escape Helgen. Yay.
 EndFunction
@@ -170,3 +171,4 @@ I have to admit the Vanilla Intro is remarkably complicated. I keep track of eve
 43) Stage 99 - Register for Anim Events when Alduin lands. Also Scene4 stops here and we start Alduins Attack Scene. Setting Stage to 100
 44) Stage 100 - Alduin attacks Helgen & knocks out the Player, we rapdidly move from Stage 100 to 160 and destroy Helgen in the process
 /;
+
