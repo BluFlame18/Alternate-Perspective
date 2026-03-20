@@ -112,9 +112,9 @@ Function knockoutPlayer()
   PlayerRef.ResetHealthAndLimbs()
   FadeToBlackHoldImod.PopTo(FadeUpFromBlack) ; fade the Screen back in
   PlayerRef.PlayIdle(TG05_GetUp)
-  SetHudCartMode(false) ;FIx the infamous TrueHUD bug
   ; Utility.Wait(1.5)
-  ; Player should be free to move now & escape Helgen. Yay.
+  ; SetStage(160)
+  ; Player should be free to move now & escape Helgen.
 EndFunction
 
 ;/ ----------------------- Vanilla Intro Stuff
