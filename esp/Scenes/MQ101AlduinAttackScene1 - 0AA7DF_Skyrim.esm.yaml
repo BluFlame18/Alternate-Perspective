@@ -797,6 +797,7 @@ Actions:
   LoopingMin: 1
   Emotion: Neutral
   EmotionValue: 0
+Unused2: {}
 Quest: 03372B:Skyrim.esm
 LastActionIndex: 162
 VNAM: 0x00000000000000000000000000000000

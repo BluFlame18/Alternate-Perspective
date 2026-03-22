@@ -5,6 +5,7 @@ ModKey: AlternatePerspective.esp
 GameRelease: SkyrimSE
 ModHeader:
   Author: KrisV777
+  Description: Alternate Start Mod, which allows the player to experience Skyrim's intro sequence from the perspective of a regular civilian.
   MasterReferences:
   - Master: Skyrim.esm
     FileSize: 0
