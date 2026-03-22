@@ -19,12 +19,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-tags: true
 
       - name: Resolve project version
         id: version
         shell: pwsh
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           $ppjPath = 'AltPersp.ppj'
           if (-not (Test-Path $ppjPath)) {
@@ -39,25 +39,17 @@ jobs:
 
           $currentVersion = $versionMatch.Groups[1].Value.Trim()
 
-          $latestTag = ''
-          try {
-            $latestTag = (gh api "repos/${{ github.repository }}/releases/latest" --jq '.tag_name').Trim()
-          }
-          catch {
-            Write-Host 'No existing releases found (or API unavailable); treating as first release.'
+          $latestTag = git tag --list 'v*' --sort=-v:refname |
+            Where-Object { $_ -match '^v\d+\.\d+\.\d+.*$' } |
+            Select-Object -First 1
+
+          $latestVersion = ''
+          if ($latestTag) {
+            $latestVersion = $latestTag -replace '^v', ''
+          } else {
+            Write-Host 'No existing release tags found; treating as first release.'
           }
 
-          $normalize = {
-            param([string]$value)
-            if ([string]::IsNullOrWhiteSpace($value)) { return '' }
-            $trimmed = $value.Trim()
-            if ($trimmed.StartsWith('v')) {
-              return $trimmed.Substring(1)
-            }
-            return $trimmed
-          }
-
-          $latestVersion = & $normalize $latestTag
           $shouldRelease = if ([string]::IsNullOrWhiteSpace($latestVersion)) {
             $true
           }
