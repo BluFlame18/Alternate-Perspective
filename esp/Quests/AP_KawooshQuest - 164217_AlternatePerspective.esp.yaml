@@ -1,0 +1,134 @@
+FormKey: 164217:AlternatePerspective.esp
+EditorID: AP_KawooshQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_KawooshQuest_04164217
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Arena
+      Object: 1640FF:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DefPerk
+      Object: 17D770:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeBlack
+      Object: 16422F:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeBlackBackImod
+      Object: 0F756F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeBlackHold
+      Object: 0F756E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myX
+      Object: 169364:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Spawns
+      Objects:
+      - Name: ''
+        Object: 16425E:AlternatePerspective.esp
+      - Name: ''
+        Object: 164236:AlternatePerspective.esp
+      - Name: ''
+        Object: 16425D:AlternatePerspective.esp
+      - Name: ''
+        Object: 164251:AlternatePerspective.esp
+      - Name: ''
+        Object: 16425C:AlternatePerspective.esp
+      - Name: ''
+        Object: 164250:AlternatePerspective.esp
+      - Name: ''
+        Object: 16425B:AlternatePerspective.esp
+      - Name: ''
+        Object: 164253:AlternatePerspective.esp
+      - Name: ''
+        Object: 16425A:AlternatePerspective.esp
+      - Name: ''
+        Object: 164252:AlternatePerspective.esp
+      - Name: ''
+        Object: 164259:AlternatePerspective.esp
+      - Name: ''
+        Object: 164255:AlternatePerspective.esp
+      - Name: ''
+        Object: 164258:AlternatePerspective.esp
+      - Name: ''
+        Object: 164254:AlternatePerspective.esp
+      - Name: ''
+        Object: 16425F:AlternatePerspective.esp
+      - Name: ''
+        Object: 164233:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: summonsFX
+      Object: 07CD55:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TmpChest
+      Object: 164231:AlternatePerspective.esp
+  FileName: QF_KawooshQuest_04164217
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_KawooshQuest_04164217
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_KawooshQuest_04164217
+    FragmentName: Fragment_1
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_KawooshQuest_04164217
+    FragmentName: Fragment_2
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_KawooshQuest_04164217
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_KawooshQuest_04164217
+    FragmentName: Fragment_4
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_KawooshQuest_04164217
+    FragmentName: Fragment_6
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_KawooshQuest_04164217
+    FragmentName: Fragment_5
+Name:
+  TargetLanguage: English
+  Value: Kawoosh!
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Survive
+NextAliasID: 0

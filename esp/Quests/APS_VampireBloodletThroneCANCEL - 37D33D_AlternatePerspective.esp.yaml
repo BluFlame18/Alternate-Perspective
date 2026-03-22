@@ -1,0 +1,30 @@
+FormKey: 37D33D:AlternatePerspective.esp
+EditorID: APS_VampireBloodletThroneCANCEL
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APCancelHostileStart
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CancelQuest
+      Object: 3AAEDC:AlternatePerspective.esp
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  FileName: ''
+Flags:
+- RunOnce
+Event: ASSU
+EventConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestRunningConditionData
+    Quest: 3AAEDC:AlternatePerspective.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsEditorLocationConditionData
+    RunOnType: EventData
+    RunOnTypeIndex: 12626
+    Location: 016F85:Skyrim.esm
+  ComparisonValue: 1
+NextAliasID: 0

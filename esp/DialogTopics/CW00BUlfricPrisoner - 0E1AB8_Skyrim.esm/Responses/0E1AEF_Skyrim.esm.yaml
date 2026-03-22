@@ -1,0 +1,33 @@
+FormKey: 0E1AEF:Skyrim.esm
+Version2: 4
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 0E1AAD:Skyrim.esm
+- 0E1AB9:Skyrim.esm
+Responses:
+- Emotion: Happy
+  EmotionValue: 25
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Destined for the chopping block if I'm not mistaken.
+  ScriptNotes: ironic, a hint of judgment
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04679E:Skyrim.esm
+  ComparisonValue: 7
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01414D:Skyrim.esm
+  ComparisonValue: 1

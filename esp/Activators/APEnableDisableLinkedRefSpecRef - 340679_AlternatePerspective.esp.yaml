@@ -1,0 +1,17 @@
+FormKey: 340679:AlternatePerspective.esp
+EditorID: APEnableDisableLinkedRefSpecRef
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APEnableDisableLinkedRefSpec
+    Properties:
+    - MutagenObjectType: ScriptBoolProperty
+      Name: Enable
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TriggerRef
+      Object: 02BFA2:Skyrim.esm
+ObjectBounds:
+  First: -173, -47, -216
+  Second: 173, 47, 216
+MarkerColor: '#00CC4C33'
+Flags: []

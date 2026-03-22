@@ -1,0 +1,18 @@
+FormKey: 21585D:AlternatePerspective.esp
+EditorID: AP_DLC1WaterLightShad
+ObjectBounds:
+  First: -38, -40, -74
+  Second: 38, 40, 48
+Time: -1
+Radius: 144
+Color: '#005A5341'
+Flags:
+- Dynamic
+- ShadowOmnidirectional
+FalloffExponent: 1
+FOV: 90
+NearClip: 12.5506
+FlickerPeriod: 0.5
+FlickerIntensityAmplitude: 0.5
+FlickerMovementAmplitude: 10
+FadeValue: 2

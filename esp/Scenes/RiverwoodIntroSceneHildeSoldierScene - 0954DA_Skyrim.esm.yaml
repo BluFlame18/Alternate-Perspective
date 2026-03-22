@@ -1,0 +1,184 @@
+FormKey: 0954DA:Skyrim.esm
+EditorID: RiverwoodIntroSceneHildeSoldierScene
+Version2: 15
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SF_RiverwoodIntroSceneHildeSo_000954DA
+  ScriptFragments:
+    FileName: SF_RiverwoodIntroSceneHildeSo_000954DA
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: SF_RiverwoodIntroSceneHildeSo_000954DA
+      FragmentName: Fragment_0
+    PhaseFragments:
+    - Flags:
+      - OnCompletion
+      Index: 2
+      Unknown: 16777216
+      ScriptName: SF_RiverwoodIntroSceneHildeSo_000954DA
+      FragmentName: Fragment_4
+Flags:
+- BeginOnQuestStart
+- StopQuestOnEnd
+- 0x4
+Phases:
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetQuestCompletedConditionData
+      Quest: 03372B:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 1
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2400
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetStageConditionData
+      Quest: 02BF9C:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 0954D9:Skyrim.esm
+      Stage: 5
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 2
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 1000
+  Unused2: {}
+  EditorWidth: 200
+- Name: setstage 10 - allow Sven to go back to normal packages
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+Actors:
+- ID: 1
+  Flags: []
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialoguePause
+- ID: 2
+  Flags: []
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialoguePause
+Actions:
+- Name: ''
+  ActorID: 1
+  Index: 1
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 0954C2:Skyrim.esm
+  HeadtrackActorID: 2
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Fear
+  EmotionValue: 0
+- Name: ''
+  ActorID: 2
+  Index: 2
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 0954C1:Skyrim.esm
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Disgust
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 3
+  StartPhase: 4
+  EndPhase: 4
+  Topic: 0954C0:Skyrim.esm
+  HeadtrackActorID: 2
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Fear
+  EmotionValue: 0
+- Name: ''
+  ActorID: 2
+  Index: 6
+  StartPhase: 5
+  EndPhase: 5
+  Topic: 0954BD:Skyrim.esm
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Disgust
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 1
+  Index: 8
+  StartPhase: 1
+  EndPhase: 7
+  Packages:
+  - 096596:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 2
+  Index: 9
+  StartPhase: 2
+  EndPhase: 5
+  Packages:
+  - 096597:Skyrim.esm
+- Name: ''
+  ActorID: 2
+  Index: 10
+  StartPhase: 6
+  EndPhase: 6
+  Topic: 0BB95E:Skyrim.esm
+  HeadtrackActorID: 2
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 12
+  StartPhase: 7
+  EndPhase: 7
+  Topic: 0D399B:Skyrim.esm
+  HeadtrackActorID: 2
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+Quest: 0954D9:Skyrim.esm
+LastActionIndex: 12
+VNAM: 0x03000000030000000300000003000000

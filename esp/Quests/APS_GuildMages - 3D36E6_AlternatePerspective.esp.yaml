@@ -1,0 +1,39 @@
+FormKey: 3D36E6:AlternatePerspective.esp
+EditorID: APS_GuildMages
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_GuildMages_063D36E6
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_portLoc
+      Object: 3D36E6:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TG01
+      Object: 01F251:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: uniform
+      Objects:
+      - Name: ''
+        Object: 01BE1B:Skyrim.esm
+      - Name: ''
+        Object: 0D1F3B:Skyrim.esm
+  FileName: QF_APS_GuildMages_063D36E6
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_GuildMages_063D36E6
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+NextAliasID: 1
+Aliases:
+- Name: portLoc
+  Flags: []
+  ForcedReference: 0596FE:Skyrim.esm
+  VoiceTypes: Null

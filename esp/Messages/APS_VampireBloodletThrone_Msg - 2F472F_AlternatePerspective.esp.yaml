@@ -1,0 +1,9 @@
+FormKey: 2F472F:AlternatePerspective.esp
+EditorID: APS_VampireBloodletThrone_Msg
+Description:
+  TargetLanguage: English
+  Value: You are now a Traitor to the Vampires of Bloodlet Throne.
+INAM: 0x00000000
+Quest: 3AAEDC:AlternatePerspective.esp
+Flags:
+- MessageBox

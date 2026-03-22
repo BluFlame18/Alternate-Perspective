@@ -1,0 +1,5 @@
+FormKey: 31CFB7:AlternatePerspective.esp
+EditorID: AP_FarmhouseDoor
+Diffuse: architecture\farmhouse\farmhouse01.dds
+NormalOrGloss: architecture\farmhouse\farmhouse01_n.dds
+Flags: []

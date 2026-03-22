@@ -1,0 +1,19 @@
+FormKey: 466437:AlternatePerspective.esp
+EditorID: AP_ShrineofAkatosh
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APOpenStartMenu
+ObjectBounds:
+  First: -16, -16, 55
+  Second: 17, 17, 109
+Name:
+  TargetLanguage: English
+  Value: Shrine of Akatosh
+Model:
+  File: Clutter\Shrines\ShrineAkatosh.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Choose Fate
+Flags: []

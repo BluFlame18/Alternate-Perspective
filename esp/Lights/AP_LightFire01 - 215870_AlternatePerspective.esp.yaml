@@ -1,0 +1,19 @@
+FormKey: 215870:AlternatePerspective.esp
+EditorID: AP_LightFire01
+ObjectBounds:
+  First: -38, -40, -74
+  Second: 38, 40, 48
+Time: -1
+Radius: 252
+Color: '#00E28C3F'
+Flags:
+- Dynamic
+- Flicker
+- ShadowOmnidirectional
+FalloffExponent: 1
+FOV: 90
+NearClip: 1
+FlickerPeriod: 0.4
+FlickerIntensityAmplitude: 0.2
+FlickerMovementAmplitude: 12
+FadeValue: 1.25

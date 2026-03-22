@@ -1,0 +1,75 @@
+FormKey: 3D36E7:AlternatePerspective.esp
+EditorID: APS_GuildBrotherhood
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_GuildBrotherhood_063D36E7
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Astrid
+      Object: 3D36E7:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_astridMark
+      Object: 3D36E7:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_portLoc
+      Object: 3D36E7:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dagger
+      Object: 013986:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DarkBrotherhoodQuest
+      Object: 01EA5C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DB01
+      Object: 01EA50:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pSanctuaryDoor1
+      Object: 025C00:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pSanctuaryDoor2
+      Object: 02B83B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TG01
+      Object: 01EA51:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: uniform
+      Objects:
+      - Name: ''
+        Object: 013910:Skyrim.esm
+      - Name: ''
+        Object: 013911:Skyrim.esm
+      - Name: ''
+        Object: 013912:Skyrim.esm
+  FileName: QF_APS_GuildBrotherhood_063D36E7
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_GuildBrotherhood_063D36E7
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+NextAliasID: 3
+Aliases:
+- Name: portLoc
+  Flags: []
+  ForcedReference: 025BF7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: astridMark
+  Flags: []
+  ForcedReference: 0E0F97:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: Astrid
+  Flags:
+  - AllowReserved
+  UniqueActor: 01BDB4:Skyrim.esm
+  VoiceTypes: Null

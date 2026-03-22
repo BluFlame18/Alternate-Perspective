@@ -1,0 +1,13 @@
+FormKey: 31CFB8:AlternatePerspective.esp
+EditorID: AP_FarmhouseDoor01
+ObjectBounds:
+  First: -47, -8, 0
+  Second: 48, 4, 176
+Name:
+  TargetLanguage: English
+  Value: Door
+Model:
+  File: Architecture\Farmhouse\FarmhouseDoor01.nif
+  Data: 0x020000000000000000000000
+OpenSound: 03C813:Skyrim.esm
+CloseSound: 03C810:Skyrim.esm

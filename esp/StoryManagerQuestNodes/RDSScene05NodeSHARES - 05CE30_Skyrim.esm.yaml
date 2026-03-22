@@ -1,0 +1,26 @@
+FormKey: 05CE30:Skyrim.esm
+EditorID: RDSScene05NodeSHARES
+Version2: 4
+Parent: 09002B:Skyrim.esm
+PreviousSibling: 0B6690:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetEventDataConditionData
+    Member: NewLocation
+    Record: 02247E:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 05CE26:Skyrim.esm
+QuestFlags:
+- SharesEvent
+MaxConcurrentQuests: 0
+Quests:
+- Quest: 05CE25:Skyrim.esm

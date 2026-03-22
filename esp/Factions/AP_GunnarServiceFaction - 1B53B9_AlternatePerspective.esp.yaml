@@ -1,0 +1,18 @@
+FormKey: 1B53B9:AlternatePerspective.esp
+EditorID: AP_GunnarServiceFaction
+Flags:
+- Vendor
+- CanBeOwner
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorBuySellList: 066333:Skyrim.esm
+MerchantContainer: 1C9938:AlternatePerspective.esp
+VendorValues:
+  StartHour: 10
+  EndHour: 20
+  Radius: 1024
+VendorLocation:
+  Target:
+    MutagenObjectType: LocationTarget
+    Link: 1B530B:AlternatePerspective.esp

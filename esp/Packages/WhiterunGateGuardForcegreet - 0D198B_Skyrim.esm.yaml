@@ -1,0 +1,124 @@
+FormKey: 0D198B:Skyrim.esm
+EditorID: WhiterunGateGuardForcegreet
+Version2: 8
+Flags:
+- PreferredSpeed
+Type: Package
+PreferredSpeed: FastWalk
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 0D1984:Skyrim.esm
+    Stage: 10
+PackageTemplate: 03C1C4:Skyrim.esm
+DataInputVersion: 18
+Data:
+- Key: 7
+  Value:
+    MutagenObjectType: PackageDataTopic
+    Topics:
+    - MutagenObjectType: TopicReference
+      Reference: 0D197A:Skyrim.esm
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationTarget
+        Link: 0D1986:Skyrim.esm
+- Key: 62
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationTarget
+        Link: 0D1986:Skyrim.esm
+      Radius: 2000
+- Key: 75
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationTarget
+        Link: 000014:Skyrim.esm
+      Radius: 500
+- Key: 79
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 65
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 17
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 000014:Skyrim.esm
+- Key: 22
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationTarget
+        Link: 000014:Skyrim.esm
+      Radius: 5000
+- Key: 26
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 40
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 29
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 30
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 31
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 32
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 33
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 34
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 36
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 67
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 50
+- Key: 69
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 81
+  Value:
+    MutagenObjectType: PackageDataBool
+XnamMarker: 0x50
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

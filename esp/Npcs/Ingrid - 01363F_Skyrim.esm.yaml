@@ -1,0 +1,219 @@
+FormKey: 01363F:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: Ingrid
+Version2: 6
+SkyrimMajorRecordFlags:
+- Compressed
+VirtualMachineAdapter:
+  Scripts:
+  - Name: WIDeadBodyCleanupScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WI
+      Object: 035D64:Skyrim.esm
+Configuration:
+  Flags:
+  - Female
+  - AutoCalcStats
+  - Unique
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 4
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 1C9936:AlternatePerspective.esp
+  Fluff: 0x000000
+- Faction: 028170:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 028176:Skyrim.esm
+  Fluff: 0x000000
+Voice: 013ADE:Skyrim.esm
+Race: 013746:Skyrim.esm
+Items:
+- Item:
+    Item: 1CEAE9:AlternatePerspective.esp
+    Count: 1
+- Item:
+    Item: 01397E:Skyrim.esm
+    Count: 1
+AIData:
+  Confidence: Average
+  EnergyLevel: 50
+  Responsibility: NoCrime
+Packages:
+- 1C9934:AlternatePerspective.esp
+- 2A87EE:AlternatePerspective.esp
+- 1B53B8:AlternatePerspective.esp
+Class: 013256:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Ingrid
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 24
+  - Key: TwoHanded
+    Value: 25
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 22
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 20
+  - Key: Pickpocket
+    Value: 22
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 19
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 27
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 75
+  Magicka: 60
+  Stamina: 60
+HeadParts:
+- 0510F9:Skyrim.esm
+- 07291C:Skyrim.esm
+- 0E4DA0:Skyrim.esm
+- 0EC1B2:Skyrim.esm
+HairColor: 0A042E:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 60
+SoundLevel: Normal
+DefaultOutfit: 01DC10:Skyrim.esm
+DefaultPackageList: 021E81:Skyrim.esm
+CrimeFaction: 028170:Skyrim.esm
+HeadTexture: 03B522:Skyrim.esm
+TextureLighting: '#00AC9F97'
+FaceMorph:
+  NoseLongVsShort: 0.1
+  NoseUpVsDown: -1
+  JawUpVsDown: -0.2
+  JawNarrowVsWide: 0.4
+  JawForwardVsBack: 0.3
+  CheeksUpVsDown: 0.6
+  CheeksForwardVsBack: -0.4
+  EyesInVsOut: 0.8
+  BrowsUpVsDown: 0.6
+  BrowsInVsOut: 0.5
+  BrowsForwardVsBack: -0.3
+  LipsUpVsDown: -0.6
+  LipsInVsOut: -1
+  ChinNarrowVsWide: 0.2
+  ChinUpVsDown: 0.5
+  ChinUnderbiteVsOverbite: -0.3
+  EyesForwardVsBack: 1.880791E-38
+FaceParts:
+  Nose: 2
+  Unknown: 4294967295
+  Eyes: 15
+  Mouth: 3
+TintLayers:
+- Index: 24
+  Color: '#00AC9F97'
+  InterpolationValue: 1
+  Preset: 604
+- Index: 26
+  Color: '#00000000'
+  InterpolationValue: 1
+  Preset: 620
+- Index: 27
+  Color: '#00070C3D'
+  InterpolationValue: 0.51
+  Preset: 627
+- Index: 28
+  Color: '#00430401'
+  InterpolationValue: 0.42
+  Preset: 633
+- Index: 31
+  Color: '#002F2013'
+  InterpolationValue: 0.61
+  Preset: 661
+- Index: 32
+  Color: '#00500901'
+  InterpolationValue: 0.76
+  Preset: 666
+- Index: 33
+  Color: '#00A95452'
+  InterpolationValue: 0.26
+  Preset: 671
+- Index: 34
+  Color: '#00430401'
+  InterpolationValue: 0.42
+  Preset: 676
+- Index: 36
+  Color: '#00A95452'
+  InterpolationValue: 0.26
+  Preset: 1117
+- Index: 44
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 685
+- Index: 45
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 709
+- Index: 53
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 900
+MajorFlags:
+- 0x40000

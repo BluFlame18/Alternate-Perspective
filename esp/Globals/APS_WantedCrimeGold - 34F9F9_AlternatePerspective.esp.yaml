@@ -1,0 +1,9 @@
+MutagenObjectType: GlobalShort
+FormKey: 34F9F9:AlternatePerspective.esp
+MajorRecordFlagsRaw: 64
+EditorID: APS_WantedCrimeGold
+SkyrimMajorRecordFlags:
+- 0x40
+MajorFlags:
+- Constant
+Data: 250

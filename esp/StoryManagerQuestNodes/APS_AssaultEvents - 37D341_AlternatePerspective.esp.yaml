@@ -1,0 +1,19 @@
+FormKey: 37D341:AlternatePerspective.esp
+EditorID: APS_AssaultEvents
+Parent: 02C494:Skyrim.esm
+PreviousSibling: 0A39C0:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    RunOnType: EventData
+    RunOnTypeIndex: 12882
+    Object: 000007:Skyrim.esm
+  ComparisonValue: 1
+MaxConcurrentQuests: 0
+Quests:
+- Quest: 37D33D:AlternatePerspective.esp
+- Quest: 37D33E:AlternatePerspective.esp
+- Quest: 37D33F:AlternatePerspective.esp
+- Quest: 37D340:AlternatePerspective.esp
+- Quest: 387594:AlternatePerspective.esp

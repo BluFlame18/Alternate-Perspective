@@ -1,0 +1,8 @@
+FormKey: 1C9936:AlternatePerspective.esp
+EditorID: AP_IngridVilodFaction
+Flags:
+- CanBeOwner
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

@@ -1,0 +1,14 @@
+FormKey: 11D212:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: 020121:Skyrim.esm
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Take a look around, there should be plenty of gear to choose from. I'm going to see if I can find something for these burns.
+  ScriptNotes: ''
+  Edits: "Originally: There you go. Take a look around, there should be plenty of gear to choose from. I'm going to see if I can find something for these burns"

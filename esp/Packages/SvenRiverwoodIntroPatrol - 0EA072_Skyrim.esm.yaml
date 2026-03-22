@@ -1,0 +1,171 @@
+FormKey: 0EA072:Skyrim.esm
+EditorID: SvenRiverwoodIntroPatrol
+Version2: 2
+Type: Package
+PreferredSpeed: Run
+Unknown: 49
+InteruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 0954D9:Skyrim.esm
+    Stage: 10
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 04E50D:Skyrim.esm
+    Stage: 50
+PackageTemplate: 0587DC:Skyrim.esm
+DataInputVersion: 20
+Data:
+- Key: 12
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 0960FE:Skyrim.esm
+- Key: 13
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 128
+- Key: 14
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: -90
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 17
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0587DD:Skyrim.esm
+      Radius: 1000
+- Key: 22
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0587DD:Skyrim.esm
+      Radius: 1000
+- Key: 25
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0587DD:Skyrim.esm
+      Radius: 1000
+- Key: -77
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetLinkedReference
+      Keyword: 0587DD:Skyrim.esm
+- Key: -76
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetLinkedReference
+      Keyword: 0587DF:Skyrim.esm
+- Key: -75
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetLinkedReference
+      Keyword: 0587DE:Skyrim.esm
+- Key: -73
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 0872A1:Skyrim.esm
+- Key: -60
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0E1381:Skyrim.esm
+- Key: -59
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0E1381:Skyrim.esm
+- Key: -58
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0E1381:Skyrim.esm
+- Key: -56
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0E1381:Skyrim.esm
+- Key: -55
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0E1381:Skyrim.esm
+- Key: -54
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0E1381:Skyrim.esm
+XnamMarker: 0xB8
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

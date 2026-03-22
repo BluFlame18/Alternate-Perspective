@@ -1,0 +1,8 @@
+FormKey: 0413B5:Skyrim.esm
+EditorID: DialogueMorthalJorgenInitBranchTopic
+Name:
+  TargetLanguage: English
+  Value: You seemed upset about something.
+Branch: 04154C:Skyrim.esm
+Quest: 02E0EE:Skyrim.esm
+SubtypeName: CUST

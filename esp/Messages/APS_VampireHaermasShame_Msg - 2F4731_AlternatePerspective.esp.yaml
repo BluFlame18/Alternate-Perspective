@@ -1,0 +1,9 @@
+FormKey: 2F4731:AlternatePerspective.esp
+EditorID: APS_VampireHaermasShame_Msg
+Description:
+  TargetLanguage: English
+  Value: You are now a Traitor to the Vampires of Haermar's Shame.
+INAM: 0x00000000
+Quest: 3B50DF:AlternatePerspective.esp
+Flags:
+- MessageBox

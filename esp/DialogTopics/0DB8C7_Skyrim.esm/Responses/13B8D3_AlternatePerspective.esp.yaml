@@ -1,0 +1,17 @@
+FormKey: 13B8D3:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: 0DB8D3:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Surprise
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Still alive? Keep close to me if you want to stay that way.
+  ScriptNotes: not threatening, heroic and commanding
+  Edits: ''

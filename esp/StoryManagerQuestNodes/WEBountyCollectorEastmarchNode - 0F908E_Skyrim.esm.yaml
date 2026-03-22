@@ -1,0 +1,22 @@
+FormKey: 0F908E:Skyrim.esm
+EditorID: WEBountyCollectorEastmarchNode
+Version2: 2
+Parent: 0F8A84:Skyrim.esm
+PreviousSibling: 34F9F7:AlternatePerspective.esp
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    Faction: 0267E3:Skyrim.esm
+  ComparisonValue: 0F8A86:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetEventDataConditionData
+    Member: OldLocation
+    Record: 01676A:Skyrim.esm
+  ComparisonValue: 1
+MaxConcurrentQuests: 0
+Quests:
+- Quest: 0F8A80:Skyrim.esm
+  HoursUntilReset: 48

@@ -1,0 +1,197 @@
+FormKey: 34F9F1:AlternatePerspective.esp
+EditorID: APS_WantedWE01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: WEScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WEParentS
+      Object: 098BB1:Skyrim.esm
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 34F9F1:AlternatePerspective.esp
+      Alias: 6
+    Scripts:
+    - Name: wealiasscript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: MakeAggressiveOnGainLOSToPlayer
+        Data: True
+  - Property:
+      Name: ''
+      Object: 34F9F1:AlternatePerspective.esp
+      Alias: 7
+    Scripts:
+    - Name: wealiasscript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: MakeAggressiveOnGainLOSToPlayer
+        Data: True
+  - Property:
+      Name: ''
+      Object: 34F9F1:AlternatePerspective.esp
+      Alias: 8
+    Scripts:
+    - Name: wealiasscript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: MakeAggressiveOnGainLOSToPlayer
+        Data: True
+Flags:
+- 0x1000
+Priority: 50
+Event: SCPT
+NextAliasID: 13
+Aliases:
+- ID: 9
+  Name: Player
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- Name: Trigger
+  Flags: []
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x52310000
+  VoiceTypes: Null
+- ID: 1
+  Type: Location
+  Name: myHoldLocation
+  Flags:
+  - AllowReuseInQuest
+  - StoresText
+  - AllowCleared
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x4C310000
+- ID: 2
+  Name: CenterMarker
+  Flags: []
+  FindMatchingRefNearAlias:
+    AliasID: 0
+    Type: LinkedRefChild
+  VoiceTypes: Null
+- ID: 3
+  Name: SceneMark1
+  Flags: []
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsLinkedToConditionData
+      UseAliases: True
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasRefTypeConditionData
+      LocationReferenceType: 04A5F9:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: SceneMark2
+  Flags: []
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsLinkedToConditionData
+      UseAliases: True
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasRefTypeConditionData
+      LocationReferenceType: 04A5F9:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 5
+  Name: SceneMark3
+  Flags: []
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsLinkedToConditionData
+      UseAliases: True
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasRefTypeConditionData
+      LocationReferenceType: 04A5F9:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 6
+  Name: Hunter01
+  Flags: []
+  CreateReferenceToObject:
+    Object: 34F9FC:AlternatePerspective.esp
+    AliasID: 3
+    Level: Hard
+  Factions:
+  - 34F9F4:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Hunter02
+  Flags: []
+  CreateReferenceToObject:
+    Object: 34F9F3:AlternatePerspective.esp
+    AliasID: 4
+    Level: Hard
+  Factions:
+  - 34F9F4:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Hunter03
+  Flags: []
+  CreateReferenceToObject:
+    Object: 34F9F3:AlternatePerspective.esp
+    AliasID: 5
+    Level: Hard
+  Factions:
+  - 34F9F4:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Jarl
+  Flags:
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocAliasConditionData
+      LocationAliasIndex: 1
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 050920:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetCrimeGoldConditionData
+    ComparisonValue: 1000
+  VoiceTypes: Null
+- ID: 11
+  Name: Steward
+  Flags:
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocAliasConditionData
+      LocationAliasIndex: 1
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 050922:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 12
+  Name: Letter
+  Flags:
+  - StoresText
+  - UsesStoredText
+  CreateReferenceToObject:
+    Object: 0BC0A2:Skyrim.esm
+    AliasID: 6
+    Create: In
+  VoiceTypes: Null

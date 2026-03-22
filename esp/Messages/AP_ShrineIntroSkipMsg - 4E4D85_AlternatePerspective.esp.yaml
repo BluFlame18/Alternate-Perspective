@@ -1,0 +1,22 @@
+FormKey: 4E4D85:AlternatePerspective.esp
+EditorID: AP_ShrineIntroSkipMsg
+Description:
+  TargetLanguage: English
+  Value: >-
+    You can use this shrine to skip the execution scene and Helgen's destruction. Doing so will teleport you to the beginning of Helgen Keep, where you can escape with either Hadvar of Ralof.
+
+
+    This is especially useful if you have mods intsalled which cause issues with the execution scene, allowing you to skip these problematic sections (or you just don't feel like watching the execution scene again).
+
+
+    Do you like to continue?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Cancel
+- Text:
+    TargetLanguage: English
+    Value: Skip to Keep

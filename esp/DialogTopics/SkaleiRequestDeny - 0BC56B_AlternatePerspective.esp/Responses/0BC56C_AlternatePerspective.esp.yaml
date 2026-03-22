@@ -1,0 +1,37 @@
+FormKey: 0BC56C:AlternatePerspective.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_AP_050BC56C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RequestQ
+      Object: 201671:AlternatePerspective.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_AP_050BC56C
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_AP_050BC56C
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- Emotion: Sad
+  EmotionValue: 90
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I understand. What can I do for you?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 1CEAF7:AlternatePerspective.esp
+  ComparisonValue: 1

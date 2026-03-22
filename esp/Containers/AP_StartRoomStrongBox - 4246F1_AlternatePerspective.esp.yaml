@@ -1,0 +1,36 @@
+FormKey: 4246F1:AlternatePerspective.esp
+EditorID: AP_StartRoomStrongBox
+ObjectBounds:
+  First: -14, -9, 0
+  Second: 14, 9, 20
+Name:
+  TargetLanguage: English
+  Value: Strong Box
+Model:
+  File: Clutter\Common\StrongBox01.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 00000A:Skyrim.esm
+    Count: 12
+- Item:
+    Item: 00000F:Skyrim.esm
+    Count: 2000
+- Item:
+    Item: 063B42:Skyrim.esm
+    Count: 5
+- Item:
+    Item: 063B43:Skyrim.esm
+    Count: 3
+- Item:
+    Item: 063B44:Skyrim.esm
+    Count: 3
+- Item:
+    Item: 063B45:Skyrim.esm
+    Count: 3
+- Item:
+    Item: 063B46:Skyrim.esm
+    Count: 3
+- Item:
+    Item: 063B47:Skyrim.esm
+    Count: 3

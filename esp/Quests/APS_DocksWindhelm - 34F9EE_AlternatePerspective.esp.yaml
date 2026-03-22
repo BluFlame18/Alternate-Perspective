@@ -1,0 +1,34 @@
+FormKey: 34F9EE:AlternatePerspective.esp
+EditorID: APS_DocksWindhelm
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_DocksWindhelm_0634F9EE
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFarmClothes02
+      Object: 0209A6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFarmClothesVariant04
+      Object: 06C1D8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dockMarker
+      Object: 016865:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myWeap
+      Object: 01E60A:Skyrim.esm
+  FileName: QF_APS_DocksWindhelm_0634F9EE
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_DocksWindhelm_0634F9EE
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 2

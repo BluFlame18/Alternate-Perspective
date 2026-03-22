@@ -1,0 +1,58 @@
+FormKey: 0D3C5B:Skyrim.esm
+Version2: 5
+Flags:
+  Flags:
+  - InvisibleContinue
+PreviousDialog: 0FBA67:Skyrim.esm
+FavorLevel: None
+LinkTo:
+- 0D3C51:Skyrim.esm
+Responses:
+- Emotion: Disgust
+  EmotionValue: 25
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Ulfric's not running a social club. You don't join anything. Either you're a true son of Skyrim, or you're not.
+  ScriptNotes: being a hard on to weed out wanna be enthusiasm from the real thing
+  Edits: Ulfric's not running a clubhouse. You don't join anything. Either you're a true son of Skyrim, or you're not.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsSexConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0C4A99:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 06B18C:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 02BF9B:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    VoiceTypeOrList: 013AE3:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    VoiceTypeOrList: 0E5002:Skyrim.esm
+Prompt:
+  TargetLanguage: English
+  Value: How does one join the Stormcloaks?

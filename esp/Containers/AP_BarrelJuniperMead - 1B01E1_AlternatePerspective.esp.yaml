@@ -1,0 +1,27 @@
+FormKey: 1B01E1:AlternatePerspective.esp
+MajorRecordFlagsRaw: 134217728
+EditorID: AP_BarrelJuniperMead
+SkyrimMajorRecordFlags:
+- 0x8000000
+ObjectBounds:
+  First: -28, -28, 0
+  Second: 28, 28, 79
+Name:
+  TargetLanguage: English
+  Value: Barrel
+Model:
+  File: Clutter\Barrel01.NIF
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 10C1E4:Skyrim.esm
+    Count: 2
+- Item:
+    Item: 1B01E2:AlternatePerspective.esp
+    Count: 1
+Flags:
+- Respawns
+OpenSound: 03C86D:Skyrim.esm
+CloseSound: 03C870:Skyrim.esm
+MajorFlags:
+- NavMeshGenerationBoundingBox

@@ -1,0 +1,32 @@
+FormKey: 201655:AlternatePerspective.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_AP_04201655
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_AP_04201655
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_AP_04201655
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Ha! Too cheap for how good it tastes!
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01363E:Skyrim.esm
+  ComparisonValue: 1

@@ -1,0 +1,43 @@
+FormKey: 15EFED:AlternatePerspective.esp
+EditorID: AP_KawooshNote
+ObjectBounds:
+  First: -8, -11, 0
+  Second: 8, 11, 0
+Name:
+  TargetLanguage: English
+  Value: Scrab's Note
+Model:
+  File: Clutter\Books\NoteTornPaper.nif
+  Data: 0x020000000000000000000000
+BookText:
+  TargetLanguage: English
+  Value: >-
+    <font face="$HandwrittenFont" size="20"><p align='left'>
+
+    Hello Adventurer!
+
+    I hope your way here wasn't too dark. I unfortunately didnt intend this area here to be playable; so no lights up around here! Well, except this little Room here of course
+
+    Only lighted place in this cave.. mystical.. isnt it? 
+
+
+    In any way, Im well aware that you are well aware that we both are well aware that you cheated, used the console, to get here! I guess I should do something evil like crashing your game now.. or maybe just tell you "using the Console to get to place is bad" and port you back in front of Helgen Keep? or.. - or I turn you into a Rabbit! Forever!
+
+
+    ..unfortunately, I dont exactly care much about what you do in your game, so I wont do any of that! Instead, I'll just give you a really fun weapon! 
+
+
+    Have fun - and thanks for playing this mod! 
+
+    <p align='right'> xoxo Scrab
+
+    </font>
+PickUpSound: 0C7A54:Skyrim.esm
+Keywords:
+- 0937A2:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+InventoryArt: 0641F4:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''

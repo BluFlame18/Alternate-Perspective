@@ -1,0 +1,60 @@
+FormKey: 0B2DC6:Skyrim.esm
+EditorID: dunCGAlduinShoutTower01
+Version2: 6
+Flags:
+- IgnoreCombat
+Type: Package
+PreferredSpeed: Run
+Unknown: 62
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+OwnerQuest: 03372B:Skyrim.esm
+PackageTemplate: 0E1E99:Skyrim.esm
+DataInputVersion: 21
+Data:
+- Key: 39
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 0AA7DE:Skyrim.esm
+- Key: 61
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 102D4B:AlternatePerspective.esp
+- Key: 67
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 69
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 70
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSelf
+- Key: 71
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 0A700C:Skyrim.esm
+XnamMarker: 0x48
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

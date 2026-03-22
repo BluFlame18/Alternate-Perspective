@@ -1,0 +1,33 @@
+FormKey: 0D5135:Skyrim.esm
+Version2: 4
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 0D5110:Skyrim.esm
+- 0D510F:Skyrim.esm
+Responses:
+- Emotion: Surprise
+  EmotionValue: 25
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: 'One of the prisoners, if I recall correctly. '
+  ScriptNotes: stress "PRISONERS" - suddenly very suspicious, realizing that this person might be a criminal
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04679E:Skyrim.esm
+  ComparisonValue: 7
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01327E:Skyrim.esm
+  ComparisonValue: 1

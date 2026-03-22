@@ -1,0 +1,70 @@
+FormKey: 016BCF:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: RiftenRaggedFlagon
+Version2: 11
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: The Ragged Flagon
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#00221F13'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#00606648'
+  FogNear: 340
+  FogFar: 4000
+  DirectionalRotationZ: 90
+  DirectionalFade: 1
+  FogClipDistance: 5000
+  FogPower: 0.8
+  AmbientColors:
+    DirectionalXPlus: '#00251F13'
+    DirectionalXMinus: '#001E1F12'
+    DirectionalYPlus: '#00222013'
+    DirectionalYMinus: '#00221D13'
+    DirectionalZPlus: '#00100E08'
+    DirectionalZMinus: '#00332F1D'
+    Specular: '#00606648'
+    Scale: 1
+  FogFarColor: '#00606648'
+  FogMax: 1
+  LightFadeBegin: 4000
+  LightFadeEnd: 5000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 05C734:Skyrim.esm
+WaterHeight: 0
+Location: 02264A:Skyrim.esm
+Owner: 0A2522:Skyrim.esm
+WaterEnvironmentMap: data\textures\cubemaps\wrtemple_e.dds
+SkyAndWeatherFromRegion: 07042E:Skyrim.esm
+AcousticSpace: 108E60:Skyrim.esm
+Music: 05615B:Skyrim.esm
+ImageSpace: 05C73D:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 4757A4:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: AP_ThievStartMark
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  Placement:
+    Position: -2096, 1616, -128
+    Rotation: 0, -0, 1.806195
+MajorFlags:
+- 0x40000

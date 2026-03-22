@@ -1,0 +1,65 @@
+FormKey: 400F72:AlternatePerspective.esp
+EditorID: MQ101CartHorse2Patrol2_og
+Flags:
+- MustComplete
+- MaintainSpeedAtGoal
+- 0x1000
+- PreferredSpeed
+- IgnoreCombat
+Type: Package
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04679E:Skyrim.esm
+  ComparisonValue: 7
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 20
+OwnerQuest: 03372B:Skyrim.esm
+PackageTemplate: 01722F:Skyrim.esm
+DataInputVersion: 3
+Data:
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 3F6D6F:AlternatePerspective.esp
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 50
+- Key: 2
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+XnamMarker: 0x09
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

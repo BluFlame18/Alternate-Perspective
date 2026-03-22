@@ -1,0 +1,8 @@
+FormKey: 187974:AlternatePerspective.esp
+EditorID: AP_HelgenGuardFaction
+Flags:
+- CanBeOwner
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

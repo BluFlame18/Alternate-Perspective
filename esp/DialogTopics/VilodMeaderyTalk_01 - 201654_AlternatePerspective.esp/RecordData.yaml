@@ -1,0 +1,8 @@
+FormKey: 201654:AlternatePerspective.esp
+EditorID: VilodMeaderyTalk_01
+Name:
+  TargetLanguage: English
+  Value: Depends on the price.
+Branch: 201651:AlternatePerspective.esp
+Quest: 1E301D:AlternatePerspective.esp
+SubtypeName: CUST

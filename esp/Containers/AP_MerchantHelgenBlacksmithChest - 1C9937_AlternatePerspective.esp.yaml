@@ -1,0 +1,82 @@
+FormKey: 1C9937:AlternatePerspective.esp
+MajorRecordFlagsRaw: 134217728
+EditorID: AP_MerchantHelgenBlacksmithChest
+SkyrimMajorRecordFlags:
+- 0x8000000
+ObjectBounds:
+  First: -47, -25, 0
+  Second: 47, 24, 47
+Name:
+  TargetLanguage: English
+  Value: Chest
+Model:
+  File: Clutter\Containers\Chest01\Chest01.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 017363:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 017103:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 017104:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 101073:Skyrim.esm
+    Count: 2
+- Item:
+    Item: 101074:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0FFE9F:Skyrim.esm
+    Count: 25
+- Item:
+    Item: 09BC32:Skyrim.esm
+    Count: 10
+- Item:
+    Item: 09BC33:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09BC30:Skyrim.esm
+    Count: 3
+- Item:
+    Item: 09BC31:Skyrim.esm
+    Count: 15
+- Item:
+    Item: 09BC2F:Skyrim.esm
+    Count: 5
+- Item:
+    Item: 09BC2E:Skyrim.esm
+    Count: 3
+- Item:
+    Item: 072AE9:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 075920:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 075921:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 075922:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 07591C:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 07591E:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 07591F:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10C1CC:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000ED3:Skyrim.esm
+    Count: 2
+Flags:
+- Respawns
+MajorFlags:
+- NavMeshGenerationBoundingBox

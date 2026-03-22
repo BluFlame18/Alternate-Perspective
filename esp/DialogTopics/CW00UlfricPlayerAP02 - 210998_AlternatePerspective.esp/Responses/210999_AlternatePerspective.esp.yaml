@@ -1,0 +1,28 @@
+FormKey: 210999:AlternatePerspective.esp
+Flags:
+  Flags:
+  - InvisibleContinue
+Topic: 0E1AB9:Skyrim.esm
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 210997:AlternatePerspective.esp
+Responses:
+- Emotion: Surprise
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "A fair point... Well, you've come to the right place, then. Speak with Galmar. "
+  ScriptNotes: good natured
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01414D:Skyrim.esm
+  ComparisonValue: 1

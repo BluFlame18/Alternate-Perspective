@@ -1,0 +1,9 @@
+FormKey: 0D5116:Skyrim.esm
+EditorID: CW00TulliusForcegreetTopic
+Version2: 4
+Name:
+  TargetLanguage: English
+  Value: Hello.
+Branch: 0D5178:Skyrim.esm
+Quest: 0D3C5F:Skyrim.esm
+SubtypeName: CUST

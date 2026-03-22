@@ -1,0 +1,10 @@
+FormKey: 06B07C:AlternatePerspective.esp
+EditorID: AP_HelgenInteriors
+Name:
+  TargetLanguage: English
+  Value: Helgen
+Keywords:
+- 0130DC:Skyrim.esm
+ParentLocation: 018A4A:Skyrim.esm
+WorldLocationMarkerRef: 01DC0A:Skyrim.esm
+WorldLocationRadius: 0

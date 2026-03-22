@@ -1,0 +1,18 @@
+FormKey: 08EC5E:AlternatePerspective.esp
+EditorID: APS_WerewolfWolforBearMsg
+Description:
+  TargetLanguage: English
+  Value: >-
+    *****Nightmare Night*****
+
+    Are you a Werewolf or Werebear?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Werewolf
+- Text:
+    TargetLanguage: English
+    Value: Werebear

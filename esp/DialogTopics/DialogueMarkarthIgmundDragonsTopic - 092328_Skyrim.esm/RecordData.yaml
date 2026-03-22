@@ -1,0 +1,8 @@
+FormKey: 092328:Skyrim.esm
+EditorID: DialogueMarkarthIgmundDragonsTopic
+Name:
+  TargetLanguage: English
+  Value: Dragons have returned to Skyrim.
+Branch: 092357:Skyrim.esm
+Quest: 017F05:Skyrim.esm
+SubtypeName: CUST

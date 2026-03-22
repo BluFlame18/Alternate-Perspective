@@ -1,0 +1,46 @@
+FormKey: 210996:AlternatePerspective.esp
+Flags:
+  Flags:
+  - InvisibleContinue
+Topic: 0E1AAD:Skyrim.esm
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 210997:AlternatePerspective.esp
+Responses:
+- Emotion: Surprise
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Ralof's alive? I hope that's true. He's a damn good man.
+  ScriptNotes: good news
+  Edits: ''
+- Emotion: Puzzled
+  EmotionValue: 25
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: But he hasn't returned yet, so I'll need to wait for his account. For now, speak with Galmar.
+  ScriptNotes: willing to believe for the moment
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01414D:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 02610A:Skyrim.esm
+    Stage: 10
+  ComparisonValue: 1

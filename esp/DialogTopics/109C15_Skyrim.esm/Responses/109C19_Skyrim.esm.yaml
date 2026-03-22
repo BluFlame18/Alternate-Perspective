@@ -1,0 +1,25 @@
+FormKey: 109C19:Skyrim.esm
+Version2: 2
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- Emotion: Anger
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: With me, prisoner. Let's go!
+  ScriptNotes: commanding, heroic, wants to save the player's life
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04679E:Skyrim.esm
+  ComparisonValue: 7

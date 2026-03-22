@@ -1,0 +1,21 @@
+FormKey: 34FA0F:AlternatePerspective.esp
+EditorID: AP_WantedPale
+Parent: 34F9F7:AlternatePerspective.esp
+PreviousSibling: 34FA0E:AlternatePerspective.esp
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    Faction: 02816E:Skyrim.esm
+  ComparisonValue: 34F9F9:AlternatePerspective.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetEventDataConditionData
+    Member: OldLocation
+    Record: 01676A:Skyrim.esm
+  ComparisonValue: 1
+MaxConcurrentQuests: 0
+Quests:
+- Quest: 34F9F1:AlternatePerspective.esp
+  HoursUntilReset: 36

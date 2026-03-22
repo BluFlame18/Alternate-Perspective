@@ -1,0 +1,28 @@
+FormKey: 164262:AlternatePerspective.esp
+EditorID: AP_KawooshDeathTrackEFF
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APKawooshDeathTrack
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Kawoosh
+      Object: 164217:AlternatePerspective.esp
+Name:
+  TargetLanguage: English
+  Value: Death Tracker
+Flags:
+- NoHitEvent
+- NoMagnitude
+- NoArea
+- HideInUI
+- Painless
+- NoHitEffect
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

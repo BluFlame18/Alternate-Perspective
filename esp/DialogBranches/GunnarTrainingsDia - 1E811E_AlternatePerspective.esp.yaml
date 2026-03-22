@@ -1,0 +1,7 @@
+FormKey: 1E811E:AlternatePerspective.esp
+EditorID: GunnarTrainingsDia
+Quest: 1E301D:AlternatePerspective.esp
+Category: Player
+Flags:
+- TopLevel
+StartingTopic: 1E811F:AlternatePerspective.esp

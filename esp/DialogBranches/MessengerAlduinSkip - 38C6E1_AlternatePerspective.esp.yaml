@@ -1,0 +1,7 @@
+FormKey: 38C6E1:AlternatePerspective.esp
+EditorID: MessengerAlduinSkip
+Quest: 1E301D:AlternatePerspective.esp
+Category: Player
+Flags:
+- Blocking
+StartingTopic: 38C6E2:AlternatePerspective.esp

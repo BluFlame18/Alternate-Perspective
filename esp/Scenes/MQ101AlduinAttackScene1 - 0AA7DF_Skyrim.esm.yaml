@@ -1,0 +1,802 @@
+FormKey: 0AA7DF:Skyrim.esm
+EditorID: MQ101AlduinAttackScene1
+Version2: 6
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SF_MQ101AlduinAttackScene_000AA7DF
+  ScriptFragments:
+    FileName: SF_MQ101AlduinAttackScene_000AA7DF
+    PhaseFragments:
+    - Flags:
+      - OnCompletion
+      Index: 2
+      Unknown: 16777216
+      ScriptName: SF_MQ101AlduinAttackScene_000AA7DF
+      FragmentName: Fragment_3
+    - Flags:
+      - OnCompletion
+      Index: 4
+      Unknown: 16777216
+      ScriptName: SF_MQ101AlduinAttackScene_000AA7DF
+      FragmentName: Fragment_4
+    - Flags:
+      - OnCompletion
+      Index: 8
+      Unknown: 16777216
+      ScriptName: SF_MQ101AlduinAttackScene_000AA7DF
+      FragmentName: Fragment_12
+    - Flags:
+      - OnCompletion
+      Index: 9
+      Unknown: 16777216
+      ScriptName: SF_MQ101AlduinAttackScene_000AA7DF
+      FragmentName: Fragment_0
+Flags:
+- 0x4
+Phases:
+- Name: Wait for Alduin to be visible
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 03372B:Skyrim.esm
+      Stage: 99
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 313
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0AA7DF:Skyrim.esm
+      SceneActionIndex: 101
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: Alduin visible over Helgen - setstage 120
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0AA7DF:Skyrim.esm
+      SceneActionIndex: 112
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 288
+- Name: SetStage 130
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0AA7DF:Skyrim.esm
+      SceneActionIndex: 52
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: setstage 140 - Alduin Reactions
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0AA7DF:Skyrim.esm
+      SceneActionIndex: 156
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: SetStage 150 - transition to MQ101DragonAttack
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0AA7DF:Skyrim.esm
+      SceneActionIndex: 123
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 320
+- Name: Wait for next scene to start
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 0D0593:Skyrim.esm
+      Stage: 10
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+Actors:
+- ID: 1
+  Flags: []
+  BehaviorFlags: []
+- ID: 12
+  Flags: []
+  BehaviorFlags: []
+- ID: 4
+  Flags: []
+  BehaviorFlags: []
+- ID: 13
+  Flags: []
+  BehaviorFlags: []
+- ID: 38
+  Flags: []
+  BehaviorFlags: []
+- ID: 42
+  Flags: []
+  BehaviorFlags: []
+- ID: 43
+  Flags: []
+  BehaviorFlags: []
+- ID: 44
+  Flags: []
+  BehaviorFlags: []
+- ID: 29
+  Flags: []
+  BehaviorFlags: []
+- ID: 17
+  Flags: []
+  BehaviorFlags: []
+- ID: 32
+  Flags: []
+  BehaviorFlags: []
+- ID: 34
+  Flags: []
+  BehaviorFlags: []
+- ID: 36
+  Flags: []
+  BehaviorFlags: []
+- ID: 47
+  Flags: []
+  BehaviorFlags: []
+- ID: 30
+  Flags: []
+  BehaviorFlags: []
+- ID: 50
+  Flags: []
+  BehaviorFlags: []
+- ID: 51
+  Flags: []
+  BehaviorFlags: []
+- ID: 52
+  Flags: []
+  BehaviorFlags: []
+- ID: 53
+  Flags: []
+  BehaviorFlags: []
+- ID: 54
+  Flags: []
+  BehaviorFlags: []
+- ID: 55
+  Flags: []
+  BehaviorFlags: []
+- ID: 149
+  Flags: []
+  BehaviorFlags: []
+Actions:
+- Name: Headtrack Alduin
+  ActorID: 1
+  Index: 19
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 12
+  Index: 20
+  Flags:
+  - FaceTarget
+  StartPhase: 1
+  EndPhase: 1
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 13
+  Index: 23
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 38
+  Index: 24
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 42
+  Index: 25
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 43
+  Index: 26
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 44
+  Index: 27
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 29
+  Index: 28
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 17
+  Index: 29
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 32
+  Index: 30
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 34
+  Index: 31
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 36
+  Index: 32
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 47
+  Index: 33
+  StartPhase: 0
+  EndPhase: 1
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 30
+  Index: 49
+  StartPhase: 0
+  EndPhase: 0
+  Packages:
+  - 0D07F4:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 30
+  Index: 51
+  StartPhase: 1
+  EndPhase: 6
+  Packages:
+  - 0AA7E0:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 30
+  Index: 52
+  StartPhase: 7
+  EndPhase: 7
+  Packages:
+  - 0B2DC6:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 1
+  Index: 53
+  StartPhase: 10
+  EndPhase: 10
+  Packages:
+  - 0CD69A:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 12
+  Index: 54
+  StartPhase: 4
+  EndPhase: 10
+  Packages:
+  - 0CD691:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 4
+  Index: 55
+  StartPhase: 10
+  EndPhase: 10
+  Packages:
+  - 0CD69B:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 13
+  Index: 56
+  StartPhase: 4
+  EndPhase: 10
+  Packages:
+  - 0CD690:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 38
+  Index: 57
+  StartPhase: 4
+  EndPhase: 10
+  Packages:
+  - 0CD692:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 42
+  Index: 58
+  StartPhase: 8
+  EndPhase: 10
+  Packages:
+  - 0CD693:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 43
+  Index: 59
+  StartPhase: 4
+  EndPhase: 10
+  Packages:
+  - 0CD694:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 44
+  Index: 60
+  StartPhase: 4
+  EndPhase: 10
+  Packages:
+  - 0CD695:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 29
+  Index: 61
+  StartPhase: 10
+  EndPhase: 10
+  Packages:
+  - 0CD69C:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 17
+  Index: 62
+  StartPhase: 10
+  EndPhase: 10
+  Packages:
+  - 0CD69D:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 36
+  Index: 63
+  StartPhase: 10
+  EndPhase: 10
+  Packages:
+  - 0CD69E:Skyrim.esm
+- Type: Timer
+  Name: ''
+  ActorID: 12
+  Index: 64
+  StartPhase: 10
+  EndPhase: 10
+  TimerSeconds: 3
+- Type: Package
+  Name: ''
+  ActorID: 30
+  Index: 65
+  StartPhase: 10
+  EndPhase: 10
+  Packages:
+  - 0AA7E0:Skyrim.esm
+- Name: ''
+  ActorID: 4
+  Index: 101
+  Flags:
+  - FaceTarget
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 0D07E9:Skyrim.esm
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 36
+  Index: 102
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 0D07E8:Skyrim.esm
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 50
+  Index: 104
+  StartPhase: 3
+  EndPhase: 10
+  Packages:
+  - 0CD6B6:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 51
+  Index: 105
+  StartPhase: 3
+  EndPhase: 10
+  Packages:
+  - 0CD6B8:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 52
+  Index: 106
+  StartPhase: 3
+  EndPhase: 10
+  Packages:
+  - 0CD6B7:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 53
+  Index: 107
+  StartPhase: 4
+  EndPhase: 10
+  Packages:
+  - 0CD6B9:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 54
+  Index: 108
+  StartPhase: 4
+  EndPhase: 10
+  Packages:
+  - 0CD6BA:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 55
+  Index: 109
+  StartPhase: 4
+  EndPhase: 10
+  Packages:
+  - 0CD6BB:Skyrim.esm
+- Name: ''
+  ActorID: 4
+  Index: 110
+  Flags:
+  - FaceTarget
+  StartPhase: 8
+  EndPhase: 10
+  Topic: 0D07E6:Skyrim.esm
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 4
+  Index: 111
+  StartPhase: 4
+  EndPhase: 9
+  Packages:
+  - 0D07F5:Skyrim.esm
+- Type: Timer
+  Name: ''
+  ActorID: 1
+  Index: 112
+  StartPhase: 3
+  EndPhase: 3
+  TimerSeconds: 2
+- Type: Package
+  Name: ''
+  ActorID: 29
+  Index: 115
+  StartPhase: 4
+  EndPhase: 9
+  Packages:
+  - 0D07F7:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 17
+  Index: 116
+  StartPhase: 4
+  EndPhase: 9
+  Packages:
+  - 0D07F7:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 32
+  Index: 117
+  StartPhase: 4
+  EndPhase: 9
+  Packages:
+  - 0D07F7:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 34
+  Index: 118
+  StartPhase: 4
+  EndPhase: 9
+  Packages:
+  - 0D07F7:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 30
+  Index: 123
+  StartPhase: 8
+  EndPhase: 9
+  Packages:
+  - 0B2DC7:Skyrim.esm
+- Name: ''
+  ActorID: 12
+  Index: 124
+  Flags:
+  - HeadtrackPlayer
+  StartPhase: 10
+  EndPhase: 10
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 36
+  Index: 125
+  StartPhase: 0
+  EndPhase: 9
+  Packages:
+  - 04D364:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 29
+  Index: 126
+  StartPhase: 0
+  EndPhase: 3
+  Packages:
+  - 04D364:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 17
+  Index: 127
+  StartPhase: 0
+  EndPhase: 3
+  Packages:
+  - 04D364:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 42
+  Index: 130
+  StartPhase: 0
+  EndPhase: 7
+  Packages:
+  - 04D364:Skyrim.esm
+- Name: Headtrack Alduin
+  ActorID: 50
+  Index: 131
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 51
+  Index: 132
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 53
+  Index: 133
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 54
+  Index: 134
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 55
+  Index: 135
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 52
+  Index: 136
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 4
+  Index: 139
+  StartPhase: 0
+  EndPhase: 3
+  Packages:
+  - 04D364:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 1
+  Index: 141
+  StartPhase: 0
+  EndPhase: 3
+  Packages:
+  - 04D364:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 1
+  Index: 148
+  StartPhase: 4
+  EndPhase: 9
+  Packages:
+  - 0CD69A:Skyrim.esm
+- Name: ''
+  ActorID: 42
+  Index: 154
+  StartPhase: 6
+  EndPhase: 10
+  Topic: 0F7C37:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Timer
+  Name: ''
+  ActorID: 30
+  Index: 156
+  StartPhase: 8
+  EndPhase: 8
+  TimerSeconds: 0.75
+- Type: Timer
+  Name: ''
+  ActorID: 30
+  Index: 161
+  StartPhase: 6
+  EndPhase: 6
+  TimerSeconds: 3
+- Name: ''
+  ActorID: 149
+  Index: 162
+  StartPhase: 3
+  EndPhase: 5
+  Topic: 109D01:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+Quest: 03372B:Skyrim.esm
+LastActionIndex: 162
+VNAM: 0x00000000000000000000000000000000

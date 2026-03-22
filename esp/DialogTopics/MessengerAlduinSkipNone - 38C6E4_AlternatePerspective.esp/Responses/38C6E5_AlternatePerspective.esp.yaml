@@ -1,0 +1,13 @@
+FormKey: 38C6E5:AlternatePerspective.esp
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+ResponseData: 019B8C:Dawnguard.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 40B189:AlternatePerspective.esp
+  ComparisonValue: 1

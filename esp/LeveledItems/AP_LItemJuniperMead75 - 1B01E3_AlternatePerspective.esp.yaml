@@ -1,0 +1,8 @@
+FormKey: 1B01E3:AlternatePerspective.esp
+EditorID: AP_LItemJuniperMead75
+ChanceNone: 0.25
+Entries:
+- Data:
+    Level: 1
+    Reference: 107A8A:Skyrim.esm
+    Count: 1

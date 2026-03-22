@@ -1,0 +1,16 @@
+FormKey: 34FA22:AlternatePerspective.esp
+EditorID: APS_LeftForDeadDisease
+Name:
+  TargetLanguage: English
+  Value: Wounded
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- NoAbsorbOrReflect
+Type: Disease
+TargetType: TargetActor
+Effects:
+- BaseEffect: 34FA21:AlternatePerspective.esp
+  Data: {}

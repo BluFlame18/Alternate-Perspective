@@ -1,0 +1,21 @@
+FormKey: 24D5BF:AlternatePerspective.esp
+EditorID: AP_ImperialStudded
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 013ED7:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 013ED8:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 013EDA:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 24D5BC:AlternatePerspective.esp
+    Count: 1

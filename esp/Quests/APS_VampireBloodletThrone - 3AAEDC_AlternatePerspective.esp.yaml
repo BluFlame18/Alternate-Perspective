@@ -1,0 +1,103 @@
+FormKey: 3AAEDC:AlternatePerspective.esp
+EditorID: APS_VampireBloodletThrone
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_VampireHaermarsShame_063AAEDC
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_myLoc
+      Object: 3AAEDC:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 3AAEDC:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_tpMark
+      Object: 3AAEDC:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: APS_VampireBloodletThrone_Msg
+      Object: 2F472F:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: GargoyleTrigger
+      Objects:
+      - Name: ''
+        Object: 004D14:Dawnguard.esm
+      - Name: ''
+        Object: 004D10:Dawnguard.esm
+      - Name: ''
+        Object: 004D18:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: prisonerFac
+      Object: 027242:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: uniform
+      Objects:
+      - Name: ''
+        Object: 0191F3:Dawnguard.esm
+      - Name: ''
+        Object: 00B5DE:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VampireQ
+      Object: 0EAFD5:Skyrim.esm
+  FileName: QF_APS_VampireHaermarsShame_063AAEDC
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_VampireHaermarsShame_063AAEDC
+    FragmentName: Fragment_0
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_APS_VampireHaermarsShame_063AAEDC
+    FragmentName: Fragment_1
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 3AAEDC:AlternatePerspective.esp
+      Alias: 1
+    Scripts:
+    - Name: APAddFactionWhileInLoc
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FactionToAdd
+        Object: 027242:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocationToCheck
+        Object: 016F85:Skyrim.esm
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 5
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 59
+Aliases:
+- ID: 1
+  Name: Player
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Type: Location
+  Name: myLoc
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  - AllowReserved
+  SpecificLocation: 016F85:Skyrim.esm
+- Name: tpMark
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 2
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null

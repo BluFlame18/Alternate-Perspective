@@ -1,0 +1,14 @@
+FormKey: 4102ED:AlternatePerspective.esp
+EditorID: AP_StonewallTerraceEndR01
+ObjectBounds:
+  First: -256, -422, 0
+  Second: 256, 256, 174
+Model:
+  File: Architecture\Farmhouse\Stonewall\StonewallTerraceEndR01.NIF
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: StonewallTerraceEndR01:4
+    NewTexture: 000C0F:Skyrim.esm
+    Index: 1
+MaxAngle: 90
+Unused: 0x000000

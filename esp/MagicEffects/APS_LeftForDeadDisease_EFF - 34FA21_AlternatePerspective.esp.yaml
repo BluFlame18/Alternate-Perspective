@@ -1,0 +1,23 @@
+FormKey: 34FA21:AlternatePerspective.esp
+EditorID: APS_LeftForDeadDisease_EFF
+Name:
+  TargetLanguage: English
+  Value: Wounded
+Flags:
+- Hostile
+- Recover
+- Detrimental
+- NoDuration
+- NoArea
+ResistValue: ResistDisease
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+TargetType: TargetActor
+DualCastScale: 1
+PerkToApply: 34FA23:AlternatePerspective.esp
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Your weakened and exhausted. Your Health doesn't regenerate, Potions and Restoration Spells are less effective on you and Damage you deal is reduced while below 70% Health.

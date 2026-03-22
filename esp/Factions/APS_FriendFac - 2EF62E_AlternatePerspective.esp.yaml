@@ -1,0 +1,14 @@
+FormKey: 2EF62E:AlternatePerspective.esp
+EditorID: APS_FriendFac
+Name:
+  TargetLanguage: English
+  Value: APS Friend Fac
+Relations:
+- Target: 2EF62E:AlternatePerspective.esp
+  Reaction: Friend
+Flags:
+- HiddenFromPC
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

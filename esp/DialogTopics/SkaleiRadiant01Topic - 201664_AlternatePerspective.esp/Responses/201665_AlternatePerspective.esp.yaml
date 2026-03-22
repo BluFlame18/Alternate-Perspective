@@ -1,0 +1,25 @@
+FormKey: 201665:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 20166F:AlternatePerspective.esp
+- 20166A:AlternatePerspective.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: It is unusual for us to be accepted anywhere else. Nords are set in their ways.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 1CEAF7:AlternatePerspective.esp
+  ComparisonValue: 1

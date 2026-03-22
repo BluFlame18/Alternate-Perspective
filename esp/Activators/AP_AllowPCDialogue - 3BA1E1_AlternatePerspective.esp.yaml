@@ -1,0 +1,10 @@
+FormKey: 3BA1E1:AlternatePerspective.esp
+EditorID: AP_AllowPCDialogue
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APAllowPCDialogue
+ObjectBounds:
+  First: -159, -93, -128
+  Second: 159, 93, 128
+MarkerColor: '#00CC4C33'
+Flags: []

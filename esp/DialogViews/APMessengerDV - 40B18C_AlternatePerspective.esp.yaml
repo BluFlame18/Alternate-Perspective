@@ -1,0 +1,8 @@
+FormKey: 40B18C:AlternatePerspective.esp
+EditorID: APMessengerDV
+Quest: 1E301D:AlternatePerspective.esp
+Branches:
+- 38C6E1:AlternatePerspective.esp
+TNAMs: []
+ENAM: 0x00000000
+DNAM: 0x01

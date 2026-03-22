@@ -1,0 +1,105 @@
+FormKey: 3AAEDD:AlternatePerspective.esp
+EditorID: APS_WerewolfFalkreath
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_WerewolfFalkreath_063AAEDD
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FalkHold
+      Object: 3AAEDD:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Helgen
+      Object: 3AAEDD:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_portMarker
+      Object: 3AAEDD:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BeastForm
+      Object: 092C48:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: gametime
+      Object: 000038:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Immunity
+      Object: 0F5BA0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerVampireQuest
+      Object: 0EAFD5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VampireKeyword
+      Object: 0A82BB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WerewolfCureDisease
+      Object: 0F5BA1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WolfOrBearMsg
+      Object: 08EC5E:AlternatePerspective.esp
+  FileName: QF_APS_WerewolfFalkreath_063AAEDD
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_WerewolfFalkreath_063AAEDD
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 3
+Aliases:
+- Type: Location
+  Name: FalkHold
+  Flags: []
+  SpecificLocation: 01676F:Skyrim.esm
+- ID: 2
+  Type: Location
+  Name: Helgen
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 018A4A:Skyrim.esm
+- ID: 1
+  Name: portMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocAliasConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocAliasConditionData
+      LocationAliasIndex: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130DC:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 013166:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 013168:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 000034:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInInteriorConditionData
+  VoiceTypes: Null

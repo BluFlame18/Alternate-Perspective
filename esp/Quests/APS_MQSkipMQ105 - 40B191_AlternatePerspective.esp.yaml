@@ -1,0 +1,36 @@
+FormKey: 40B191:AlternatePerspective.esp
+EditorID: APS_MQSkipMQ105
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_MQSkip_0540B191
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarPath
+      Object: 3D36E9:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RalofPath
+      Object: 3D36EA:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SplitMsg
+      Object: 3F1CF8:AlternatePerspective.esp
+  FileName: QF_APS_MQSkip_0540B191
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_APS_MQSkip_0540B191
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_APS_MQSkip_0540B191
+    FragmentName: Fragment_1
+Stages:
+- {}
+- Index: 5
+  Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+NextAliasID: 0

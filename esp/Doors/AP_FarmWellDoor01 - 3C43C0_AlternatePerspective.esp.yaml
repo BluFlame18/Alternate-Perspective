@@ -1,0 +1,15 @@
+FormKey: 3C43C0:AlternatePerspective.esp
+EditorID: AP_FarmWellDoor01
+ObjectBounds:
+  First: -192, -192, -32
+  Second: 192, 192, 222
+Name:
+  TargetLanguage: English
+  Value: Well
+Model:
+  File: Architecture\Farmhouse\FarmWell01.nif
+  Data: 0x020000000000000000000000
+Flags:
+- Hidden
+- MinimalUse
+- DoNotOpenInCombatSearch

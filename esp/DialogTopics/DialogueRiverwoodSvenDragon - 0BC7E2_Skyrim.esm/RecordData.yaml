@@ -1,0 +1,9 @@
+FormKey: 0BC7E2:Skyrim.esm
+EditorID: DialogueRiverwoodSvenDragon
+Version2: 4
+Name:
+  TargetLanguage: English
+  Value: I saw a dragon in Helgen.
+Branch: 0BCD18:Skyrim.esm
+Quest: 045486:Skyrim.esm
+SubtypeName: CUST

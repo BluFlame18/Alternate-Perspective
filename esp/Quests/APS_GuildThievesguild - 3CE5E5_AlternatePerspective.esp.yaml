@@ -1,0 +1,66 @@
+FormKey: 3CE5E5:AlternatePerspective.esp
+EditorID: APS_GuildThievesguild
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_GuildThievesguild_063CE5E5
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_bryn
+      Object: 3CE5E5:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_brynloc
+      Object: 3CE5E5:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_portLoc
+      Object: 3CE5E5:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dagger
+      Object: 01397E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TG00
+      Object: 021556:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TG01
+      Object: 01F326:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: uniform
+      Objects:
+      - Name: ''
+        Object: 013920:Skyrim.esm
+      - Name: ''
+        Object: 03619E:Skyrim.esm
+      - Name: ''
+        Object: 013921:Skyrim.esm
+  FileName: QF_APS_GuildThievesguild_063CE5E5
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_GuildThievesguild_063CE5E5
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+NextAliasID: 3
+Aliases:
+- Name: portLoc
+  Flags: []
+  ForcedReference: 4757A4:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: bryn
+  Flags:
+  - AllowReserved
+  UniqueActor: 01B07D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: brynloc
+  Flags: []
+  ForcedReference: 0361BB:Skyrim.esm
+  VoiceTypes: Null

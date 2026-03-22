@@ -1,0 +1,8 @@
+FormKey: 38C6E2:AlternatePerspective.esp
+EditorID: MessengerAlduinSkipTopic
+Name:
+  TargetLanguage: English
+  Value: Hello
+Branch: 38C6E1:AlternatePerspective.esp
+Quest: 1E301D:AlternatePerspective.esp
+SubtypeName: CUST

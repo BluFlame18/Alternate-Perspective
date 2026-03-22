@@ -1,0 +1,30 @@
+FormKey: 493DF8:AlternatePerspective.esp
+EditorID: AP_TestSpawnMsg
+Description:
+  TargetLanguage: English
+  Value: What do you want to spawn?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Cancel
+- Text:
+    TargetLanguage: English
+    Value: 'Friendly: NPC'
+- Text:
+    TargetLanguage: English
+    Value: 'Friendly: Follower'
+- Text:
+    TargetLanguage: English
+    Value: 'Friendly: Creature'
+- Text:
+    TargetLanguage: English
+    Value: 'Hostile: NPC'
+- Text:
+    TargetLanguage: English
+    Value: 'Hostile: Follower'
+- Text:
+    TargetLanguage: English
+    Value: 'Hostile: Creature'

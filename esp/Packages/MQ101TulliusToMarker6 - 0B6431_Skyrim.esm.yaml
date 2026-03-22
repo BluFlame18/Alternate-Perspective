@@ -1,0 +1,53 @@
+FormKey: 0B6431:Skyrim.esm
+EditorID: MQ101TulliusToMarker6
+Version2: 11
+Flags:
+- PreferredSpeed
+- IgnoreCombat
+- NoCombatAlert
+Type: Package
+PreferredSpeed: FastWalk
+Unknown: 101
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+OwnerQuest: 03372B:Skyrim.esm
+PackageTemplate: 017723:Skyrim.esm
+DataInputVersion: 3
+Data:
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 429825:AlternatePerspective.esp
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 150
+- Key: 2
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataBool
+XnamMarker: 0x09
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

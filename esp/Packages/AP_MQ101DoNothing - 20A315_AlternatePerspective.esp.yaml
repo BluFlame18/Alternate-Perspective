@@ -1,0 +1,30 @@
+FormKey: 20A315:AlternatePerspective.esp
+EditorID: AP_MQ101DoNothing
+Type: Package
+PreferredSpeed: Run
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+OwnerQuest: 03372B:Skyrim.esm
+PackageTemplate: 0654E2:Skyrim.esm
+Data:
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 5
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+XnamMarker: 0x05
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

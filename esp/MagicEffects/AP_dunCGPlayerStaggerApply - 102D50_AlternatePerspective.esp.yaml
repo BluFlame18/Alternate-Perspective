@@ -1,0 +1,33 @@
+FormKey: 102D50:AlternatePerspective.esp
+EditorID: AP_dunCGPlayerStaggerApply
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APStaggerPlayer
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CGDragonAttackBlurLong
+      Object: 10CDC7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: staggerMe
+      Object: 102D4F:AlternatePerspective.esp
+Name:
+  TargetLanguage: English
+  Value: Apply Player Stagger
+Flags:
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04679E:Skyrim.esm
+  ComparisonValue: 7

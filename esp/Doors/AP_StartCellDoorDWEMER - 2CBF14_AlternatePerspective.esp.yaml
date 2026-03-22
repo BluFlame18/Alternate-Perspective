@@ -1,0 +1,26 @@
+FormKey: 2CBF14:AlternatePerspective.esp
+EditorID: AP_StartCellDoorDWEMER
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APStartCellDoor
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AP_ReadyMsg
+      Object: 2CBF15:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: customStartLoc
+      Objects:
+      - Name: ''
+        Object: 075134:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+ObjectBounds:
+  First: -134, -22, -6
+  Second: 133, 5, 352
+Name:
+  TargetLanguage: English
+  Value: Door
+Model:
+  File: Dungeons\Dwemer\Door\DwemerLargeDoorLoad01.nif
+  Data: 0x020000000000000000000000

@@ -1,0 +1,19 @@
+FormKey: 102D4B:AlternatePerspective.esp
+EditorID: AP_dunCGDragonStormCallShout
+Name:
+  TargetLanguage: English
+  Value: Dragon Storm Call
+MenuDisplayObject: 0435A5:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Changes clear weather into stormy weather.
+WordsOfPower:
+- Word: 0252C3:Skyrim.esm
+  Spell: 102D4C:AlternatePerspective.esp
+  RecoveryTime: 60
+- Word: 0252C4:Skyrim.esm
+  Spell: 102D4C:AlternatePerspective.esp
+  RecoveryTime: 60
+- Word: 0252C5:Skyrim.esm
+  Spell: 102D4C:AlternatePerspective.esp
+  RecoveryTime: 60

@@ -1,0 +1,9 @@
+FormKey: 0453E6:Skyrim.esm
+EditorID: DelphineRumorsBranchRevisedTopic
+Name:
+  TargetLanguage: English
+  Value: Heard any rumors lately?
+Branch: 045489:Skyrim.esm
+Quest: 045486:Skyrim.esm
+Subtype: Rumors
+SubtypeName: RUMO

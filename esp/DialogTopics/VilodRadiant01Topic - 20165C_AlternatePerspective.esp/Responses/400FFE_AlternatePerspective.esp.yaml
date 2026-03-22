@@ -1,0 +1,32 @@
+FormKey: 400FFE:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: 20165D:AlternatePerspective.esp
+FavorLevel: None
+LinkTo:
+- 400FFA:AlternatePerspective.esp
+Responses:
+- Emotion: Anger
+  EmotionValue: 60
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You'd do well to stay away from this Stormcloak spy. Depending on someone like him causes nothing but trouble.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01363E:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 400FFF:AlternatePerspective.esp
+Prompt:
+  TargetLanguage: English
+  Value: Doesn't Jacob sell Juniper Berries?

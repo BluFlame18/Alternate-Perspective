@@ -1,0 +1,100 @@
+FormKey: 0FBA67:Skyrim.esm
+Version2: 8
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__000FBA67
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__000FBA67
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__000FBA67
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: 0D3C5A:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Surprise
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Think you've got the mettle, eh?
+  ScriptNotes: being tough but glad to get a new recruit
+  Edits: Think you have what it takes to join the Legion?
+- Emotion: Sad
+  EmotionValue: 10
+  ResponseNumber: 4
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Honestly, the Legion can use all the able bodies it can muster. We have our hands full. A dead king, a rebellion, and now dragons? Skyrim's a mess.
+  ScriptNotes: ''
+  Edits: Honestly, we can use all the able bodies we can muster. We have our hands full. A dead king, a rebellion, and now dragons?! Skyrim's a mess.
+- Emotion: Happy
+  EmotionValue: 15
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: If you're serious, you're in the right place. Our headquarters is in Castle Dour. Here you'll find General Tullius, commanding our forces in Skyrim.
+  ScriptNotes: glad to get a new recruit
+  Edits: If you're serious, make your way to Solitude. Headquarters is Castle Dour. General Tullius is running things here in Skyrim now.
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: But talk to Legate Rikke. She handles the local recruiting.
+  ScriptNotes: ''
+  Edits: Talk to Legate Rikke. She's handling the local recruiting.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInCurrentLocConditionData
+    Location: 018A5A:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0C4A99:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 06B18C:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 02BF9A:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    VoiceTypeOrList: 013AE3:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    VoiceTypeOrList: 0E5002:Skyrim.esm
+Prompt:
+  TargetLanguage: English
+  Value: How does one join the Imperial Legion?

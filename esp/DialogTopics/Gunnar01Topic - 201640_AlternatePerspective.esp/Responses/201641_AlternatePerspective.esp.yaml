@@ -1,0 +1,38 @@
+FormKey: 201641:AlternatePerspective.esp
+Flags:
+  Flags:
+  - SayOnce
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 201640:AlternatePerspective.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: No, I'm afraid not. In my early days, I was serving the Empire. Fighting countless foes, protecting the people. But I've grown old.
+  ScriptNotes: ''
+  Edits: ''
+- Emotion: Happy
+  EmotionValue: 30
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Still, I want to keep supporting the Empire, so I picked up the hammer. I may not be the best blacksmith in Skyrim but I get the job done.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 4
+  ComparisonValue: 1

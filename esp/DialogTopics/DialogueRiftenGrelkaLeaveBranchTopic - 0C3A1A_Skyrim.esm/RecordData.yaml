@@ -1,0 +1,9 @@
+FormKey: 0C3A1A:Skyrim.esm
+EditorID: DialogueRiftenGrelkaLeaveBranchTopic
+Name:
+  TargetLanguage: English
+  Value: Why would you want to leave Skyrim?
+Priority: 40
+Branch: 0C3A4B:Skyrim.esm
+Quest: 0368D8:Skyrim.esm
+SubtypeName: CUST

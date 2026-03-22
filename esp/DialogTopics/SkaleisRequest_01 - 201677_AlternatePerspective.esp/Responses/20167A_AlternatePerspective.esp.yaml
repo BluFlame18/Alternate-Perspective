@@ -1,0 +1,51 @@
+FormKey: 20167A:AlternatePerspective.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_AP_0420167A
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_AP_0420167A
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_AP_0420167A
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 201678:AlternatePerspective.esp
+FavorLevel: None
+Responses:
+- Emotion: Puzzled
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Helgen? That place was burnt down by a dragon, wasn't it?
+  ScriptNotes: ''
+  Edits: ''
+  SpeakerIdleAnimation: 0B5E1F:Skyrim.esm
+- Emotion: Sad
+  EmotionValue: 30
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I hope she managed to get out of there alive.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 1
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: She used to run a shop in Helgen, I haven't seen her since

@@ -1,0 +1,94 @@
+FormKey: 3B50E0:AlternatePerspective.esp
+EditorID: APS_VampireMovarthsLair
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_VampireMovarthsLair_063B50E0
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_myLoc
+      Object: 3B50E0:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 3B50E0:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_tpMark
+      Object: 3B50E0:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Help_Msg
+      Object: 2F4732:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: prisonerFac
+      Object: 027242:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: uniform
+      Objects:
+      - Name: ''
+        Object: 0191F3:Dawnguard.esm
+      - Name: ''
+        Object: 00B5DE:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VampireQ
+      Object: 0EAFD5:Skyrim.esm
+  FileName: QF_APS_VampireMovarthsLair_063B50E0
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_VampireMovarthsLair_063B50E0
+    FragmentName: Fragment_0
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_APS_VampireMovarthsLair_063B50E0
+    FragmentName: Fragment_1
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 3B50E0:AlternatePerspective.esp
+      Alias: 1
+    Scripts:
+    - Name: APAddFactionWhileInLoc
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FactionToAdd
+        Object: 027242:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocationToCheck
+        Object: 01BDFC:Skyrim.esm
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 5
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 55
+Aliases:
+- ID: 1
+  Name: Player
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Type: Location
+  Name: myLoc
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  - AllowReserved
+  SpecificLocation: 01BDFC:Skyrim.esm
+- Name: tpMark
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 2
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null

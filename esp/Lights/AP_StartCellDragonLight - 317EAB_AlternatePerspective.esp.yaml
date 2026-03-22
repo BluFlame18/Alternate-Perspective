@@ -1,0 +1,25 @@
+FormKey: 317EAB:AlternatePerspective.esp
+MajorRecordFlagsRaw: 131072
+EditorID: AP_StartCellDragonLight
+SkyrimMajorRecordFlags:
+- Dangerous_OffLimits_InteriorCell
+ObjectBounds:
+  First: -38, -40, -74
+  Second: 38, 40, 48
+Time: -1
+Radius: 64
+Color: '#00330B0B'
+Flags:
+- Dynamic
+- Flicker
+- ShadowOmnidirectional
+- PortalStrict
+FalloffExponent: 1
+FOV: 90
+NearClip: 1
+FlickerPeriod: 0.33333334
+FlickerIntensityAmplitude: 0.2
+FlickerMovementAmplitude: 8
+FadeValue: 1.7
+MajorFlags:
+- PortalStrict

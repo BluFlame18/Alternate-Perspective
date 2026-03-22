@@ -1,0 +1,16 @@
+FormKey: 164264:AlternatePerspective.esp
+EditorID: AP_KawooshDeathTrack
+Name:
+  TargetLanguage: English
+  Value: Death Tracker
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 164262:AlternatePerspective.esp
+  Data: {}

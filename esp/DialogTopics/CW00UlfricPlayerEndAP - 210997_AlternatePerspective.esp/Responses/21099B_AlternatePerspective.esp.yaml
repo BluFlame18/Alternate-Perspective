@@ -1,0 +1,47 @@
+FormKey: 21099B:AlternatePerspective.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_AP_0421099B
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_AP_0421099B
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_AP_0421099B
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+Topic: 0E1AB7:Skyrim.esm
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I'm always looking for able fighters. Not everyone can say they made it out of Helgen.
+  ScriptNotes: sizing up the player, giving respect where due
+  Edits: I'm always looking for resourceful fighters. Not everyone can say they made it out of Helgen.
+- Emotion: Happy
+  EmotionValue: 25
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: So long as you fight for me with honor and integrity, we'll welcome you into our ranks.
+  ScriptNotes: friendly but firm
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01414D:Skyrim.esm
+  ComparisonValue: 1

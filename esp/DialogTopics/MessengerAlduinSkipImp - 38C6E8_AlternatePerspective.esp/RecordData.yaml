@@ -1,0 +1,8 @@
+FormKey: 38C6E8:AlternatePerspective.esp
+EditorID: MessengerAlduinSkipImp
+Name:
+  TargetLanguage: English
+  Value: Skip to Helgen Keep
+Branch: 38C6E1:AlternatePerspective.esp
+Quest: 1E301D:AlternatePerspective.esp
+SubtypeName: CUST

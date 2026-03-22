@@ -1,0 +1,21 @@
+FormKey: 24D5C2:AlternatePerspective.esp
+EditorID: AP_ImperialHeavy
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 0136D4:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0136D5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0136D6:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 24D5C1:AlternatePerspective.esp
+    Count: 1

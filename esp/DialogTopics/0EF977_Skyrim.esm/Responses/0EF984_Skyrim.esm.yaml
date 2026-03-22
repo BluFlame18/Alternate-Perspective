@@ -1,0 +1,27 @@
+FormKey: 0EF984:Skyrim.esm
+Version2: 4
+Flags: {}
+PreviousDialog: 0EF983:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Disgust
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You with one of the trade caravans, Khajiit? Your kind always seems to find trouble.
+  ScriptNotes: interviewing a prisoner
+  Edits: ''
+  SpeakerIdleAnimation: 0EE3B6:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 119
+    Race: 013745:Skyrim.esm
+  ComparisonValue: 1

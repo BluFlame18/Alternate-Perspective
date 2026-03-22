@@ -1,0 +1,10 @@
+FormKey: 3823BB:AlternatePerspective.esp
+EditorID: AP_AlduinSkipTrigger
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APAlduinSkip
+ObjectBounds:
+  First: -239, -136, -159
+  Second: 239, 136, 159
+MarkerColor: '#00CC4C33'
+Flags: []

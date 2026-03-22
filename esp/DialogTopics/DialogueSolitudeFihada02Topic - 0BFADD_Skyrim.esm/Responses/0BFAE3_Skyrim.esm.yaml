@@ -1,0 +1,45 @@
+FormKey: 0BFAE3:Skyrim.esm
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- Emotion: Happy
+  EmotionValue: 10
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Why of course. And will you also be needing the bow that shoots rainbows? Or perhaps a quiver that dispenses beer?
+  ScriptNotes: ''
+  Edits: And I could use a bow that shot lightning and a gold chamber pot to piss in.
+- Emotion: Disgust
+  EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Look, if you want arrows we have them, but don't insult my intelligence.
+  ScriptNotes: ''
+  Edits: If you want arrows we have them, but if I wanted to hunt dragons I would use shouts, not a bow.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInCellConditionData
+    Cell: 0169FE:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 013275:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 1

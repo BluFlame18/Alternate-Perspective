@@ -1,0 +1,57 @@
+FormKey: 0165B5:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: WhiterunJorrvaskr
+Version2: 9
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Jorrvaskr
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#00515140'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogFar: 4300
+  FogClipDistance: 5000
+  FogPower: 1.5
+  AmbientColors:
+    DirectionalXPlus: '#00595143'
+    DirectionalXMinus: '#0048513D'
+    DirectionalYPlus: '#00515440'
+    DirectionalYMinus: '#00514D40'
+    DirectionalZPlus: '#0026261D'
+    DirectionalZMinus: '#007B7B63'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - DirectionalColor
+  - FogColor
+  - FogNear
+LightingTemplate: 06175D:Skyrim.esm
+WaterHeight: 0
+Location: 01F877:Skyrim.esm
+Owner: 048362:Skyrim.esm
+SkyAndWeatherFromRegion: 070408:Skyrim.esm
+AcousticSpace: 0C5D0A:Skyrim.esm
+Music: 06D542:Skyrim.esm
+ImageSpace: 036ED2:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 4757A5:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: AP_CompanionStartMark
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  Placement:
+    Position: -397, -663, 65
+    Rotation: 0, -0, 0.40000066
+MajorFlags:
+- 0x40000

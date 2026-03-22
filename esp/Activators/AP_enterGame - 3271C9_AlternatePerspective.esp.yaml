@@ -1,0 +1,17 @@
+FormKey: 3271C9:AlternatePerspective.esp
+EditorID: AP_enterGame
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APEnterGameTrigger
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: main
+      Object: 1E301D:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerStartMarker
+      Object: 317E97:AlternatePerspective.esp
+ObjectBounds:
+  First: -31, -61, -104
+  Second: 31, 61, 104
+MarkerColor: '#00CC4C33'
+Flags: []

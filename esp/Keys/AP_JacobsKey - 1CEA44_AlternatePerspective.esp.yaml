@@ -1,0 +1,12 @@
+FormKey: 1CEA44:AlternatePerspective.esp
+EditorID: AP_JacobsKey
+Name:
+  TargetLanguage: English
+  Value: Key to Jacob's Farm
+Model:
+  File: Clutter\Key01.nif
+  Data: 0x020000000000000000000000
+PickUpSound: 03ED75:Skyrim.esm
+PutDownSound: 03ED78:Skyrim.esm
+Keywords:
+- 0914EF:Skyrim.esm

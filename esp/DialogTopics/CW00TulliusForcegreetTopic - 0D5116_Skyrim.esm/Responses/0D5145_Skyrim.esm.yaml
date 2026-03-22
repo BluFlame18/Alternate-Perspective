@@ -1,0 +1,63 @@
+FormKey: 0D5145:Skyrim.esm
+Version2: 6
+Flags:
+  Flags:
+  - SayOnce
+  - WalkAway
+PreviousDialog: 0C348B:Skyrim.esm
+FavorLevel: None
+LinkTo:
+- 0D5115:Skyrim.esm
+- 0D5113:Skyrim.esm
+- 04A20B:Skyrim.esm
+Responses:
+- Emotion: Disgust
+  EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Are my men now giving free rein to anyone who wanders into the castle?
+  ScriptNotes: upset at the apparent lack of security
+  Edits: Are my men giving anyone who wanders in free reign of the castle now?
+- Emotion: Surprise
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Do you have some reason to be here, citizen?
+  ScriptNotes: with authority, suspicious
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 019E53:Skyrim.esm
+    VariableName: ::PlayerGotIntro_var
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 0D3C5F:Skyrim.esm
+    Stage: 20
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInDialogueWithPlayerConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01327E:Skyrim.esm
+  ComparisonValue: 1
+WalkAwayTopic: 0D5113:Skyrim.esm

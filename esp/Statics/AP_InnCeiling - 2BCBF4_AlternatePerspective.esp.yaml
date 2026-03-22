@@ -1,0 +1,14 @@
+FormKey: 2BCBF4:AlternatePerspective.esp
+EditorID: AP_InnCeiling
+ObjectBounds:
+  First: -128, -128, -6
+  Second: 128, 128, 0
+Model:
+  File: Architecture\Riften\Interior\SmallRoomSecond\RifRmSmSecondFloor01.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: RifRmSmSecondFloor01:12
+    NewTexture: 1B533E:AlternatePerspective.esp
+    Index: 1
+MaxAngle: 90
+Unused: 0x000000

@@ -1,0 +1,3392 @@
+FormKey: 0CD68E:Skyrim.esm
+EditorID: MQ101Scene4
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SF_MQ101Scene4_000CD68E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ImperialSoldierFort01
+      Object: 03372B:Skyrim.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KillMoveA
+      Object: 0F469B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Prisoner01
+      Object: 03372B:Skyrim.esm
+      Alias: 14
+  ScriptFragments:
+    FileName: SF_MQ101Scene4_000CD68E
+    PhaseFragments:
+    - Flags:
+      - OnCompletion
+      Index: 1
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_34
+    - Flags:
+      - OnCompletion
+      Index: 2
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_22
+    - Flags:
+      - OnStart
+      Index: 11
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_36
+    - Flags:
+      - OnCompletion
+      Index: 15
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_12
+    - Flags:
+      - OnCompletion
+      Index: 22
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_33
+    - Flags:
+      - OnStart
+      Index: 30
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_14
+    - Flags:
+      - OnCompletion
+      Index: 38
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_35
+    - Flags:
+      - OnCompletion
+      Index: 41
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_19
+    - Flags:
+      - OnStart
+      Index: 48
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_15
+    - Flags:
+      - OnCompletion
+      Index: 52
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_20
+    - Flags:
+      - OnCompletion
+      Index: 53
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene4_000CD68E
+      FragmentName: Fragment_26
+Flags: []
+Phases:
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: SetStage 65
+  Unused2: {}
+  EditorWidth: 200
+- Name: SetStage 67
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: Ralof moves, wait 5 seconds
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 14
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 14
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 14
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 14
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 174
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 14
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 162
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: Wait for Lokir to die
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 14
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 14
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 174
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 149
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: Player moves up - disable look
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 148
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: Show race menu - stage 75
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 1
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 249
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: SetStage 80 - Player taken into line
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 6
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 155
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: Player moves to block - disable look
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: Dragon roars - SetStage 82 on Start
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 369
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 152
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: 1st prisoner ready - SetStage 85
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: Wait for 1st prisoner to die
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 38
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 55
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 54
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 0CD68E:Skyrim.esm
+      SceneActionIndex: 342
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: Dragon Roars Again - SetStage 84 on Start
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: Player goes to the block - SetStage 95
+  Unused2: {}
+  EditorWidth: 200
+- Name: Enable Alduin - setstage 100
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 03372B:Skyrim.esm
+      Stage: 98
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 03372B:Skyrim.esm
+      Stage: 120
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+Actors:
+- ID: 1
+  Flags: []
+  BehaviorFlags: []
+- ID: 12
+  Flags: []
+  BehaviorFlags: []
+- ID: 4
+  Flags: []
+  BehaviorFlags: []
+- ID: 13
+  Flags: []
+  BehaviorFlags: []
+- ID: 14
+  Flags:
+  - Optional
+  BehaviorFlags: []
+- ID: 38
+  Flags: []
+  BehaviorFlags: []
+- ID: 42
+  Flags: []
+  BehaviorFlags: []
+- ID: 43
+  Flags: []
+  BehaviorFlags: []
+- ID: 44
+  Flags: []
+  BehaviorFlags: []
+- ID: 29
+  Flags: []
+  BehaviorFlags: []
+- ID: 17
+  Flags: []
+  BehaviorFlags: []
+- ID: 36
+  Flags: []
+  BehaviorFlags: []
+- ID: 47
+  Flags: []
+  BehaviorFlags: []
+- ID: 50
+  Flags:
+  - Optional
+  BehaviorFlags: []
+- ID: 53
+  Flags: []
+  BehaviorFlags: []
+- ID: 54
+  Flags:
+  - Optional
+  BehaviorFlags: []
+- ID: 55
+  Flags:
+  - Optional
+  BehaviorFlags: []
+- ID: 119
+  Flags: []
+  BehaviorFlags: []
+- ID: 146
+  Flags:
+  - Optional
+  BehaviorFlags: []
+- ID: 149
+  Flags:
+  - Optional
+  BehaviorFlags: []
+- ID: 148
+  Flags: []
+  BehaviorFlags: []
+- ID: 147
+  Flags: []
+  BehaviorFlags: []
+- ID: 179
+  Flags: []
+  BehaviorFlags: []
+Actions:
+- Name: (AP Disabled)
+  ActorID: 1
+  Index: 1
+  Flags:
+  - FaceTarget
+  StartPhase: 15
+  EndPhase: 15
+  Topic: 0CD667:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Timer
+  Name: 'AP: Increased time from 1s to 2s'
+  ActorID: 1
+  Index: 2
+  StartPhase: 16
+  EndPhase: 16
+  TimerSeconds: 2
+- Name: ''
+  ActorID: 1
+  Index: 3
+  Flags:
+  - FaceTarget
+  StartPhase: 18
+  EndPhase: 18
+  Topic: 0CD666:Skyrim.esm
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Prisoner02
+  ActorID: 1
+  Index: 6
+  Flags:
+  - FaceTarget
+  StartPhase: 22
+  EndPhase: 22
+  Topic: 0CD664:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 1
+  Index: 7
+  StartPhase: 24
+  EndPhase: 54
+  Packages:
+  - 0AA7DC:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 4
+  Index: 9
+  StartPhase: 0
+  EndPhase: 23
+  Packages:
+  - 0B6431:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 13
+  Index: 11
+  StartPhase: 3
+  EndPhase: 54
+  Packages:
+  - 0AA7DA:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 29
+  Index: 13
+  StartPhase: 16
+  EndPhase: 54
+  Packages:
+  - 0AA7D3:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 17
+  Index: 14
+  StartPhase: 16
+  EndPhase: 54
+  Packages:
+  - 0AA7D4:Skyrim.esm
+- Name: ''
+  ActorID: 36
+  Index: 17
+  StartPhase: 19
+  EndPhase: 19
+  Topic: 0CD663:Skyrim.esm
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 4
+  Index: 31
+  StartPhase: 24
+  EndPhase: 33
+  Packages:
+  - 0467B9:Skyrim.esm
+- Name: ''
+  ActorID: 4
+  Index: 32
+  Flags:
+  - FaceTarget
+  StartPhase: 25
+  EndPhase: 27
+  Topic: 0CD65E:Skyrim.esm
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 4
+  Index: 34
+  StartPhase: 33
+  EndPhase: 33
+  Topic: 0CD65C:Skyrim.esm
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner02
+  ActorID: 179
+  Index: 37
+  StartPhase: 36
+  EndPhase: 37
+  Topic: 0CD65B:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 36
+  Index: 38
+  StartPhase: 39
+  EndPhase: 41
+  Packages:
+  - 0AAF8D:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 38
+  Index: 41
+  StartPhase: 37
+  EndPhase: 38
+  Packages:
+  - 0AA7CF:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 38
+  Index: 42
+  StartPhase: 39
+  EndPhase: 41
+  Packages:
+  - 0AA7CF:Skyrim.esm
+- Type: Timer
+  Name: ''
+  ActorID: 36
+  Index: 45
+  StartPhase: 41
+  EndPhase: 41
+  TimerSeconds: 2
+- Name: Face Prisoner02
+  ActorID: 36
+  Index: 46
+  Flags:
+  - FaceTarget
+  StartPhase: 47
+  EndPhase: 47
+  Topic: 0CD659:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 48
+  StartPhase: 52
+  EndPhase: 52
+  Topic: 0CD658:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 1
+  Index: 53
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 12
+  Index: 54
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 4
+  Index: 55
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 13
+  Index: 57
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 42
+  Index: 59
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 43
+  Index: 60
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 44
+  Index: 61
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 29
+  Index: 62
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 17
+  Index: 63
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 36
+  Index: 64
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 47
+  Index: 65
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 50
+  Index: 66
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 53
+  Index: 69
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 54
+  Index: 70
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 55
+  Index: 71
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look officer
+  ActorID: 47
+  Index: 74
+  StartPhase: 36
+  EndPhase: 36
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look prisoner
+  ActorID: 47
+  Index: 75
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look player
+  ActorID: 47
+  Index: 76
+  StartPhase: 47
+  EndPhase: 47
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 91
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 0D7639:Skyrim.esm
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 93
+  StartPhase: 6
+  EndPhase: 6
+  Topic: 0D7637:Skyrim.esm
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 118
+  StartPhase: 32
+  EndPhase: 32
+  Topic: 0D77EA:Skyrim.esm
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Timer
+  Name: ''
+  ActorID: 1
+  Index: 119
+  StartPhase: 30
+  EndPhase: 30
+  TimerSeconds: 0.5
+- Type: Timer
+  Name: ''
+  ActorID: 1
+  Index: 120
+  StartPhase: 48
+  EndPhase: 48
+  TimerSeconds: 0.5
+- Name: ''
+  ActorID: 1
+  Index: 121
+  StartPhase: 50
+  EndPhase: 50
+  Topic: 0D77E9:Skyrim.esm
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 36
+  Index: 122
+  StartPhase: 51
+  EndPhase: 51
+  Topic: 0D77E8:Skyrim.esm
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner02
+  ActorID: 53
+  Index: 126
+  Flags:
+  - FaceTarget
+  StartPhase: 14
+  EndPhase: 14
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner02
+  ActorID: 54
+  Index: 127
+  Flags:
+  - FaceTarget
+  StartPhase: 14
+  EndPhase: 14
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner02
+  ActorID: 55
+  Index: 128
+  Flags:
+  - FaceTarget
+  StartPhase: 14
+  EndPhase: 14
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look Prisoner02
+  ActorID: 1
+  Index: 133
+  Flags:
+  - FaceTarget
+  StartPhase: 17
+  EndPhase: 17
+  Topic: 0EF977:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 135
+  StartPhase: 4
+  EndPhase: 4
+  Topic: 0F42F8:Skyrim.esm
+  HeadtrackActorID: 12
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 14
+  Index: 136
+  Flags:
+  - FaceTarget
+  StartPhase: 7
+  EndPhase: 7
+  Topic: 0F42F7:Skyrim.esm
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 36
+  Index: 137
+  Flags:
+  - FaceTarget
+  StartPhase: 12
+  EndPhase: 12
+  Topic: 0F42F6:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 36
+  Index: 140
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: 0F46DA:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 12
+  Index: 141
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 0F46D9:Skyrim.esm
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Timer
+  Name: ''
+  ActorID: 38
+  Index: 143
+  StartPhase: 3
+  EndPhase: 3
+  TimerSeconds: 5
+- Type: Package
+  Name: ''
+  ActorID: 38
+  Index: 144
+  StartPhase: 6
+  EndPhase: 36
+  Packages:
+  - 0AA7C1:Skyrim.esm
+- Type: Timer
+  Name: ''
+  ActorID: 12
+  Index: 145
+  StartPhase: 5
+  EndPhase: 5
+  TimerSeconds: 5
+- Type: Package
+  Name: ''
+  ActorID: 12
+  Index: 146
+  StartPhase: 5
+  EndPhase: 54
+  Packages:
+  - 0AA7BB:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 14
+  Index: 147
+  StartPhase: 8
+  EndPhase: 13
+  Packages:
+  - 0F7B59:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 119
+  Index: 148
+  StartPhase: 14
+  EndPhase: 14
+  Packages:
+  - 0F46E4:Skyrim.esm
+- Name: ''
+  ActorID: 1
+  Index: 149
+  Flags:
+  - FaceTarget
+  StartPhase: 13
+  EndPhase: 13
+  Topic: 0F46D8:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Timer
+  Name: ''
+  ActorID: 38
+  Index: 150
+  StartPhase: 2
+  EndPhase: 2
+  TimerSeconds: 2
+- Type: Timer
+  Name: ''
+  ActorID: 12
+  Index: 151
+  StartPhase: 4
+  EndPhase: 4
+  TimerSeconds: 2
+- Name: ''
+  ActorID: 38
+  Index: 152
+  StartPhase: 37
+  EndPhase: 37
+  Topic: 0F46D7:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 38
+  Index: 153
+  StartPhase: 39
+  EndPhase: 39
+  Topic: 0F46D6:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 38
+  Index: 154
+  StartPhase: 41
+  EndPhase: 41
+  Topic: 0F46D5:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Timer
+  Name: ''
+  ActorID: 1
+  Index: 155
+  StartPhase: 23
+  EndPhase: 23
+  TimerSeconds: 3
+- Type: Package
+  Name: ''
+  ActorID: 42
+  Index: 157
+  StartPhase: 3
+  EndPhase: 54
+  Packages:
+  - 0AA7C3:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 43
+  Index: 158
+  StartPhase: 14
+  EndPhase: 54
+  Packages:
+  - 0AA7C4:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 44
+  Index: 159
+  StartPhase: 5
+  EndPhase: 54
+  Packages:
+  - 0AA7C5:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 29
+  Index: 160
+  StartPhase: 0
+  EndPhase: 15
+  Packages:
+  - 0F5D9A:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 17
+  Index: 161
+  StartPhase: 0
+  EndPhase: 15
+  Packages:
+  - 0C28D9:Skyrim.esm
+- Name: ''
+  ActorID: 36
+  Index: 162
+  Flags:
+  - FaceTarget
+  StartPhase: 10
+  EndPhase: 10
+  Topic: 0F7B2E:Skyrim.esm
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 14
+  Index: 170
+  StartPhase: 9
+  EndPhase: 10
+  Topic: 0F7B2D:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look Prisoner02
+  ActorID: 1
+  Index: 171
+  Flags:
+  - FaceTarget
+  StartPhase: 21
+  EndPhase: 21
+  Topic: 0F7B2C:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 172
+  Flags:
+  - FaceTarget
+  StartPhase: 20
+  EndPhase: 20
+  Topic: 0F7B2B:Skyrim.esm
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 119
+  Index: 173
+  StartPhase: 24
+  EndPhase: 24
+  Packages:
+  - 065C92:Skyrim.esm
+- Type: Timer
+  Name: ''
+  ActorID: 14
+  Index: 174
+  StartPhase: 9
+  EndPhase: 9
+  TimerSeconds: 1
+- Type: Package
+  Name: ''
+  ActorID: 4
+  Index: 175
+  StartPhase: 34
+  EndPhase: 54
+  Packages:
+  - 0FD983:Skyrim.esm
+- Name: ''
+  ActorID: 1
+  Index: 180
+  StartPhase: 10
+  EndPhase: 10
+  Topic: Null
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 181
+  StartPhase: 12
+  EndPhase: 12
+  Topic: Null
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack ulfric
+  ActorID: 4
+  Index: 182
+  StartPhase: 36
+  EndPhase: 36
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 36
+  Index: 184
+  StartPhase: 34
+  EndPhase: 38
+  Packages:
+  - 0FF23D:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 36
+  Index: 185
+  StartPhase: 47
+  EndPhase: 52
+  Packages:
+  - 0FF23D:Skyrim.esm
+- Name: Clear headtracking
+  ActorID: 36
+  Index: 186
+  StartPhase: 20
+  EndPhase: 20
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 12
+  Index: 187
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear headtracking
+  ActorID: 1
+  Index: 195
+  StartPhase: 23
+  EndPhase: 23
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 1
+  Index: 196
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 12
+  Index: 197
+  StartPhase: 31
+  EndPhase: 31
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 13
+  Index: 199
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 42
+  Index: 201
+  StartPhase: 31
+  EndPhase: 31
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 44
+  Index: 203
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 17
+  Index: 205
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 47
+  Index: 207
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 53
+  Index: 209
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 55
+  Index: 211
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Dragon Marker 3
+  ActorID: 54
+  Index: 213
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Dragon Marker 3
+  ActorID: 50
+  Index: 215
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Dragon Marker 3
+  ActorID: 36
+  Index: 217
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Dragon Marker 3
+  ActorID: 29
+  Index: 219
+  StartPhase: 31
+  EndPhase: 31
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Dragon Marker 3
+  ActorID: 43
+  Index: 221
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Dragon Marker 3
+  ActorID: 38
+  Index: 223
+  StartPhase: 31
+  EndPhase: 31
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Dragon Marker 3
+  ActorID: 4
+  Index: 225
+  StartPhase: 31
+  EndPhase: 31
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 1
+  Index: 227
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 4
+  Index: 228
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 13
+  Index: 229
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 42
+  Index: 230
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 43
+  Index: 231
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 44
+  Index: 232
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 29
+  Index: 233
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 17
+  Index: 234
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 36
+  Index: 235
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 50
+  Index: 236
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 53
+  Index: 237
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 54
+  Index: 238
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 55
+  Index: 239
+  Flags:
+  - FaceTarget
+  StartPhase: 38
+  EndPhase: 38
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 13
+  Index: 240
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack priest
+  ActorID: 38
+  Index: 241
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 179
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack back to Ulfric
+  ActorID: 42
+  Index: 242
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack back to Ulfric
+  ActorID: 43
+  Index: 243
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack back to Ulfric
+  ActorID: 44
+  Index: 244
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack back to Ulfric
+  ActorID: 29
+  Index: 245
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack back to Ulfric
+  ActorID: 17
+  Index: 246
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 50
+  Index: 247
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 53
+  Index: 248
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 54
+  Index: 249
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 55
+  Index: 250
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack imperial captain
+  ActorID: 1
+  Index: 251
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 1
+  Index: 253
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 12
+  Index: 254
+  StartPhase: 49
+  EndPhase: 49
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 4
+  Index: 255
+  StartPhase: 49
+  EndPhase: 49
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 42
+  Index: 259
+  StartPhase: 49
+  EndPhase: 49
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 44
+  Index: 261
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 17
+  Index: 263
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 47
+  Index: 265
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 53
+  Index: 267
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 55
+  Index: 269
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 149
+  Index: 271
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 147
+  Index: 273
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker3
+  ActorID: 148
+  Index: 275
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker3
+  ActorID: 146
+  Index: 277
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker3
+  ActorID: 54
+  Index: 279
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker3
+  ActorID: 50
+  Index: 281
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker3
+  ActorID: 36
+  Index: 283
+  StartPhase: 49
+  EndPhase: 49
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker3
+  ActorID: 29
+  Index: 285
+  StartPhase: 49
+  EndPhase: 49
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker3
+  ActorID: 43
+  Index: 287
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker3
+  ActorID: 13
+  Index: 289
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 1
+  Index: 292
+  StartPhase: 53
+  EndPhase: 53
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack hadvar
+  ActorID: 12
+  Index: 293
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack ulfric
+  ActorID: 4
+  Index: 294
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 13
+  Index: 295
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack ulfric
+  ActorID: 42
+  Index: 296
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack ulfric
+  ActorID: 43
+  Index: 297
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack ulfric
+  ActorID: 44
+  Index: 298
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack ulfric
+  ActorID: 29
+  Index: 299
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack ulfric
+  ActorID: 17
+  Index: 300
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 47
+  Index: 301
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 50
+  Index: 302
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 53
+  Index: 303
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 54
+  Index: 304
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 55
+  Index: 305
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 148
+  Index: 308
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 147
+  Index: 309
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 149
+  Index: 311
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 147
+  Index: 313
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Dragon Marker 3
+  ActorID: 146
+  Index: 314
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Dragon Marker 3
+  ActorID: 148
+  Index: 316
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack hadvar
+  ActorID: 12
+  Index: 319
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack back to Tullius
+  ActorID: 36
+  Index: 320
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 4
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 47
+  Index: 321
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 148
+  Index: 324
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 147
+  Index: 325
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Timer
+  Name: ''
+  ActorID: 38
+  Index: 326
+  StartPhase: 40
+  EndPhase: 40
+  TimerSeconds: 5
+- Type: Package
+  Name: ''
+  ActorID: 36
+  Index: 327
+  StartPhase: 23
+  EndPhase: 33
+  Packages:
+  - 101AF1:Skyrim.esm
+- Name: ''
+  ActorID: 13
+  Index: 330
+  StartPhase: 28
+  EndPhase: 28
+  Topic: 1027E3:Skyrim.esm
+  HeadtrackActorID: 4
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 4
+  Index: 331
+  Flags:
+  - FaceTarget
+  StartPhase: 29
+  EndPhase: 29
+  Topic: 1027E2:Skyrim.esm
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 149
+  Index: 333
+  StartPhase: 9
+  EndPhase: 11
+  Packages:
+  - 0F7B57:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 146
+  Index: 334
+  StartPhase: 8
+  EndPhase: 11
+  Packages:
+  - 0F7B57:Skyrim.esm
+- Name: ''
+  ActorID: 13
+  Index: 335
+  Flags:
+  - FaceTarget
+  StartPhase: 13
+  EndPhase: 13
+  Topic: Null
+  HeadtrackActorID: 4
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 36
+  Index: 336
+  Flags:
+  - FaceTarget
+  StartPhase: 25
+  EndPhase: 25
+  Topic: Null
+  HeadtrackActorID: 4
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Face Prisoner02
+  ActorID: 36
+  Index: 338
+  Flags:
+  - FaceTarget
+  StartPhase: 46
+  EndPhase: 46
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 339
+  StartPhase: 3
+  EndPhase: 3
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 340
+  StartPhase: 5
+  EndPhase: 5
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 341
+  StartPhase: 7
+  EndPhase: 7
+  Topic: Null
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 36
+  Index: 342
+  StartPhase: 42
+  EndPhase: 46
+  Packages:
+  - 0FF23D:Skyrim.esm
+- Name: ''
+  ActorID: 179
+  Index: 344
+  StartPhase: 38
+  EndPhase: 38
+  Topic: 10755C:Skyrim.esm
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 179
+  Index: 345
+  StartPhase: 39
+  EndPhase: 54
+  Packages:
+  - 107578:Skyrim.esm
+- Name: Headtrack DragonMarker3
+  ActorID: 179
+  Index: 346
+  StartPhase: 31
+  EndPhase: 31
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack prisoner02 again
+  ActorID: 179
+  Index: 347
+  Flags:
+  - FaceTarget
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 179
+  Index: 348
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 36
+  Index: 349
+  StartPhase: 34
+  EndPhase: 34
+  Topic: 10755B:Skyrim.esm
+  HeadtrackActorID: 4
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 36
+  Index: 350
+  Flags:
+  - FaceTarget
+  StartPhase: 35
+  EndPhase: 35
+  Topic: 10755A:Skyrim.esm
+  HeadtrackActorID: 179
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 29
+  Index: 351
+  StartPhase: 10
+  EndPhase: 10
+  Topic: Null
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 17
+  Index: 352
+  StartPhase: 10
+  EndPhase: 10
+  Topic: Null
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 17
+  Index: 353
+  StartPhase: 12
+  EndPhase: 12
+  Topic: Null
+  HeadtrackActorID: 43
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 29
+  Index: 354
+  StartPhase: 12
+  EndPhase: 12
+  Topic: Null
+  HeadtrackActorID: 43
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 54
+  Index: 355
+  StartPhase: 9
+  EndPhase: 9
+  Topic: Null
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 53
+  Index: 356
+  StartPhase: 9
+  EndPhase: 9
+  Topic: Null
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 55
+  Index: 357
+  StartPhase: 9
+  EndPhase: 9
+  Topic: Null
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 53
+  Index: 358
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 54
+  Index: 359
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 55
+  Index: 360
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 55
+  Index: 361
+  StartPhase: 43
+  EndPhase: 43
+  Topic: 108CE8:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 54
+  Index: 362
+  StartPhase: 44
+  EndPhase: 44
+  Topic: 108CE7:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 42
+  Index: 364
+  StartPhase: 42
+  EndPhase: 42
+  Topic: 108CE6:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 53
+  Index: 366
+  StartPhase: 12
+  EndPhase: 12
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 54
+  Index: 367
+  StartPhase: 12
+  EndPhase: 12
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 55
+  Index: 368
+  StartPhase: 12
+  EndPhase: 12
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Timer
+  Name: ''
+  ActorID: 179
+  Index: 369
+  StartPhase: 36
+  EndPhase: 36
+  TimerSeconds: 5
+- Name: ''
+  ActorID: 36
+  Index: 370
+  StartPhase: 36
+  EndPhase: 36
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 179
+  Index: 371
+  StartPhase: 36
+  EndPhase: 37
+  Packages:
+  - 10908C:Skyrim.esm
+- Name: headtrack Ulfric
+  ActorID: 12
+  Index: 372
+  StartPhase: 24
+  EndPhase: 24
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Ulfric
+  ActorID: 1
+  Index: 373
+  StartPhase: 25
+  EndPhase: 25
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Ulfric
+  ActorID: 38
+  Index: 374
+  StartPhase: 25
+  EndPhase: 25
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Ulfric
+  ActorID: 42
+  Index: 375
+  StartPhase: 25
+  EndPhase: 25
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Ulfric
+  ActorID: 43
+  Index: 376
+  StartPhase: 25
+  EndPhase: 25
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Ulfric
+  ActorID: 44
+  Index: 377
+  StartPhase: 25
+  EndPhase: 25
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Ulfric
+  ActorID: 29
+  Index: 378
+  StartPhase: 25
+  EndPhase: 25
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Ulfric
+  ActorID: 17
+  Index: 379
+  StartPhase: 25
+  EndPhase: 25
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Ulfric
+  ActorID: 47
+  Index: 380
+  StartPhase: 25
+  EndPhase: 25
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 12
+  Index: 381
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 109D04:Skyrim.esm
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 36
+  Index: 382
+  Flags:
+  - FaceTarget
+  StartPhase: 8
+  EndPhase: 8
+  Topic: 109D03:Skyrim.esm
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 12
+  Index: 383
+  StartPhase: 4
+  EndPhase: 4
+  Topic: Null
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 14
+  Index: 384
+  StartPhase: 7
+  EndPhase: 7
+  Packages:
+  - 0D7655:Skyrim.esm
+- Name: ''
+  ActorID: 12
+  Index: 385
+  StartPhase: 45
+  EndPhase: 45
+  Topic: 109D02:Skyrim.esm
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 146
+  Index: 388
+  StartPhase: 12
+  EndPhase: 54
+  Packages:
+  - 10C508:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 149
+  Index: 389
+  StartPhase: 12
+  EndPhase: 54
+  Packages:
+  - 10C505:Skyrim.esm
+- Name: ''
+  ActorID: 13
+  Index: 392
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 14
+  Index: 393
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack soldier 01
+  ActorID: 38
+  Index: 394
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 43
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack soldier 01
+  ActorID: 42
+  Index: 395
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 29
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack soldier 01
+  ActorID: 43
+  Index: 396
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 29
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack soldier 01
+  ActorID: 44
+  Index: 397
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 29
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 13
+  Index: 398
+  Flags:
+  - FaceTarget
+  StartPhase: 24
+  EndPhase: 24
+  Topic: Null
+  HeadtrackActorID: 4
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 4
+  Index: 399
+  StartPhase: 24
+  EndPhase: 24
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 4
+  Index: 400
+  StartPhase: 13
+  EndPhase: 13
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 29
+  Index: 401
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 43
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 17
+  Index: 402
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 43
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Prisoner02
+  ActorID: 179
+  Index: 403
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack captain
+  ActorID: 1
+  Index: 404
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack prisoner02
+  ActorID: 179
+  Index: 405
+  Flags:
+  - FaceTarget
+  StartPhase: 24
+  EndPhase: 24
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack captain
+  ActorID: 146
+  Index: 406
+  StartPhase: 14
+  EndPhase: 14
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack captain
+  ActorID: 149
+  Index: 407
+  StartPhase: 14
+  EndPhase: 14
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack captain
+  ActorID: 146
+  Index: 408
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack captain
+  ActorID: 149
+  Index: 409
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack captain
+  ActorID: 146
+  Index: 410
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack captain
+  ActorID: 149
+  Index: 411
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack ulfric
+  ActorID: 4
+  Index: 412
+  StartPhase: 42
+  EndPhase: 42
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 4
+  Index: 413
+  Flags:
+  - HeadtrackPlayer
+  StartPhase: 53
+  EndPhase: 53
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Timer
+  Name: ''
+  ActorID: 1
+  Index: 414
+  StartPhase: 31
+  EndPhase: 31
+  TimerSeconds: 2.5
+- Type: Timer
+  Name: ''
+  ActorID: 1
+  Index: 415
+  StartPhase: 49
+  EndPhase: 49
+  TimerSeconds: 2.5
+- Name: Hadvar look down into Ledger
+  ActorID: 1
+  Index: 419
+  StartPhase: 16
+  EndPhase: 16
+  Topic: Null
+  HeadtrackActorID: 186
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Ulfric
+  ActorID: 119
+  Index: 420
+  StartPhase: 3
+  EndPhase: 3
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 119
+  Index: 421
+  StartPhase: 7
+  EndPhase: 7
+  Topic: Null
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: cancel headtrack
+  ActorID: 119
+  Index: 422
+  StartPhase: 5
+  EndPhase: 5
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Hadtrack Captain
+  ActorID: 119
+  Index: 424
+  StartPhase: 12
+  EndPhase: 12
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Hadvar
+  ActorID: 119
+  Index: 425
+  StartPhase: 13
+  EndPhase: 13
+  Topic: Null
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Captain
+  ActorID: 119
+  Index: 426
+  StartPhase: 19
+  EndPhase: 19
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Hadvar
+  ActorID: 119
+  Index: 427
+  StartPhase: 21
+  EndPhase: 21
+  Topic: Null
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Cancel headtracking
+  ActorID: 119
+  Index: 428
+  StartPhase: 23
+  EndPhase: 23
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Ulfric
+  ActorID: 119
+  Index: 429
+  StartPhase: 26
+  EndPhase: 26
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker2
+  ActorID: 119
+  Index: 430
+  StartPhase: 30
+  EndPhase: 30
+  Topic: Null
+  HeadtrackActorID: 165
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 119
+  Index: 431
+  StartPhase: 33
+  EndPhase: 33
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Prisoner01
+  ActorID: 119
+  Index: 432
+  Flags:
+  - FaceTarget
+  StartPhase: 39
+  EndPhase: 39
+  Topic: Null
+  HeadtrackActorID: 38
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack DragonMarker3
+  ActorID: 119
+  Index: 433
+  StartPhase: 48
+  EndPhase: 48
+  Topic: Null
+  HeadtrackActorID: 166
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack captain
+  ActorID: 119
+  Index: 434
+  StartPhase: 51
+  EndPhase: 51
+  Topic: Null
+  HeadtrackActorID: 36
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Clear Headtrack
+  ActorID: 119
+  Index: 435
+  StartPhase: 53
+  EndPhase: 53
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: headtrack Hadvar
+  ActorID: 119
+  Index: 437
+  StartPhase: 52
+  EndPhase: 52
+  Topic: Null
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Headtrack Alduin
+  ActorID: 119
+  Index: 438
+  StartPhase: 54
+  EndPhase: 54
+  Topic: Null
+  HeadtrackActorID: 30
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+Quest: 03372B:Skyrim.esm
+LastActionIndex: 438
+VNAM: 0x00000000000000000000000000000000

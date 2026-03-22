@@ -1,0 +1,50 @@
+FormKey: 3457DD:AlternatePerspective.esp
+EditorID: APS_InnMorthal
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_InnMorthal_063457DD
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CenterCell
+      Object: 3457DD:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MoorsideInn
+      Object: 3457DD:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myWeap
+      Object: 01E60A:Skyrim.esm
+  FileName: QF_APS_InnMorthal_063457DD
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_InnMorthal_063457DD
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 3
+Aliases:
+- ID: 1
+  Type: Location
+  Name: MoorsideInn
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 01EB96:Skyrim.esm
+- ID: 2
+  Name: CenterCell
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 1
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null

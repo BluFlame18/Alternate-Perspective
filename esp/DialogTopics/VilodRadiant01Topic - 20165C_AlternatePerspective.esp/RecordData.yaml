@@ -1,0 +1,9 @@
+FormKey: 20165C:AlternatePerspective.esp
+EditorID: VilodRadiant01Topic
+Name:
+  TargetLanguage: English
+  Value: Something troubling you?
+Priority: 40
+Branch: 20165B:AlternatePerspective.esp
+Quest: 1E301D:AlternatePerspective.esp
+SubtypeName: CUST

@@ -1,0 +1,6 @@
+FormKey: 10755D:Skyrim.esm
+Version2: 1
+Quest: 03372B:Skyrim.esm
+Category: Misc
+Subtype: ActorCollideWithActor
+SubtypeName: ACAC

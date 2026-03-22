@@ -1,0 +1,22 @@
+FormKey: 4246F7:AlternatePerspective.esp
+EditorID: AP_StartCellTrigger
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APShrineEnableTrigger
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ShrineExterior
+      Object: 4E4D7F:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ShrineStartCell
+      Object: 466438:AlternatePerspective.esp
+  - Name: APStartCellTrigger
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: startCellQ
+      Object: 4246F9:AlternatePerspective.esp
+ObjectBounds:
+  First: -272, -287, -266
+  Second: 272, 287, 266
+MarkerColor: '#00CC4C33'
+Flags: []

@@ -1,0 +1,1539 @@
+FormKey: 1CEAEF:AlternatePerspective.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: APSkaleisJunk
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Skalei's Scrap
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00161818'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#0015140F'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00181819'
+    DirectionalXMinus: '#00131816'
+    DirectionalYPlus: '#00161918'
+    DirectionalYMinus: '#00161618'
+    DirectionalZPlus: '#000A0B0A'
+    DirectionalZMinus: '#00212425'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#001F342E'
+  FogMax: 1
+  Inherits:
+  - FogNear
+  - FogFar
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 0A1196:Skyrim.esm
+WaterHeight: 0
+Location: 06B07C:AlternatePerspective.esp
+Owner: 1CEAF7:AlternatePerspective.esp
+LockList: 1D3CED:AlternatePerspective.esp
+NavigationMeshes:
+- FormKey: 1CEBE9:AlternatePerspective.esp
+  IsCompressed: True
+  MajorRecordFlagsRaw: 262144
+  SkyrimMajorRecordFlags:
+  - Compressed
+  Data:
+    Parent:
+      MutagenObjectType: CellNavmeshParent
+      Parent: 1CEAEF:AlternatePerspective.esp
+    Vertices:
+    - 221.03214, -232.68367, -1.5258789E-05
+    - 357.66315, -239.95576, 3.0517578E-05
+    - 221.6675, 12.1008835, 1.5258789E-05
+    - 359.06662, -5.4869385, -1.5258789E-05
+    - 241.59476, 9.550088, 1.0832766E-05
+    - 349.84314, 239.35532, 4.5776367E-05
+    - 250.97552, 103.70189, 0
+    - 161.43088, 226.17413, 3.0517578E-05
+    - 103.673325, 123.7841, 1.5258789E-05
+    - 149.35515, 100.6255, 8.392095E-06
+    - 99.33969, 20.014088, 1
+    - 23.883034, 88.067726, 0
+    - 147.17883, -190.84421, 4.5776367E-05
+    - 70.70127, -229.64299, 0
+    - 67.08115, -290.75302, -3.0517578E-05
+    - -63.68937, -285.07, 0
+    - -102.274124, -188.98407, 3.0517578E-05
+    - -31.678425, -38.18563, 1.0000244
+    - -94.61535, 124.76979, -3.0517578E-05
+    - -293.3316, 88.960785, 0
+    - -270.16666, -67.47513, 3.0517578E-05
+    - -242.40683, -216.07018, 1.5258789E-05
+    - -254.72484, -150.13336, 2.2029648E-05
+    - -377.75626, -156.46738, 1.5258789E-05
+    - -296.96924, -67.47159, 70.79016
+    - -342.19937, -68.08495, 70.23424
+    - -348.93268, -220.08052, 3.0517578E-05
+    - -336.02252, 10.325439, 133.95197
+    - -290.7296, 10.1718445, 135.28745
+    - -348.7392, 172.44444, 240.00003
+    - -287.3932, 172.51001, 239.99927
+    - -355.38776, 233.14641, 240
+    - -148.15887, 231.93704, 240
+    - -230.07822, 159.56439, 240
+    - -226.4208, -137.61539, 240.00003
+    - -76.75521, 27.439487, 241
+    - 44.72237, 152.86505, 240.00003
+    - -106.06044, -4.8790283, 240.8042
+    - 44.35079, -155.59901, 240.00003
+    - -142.28735, -141.01958, 240.00003
+    - -127.074646, -225.08043, 240
+    - 127.29361, -227.01044, 240.00003
+    - 194.04231, -1.9095027, 241
+    - 257.4199, -232.25002, 239.99997
+    - 257.8328, -18.935421, 240.99997
+    - 299.39612, 175.94327, 239.99997
+    - -40.080204, 187.63, 240.00002
+    Triangles:
+    - Vertices: 0, 1, 2
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 1
+      EdgeLink_2_0: -1
+      Flags:
+      - Found
+    - Vertices: 4, 2, 1
+      EdgeLink_0_1: -1
+      EdgeLink_2_0: 2
+      Flags:
+      - Found
+    - Vertices: 1, 3, 4
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 3
+      EdgeLink_2_0: 1
+      Flags:
+      - Found
+    - Vertices: 4, 3, 5
+      EdgeLink_0_1: 2
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 4
+      Flags:
+      - Found
+    - Vertices: 4, 5, 6
+      EdgeLink_0_1: 3
+      EdgeLink_1_2: 5
+      EdgeLink_2_0: -1
+      Flags:
+      - Found
+    - Vertices: 7, 6, 5
+      EdgeLink_0_1: 6
+      EdgeLink_1_2: 4
+      EdgeLink_2_0: -1
+      Flags:
+      - Found
+    - Vertices: 9, 6, 7
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 5
+      EdgeLink_2_0: 7
+      Flags:
+      - Found
+    - Vertices: 7, 8, 9
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 8
+      EdgeLink_2_0: 6
+      Flags:
+      - Found
+    - Vertices: 9, 8, 10
+      EdgeLink_0_1: 7
+      EdgeLink_1_2: 9
+      EdgeLink_2_0: 10
+      Flags:
+      - Found
+    - Vertices: 10, 8, 11
+      EdgeLink_0_1: 8
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 16
+      Flags:
+      - Found
+    - Vertices: 9, 10, 12
+      EdgeLink_0_1: 8
+      EdgeLink_1_2: 11
+      EdgeLink_2_0: -1
+      Flags:
+      - Found
+    - Vertices: 10, 13, 12
+      EdgeLink_0_1: 15
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 10
+      Flags:
+      - Found
+    - Vertices: 13, 15, 14
+      EdgeLink_0_1: 13
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: -1
+      Flags:
+      - Door
+      - Found
+    - Vertices: 13, 16, 15
+      EdgeLink_0_1: 14
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 12
+      Flags:
+      - Found
+    - Vertices: 13, 17, 16
+      EdgeLink_0_1: 15
+      EdgeLink_1_2: 20
+      EdgeLink_2_0: 13
+      Flags:
+      - Found
+    - Vertices: 10, 17, 13
+      EdgeLink_0_1: 16
+      EdgeLink_1_2: 14
+      EdgeLink_2_0: 11
+      Flags:
+      - Found
+    - Vertices: 10, 11, 17
+      EdgeLink_0_1: 9
+      EdgeLink_1_2: 17
+      EdgeLink_2_0: 15
+      Flags:
+      - Found
+    - Vertices: 17, 11, 18
+      EdgeLink_0_1: 16
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 18
+      Flags:
+      - Found
+    - Vertices: 19, 17, 18
+      EdgeLink_0_1: 19
+      EdgeLink_1_2: 17
+      EdgeLink_2_0: -1
+      Flags:
+      - Found
+    - Vertices: 19, 20, 17
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 20
+      EdgeLink_2_0: 18
+      Flags:
+      - Found
+    - Vertices: 20, 16, 17
+      EdgeLink_0_1: 22
+      EdgeLink_1_2: 14
+      EdgeLink_2_0: 19
+      Flags:
+      - Found
+    - Vertices: 22, 21, 16
+      EdgeLink_0_1: 23
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 22
+      Flags:
+      - Found
+    - Vertices: 16, 20, 22
+      EdgeLink_0_1: 20
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 21
+      Flags:
+      - Found
+    - Vertices: 21, 22, 23
+      EdgeLink_0_1: 21
+      EdgeLink_1_2: 24
+      EdgeLink_2_0: 26
+      Flags:
+      - Found
+    - Vertices: 23, 22, 24
+      EdgeLink_0_1: 23
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 25
+      Flags:
+      - Found
+    - Vertices: 25, 23, 24
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 24
+      EdgeLink_2_0: 28
+      Flags:
+      - Found
+    - Vertices: 23, 26, 21
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 23
+      Flags:
+      - Found
+    - Vertices: 27, 24, 28
+      EdgeLink_0_1: 28
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 30
+      Flags:
+      - Found
+    - Vertices: 25, 24, 27
+      EdgeLink_0_1: 25
+      EdgeLink_1_2: 27
+      EdgeLink_2_0: -1
+      Flags:
+      - Found
+    - Vertices: 29, 27, 30
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 30
+      EdgeLink_2_0: 31
+      Flags:
+      - Found
+    - Vertices: 30, 27, 28
+      EdgeLink_0_1: 29
+      EdgeLink_1_2: 27
+      EdgeLink_2_0: -1
+      Flags:
+      - Found
+    - Vertices: 29, 30, 31
+      EdgeLink_0_1: 29
+      EdgeLink_1_2: 32
+      EdgeLink_2_0: -1
+      Flags:
+      - Found
+    - Vertices: 30, 32, 31
+      EdgeLink_0_1: 33
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 31
+      Flags:
+      - Found
+    - Vertices: 30, 33, 32
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 35
+      EdgeLink_2_0: 32
+      Flags:
+      - Found
+    - Vertices: 37, 35, 33
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 35
+      EdgeLink_2_0: 37
+      Flags:
+      - Found
+    - Vertices: 33, 35, 32
+      EdgeLink_0_1: 34
+      EdgeLink_1_2: 36
+      EdgeLink_2_0: 33
+      Flags:
+      - Found
+    - Vertices: 46, 32, 35
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 35
+      EdgeLink_2_0: 47
+      Flags:
+      - Found
+    - Vertices: 33, 34, 37
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 39
+      EdgeLink_2_0: 34
+      Flags:
+      - Found
+    - Vertices: 39, 38, 37
+      EdgeLink_0_1: 40
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 39
+      Flags:
+      - Found
+    - Vertices: 37, 34, 39
+      EdgeLink_0_1: 37
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 38
+      Flags:
+      - Found
+    - Vertices: 39, 40, 38
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 41
+      EdgeLink_2_0: 38
+      Flags:
+      - Found
+    - Vertices: 40, 41, 38
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 42
+      EdgeLink_2_0: 40
+      Flags:
+      - Door
+      - Found
+    - Vertices: 38, 41, 42
+      EdgeLink_0_1: 41
+      EdgeLink_1_2: 43
+      EdgeLink_2_0: -1
+      Flags:
+      - Found
+    - Vertices: 41, 43, 42
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 44
+      EdgeLink_2_0: 42
+      Flags:
+      - Found
+    - Vertices: 42, 43, 44
+      EdgeLink_0_1: 43
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 45
+      Flags:
+      - Found
+    - Vertices: 42, 44, 45
+      EdgeLink_0_1: 44
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 46
+      Flags:
+      - Found
+    - Vertices: 36, 42, 45
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 45
+      EdgeLink_2_0: 48
+      Flags:
+      - Found
+    - Vertices: 35, 36, 46
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 48
+      EdgeLink_2_0: 36
+      Flags:
+      - Found
+    - Vertices: 46, 36, 45
+      EdgeLink_0_1: 47
+      EdgeLink_1_2: 46
+      EdgeLink_2_0: -1
+      Flags:
+      - Found
+    DoorTriangles:
+    - TriangleBeforeDoor: 12
+      Unknown: -460622861
+      Door: 1CEAF3:AlternatePerspective.esp
+    - TriangleBeforeDoor: 41
+      Unknown: -460622861
+      Door: 1CEAF4:AlternatePerspective.esp
+    NavmeshGridDivisor: 2
+    MaxDistanceX: 368.41144
+    MaxDistanceY: 265.05417
+    Min: -377.75626, -290.75302, -3.0517578E-05
+    Max: 359.06662, 239.35532, 241
+    NavmeshGrid: 0x160000000C000D000E000F0010001100120013001400150016001700180019001A001B001C0025002600270028002900100000000000010002000A000B000C000D000E000F0010002600280029002A002B002C001300000010001100120013001B001C001D001E001F00200021002200230024002500260027002F0030001700000000000100020003000400050006000700080009000A000B000F001000110026002A002B002C002D002E002F003000
+  MajorFlags:
+  - 0x40000
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEAF3:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 029CB0:Skyrim.esm
+  TeleportDestination:
+    Door: 1CEAED:AlternatePerspective.esp
+    Position: 18574.658, -80713.2, 8309.748
+    Rotation: 0, -0, 3.0931997
+  Lock:
+    Level: Adept
+    Unused: 0x000000
+    Key: 1CEAF5:AlternatePerspective.esp
+    Flags:
+    - 0x4
+    Unused2: 0x0000000000000000000000
+  NavigationDoorLink:
+    NavMesh: 1CEBE9:AlternatePerspective.esp
+    TeleportMarkerTriangle: 12
+  Owner: 1CEAF7:AlternatePerspective.esp
+  Placement:
+    Position: 0, -320, 0
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEAF4:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 029CB0:Skyrim.esm
+  TeleportDestination:
+    Door: 1CEAEE:AlternatePerspective.esp
+    Position: 18562.727, -80691.59, 8512
+    Rotation: 0, -0, -3.139986
+  Lock:
+    Level: Novice
+    Unused: 0x000000
+    Key: 1CEAF5:AlternatePerspective.esp
+    Unused2: 0x0000000000000000000000
+  NavigationDoorLink:
+    NavMesh: 1CEBE9:AlternatePerspective.esp
+    TeleportMarkerTriangle: 41
+  Owner: 1CEAF7:AlternatePerspective.esp
+  Placement:
+    Position: 0, -256, 240
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedNpc
+  FormKey: 1CEAF9:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: SkaleiREF
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 1CEAF7:AlternatePerspective.esp
+  Placement:
+    Position: -165.13437, 86.11565, 240
+    Rotation: 0, -0, 3.183188
+  MajorFlags:
+  - Persistent
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBC9:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 06CF36:Skyrim.esm
+  Placement:
+    Position: 235.96796, -100.19216, 0
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBE7:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 1CEBE6:AlternatePerspective.esp
+  Placement:
+    Position: 273.15164, -337.27145, -62.04007
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEAF0:AlternatePerspective.esp
+  Base: 05ACF1:Skyrim.esm
+  Placement: {}
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEAF1:AlternatePerspective.esp
+  Base: 05ACF3:Skyrim.esm
+  Placement:
+    Position: -256, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEAF2:AlternatePerspective.esp
+  Base: 05ACF4:Skyrim.esm
+  Placement:
+    Position: 256, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEAFA:AlternatePerspective.esp
+  Base: 03B420:Skyrim.esm
+  Owner: 1CEAF7:AlternatePerspective.esp
+  Placement:
+    Position: 320, -128, 240
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEAFB:AlternatePerspective.esp
+  Base: 024CA5:Skyrim.esm
+  Placement:
+    Position: 224, 224, 240
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEAFC:AlternatePerspective.esp
+  Base: 024CA7:Skyrim.esm
+  Placement:
+    Position: 40.68302, 224.40019, 240
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEAFD:AlternatePerspective.esp
+  Base: 012FE7:Skyrim.esm
+  Placement:
+    Position: 310.87582, 227.79932, 240
+    Rotation: 0, -0, 0.35000002
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEAFE:AlternatePerspective.esp
+  Base: 012FDF:Skyrim.esm
+  Placement:
+    Position: 353.3095, 224.90633, 240
+    Rotation: 0, -0, 5.683186
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB01:AlternatePerspective.esp
+  Base: 012FEA:Skyrim.esm
+  Placement:
+    Position: 138.81691, 215.8394, 240
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB02:AlternatePerspective.esp
+  Base: 10C0E3:Skyrim.esm
+  Placement:
+    Position: -344.02222, -213.55327, 240
+    Rotation: 0, -0, 0.4
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB03:AlternatePerspective.esp
+  Base: 10C0E3:Skyrim.esm
+  Placement:
+    Position: -280.55728, -198.21419, 240
+    Rotation: 0, -0, 6.2331862
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB04:AlternatePerspective.esp
+  Base: 02F239:Skyrim.esm
+  Placement:
+    Position: -193.7396, -200.60121, 240.00006
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB06:AlternatePerspective.esp
+  Base: 0B0104:Skyrim.esm
+  Placement:
+    Position: 44.381973, -4.2659607, 239.99988
+    Rotation: 0, -0, 0.8
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB07:AlternatePerspective.esp
+  Base: 05C015:Skyrim.esm
+  Scale: 1.24
+  Placement:
+    Position: 192.6321, 27.356777, 241
+    Rotation: 0, -0, 3.7500002
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB08:AlternatePerspective.esp
+  Base: 05C015:Skyrim.esm
+  Scale: 1.24
+  Placement:
+    Position: -107.04077, -27.14029, 241
+    Rotation: 0, -0, 0.2668151
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB09:AlternatePerspective.esp
+  Base: 0B7879:Skyrim.esm
+  Placement:
+    Position: 353.13898, -18.214228, 241
+    Rotation: -0.30664676, -0.17145474, 0.62655944
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB0B:AlternatePerspective.esp
+  Base: 0CE786:Skyrim.esm
+  Placement:
+    Position: 347.31992, 99.16517, 239.99997
+    Rotation: 0, -0, 1.5500001
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB0C:AlternatePerspective.esp
+  Base: 04223D:Skyrim.esm
+  Placement:
+    Position: 357.2366, 17.714333, 256.02414
+    Rotation: -0.02550341, 0.028441863, 4.231284
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB0D:AlternatePerspective.esp
+  Base: 04223C:Skyrim.esm
+  Placement:
+    Position: 345.7825, 67.674614, 263.83685
+    Rotation: 0.00020861594, 0.0010988533, 0.14930214
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB0E:AlternatePerspective.esp
+  Base: 06FF45:Skyrim.esm
+  Placement:
+    Position: 343.90506, 130.59703, 263.77344
+    Rotation: 0.0016898952, -0.002202282, 5.4959455
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB0F:AlternatePerspective.esp
+  Base: 04223C:Skyrim.esm
+  Placement:
+    Position: 347.35388, 102.32249, 269.55682
+    Rotation: -0.4403092, -0.021801673, 6.176156
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB10:AlternatePerspective.esp
+  Base: 04223D:Skyrim.esm
+  Placement:
+    Position: 334.56094, 18.502405, 255.84361
+    Rotation: -0.030876124, 0.040484063, 3.48066
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB11:AlternatePerspective.esp
+  Base: 0D8E7F:Skyrim.esm
+  Placement:
+    Position: 354.26074, 50.412598, 301.60858
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB12:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 362.56772, 65.16166, 303.44977
+    Rotation: -0.004191219, -0.005241534, 6.2816176
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB13:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 353.1787, 64.55317, 303.44098
+    Rotation: -0.0060213776, -0.005099605, 0.011999463
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB14:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 348.75192, 61.72711, 303.4455
+    Rotation: -0.0025569086, 0.0021381848, 6.278229
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB15:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 359.71515, 71.38967, 303.4451
+    Rotation: 0.0054157698, 0.0033309907, 6.2732787
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB16:AlternatePerspective.esp
+  Base: 01F24A:Skyrim.esm
+  Placement:
+    Position: 347.50983, 144.50725, 303.14542
+    Rotation: 0, -0, 1
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB17:AlternatePerspective.esp
+  Base: 0E2617:Skyrim.esm
+  Placement:
+    Position: 347.88345, 104.644775, 303.1263
+    Rotation: 0.0020873817, 0.0009272459, 9.46681E-07
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB18:AlternatePerspective.esp
+  Base: 064B3D:Skyrim.esm
+  Placement:
+    Position: 348.19992, 103.003265, 306.58673
+    Rotation: 0.0059767785, 0.005223481, 6.28065
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB1A:AlternatePerspective.esp
+  Base: 03AD52:Skyrim.esm
+  Placement:
+    Position: 13.055574, 223.63815, 392.52484
+    Rotation: 0, -0, 5.983186
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB1B:AlternatePerspective.esp
+  Base: 0747FE:Skyrim.esm
+  Placement:
+    Position: 80.183945, 227.22218, 393.80853
+    Rotation: -0.0012878946, -0.0022104818, 5.4341774
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB1D:AlternatePerspective.esp
+  Base: 0D928F:Skyrim.esm
+  Placement:
+    Position: 386.0002, 117.9706, 383.7699
+    Rotation: 0, -0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB1E:AlternatePerspective.esp
+  Base: 034D23:Skyrim.esm
+  Placement:
+    Position: 382.26428, -132.85516, 379.23553
+    Rotation: 0, -0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB1F:AlternatePerspective.esp
+  Base: 05C035:Skyrim.esm
+  Scale: 0.9
+  Placement:
+    Position: -250.09552, 260, 354.46942
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB20:AlternatePerspective.esp
+  Base: 05C035:Skyrim.esm
+  Scale: 0.9
+  Placement:
+    Position: 254.50494, -260.00018, 351.63458
+    Rotation: -3.1415925, 1.2415953, 2.7041813E-07
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB21:AlternatePerspective.esp
+  Base: 05C036:Skyrim.esm
+  Placement:
+    Position: -385.0003, -134.8855, 363.96478
+    Rotation: -0.7999998, -3.135662E-08, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB22:AlternatePerspective.esp
+  Base: 0318FB:Skyrim.esm
+  Placement:
+    Position: 188.70349, 223.57039, 302.00003
+    Rotation: 0, -0, 5.533186
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB23:AlternatePerspective.esp
+  Base: 0319E5:Skyrim.esm
+  Placement:
+    Position: 191.97557, 219.45651, 306.75385
+    Rotation: -0.37937546, -0.16796383, 0.62187916
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB24:AlternatePerspective.esp
+  Base: 03199A:Skyrim.esm
+  Placement:
+    Position: 274.003, 239.6101, 302.2759
+    Rotation: -0.0031556278, -0.00043731896, 4.5927814E-06
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB25:AlternatePerspective.esp
+  Base: 0E2617:Skyrim.esm
+  Placement:
+    Position: 227.95103, 227.0738, 302.16406
+    Rotation: -0.0017697405, -0.000936937, 6.2380385
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB28:AlternatePerspective.esp
+  Base: 0E2617:Skyrim.esm
+  Placement:
+    Position: 228.20236, 226.34863, 305.8894
+    Rotation: -0.0031622448, -0.0015510529, 6.283181
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB29:AlternatePerspective.esp
+  Base: 0E2617:Skyrim.esm
+  Placement:
+    Position: 227.88078, 225.78743, 309.7744
+    Rotation: -0.0047397064, -0.0030291812, 0.00010131093
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB2A:AlternatePerspective.esp
+  Base: 104B40:Skyrim.esm
+  Placement:
+    Position: 250.55997, 218.7243, 303.29456
+    Rotation: 0.01633471, 0.088994004, 0.1341917
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB2B:AlternatePerspective.esp
+  Base: 104B40:Skyrim.esm
+  Placement:
+    Position: 256.73413, 218.98929, 303.30096
+    Rotation: 0.007678402, 0.045722064, 0.13178505
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB2C:AlternatePerspective.esp
+  Base: 104B40:Skyrim.esm
+  Placement:
+    Position: 253.83408, 219.96385, 303.30176
+    Rotation: 0.013427169, 0.07468436, 0.13324581
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB2D:AlternatePerspective.esp
+  Base: 104B3F:Skyrim.esm
+  Placement:
+    Position: 268.08447, 208.67223, 302.8809
+    Rotation: 0.016632466, -0.042684007, 0.80113107
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB2E:AlternatePerspective.esp
+  Base: 104B3F:Skyrim.esm
+  Placement:
+    Position: 269.74203, 204.93245, 305.92786
+    Rotation: 0.031326164, -0.17739986, 0.763174
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB2F:AlternatePerspective.esp
+  Base: 104B3F:Skyrim.esm
+  Placement:
+    Position: 269.34036, 209.11978, 304.26382
+    Rotation: 0.0506957, -0.06632612, 0.5459634
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB30:AlternatePerspective.esp
+  Base: 01F24A:Skyrim.esm
+  Placement:
+    Position: -206.32666, -189.50865, 302.00662
+    Rotation: 0, -0, 4.1000004
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB31:AlternatePerspective.esp
+  Base: 0F2014:Skyrim.esm
+  Placement:
+    Position: -220.8026, -224.3601, 302.00662
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB32:AlternatePerspective.esp
+  Base: 03133B:Skyrim.esm
+  Placement:
+    Position: -195.14754, -226.19145, 302.0066
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB33:AlternatePerspective.esp
+  Base: 0319E3:Skyrim.esm
+  Placement:
+    Position: -172.62415, -218.88019, 302.00662
+    Rotation: 0, -0, 1.3
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB34:AlternatePerspective.esp
+  Base: 0319E3:Skyrim.esm
+  Placement:
+    Position: -186.83893, -203.99925, 302.0066
+    Rotation: 0, -0, 0.7500008
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB35:AlternatePerspective.esp
+  Base: 012FE8:Skyrim.esm
+  Placement:
+    Position: -44.27845, 226.99684, 240
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB36:AlternatePerspective.esp
+  Base: 01F24A:Skyrim.esm
+  Placement:
+    Position: 46.43176, -12.317146, 303.00647
+    Rotation: 0, -0, 2.6500025
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB37:AlternatePerspective.esp
+  Base: 107A8A:Skyrim.esm
+  Placement:
+    Position: 77.32334, -33.239433, 303.00653
+    Rotation: 0, -0, 5.533186
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB38:AlternatePerspective.esp
+  Base: 107A8A:Skyrim.esm
+  Placement:
+    Position: 61.6565, -32.27842, 303.00644
+    Rotation: 0, -0, 0.35000086
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB39:AlternatePerspective.esp
+  Base: 035F4A:Skyrim.esm
+  Placement:
+    Position: 0.5828295, 225.10408, 8.981812
+    Rotation: 0, -0, 5.8331866
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB3A:AlternatePerspective.esp
+  Base: 017BE2:Skyrim.esm
+  Placement:
+    Position: -425.97626, 224.2235, 28.000927
+    Rotation: 0, -0, 5.4831867
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB3D:AlternatePerspective.esp
+  Base: 07A610:Skyrim.esm
+  Placement:
+    Position: -339.49194, 193.1359, 23.542534
+    Rotation: 0, -0, 1.25
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB3E:AlternatePerspective.esp
+  Base: 000845:Skyrim.esm
+  Placement:
+    Position: -396.99307, -25.117062, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB3F:AlternatePerspective.esp
+  Base: 10C0E3:Skyrim.esm
+  Placement:
+    Position: -311.29044, 212.4947, 44.936646
+    Rotation: 0, -0, 6.2331862
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB40:AlternatePerspective.esp
+  Base: 10C0E3:Skyrim.esm
+  Placement:
+    Position: -246.33693, 215.5885, 1.5258789E-05
+    Rotation: 0, -0, 6.2331862
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB41:AlternatePerspective.esp
+  Base: 092B13:Skyrim.esm
+  Placement:
+    Position: -404.72766, 109.037865, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB42:AlternatePerspective.esp
+  Base: 10C0E3:Skyrim.esm
+  Placement:
+    Position: -385.96594, 37.888844, 0
+    Rotation: 0, -0, 6.2331862
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB46:AlternatePerspective.esp
+  Base: 10C0E3:Skyrim.esm
+  Placement:
+    Position: -334.32486, 115.66326, -1.5258789E-05
+    Rotation: 0, -0, 6.2331862
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB49:AlternatePerspective.esp
+  Base: 038B0E:Skyrim.esm
+  RagdollData: 0x000000003BDF8CC1EE7CF7C0CFF71141D37CBBB32DBDBB33D37CBBB30100000000001AB9E22426C0726888C170EEFFB22DBDBBB34CB03B27020000000000003900008CB8D4224BC170EEFFB20000008000000080
+  Placement:
+    Position: 387.89807, 193.48967, 165.26767
+    Rotation: 0, -0, 3.1873941
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB4A:AlternatePerspective.esp
+  Base: 05AD5A:Skyrim.esm
+  Placement:
+    Position: 387.89807, 193.48967, 165.26767
+    Rotation: 0, -0, 4.75819
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB4B:AlternatePerspective.esp
+  Base: 038B0F:Skyrim.esm
+  RagdollData: 0x00000000A6676EC12FDD6AC180953141AB15B33F11D2C13CCF0FC9BF01000000E8D1B44100004139000043B85AC4C1BC33EC2FBEA7591236020000007AAA844100007B380000B8B70EF43FB30000C0355E0251B5
+  Placement:
+    Position: 387.89807, 193.48967, 165.26767
+    Rotation: 0, -0, 4.75819
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB4C:AlternatePerspective.esp
+  Base: 038B0E:Skyrim.esm
+  RagdollData: 0x000000003BDF8CC1EE7CF7C0CFF71141D37CBBB32DBDBB33D37CBBB30100000000001AB9E22426C0726888C170EEFFB22DBDBBB34CB03B27020000000000003900008CB8D4224BC170EEFFB20000008000000080
+  Placement:
+    Position: 387.89807, 193.48967, 165.26767
+    Rotation: 0, -0, 1.6165975
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB4D:AlternatePerspective.esp
+  Base: 02702A:Skyrim.esm
+  Placement:
+    Position: 176, 64, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB50:AlternatePerspective.esp
+  Base: 02702D:Skyrim.esm
+  Placement:
+    Position: 176, 64, 0
+    Rotation: 0, -0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB51:AlternatePerspective.esp
+  Base: 02702E:Skyrim.esm
+  Placement:
+    Position: 176, -64, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB52:AlternatePerspective.esp
+  Base: 02702E:Skyrim.esm
+  Placement:
+    Position: 176, -128, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB53:AlternatePerspective.esp
+  Base: 02702E:Skyrim.esm
+  Placement:
+    Position: 176, -192, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB54:AlternatePerspective.esp
+  Base: 02702E:Skyrim.esm
+  Placement:
+    Position: 176, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB55:AlternatePerspective.esp
+  Base: 02702C:Skyrim.esm
+  Placement:
+    Position: 176, -192, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB57:AlternatePerspective.esp
+  Base: 0CE784:Skyrim.esm
+  Placement:
+    Position: 400, 128, 0
+    Rotation: 0, -0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB5B:AlternatePerspective.esp
+  Base: 034D2D:Skyrim.esm
+  Placement:
+    Position: 384, 106.27163, 208
+    Rotation: 0, -0, 0.7853982
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB5C:AlternatePerspective.esp
+  Base: 034D30:Skyrim.esm
+  Placement:
+    Position: 377.87805, -27.169815, 212.68481
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB5D:AlternatePerspective.esp
+  Base: 034D30:Skyrim.esm
+  Placement:
+    Position: 384, -44.24556, 212.70868
+    Rotation: 0, -0, 5.4977875
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB5E:AlternatePerspective.esp
+  Base: 034D2C:Skyrim.esm
+  Placement:
+    Position: 377.61346, 53.549057, 213.1432
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB5F:AlternatePerspective.esp
+  Base: 034D2C:Skyrim.esm
+  Placement:
+    Position: 385.7254, 26.292587, 212.04071
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB60:AlternatePerspective.esp
+  Base: 034D2C:Skyrim.esm
+  Placement:
+    Position: 381.36865, 84.05605, 212.52896
+    Rotation: 0, -0, 5.4977875
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB61:AlternatePerspective.esp
+  Base: 05AD5A:Skyrim.esm
+  Placement:
+    Position: 381.4785, 148.629, 174.11728
+    Rotation: 0, -0, 5.4977875
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB63:AlternatePerspective.esp
+  Base: 038B0E:Skyrim.esm
+  RagdollData: 0x000000003BDF8CC1EE7CF7C0CFF71141D37CBBB32DBDBB33D37CBBB30100000000001AB9E22426C0726888C170EEFFB22DBDBBB34CB03B27020000000000003900008CB8D4224BC170EEFFB20000008000000080
+  Placement:
+    Position: 391.69043, 161.94547, 169.0268
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB64:AlternatePerspective.esp
+  Base: 0318FB:Skyrim.esm
+  Placement:
+    Position: 398.5285, 134.8825, 62.356052
+    Rotation: -0.00051910593, 0.00022440306, 0.6372469
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB65:AlternatePerspective.esp
+  Base: 038B0D:Skyrim.esm
+  RagdollData: 0x00000000619D8FC1FFD425C126AECB40D20FC9BF910A06BFD20FC93F01000000A0C60441001053BD00F0A0BD908234B4A7B832BE95F0813502000000D83C444100002C3B0000B3BBCD85D627000000B30DFF76B4
+  Placement:
+    Position: 364.18768, 167.31352, 175.26888
+    Rotation: 0, -0, 5.1977882
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB66:AlternatePerspective.esp
+  Base: 0318FB:Skyrim.esm
+  Scale: 0.73
+  Placement:
+    Position: 400.0587, 166.71895, 61.977737
+    Rotation: -0.0020811174, 0.00060931355, 5.770432
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB67:AlternatePerspective.esp
+  Base: 0318FA:Skyrim.esm
+  Placement:
+    Position: 403.26917, 88.51647, 61.96701
+    Rotation: 0, -0, 0.9
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB68:AlternatePerspective.esp
+  Base: 03AD52:Skyrim.esm
+  Placement:
+    Position: 397.27853, 143.80434, 18.226856
+    Rotation: 0.010655723, -0.037101265, 4.7826486
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB69:AlternatePerspective.esp
+  Base: 03AD52:Skyrim.esm
+  Placement:
+    Position: 394.10138, 108.90546, 30.086658
+    Rotation: -0.3273045, 0.11391699, 4.7259383
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB6D:AlternatePerspective.esp
+  Base: 064B34:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 395.05505, -103.25346, 61.41945
+    Rotation: -0.003109292, -0.0004928318, 3.4500809
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB6F:AlternatePerspective.esp
+  Base: 064B33:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 402.12146, -132.77158, 61.40943
+    Rotation: -0.0018742196, 0.0016198382, 4.6691623
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB70:AlternatePerspective.esp
+  Base: 064B34:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 406.9618, -80.19057, 61.408264
+    Rotation: 0.0070596263, 0.0032591391, 1.5482383
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB75:AlternatePerspective.esp
+  Base: 064B33:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 399.53503, -165.95398, 77.19037
+    Rotation: -3.1397905, -0.0010325308, 3.9502814
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB76:AlternatePerspective.esp
+  Base: 012FE7:Skyrim.esm
+  Placement:
+    Position: 394.77737, -161.43304, 150.82103
+    Rotation: -0.00048500713, 0.0017417594, 2.5707972
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB78:AlternatePerspective.esp
+  Base: 02E6CD:Skyrim.esm
+  Placement:
+    Position: 398.9906, -125.63184, -0.9238224
+    Rotation: 0, -0, 1.5500002
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB7C:AlternatePerspective.esp
+  Base: 064B33:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 399.41638, -149.58679, 77.17707
+    Rotation: -7.829262E-05, -0.0016019086, 3.9008868
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB7E:AlternatePerspective.esp
+  Base: 064B34:Skyrim.esm
+  Scale: 0.95
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 408.39612, -78.02339, 70.03823
+    Rotation: 0.006270607, 0.0035171856, 1.5507195
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB9A:AlternatePerspective.esp
+  Base: 03133C:Skyrim.esm
+  Placement:
+    Position: 398.45593, -170.53926, 106.07618
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB9B:AlternatePerspective.esp
+  Base: 03133B:Skyrim.esm
+  Placement:
+    Position: 407.9759, -151.8998, 106.07619
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB9C:AlternatePerspective.esp
+  Base: 03EAE0:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 402.5583, -175.27834, 16.170036
+    Rotation: 0, -0, 0.050000105
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB9D:AlternatePerspective.esp
+  Base: 03EADD:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 395.83664, -165.93797, 16.190605
+    Rotation: 0, -0, 5.8581867
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB9E:AlternatePerspective.esp
+  Base: 03EADD:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 409.10077, -161.22734, 15.907806
+    Rotation: 0, -0, 5.8581867
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEB9F:AlternatePerspective.esp
+  Base: 039B4A:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 404.48624, -95.27573, 16.1455
+    Rotation: -0.0040171104, -0.0039461395, 5.5331645
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBA0:AlternatePerspective.esp
+  Base: 03EADD:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 402.78336, -150.24718, 16.190605
+    Rotation: 0, -0, 0.050000105
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBA1:AlternatePerspective.esp
+  Base: 03EB09:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 393.347, -77.96808, 16.170036
+    Rotation: 0, -0, 5.9081874
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBA2:AlternatePerspective.esp
+  Base: 039B4A:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 408.3748, -83.53864, 16.049215
+    Rotation: -0.0040171104, -0.0039461395, 5.533164
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBA3:AlternatePerspective.esp
+  Base: 03133B:Skyrim.esm
+  Placement:
+    Position: 403.95004, -80.50184, 106.07619
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBA4:AlternatePerspective.esp
+  Base: 03133B:Skyrim.esm
+  Placement:
+    Position: 390.83487, -97.63994, 106.07618
+    Rotation: 0, -0, 5.583186
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBA5:AlternatePerspective.esp
+  Base: 03133C:Skyrim.esm
+  Placement:
+    Position: 404.80795, -113.4775, 106.07619
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBA6:AlternatePerspective.esp
+  Base: 03133C:Skyrim.esm
+  Placement:
+    Position: 407.45685, -132.84077, 106.07618
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBA9:AlternatePerspective.esp
+  Base: 0E2626:Skyrim.esm
+  Placement:
+    Position: 398.3636, 0.7966938, 0
+    Rotation: 0, -0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBAA:AlternatePerspective.esp
+  Base: 064B41:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 392.6586, 8.265085, 22.792887
+    Rotation: 1.573779, 1.1308577, 5.759348
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBAB:AlternatePerspective.esp
+  Base: 064B41:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 392.80505, -23.790638, 22.738554
+    Rotation: -1.5893164, 1.4592488, 0.4876713
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBAC:AlternatePerspective.esp
+  Base: 064B3F:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 386.8299, 28.05914, 27.535376
+    Rotation: 0.07413737, 0.5848998, 1.1755483
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBAD:AlternatePerspective.esp
+  Base: 064B41:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 404.76938, -10.2676, 22.128607
+    Rotation: 1.5712023, 0.308582, 1.5752621
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBAF:AlternatePerspective.esp
+  Base: 064B41:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 410.39, 23.216133, 22.375013
+    Rotation: -1.5708371, 0.22554766, 3.6590943
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBB0:AlternatePerspective.esp
+  Base: 064B41:Skyrim.esm
+  Owner: 0A6BFE:Skyrim.esm
+  Placement:
+    Position: 385.7888, -6.966183, 22.793858
+    Rotation: 1.5706054, -0.48140094, 5.753987
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBB2:AlternatePerspective.esp
+  Base: 09AF14:Skyrim.esm
+  Placement:
+    Position: -330.12668, 29.838343, 0
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBB3:AlternatePerspective.esp
+  Base: 06A0BC:Skyrim.esm
+  LeveledItemBaseObject: 037C1A:Skyrim.esm
+  Placement:
+    Position: 392.43866, 7.640581, 68.67158
+    Rotation: 0, -0, 0.6000005
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBB4:AlternatePerspective.esp
+  Base: 01F24A:Skyrim.esm
+  Placement:
+    Position: 402.64246, -23.216347, 63.162704
+    Rotation: 0, -0, 2.0499997
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBB5:AlternatePerspective.esp
+  Base: 06A07E:Skyrim.esm
+  LeveledItemBaseObject: 0E3E99:Skyrim.esm
+  Placement:
+    Position: 403.917, -131.3611, 17.446108
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBB7:AlternatePerspective.esp
+  Base: 06A07E:Skyrim.esm
+  LeveledItemBaseObject: 0E3E99:Skyrim.esm
+  Placement:
+    Position: 397.07175, -108.5535, 17.393934
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBB8:AlternatePerspective.esp
+  Base: 0135B8:Skyrim.esm
+  Placement:
+    Position: 218.88084, 67.74981, 77.999535
+    Rotation: 0, -0, 4.25
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBB9:AlternatePerspective.esp
+  Base: 01F24A:Skyrim.esm
+  Placement:
+    Position: 182.43954, 71.076584, 77.99951
+    Rotation: 0, -0, 1.6
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBBA:AlternatePerspective.esp
+  Base: 01F24A:Skyrim.esm
+  Placement:
+    Position: 175.72412, -222.03554, 77.99951
+    Rotation: 0, -0, 2.3499997
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBBB:AlternatePerspective.esp
+  Base: 063B44:Skyrim.esm
+  Placement:
+    Position: 187.39236, -230.41206, 57.613853
+    Rotation: -0.12837857, -0.68394494, 0.2124161
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBBC:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 186.65105, -220.52974, 55.901657
+    Rotation: 0.003593918, 0.0031239614, 6.258494
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBBD:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 190.83047, -215.20795, 55.903248
+    Rotation: -0.0027964117, -0.0018501445, 0.021127677
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBBE:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 185.4086, -211.38641, 55.89197
+    Rotation: -0.0016850369, 0.005515099, 0.00686331
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBBF:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 183.50706, -218.24611, 56.245537
+    Rotation: 0.08411794, 0.11662325, 0.06495464
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBC0:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 193.5776, -206.16643, 55.903545
+    Rotation: -0.0015765199, -0.0012754216, 0.026212132
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBC1:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 185.36, -197.73438, 55.900467
+    Rotation: 0.00052237493, 0.0022897907, 0.0011872066
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBC2:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 178.02948, -204.42572, 55.897797
+    Rotation: -0.0019444212, 0.0021551133, 6.280531
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBC3:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 193.36678, -189.69765, 55.90243
+    Rotation: 0.0019693393, -0.00096793094, 0.016581556
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBC4:AlternatePerspective.esp
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 182.87386, -184.93611, 55.8908
+    Rotation: -0.0018433353, 0.00097110774, 0.011561493
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBC6:AlternatePerspective.esp
+  Base: 0747FB:Skyrim.esm
+  Placement:
+    Position: 186.77296, 45.552025, 16.357534
+    Rotation: 0.0010834469, -0.0037798365, 6.281018
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBC8:AlternatePerspective.esp
+  Base: 01397E:Skyrim.esm
+  Placement:
+    Position: 183.58447, -61.29979, 56.63711
+    Rotation: -0.034569215, 0.004769457, 2.6490974
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBCB:AlternatePerspective.esp
+  Base: 1B01E1:AlternatePerspective.esp
+  Placement:
+    Position: -181.57858, 216.88869, 4.5776367E-05
+    Rotation: 0, -0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBD8:AlternatePerspective.esp
+  Base: 0318FA:Skyrim.esm
+  Scale: 0.87
+  Placement:
+    Position: -254.29729, 146.71832, 61.684723
+    Rotation: -0.0023813567, 0.0016495504, 6.1157327
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBD9:AlternatePerspective.esp
+  Base: 0318FB:Skyrim.esm
+  Scale: 0.81
+  Placement:
+    Position: -278.64145, 139.92752, 16.451523
+    Rotation: -0.0007353932, 0.0016138972, 6.133186
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBDA:AlternatePerspective.esp
+  Base: 0318FB:Skyrim.esm
+  Placement:
+    Position: -199.36612, 149.80447, 16.45163
+    Rotation: -0.0011724677, 0.00094479625, 1.0542777
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBDB:AlternatePerspective.esp
+  Base: 02E6CD:Skyrim.esm
+  Placement:
+    Position: -236.36398, 143.06938, -0.8998413
+    Rotation: 0, -0, 6.133186
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBDC:AlternatePerspective.esp
+  Base: 104B40:Skyrim.esm
+  Placement:
+    Position: -287.85364, 128.64442, 62.328247
+    Rotation: -0.0010726952, 0.060684025, 6.2201786
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBDD:AlternatePerspective.esp
+  Base: 0319E3:Skyrim.esm
+  Placement:
+    Position: -198.4842, 150.8578, 106.48839
+    Rotation: -0.0014406667, -0.00746762, 2.136378
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBDE:AlternatePerspective.esp
+  Base: 0319E3:Skyrim.esm
+  Placement:
+    Position: -216.5923, 143.56299, 111.346725
+    Rotation: 1.0243239, 0.8309299, 5.849865
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBDF:AlternatePerspective.esp
+  Base: 0318FB:Skyrim.esm
+  Placement:
+    Position: -235.12135, 143.08562, 16.450287
+    Rotation: 0.0018269941, -0.0015187409, 6.1157327
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBE0:AlternatePerspective.esp
+  Base: 0318FA:Skyrim.esm
+  Scale: 0.84
+  Placement:
+    Position: -232.886, 141.57623, 61.729477
+    Rotation: 0.00021765738, -0.0026370713, 2.7123399
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBE1:AlternatePerspective.esp
+  Base: 104B40:Skyrim.esm
+  Placement:
+    Position: -277.90213, 129.04558, 62.409897
+    Rotation: -0.0030412474, 0.083342254, 6.1326666
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBE2:AlternatePerspective.esp
+  Base: 06A0BA:Skyrim.esm
+  LeveledItemBaseObject: 0165BB:Skyrim.esm
+  Owner: 05A665:Skyrim.esm
+  Placement:
+    Position: -242.41046, 134.06511, 112.70781
+    Rotation: -3.1258724, 0.102970995, 4.8631935
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBE3:AlternatePerspective.esp
+  Base: 0318FA:Skyrim.esm
+  Placement:
+    Position: -191.59802, 143.83934, 61.464035
+    Rotation: -0.0014943568, 0.0008336684, 5.9237466
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBE4:AlternatePerspective.esp
+  Base: 012FE6:Skyrim.esm
+  Placement:
+    Position: -135.263, 165.10114, 4.5776367E-05
+    Rotation: 0, -0, 5.683186
+- MutagenObjectType: PlacedObject
+  FormKey: 1CEBE5:AlternatePerspective.esp
+  Base: 05C016:Skyrim.esm
+  Scale: 1.6
+  Placement:
+    Position: -61.867023, -49.156483, 1
+    Rotation: 0, -0, 5.0331917
+- MutagenObjectType: PlacedObject
+  FormKey: 215852:AlternatePerspective.esp
+  Base: 05C009:Skyrim.esm
+  Radius: 51.792175
+  LightData:
+    FadeOffset: 0.118872166
+    ShadowDepthBias: 23.665985
+  Placement:
+    Position: 333.23047, -26.005783, 112
+    Rotation: 1.5707964, -3.5762784E-07, 1.5712848
+- MutagenObjectType: PlacedObject
+  FormKey: 215854:AlternatePerspective.esp
+  Base: 059B71:Skyrim.esm
+  Radius: 98.73419
+  LightData:
+    FadeOffset: 1.2039847
+    ShadowDepthBias: 24.754173
+  Placement:
+    Position: 0, 224, 64
+    Rotation: -1.5707964, 9.834765E-07, 4.7123895
+- MutagenObjectType: PlacedObject
+  FormKey: 215855:AlternatePerspective.esp
+  Base: 05C009:Skyrim.esm
+  Radius: 138.31995
+  LightData:
+    FadeOffset: -0.37307405
+    ShadowDepthBias: 25.569923
+  Placement:
+    Position: 48, 0, 368
+- MutagenObjectType: PlacedObject
+  FormKey: 215856:AlternatePerspective.esp
+  Base: 088241:Skyrim.esm
+  Radius: -185.63487
+  LightData:
+    FadeOffset: -0.29243588
+    ShadowDepthBias: 1
+  Placement:
+    Position: 329.93307, 149.30392, 328.9446
+- MutagenObjectType: PlacedObject
+  FormKey: 215857:AlternatePerspective.esp
+  Base: 088241:Skyrim.esm
+  Radius: -115.429
+  LightData:
+    FadeOffset: -0.2862743
+    ShadowDepthBias: 1
+  Placement:
+    Position: -208, -176, 352
+- MutagenObjectType: PlacedObject
+  FormKey: 215859:AlternatePerspective.esp
+  Base: 059A93:Skyrim.esm
+  Radius: -243.09485
+  LightData:
+    FadeOffset: -0.7892642
+    ShadowDepthBias: 1
+  Placement:
+    Position: -320, -48, 176
+- MutagenObjectType: PlacedObject
+  FormKey: 21585A:AlternatePerspective.esp
+  Base: 093D45:Skyrim.esm
+  Scale: 1.18
+  Placement:
+    Position: 288, -96, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 21585B:AlternatePerspective.esp
+  Base: 05C01F:Skyrim.esm
+  Placement:
+    Position: 262.42755, -262.5917, 96
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 21A987:AlternatePerspective.esp
+  Base: 088241:Skyrim.esm
+  Radius: -195.68271
+  LightData:
+    FadeOffset: -0.54934084
+    ShadowDepthBias: 1
+  Placement:
+    Position: 160.65715, 61.203796, 114.09494
+- MutagenObjectType: PlacedObject
+  FormKey: 21A988:AlternatePerspective.esp
+  Base: 088241:Skyrim.esm
+  Radius: -195.68271
+  LightData:
+    FadeOffset: -0.54934084
+    ShadowDepthBias: 1
+  Placement:
+    Position: 164.1887, -204.70042, 115.97308
+- MutagenObjectType: PlacedObject
+  FormKey: 21A989:AlternatePerspective.esp
+  Base: 0F4851:Skyrim.esm
+  Radius: -115.27359
+  LightData:
+    FadeOffset: 0.08296096
+    ShadowDepthBias: 1
+  Placement:
+    Position: 464, 64, 496
+- MutagenObjectType: PlacedObject
+  FormKey: 21A991:AlternatePerspective.esp
+  Base: 065121:Skyrim.esm
+  Placement:
+    Position: 384, 96, 496
+    Rotation: -5.463481E-07, -1.0685961, 3.1415935
+- MutagenObjectType: PlacedObject
+  FormKey: 21A992:AlternatePerspective.esp
+  Base: 065121:Skyrim.esm
+  Placement:
+    Position: 384, 32, 496
+    Rotation: -5.463481E-07, -1.0685961, 3.1415935
+MajorFlags:
+- 0x40000

@@ -1,0 +1,9 @@
+FormKey: 093120:Skyrim.esm
+EditorID: DialogueWhiterunFarengarTopicsBranch1Topic
+Name:
+  TargetLanguage: English
+  Value: Have you encountered any dragons?
+Priority: 40
+Branch: 093143:Skyrim.esm
+Quest: 0270A4:Skyrim.esm
+SubtypeName: CUST

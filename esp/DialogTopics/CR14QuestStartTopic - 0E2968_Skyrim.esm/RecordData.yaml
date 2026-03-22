@@ -1,0 +1,9 @@
+FormKey: 0E2968:Skyrim.esm
+EditorID: CR14QuestStartTopic
+Name:
+  TargetLanguage: English
+  Value: Is there any work to be done?
+Priority: 90
+Branch: 0E315B:Skyrim.esm
+Quest: 0E3156:Skyrim.esm
+SubtypeName: CUST

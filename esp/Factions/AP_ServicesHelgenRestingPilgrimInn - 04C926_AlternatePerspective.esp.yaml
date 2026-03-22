@@ -1,0 +1,18 @@
+FormKey: 04C926:AlternatePerspective.esp
+EditorID: AP_ServicesHelgenRestingPilgrimInn
+Name:
+  TargetLanguage: English
+  Value: Sleeping Giant Services
+Flags:
+- Vendor
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorBuySellList: 0914F0:Skyrim.esm
+MerchantContainer: 04C928:AlternatePerspective.esp
+VendorValues:
+  EndHour: 24
+VendorLocation:
+  Target:
+    MutagenObjectType: LocationCell
+    Link: 005900:AlternatePerspective.esp

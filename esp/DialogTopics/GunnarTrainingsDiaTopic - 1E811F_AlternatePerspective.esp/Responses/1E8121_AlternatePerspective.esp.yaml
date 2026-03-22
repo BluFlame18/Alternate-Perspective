@@ -1,0 +1,19 @@
+FormKey: 1E8121:AlternatePerspective.esp
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+PreviousDialog: 1E8120:AlternatePerspective.esp
+FavorLevel: None
+ResponseData: 0BD7DF:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0E3A49:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 013643:Skyrim.esm
+  ComparisonValue: 1

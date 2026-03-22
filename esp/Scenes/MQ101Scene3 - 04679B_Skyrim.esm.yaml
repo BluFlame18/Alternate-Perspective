@@ -1,0 +1,646 @@
+FormKey: 04679B:Skyrim.esm
+EditorID: MQ101Scene3
+Version2: 2
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SF_MQ101Scene1_0004679B
+  ScriptFragments:
+    FileName: SF_MQ101Scene1_0004679B
+    PhaseFragments:
+    - Flags:
+      - OnCompletion
+      Index: 7
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene1_0004679B
+      FragmentName: Fragment_52
+    - Flags:
+      - OnCompletion
+      Index: 9
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene1_0004679B
+      FragmentName: Fragment_79
+    - Flags:
+      - OnCompletion
+      Index: 10
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene1_0004679B
+      FragmentName: Fragment_82
+    - Flags:
+      - OnCompletion
+      Index: 12
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene1_0004679B
+      FragmentName: Fragment_80
+    - Flags:
+      - OnCompletion
+      Index: 16
+      Unknown: 16777216
+      ScriptName: SF_MQ101Scene1_0004679B
+      FragmentName: Fragment_71
+Flags:
+- 0x4
+Phases:
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: End when arrive in town square (hit trigger for stage 40)
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 03372B:Skyrim.esm
+      Stage: 40
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 257
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: Wait for cart 1 to stop - setstage 42 on completion
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 03372B:Skyrim.esm
+      Stage: 41
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 04679B:Skyrim.esm
+      SceneActionIndex: 1
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: Wait for driver 1 to exit - unload cart 1 - setstage 50
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 03372B:Skyrim.esm
+      Stage: 45
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: Wait for cart 2 to stop- setstage 43
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 03372B:Skyrim.esm
+      Stage: 39
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 329
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: unload cart 2 - setstage 54
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 04679B:Skyrim.esm
+      SceneActionIndex: 7
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 287
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: 'Wait for group #3 to exit - setstage 62 - player starts to exit'
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 03372B:Skyrim.esm
+      Stage: 60
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: Wait for player to exit cart
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 03372B:Skyrim.esm
+      Stage: 70
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+Actors:
+- ID: 1
+  Flags: []
+  BehaviorFlags: []
+- ID: 12
+  Flags: []
+  BehaviorFlags: []
+- ID: 4
+  Flags: []
+  BehaviorFlags: []
+- ID: 13
+  Flags: []
+  BehaviorFlags: []
+- ID: 14
+  Flags: []
+  BehaviorFlags: []
+- ID: 29
+  Flags: []
+  BehaviorFlags: []
+- ID: 17
+  Flags: []
+  BehaviorFlags: []
+- ID: 20
+  Flags: []
+  BehaviorFlags: []
+- ID: 36
+  Flags: []
+  BehaviorFlags: []
+- ID: 38
+  Flags: []
+  BehaviorFlags: []
+- ID: 42
+  Flags: []
+  BehaviorFlags: []
+- ID: 43
+  Flags: []
+  BehaviorFlags: []
+- ID: 44
+  Flags: []
+  BehaviorFlags: []
+- ID: 47
+  Flags: []
+  BehaviorFlags: []
+- ID: 30
+  Flags: []
+  BehaviorFlags: []
+- ID: 93
+  Flags: []
+  BehaviorFlags: []
+- ID: 94
+  Flags: []
+  BehaviorFlags: []
+- ID: 119
+  Flags: []
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialoguePause
+- ID: 146
+  Flags: []
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialoguePause
+- ID: 149
+  Flags: []
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialoguePause
+Actions:
+- Name: ''
+  ActorID: 14
+  Index: 1
+  StartPhase: 8
+  EndPhase: 8
+  Topic: 046774:Skyrim.esm
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 12
+  Index: 2
+  StartPhase: 9
+  EndPhase: 10
+  Topic: 046773:Skyrim.esm
+  HeadtrackActorID: 14
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 14
+  Index: 4
+  StartPhase: 13
+  EndPhase: 13
+  Topic: 046771:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 14
+  Index: 5
+  StartPhase: 15
+  EndPhase: 15
+  Topic: 046770:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 12
+  Index: 7
+  Flags:
+  - FaceTarget
+  StartPhase: 12
+  EndPhase: 12
+  Topic: 04676E:Skyrim.esm
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 17
+  Index: 11
+  StartPhase: 6
+  EndPhase: 6
+  Topic: 04676B:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 12
+  Index: 44
+  StartPhase: 7
+  EndPhase: 7
+  Topic: Null
+  HeadtrackActorID: 17
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 14
+  Index: 45
+  StartPhase: 7
+  EndPhase: 7
+  Topic: Null
+  HeadtrackActorID: 17
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 1
+  Index: 88
+  StartPhase: 10
+  EndPhase: 16
+  Packages:
+  - 0654E7:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 36
+  Index: 93
+  StartPhase: 9
+  EndPhase: 16
+  Packages:
+  - 0AA7BA:Skyrim.esm
+- Name: ''
+  ActorID: 12
+  Index: 106
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 0AA790:Skyrim.esm
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Cancel headtrack
+  ActorID: 14
+  Index: 149
+  StartPhase: 18
+  EndPhase: 18
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 4
+  Index: 150
+  StartPhase: 6
+  EndPhase: 19
+  Packages:
+  - 0B6431:Skyrim.esm
+- Name: Look at horse 1
+  ActorID: 29
+  Index: 173
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 93
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look at horse 2
+  ActorID: 17
+  Index: 174
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 94
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Timer
+  Name: ''
+  ActorID: 14
+  Index: 175
+  StartPhase: 11
+  EndPhase: 11
+  TimerSeconds: 1.5
+- Name: Look at Hadvar
+  ActorID: 38
+  Index: 177
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look at Tullius
+  ActorID: 14
+  Index: 178
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 4
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 29
+  Index: 179
+  StartPhase: 10
+  EndPhase: 16
+  Packages:
+  - 0C28DA:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 17
+  Index: 180
+  StartPhase: 10
+  EndPhase: 19
+  Packages:
+  - 0C28D9:Skyrim.esm
+- Type: Package
+  Name: ''
+  ActorID: 1
+  Index: 181
+  StartPhase: 8
+  EndPhase: 9
+  Packages:
+  - 0AA7AD:Skyrim.esm
+- Name: Look Ulfric
+  ActorID: 47
+  Index: 184
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look Prisoner02
+  ActorID: 47
+  Index: 185
+  Flags:
+  - FaceTarget
+  StartPhase: 6
+  EndPhase: 6
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look Ulfric
+  ActorID: 47
+  Index: 186
+  StartPhase: 14
+  EndPhase: 14
+  Topic: Null
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 47
+  Index: 187
+  StartPhase: 5
+  EndPhase: 19
+  Packages:
+  - 025FE6:Skyrim.esm
+- Name: ''
+  ActorID: 12
+  Index: 188
+  StartPhase: 14
+  EndPhase: 14
+  Topic: 0F42F9:Skyrim.esm
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 29
+  Index: 190
+  StartPhase: 17
+  EndPhase: 19
+  Packages:
+  - 0F5D9A:Skyrim.esm
+- Name: ''
+  ActorID: 36
+  Index: 191
+  Flags:
+  - FaceTarget
+  StartPhase: 7
+  EndPhase: 7
+  Topic: 0F7B2F:Skyrim.esm
+  HeadtrackActorID: 13
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 36
+  Index: 193
+  StartPhase: 0
+  EndPhase: 8
+  Packages:
+  - 0F7B5F:Skyrim.esm
+- Name: ''
+  ActorID: 12
+  Index: 197
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 107555:Skyrim.esm
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 14
+  Index: 198
+  StartPhase: 9
+  EndPhase: 9
+  Topic: Null
+  HeadtrackActorID: 12
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 14
+  Index: 199
+  StartPhase: 10
+  EndPhase: 10
+  Topic: Null
+  HeadtrackActorID: 1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look Prisoner02
+  ActorID: 146
+  Index: 200
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: Look Player
+  ActorID: 149
+  Index: 201
+  Flags:
+  - HeadtrackPlayer
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 202
+  Flags:
+  - FaceTarget
+  StartPhase: 0
+  EndPhase: 0
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 1
+  Index: 203
+  Flags:
+  - FaceTarget
+  StartPhase: 13
+  EndPhase: 13
+  Topic: Null
+  HeadtrackActorID: 119
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 36
+  Index: 204
+  Flags:
+  - HeadtrackPlayer
+  StartPhase: 13
+  EndPhase: 13
+  Topic: Null
+  HeadtrackActorID: -1
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 17
+  Index: 205
+  StartPhase: 13
+  EndPhase: 13
+  Topic: Null
+  HeadtrackActorID: 43
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 29
+  Index: 206
+  StartPhase: 13
+  EndPhase: 13
+  Topic: Null
+  HeadtrackActorID: 43
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+Quest: 03372B:Skyrim.esm
+LastActionIndex: 206
+VNAM: 0x03000000030000000300000003000000

@@ -1,0 +1,15 @@
+FormKey: 1CEAE9:AlternatePerspective.esp
+EditorID: AP_VilodsKey
+ObjectBounds:
+  First: 0, -6, -1
+  Second: 0, 6, 1
+Name:
+  TargetLanguage: English
+  Value: Key to Vilod's House
+Model:
+  File: Clutter\Key01.nif
+  Data: 0x020000000000000000000000
+PickUpSound: 03ED75:Skyrim.esm
+PutDownSound: 03ED78:Skyrim.esm
+Keywords:
+- 0914EF:Skyrim.esm

@@ -1,0 +1,63 @@
+FormKey: 0E1B0B:Skyrim.esm
+Version2: 5
+Flags:
+  Flags:
+  - SayOnce
+  - WalkAway
+PreviousDialog: 0C3489:Skyrim.esm
+FavorLevel: None
+LinkTo:
+- 0E1ABC:Skyrim.esm
+- 0E1ABB:Skyrim.esm
+- 01FC33:Skyrim.esm
+Responses:
+- Emotion: Anger
+  EmotionValue: 25
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Only the foolish or the courageous approach a Jarl without summons...
+  ScriptNotes: ''
+  Edits: Either you're quite brave or quite foolish to brazenly approach a Jarl unsummoned.
+- Emotion: Surprise
+  EmotionValue: 25
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Do I know you?
+  ScriptNotes: hint of recognition
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 019E53:Skyrim.esm
+    VariableName: ::PlayerGotIntro_var
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 0E1B5A:Skyrim.esm
+    Stage: 20
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInDialogueWithPlayerConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01414D:Skyrim.esm
+  ComparisonValue: 1
+WalkAwayTopic: 0E1ABB:Skyrim.esm

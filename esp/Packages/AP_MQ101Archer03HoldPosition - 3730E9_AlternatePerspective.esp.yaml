@@ -1,0 +1,38 @@
+FormKey: 3730E9:AlternatePerspective.esp
+EditorID: AP_MQ101Archer03HoldPosition
+Flags:
+- IgnoreCombat
+- NoCombatAlert
+Type: Package
+PreferredSpeed: Run
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+PackageTemplate: 0A9277:Skyrim.esm
+DataInputVersion: 2
+Data:
+- Key: 16
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 3730E5:AlternatePerspective.esp
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataFloat
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+XnamMarker: 0x11
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

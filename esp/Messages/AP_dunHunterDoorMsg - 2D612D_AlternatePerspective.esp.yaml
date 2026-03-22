@@ -1,0 +1,9 @@
+FormKey: 2D612D:AlternatePerspective.esp
+EditorID: AP_dunHunterDoorMsg
+Description:
+  TargetLanguage: English
+  Value: >+
+    It seems nobody is home. Perhaps I should head back later, when a town is burning.
+INAM: 0x00000000
+Flags:
+- MessageBox

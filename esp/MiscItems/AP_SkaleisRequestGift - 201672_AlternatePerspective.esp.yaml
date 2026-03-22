@@ -1,0 +1,8 @@
+FormKey: 201672:AlternatePerspective.esp
+EditorID: AP_SkaleisRequestGift
+Name:
+  TargetLanguage: English
+  Value: Skalei's Package
+Model:
+  File: Clutter\Containers\MiscPouch.nif
+  Data: 0x020000000000000000000000

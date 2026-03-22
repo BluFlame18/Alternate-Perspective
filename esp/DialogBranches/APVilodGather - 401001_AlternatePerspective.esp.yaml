@@ -1,0 +1,7 @@
+FormKey: 401001:AlternatePerspective.esp
+EditorID: APVilodGather
+Quest: 400FFF:AlternatePerspective.esp
+Category: Player
+Flags:
+- TopLevel
+StartingTopic: 401002:AlternatePerspective.esp

@@ -1,0 +1,9 @@
+FormKey: 201675:AlternatePerspective.esp
+EditorID: SkaleiReqHandoverTopic
+Name:
+  TargetLanguage: English
+  Value: I'm delivering a package from Skalei.
+Priority: 90
+Branch: 201674:AlternatePerspective.esp
+Quest: 201671:AlternatePerspective.esp
+SubtypeName: CUST

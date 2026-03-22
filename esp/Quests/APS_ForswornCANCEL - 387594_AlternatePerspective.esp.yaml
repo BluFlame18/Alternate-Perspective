@@ -1,0 +1,30 @@
+FormKey: 387594:AlternatePerspective.esp
+EditorID: APS_ForswornCANCEL
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APCancelHostileStart
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CancelQuest
+      Object: 46649F:AlternatePerspective.esp
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  FileName: ''
+Flags:
+- RunOnce
+Event: ASSU
+EventConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestRunningConditionData
+    Quest: 46649F:AlternatePerspective.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsEditorLocationConditionData
+    RunOnType: EventData
+    RunOnTypeIndex: 12626
+    Location: 01916F:Skyrim.esm
+  ComparisonValue: 1
+NextAliasID: 0

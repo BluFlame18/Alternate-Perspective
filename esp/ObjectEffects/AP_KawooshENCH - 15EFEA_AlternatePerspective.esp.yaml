@@ -1,0 +1,13 @@
+FormKey: 15EFEA:AlternatePerspective.esp
+EditorID: AP_KawooshENCH
+Name:
+  TargetLanguage: English
+  Value: Kawooshl
+EnchantmentCost: 2
+CastType: FireAndForget
+EnchantmentAmount: 2
+TargetType: Touch
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 15EFEB:AlternatePerspective.esp
+  Data: {}

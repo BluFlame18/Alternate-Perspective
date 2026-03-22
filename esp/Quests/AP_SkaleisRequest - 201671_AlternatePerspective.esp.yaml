@@ -1,0 +1,156 @@
+FormKey: 201671:AlternatePerspective.esp
+EditorID: AP_SkaleisRequest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_AP_SkaleisRequest_04201671
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gift
+      Object: 201671:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gift2
+      Object: 201671:AlternatePerspective.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 201671:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Shahvee
+      Object: 201671:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skalei
+      Object: 201671:AlternatePerspective.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GoldReward
+      Object: 0494DF:Skyrim.esm
+  FileName: QF_AP_SkaleisRequest_04201671
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_AP_SkaleisRequest_04201671
+    FragmentName: Fragment_1
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_AP_SkaleisRequest_04201671
+    FragmentName: Fragment_2
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_AP_SkaleisRequest_04201671
+    FragmentName: Fragment_3
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_AP_SkaleisRequest_04201671
+    FragmentName: Fragment_4
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_AP_SkaleisRequest_04201671
+    FragmentName: Fragment_5
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 201671:AlternatePerspective.esp
+      Alias: 1
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 201671:AlternatePerspective.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+  - Property:
+      Name: ''
+      Object: 201671:AlternatePerspective.esp
+      Alias: 3
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 201671:AlternatePerspective.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+Flags:
+- RunOnce
+Type: Misc
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 1
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 30
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 100
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Deliver Skalei's Package to Shahvee
+  Targets:
+  - AliasID: 1
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Deliver Shahvee's Package to Skalei
+  Targets:
+  - AliasID: 3
+NextAliasID: 5
+Aliases:
+- Name: Player
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Shahvee
+  Flags:
+  - AllowReserved
+  UniqueActor: 01411A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: Skalei
+  Flags:
+  - AllowReserved
+  UniqueActor: 1CEAF7:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Gift
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 201672:AlternatePerspective.esp
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null
+- ID: 4
+  Name: Gift2
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 20167B:AlternatePerspective.esp
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null

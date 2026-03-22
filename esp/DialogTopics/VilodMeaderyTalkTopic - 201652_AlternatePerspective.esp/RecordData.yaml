@@ -1,0 +1,9 @@
+FormKey: 201652:AlternatePerspective.esp
+EditorID: VilodMeaderyTalkTopic
+Name:
+  TargetLanguage: English
+  Value: I've heard you're brewing a special kind of mead?
+Priority: 60
+Branch: 201651:AlternatePerspective.esp
+Quest: 1E301D:AlternatePerspective.esp
+SubtypeName: CUST

@@ -1,0 +1,11 @@
+FormKey: 24D5C3:AlternatePerspective.esp
+EditorID: AP_ImperialArmor
+Entries:
+- Data:
+    Level: 1
+    Reference: 24D5BD:AlternatePerspective.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 24D5BF:AlternatePerspective.esp
+    Count: 1

@@ -1,0 +1,266 @@
+FormKey: 2000FA:AlternatePerspective.esp
+EditorID: APMQ101PreIntroScene
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SF_APMQ101PreIntroScene_042000FA
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Matlara
+      Object: 0AAF99:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MatlaraStartMarker
+      Object: 03D4A6:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Torolf
+      Object: 0AAF97:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TorolfStartMarker
+      Object: 04C920:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Torri
+      Object: 0AAF98:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TorriStartMarker
+      Object: 2000FB:AlternatePerspective.esp
+  ScriptFragments:
+    FileName: SF_APMQ101PreIntroScene_042000FA
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: SF_APMQ101PreIntroScene_042000FA
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: SF_APMQ101PreIntroScene_042000FA
+      FragmentName: Fragment_4
+Flags: []
+Phases:
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 2000FA:AlternatePerspective.esp
+      SceneActionIndex: 17
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 2000FA:AlternatePerspective.esp
+      SceneActionIndex: 6
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      Scene: 2000FA:AlternatePerspective.esp
+      SceneActionIndex: 9
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  Unused2: {}
+  EditorWidth: 200
+Actors:
+- ID: 183
+  Flags: []
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialogueEnd
+- ID: 51
+  Flags:
+  - NoPlayerActivation
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialogueEnd
+- ID: 52
+  Flags:
+  - NoPlayerActivation
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialogueEnd
+- ID: 53
+  Flags:
+  - NoPlayerActivation
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialogueEnd
+Actions:
+- Name: ''
+  ActorID: 52
+  Index: 2
+  Flags:
+  - FaceTarget
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 2000FC:AlternatePerspective.esp
+  HeadtrackActorID: 51
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 52
+  Index: 3
+  StartPhase: 1
+  EndPhase: 1
+  Packages:
+  - 2000FE:AlternatePerspective.esp
+- Name: ''
+  ActorID: 51
+  Index: 4
+  Flags:
+  - FaceTarget
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 2000FF:AlternatePerspective.esp
+  HeadtrackActorID: 52
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 52
+  Index: 5
+  Flags:
+  - FaceTarget
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 200101:AlternatePerspective.esp
+  HeadtrackActorID: 51
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 51
+  Index: 6
+  Flags:
+  - FaceTarget
+  StartPhase: 4
+  EndPhase: 4
+  Topic: 200103:AlternatePerspective.esp
+  HeadtrackActorID: 52
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 52
+  Index: 7
+  StartPhase: 5
+  EndPhase: 7
+  Packages:
+  - 200105:AlternatePerspective.esp
+- Name: ''
+  ActorID: 52
+  Index: 8
+  Flags:
+  - FaceTarget
+  StartPhase: 5
+  EndPhase: 5
+  Topic: 200106:AlternatePerspective.esp
+  HeadtrackActorID: 51
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 51
+  Index: 9
+  StartPhase: 6
+  EndPhase: 6
+  Topic: 200108:AlternatePerspective.esp
+  HeadtrackActorID: 53
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Name: ''
+  ActorID: 53
+  Index: 10
+  StartPhase: 7
+  EndPhase: 7
+  Topic: 20010A:AlternatePerspective.esp
+  HeadtrackActorID: 51
+  LoopingMax: 10
+  LoopingMin: 1
+  Emotion: Neutral
+  EmotionValue: 0
+- Type: Package
+  Name: ''
+  ActorID: 51
+  Index: 12
+  StartPhase: 7
+  EndPhase: 7
+  Packages:
+  - 20010E:AlternatePerspective.esp
+- Type: Package
+  Name: ''
+  ActorID: 51
+  Index: 13
+  StartPhase: 0
+  EndPhase: 6
+  Packages:
+  - 20A315:AlternatePerspective.esp
+- Type: Package
+  Name: ''
+  ActorID: 52
+  Index: 14
+  StartPhase: 2
+  EndPhase: 4
+  Packages:
+  - 20A315:AlternatePerspective.esp
+- Type: Package
+  Name: ''
+  ActorID: 53
+  Index: 15
+  StartPhase: 0
+  EndPhase: 6
+  Packages:
+  - 05BC31:AlternatePerspective.esp
+- Type: Timer
+  Name: ''
+  ActorID: 183
+  Index: 17
+  StartPhase: 0
+  EndPhase: 0
+  TimerSeconds: 2
+- Type: Package
+  Name: ''
+  ActorID: 52
+  Index: 18
+  StartPhase: 0
+  EndPhase: 0
+  Packages:
+  - 20A315:AlternatePerspective.esp
+Quest: 03372B:Skyrim.esm
+LastActionIndex: 19
+VNAM: 0x02000000020000000100000003000000

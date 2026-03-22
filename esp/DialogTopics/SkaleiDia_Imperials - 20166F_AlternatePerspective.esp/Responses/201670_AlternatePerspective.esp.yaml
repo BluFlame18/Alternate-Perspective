@@ -1,0 +1,40 @@
+FormKey: 201670:AlternatePerspective.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_AP_05201670
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkaleisRequest
+      Object: 201671:AlternatePerspective.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_AP_05201670
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_AP_05201670
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 20166A:AlternatePerspective.esp
+- 20166D:AlternatePerspective.esp
+Responses:
+- Emotion: Happy
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: The Imperials are more tolerant of differences. If Nords were in charge, I could never have opened up this shop.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 1CEAF7:AlternatePerspective.esp
+  ComparisonValue: 1

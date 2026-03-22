@@ -1,0 +1,9 @@
+FormKey: 093121:Skyrim.esm
+EditorID: DialogueWhiterunIrilethTopicsBranch3Topic
+Name:
+  TargetLanguage: English
+  Value: What threats does the jarl face?
+Priority: 20
+Branch: 093141:Skyrim.esm
+Quest: 0270A4:Skyrim.esm
+SubtypeName: CUST

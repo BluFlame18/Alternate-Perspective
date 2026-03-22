@@ -1,0 +1,8 @@
+FormKey: 09028B:Skyrim.esm
+EditorID: DialogueRiftenKeervaRumorsBranchTopic
+Name:
+  TargetLanguage: English
+  Value: What's the word around town?
+Branch: 0902A1:Skyrim.esm
+Quest: 0368D8:Skyrim.esm
+SubtypeName: CUST

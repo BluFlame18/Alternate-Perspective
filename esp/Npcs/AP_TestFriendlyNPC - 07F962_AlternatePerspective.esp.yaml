@@ -1,0 +1,128 @@
+FormKey: 07F962:AlternatePerspective.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: AP_TestFriendlyNPC
+SkyrimMajorRecordFlags:
+- Compressed
+Configuration:
+  Flags:
+  - AutoCalcStats
+  - LoopedScript
+  StaminaOffset: 200
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 5
+  CalcMinLevel: 5
+  SpeedMultiplier: 100
+  DispositionBase: 35
+  TemplateFlags:
+  - Traits
+  - DefPackList
+  - AttackData
+  HealthOffset: 200
+Factions:
+- Faction: 02816B:Skyrim.esm
+  Fluff: 0x000000
+Template: 0E7B2C:Skyrim.esm
+Race: 109C7C:Skyrim.esm
+Items:
+- Item:
+    Item: 013914:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Responsibility: NoCrime
+Class: 01317F:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Test NPC
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 23
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 21
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 21
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 39
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 18
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 245
+  Magicka: 7
+  Stamina: 420
+  GearedUpWeapons: 1
+CombatStyle: 068847:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 0D3BF8:Skyrim.esm
+TextureLighting: '#00000000'
+MajorFlags:
+- 0x40000

@@ -1,0 +1,37 @@
+FormKey: 04E1A2:Skyrim.esm
+Version2: 6
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__0004E1A2
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BoundStandingCut
+      Object: 109B6A:Skyrim.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__0004E1A2
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__0004E1A2
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: There you go. You may as well take Gunjar's gear. He won't be needing it any more.
+  ScriptNotes: ''
+  Edits: ''
+  SpeakerIdleAnimation: 109B69:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04679E:Skyrim.esm
+  ComparisonValue: 7

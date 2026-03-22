@@ -1,0 +1,22 @@
+FormKey: 2BCBF6:AlternatePerspective.esp
+EditorID: AP_HelgenInnFloor
+ObjectBounds:
+  First: -128, -128, -4
+  Second: 128, 128, 0
+Model:
+  File: Architecture\Riften\Interior\SmallRoomBasement\RifRmSmBaseFloor02.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: RifRmSmBaseFloor02:23.002
+    NewTexture: 1B533E:AlternatePerspective.esp
+    Index: 3
+  - Name: RifRmSmBaseFloor02:23.003
+    NewTexture: 1B533E:AlternatePerspective.esp
+    Index: 2
+  - Name: RifRmSmBaseFloor02:23.001
+    NewTexture: 1B533E:AlternatePerspective.esp
+    Index: 1
+  - Name: RifRmSmBaseFloor02:23
+    NewTexture: 1B533E:AlternatePerspective.esp
+MaxAngle: 90
+Unused: 0x000000

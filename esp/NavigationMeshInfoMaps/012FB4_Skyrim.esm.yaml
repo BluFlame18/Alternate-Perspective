@@ -1,0 +1,7168 @@
+FormKey: 012FB4:Skyrim.esm
+Version2: 2
+NavMeshVersion: 12
+MapInfos:
+- NavigationMesh: 2D101D:AlternatePerspective.esp
+  Unknown: 32
+  Point: 20273.375, -85979.45, 11545.78
+  MergedTo:
+  - 0EE980:Skyrim.esm
+  Island:
+    Min: 20131.809, -86016, 11540.094
+    Max: 20351.762, -85907.164, 11549.972
+    Triangles:
+    - 2, 1, 0
+    Vertices:
+    - 20351.762, -86015.56, 11547.245
+    - 20131.809, -86016, 11549.972
+    - 20335.926, -85907.164, 11540.094
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 4
+- NavigationMesh: 0A3F44:Skyrim.esm
+  Unknown: 64
+  Point: -87820.7, 9849.496, -3442.701
+  PreferredMergesFlag: 1037732190
+  MergedTo:
+  - 104734:Skyrim.esm
+  PreferredMerges:
+  - 0E8230:Skyrim.esm
+  - 0F11AB:Skyrim.esm
+  - 104736:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: 2, -22
+- NavigationMesh: 1B53B1:AlternatePerspective.esp
+  Point: 273.95026, 162.05695, 1.5342004
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 1B532F:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 1B532E:AlternatePerspective.esp
+- NavigationMesh: 0EE97A:Skyrim.esm
+  Point: 14083.109, -88459.82, 9952.492
+  MergedTo:
+  - 0EE979:Skyrim.esm
+  - 0EE97E:Skyrim.esm
+  - 0EE986:Skyrim.esm
+  - 0EE980:Skyrim.esm
+  - 0EE97F:Skyrim.esm
+  - 0C28CE:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -22, 3
+- NavigationMesh: 0C28D1:Skyrim.esm
+  Unknown: 32
+  Point: 14974.549, -80333.41, -155543.02
+  PreferredMergesFlag: 1044169862
+  MergedTo:
+  - 0EB633:Skyrim.esm
+  - 0FECF2:Skyrim.esm
+  PreferredMerges:
+  - 04657A:Skyrim.esm
+  Island:
+    Min: 12288, -81920, -156077.56
+    Max: 16384, -77824, -155481.6
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 3
+- NavigationMesh: 0CCB5C:Skyrim.esm
+  Unknown: 32
+  Point: 14538.538, -82021.52, 8242.77
+  MergedTo:
+  - 368EDD:AlternatePerspective.esp
+  Island:
+    Min: 14407.776, -82169.91, 8242.769
+    Max: 14705.444, -81920, 8242.77
+    Triangles:
+    - 2, 0, 1
+    - 3, 0, 2
+    Vertices:
+    - 14568.517, -81920, 8242.769
+    - 14407.776, -81920, 8242.769
+    - 14549.467, -82169.91, 8242.769
+    - 14705.444, -82094.94, 8242.769
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 3
+- NavigationMesh: 3BA037:AlternatePerspective.esp
+  Point: 18371.4, -79507.41, 8356.701
+  PreferredMergesFlag: 1051681570
+  MergedTo:
+  - 42E8FD:AlternatePerspective.esp
+  - 0EE990:Skyrim.esm
+  PreferredMerges:
+  - 2AD8EF:AlternatePerspective.esp
+  - 01C7A4:Skyrim.esm
+  - 368EDD:AlternatePerspective.esp
+  - 02AB79:Skyrim.esm
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 1CEAED:AlternatePerspective.esp
+  - Unknown: -460622861
+    Door: 1B532D:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0E72BD:Skyrim.esm
+  Unknown: 32
+  Point: 14833.176, -80414.55, -154713.86
+  Island:
+    Min: 14638.529, -80563.87, -154743.16
+    Max: 15086.169, -80271.6, -154696.28
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 3
+- NavigationMesh: 169367:AlternatePerspective.esp
+  Point: 141.70947, -38.32853, 4.253811E-05
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 15EFF2:AlternatePerspective.esp
+- NavigationMesh: 0EC736:Skyrim.esm
+  Point: 10022.429, -75587.664, 6240.1846
+  MergedTo:
+  - 0EFC53:Skyrim.esm
+  - 0EFC52:Skyrim.esm
+  - 0EC73F:Skyrim.esm
+  - 078B45:Skyrim.esm
+  - 0EC734:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -19, 2
+- NavigationMesh: 0FECF3:Skyrim.esm
+  Unknown: 32
+  Point: 19106.309, -80886.57, -155426.86
+  PreferredMergesFlag: 1056275133
+  Island:
+    Min: 18428.236, -81594.516, -155475.12
+    Max: 19798.97, -80025.58, -155340.03
+    Triangles:
+    - 11, 2, 6
+    - 8, 3, 2
+    - 7, 4, 11
+    - 5, 8, 2
+    - 9, 10, 7
+    - 7, 11, 9
+    - 11, 6, 0
+    - 0, 6, 1
+    - 4, 2, 11
+    - 2, 4, 5
+    Vertices:
+    - 19212.297, -80025.58, -155367.05
+    - 19798.97, -80257.78, -155340.03
+    - 19639.965, -81092.45, -155385.42
+    - 19563.205, -81274.45, -155428.11
+    - 19025.877, -81594.516, -155423.25
+    - 19256.16, -81487.83, -155442.16
+    - 19760.59, -80458.6, -155366.52
+    - 18598.207, -81575.69, -155469.72
+    - 19431.613, -81393.695, -155441.62
+    - 18483.066, -81167.766, -155471.88
+    - 18537.895, -81368.586, -155470.27
+    - 18428.236, -80684.53, -155470.8
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0EC73D:Skyrim.esm
+  Unknown: 32
+  Point: 11773.68, -81214.555, 7692.6484
+  MergedTo:
+  - 0EE983:Skyrim.esm
+  - 368EDD:AlternatePerspective.esp
+  Island:
+    Min: 11200, -81920, 7496
+    Max: 12288, -80512, 7869.6274
+    Triangles:
+    - 2, 10, 1
+    - 4, 8, 3
+    - 2, 1, 9
+    - 7, 5, 8
+    - 11, 1, 6
+    - 12, 6, 1
+    - 1, 8, 9
+    - 9, 8, 4
+    - 7, 8, 1
+    - 1, 11, 7
+    - 7, 11, 6
+    - 12, 1, 0
+    - 5, 8, 7
+    Vertices:
+    - 11260.928, -80641.54, 7643.9565
+    - 11517.696, -80579.586, 7724.66
+    - 12031.232, -80579.586, 7851.6934
+    - 12288, -81480.7, 7733.627
+    - 12288, -81379.33, 7757.539
+    - 12039.936, -81920, 7576.7036
+    - 11260.928, -81283.586, 7578.198
+    - 11900.672, -81796.09, 7496
+    - 12288, -81920, 7657.407
+    - 12288, -81216, 7802.3745
+    - 11965.952, -80512, 7842.726
+    - 11643.904, -81413.12, 7787.429
+    - 11200, -81216, 7572.22
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 2
+- NavigationMesh: 2AD8EF:AlternatePerspective.esp
+  Point: 17856.73, -75812.84, 7879.4556
+  PreferredMergesFlag: 1043199518
+  MergedTo:
+  - 0EC74A:Skyrim.esm
+  - 0CCE3D:Skyrim.esm
+  PreferredMerges:
+  - 3BA037:AlternatePerspective.esp
+  - 0EC73F:Skyrim.esm
+  - 0EC742:Skyrim.esm
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 1DDEF5:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -19, 4
+- NavigationMesh: 101582:Skyrim.esm
+  Unknown: 32
+  Point: 14779.523, -82748.414, 9932.061
+  Island:
+    Min: 14674.07, -82817.836, 9931.51
+    Max: 14883.034, -82682.29, 9933.074
+    Triangles:
+    - 3, 1, 2
+    - 3, 0, 1
+    Vertices:
+    - 14874.676, -82817.836, 9933.074
+    - 14883.034, -82703.98, 9931.578
+    - 14685.772, -82682.29, 9932.073
+    - 14674.07, -82790.19, 9931.51
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 3
+- NavigationMesh: 105E9A:Skyrim.esm
+  Unknown: 64
+  Point: -71841.15, 100649.5, -10293.547
+  PreferredMergesFlag: 1035081283
+  MergedTo:
+  - 0C397C:Skyrim.esm
+  - 10848F:Skyrim.esm
+  - 0DEEF2:Skyrim.esm
+  PreferredMerges:
+  - 0F0963:Skyrim.esm
+  - 0DEEF1:Skyrim.esm
+  - 0B097B:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: 24, -18
+- NavigationMesh: 0EE98A:Skyrim.esm
+  Point: 10828.8125, -85401.97, 8606.188
+  MergedTo:
+  - 0EE982:Skyrim.esm
+  - 0EE979:Skyrim.esm
+  - 0C28CE:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 2
+- NavigationMesh: 0EC741:Skyrim.esm
+  Point: 14316.658, -71866.86, 6559.7754
+  PreferredMergesFlag: 1032924344
+  MergedTo:
+  - 078B45:Skyrim.esm
+  PreferredMerges:
+  - 0EC742:Skyrim.esm
+  - 0EBDE2:Skyrim.esm
+  - 0EC73F:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -18, 3
+- NavigationMesh: 0F94AB:Skyrim.esm
+  Unknown: 32
+  Point: 14362.627, -80446.31, -154710.03
+  Island:
+    Min: 14171.923, -80587.2, -154715.6
+    Max: 14525.694, -80310.25, -154700.03
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 3
+- NavigationMesh: 0E491D:Skyrim.esm
+  Unknown: 32
+  Point: 13245.303, -80566.83, -155097.88
+  Island:
+    Min: 12890.3125, -80952.71, -155115.88
+    Max: 13531.689, -80093.086, -155080.34
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 3
+- NavigationMesh: 0EC74A:Skyrim.esm
+  Unknown: 32
+  Point: 21243.225, -77482.43, 8695.527
+  MergedTo:
+  - 2AD8EF:AlternatePerspective.esp
+  - 01C7A4:Skyrim.esm
+  Island:
+    Min: 20480, -77824, 8480.327
+    Max: 22016, -76954.516, 8856
+    Triangles:
+    - 8, 6, 1
+    - 1, 6, 2
+    - 7, 6, 0
+    - 0, 6, 3
+    - 4, 6, 8
+    - 4, 3, 6
+    - 0, 5, 7
+    Vertices:
+    - 20480, -76954.516, 8480.327
+    - 21757.951, -77824, 8779.362
+    - 21696.512, -77824, 8761.33
+    - 21370.88, -77184.06, 8816.93
+    - 21438.465, -77250.14, 8828.951
+    - 20480, -77730.09, 8541.9375
+    - 20989.951, -77824, 8550.954
+    - 20670.465, -77824, 8544.943
+    - 22016, -77824, 8856
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -19, 5
+- NavigationMesh: 02AC81:Skyrim.esm
+  Unknown: 32
+  Point: 17000.486, -81338.57, 9165.098
+  MergedTo:
+  - 0D8C91:Skyrim.esm
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 04C92E:AlternatePerspective.esp
+  Island:
+    Min: 16576, -81728, 9126.875
+    Max: 17408, -80896, 9307.045
+    Triangles:
+    - 1, 7, 6
+    - 4, 5, 14
+    - 10, 3, 2
+    - 2, 3, 0
+    - 9, 1, 10
+    - 4, 12, 11
+    - 1, 3, 10
+    - 1, 9, 7
+    - 4, 1, 8
+    - 8, 12, 4
+    - 10, 13, 9
+    - 3, 1, 4
+    - 4, 11, 5
+    Vertices:
+    - 17354.752, -81228.8, 9307.045
+    - 16895.488, -81664.766, 9126.875
+    - 17338.111, -81108.99, 9300.559
+    - 17278.207, -81232.125, 9304.883
+    - 17214.977, -81445.12, 9126.875
+    - 17408, -81538.305, 9126.875
+    - 16576, -81475.07, 9136.965
+    - 16576, -81345.28, 9165.071
+    - 16958.72, -81698.05, 9148.495
+    - 16702.465, -81025.79, 9126.875
+    - 16895.488, -80896, 9126.875
+    - 17085.184, -81728, 9126.875
+    - 17021.951, -81728, 9170.116
+    - 16828.928, -80896, 9126.875
+    - 17408, -81475.07, 9126.875
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0D8C91:Skyrim.esm
+  Unknown: 32
+  Point: 17322.115, -81314.67, 9317.794
+  MergedTo:
+  - 02AC81:Skyrim.esm
+  Island:
+    Min: 17264.637, -81396.086, 9316.579
+    Max: 17382.803, -81239.08, 9319.001
+    Triangles:
+    - 1, 0, 3
+    - 1, 2, 0
+    Vertices:
+    - 17360.588, -81239.7, 9316.918
+    - 17264.637, -81396.086, 9318.672
+    - 17382.803, -81384.16, 9316.579
+    - 17280.234, -81239.08, 9319.001
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0E1E96:Skyrim.esm
+  Unknown: 32
+  Point: 17429.697, -78162.48, -154646.89
+  MergedTo:
+  - 0E6D56:Skyrim.esm
+  Island:
+    Min: 17130.082, -78475.69, -154683.1
+    Max: 17614.41, -77824, -154613.47
+    Triangles:
+    - 5, 1, 4
+    - 2, 0, 3
+    - 2, 5, 4
+    - 5, 2, 3
+    Vertices:
+    - 17612.473, -78436.586, -154621.27
+    - 17130.082, -77824, -154679.75
+    - 17503.982, -78475.69, -154622.11
+    - 17579.54, -78324.49, -154617.1
+    - 17244.383, -78029.93, -154679.75
+    - 17420.68, -77824, -154683.1
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 1030CB:Skyrim.esm
+  Unknown: 64
+  Point: -161513.11, 5981.7256, -4981.56
+  PreferredMergesFlag: 1025392031
+  MergedTo:
+  - 0F58C3:Skyrim.esm
+  - 1064EF:Skyrim.esm
+  - 0F58C2:Skyrim.esm
+  - 1064E9:Skyrim.esm
+  - 096F91:Skyrim.esm
+  PreferredMerges:
+  - 108C0F:Skyrim.esm
+  - 1064FC:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: 1, -40
+- NavigationMesh: 079BBF:Skyrim.esm
+  Unknown: 64
+  Point: 22345.42, -14143.866, -4488.874
+  PreferredMergesFlag: 1029821241
+  MergedTo:
+  - 079BD2:Skyrim.esm
+  - 0E16FC:Skyrim.esm
+  - 0A344B:Skyrim.esm
+  - 0EA081:Skyrim.esm
+  - 0E16E2:Skyrim.esm
+  PreferredMerges:
+  - 079BC2:Skyrim.esm
+  - 0B8335:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -4, 5
+- NavigationMesh: 2D1020:AlternatePerspective.esp
+  Unknown: 32
+  Point: 13876.504, -82404.14, 8694.438
+  MergedTo:
+  - 368EDD:AlternatePerspective.esp
+  Island:
+    Min: 13436.486, -82927.484, 8670.15
+    Max: 14319.677, -81920, 8716.959
+    Triangles:
+    - 0, 5, 2
+    - 0, 1, 3
+    - 4, 0, 3
+    - 5, 0, 4
+    Vertices:
+    - 13648.452, -82355.234, 8673.8955
+    - 13849.819, -82661.51, 8703.104
+    - 13436.486, -81920, 8670.15
+    - 14185.432, -82927.484, 8701.793
+    - 14319.677, -82790.47, 8716.959
+    - 13722.64, -81920, 8716.397
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 3
+- NavigationMesh: 0FECF0:Skyrim.esm
+  Unknown: 32
+  Point: 17949.365, -81341.33, -155468.83
+  PreferredMergesFlag: 1035837743
+  Island:
+    Min: 17280, -81920, -155518.5
+    Max: 18596.842, -80624.42, -155430.53
+    Triangles:
+    - 9, 4, 3
+    - 11, 7, 12
+    - 4, 9, 11
+    - 1, 6, 11
+    - 11, 8, 0
+    - 11, 13, 8
+    - 11, 2, 5
+    - 6, 7, 11
+    - 12, 13, 11
+    - 11, 9, 1
+    - 4, 11, 5
+    - 1, 9, 10
+    Vertices:
+    - 18533.633, -81370.67, -155462.9
+    - 17669.785, -81920, -155457.28
+    - 18106.977, -80634.79, -155430.53
+    - 17527.566, -80992.37, -155486.12
+    - 17617.111, -80873.17, -155513.58
+    - 17964.758, -80624.42, -155434.75
+    - 17954.223, -81920, -155453.05
+    - 18122.78, -81920, -155449.89
+    - 18596.842, -81577.97, -155471
+    - 17280, -81795.625, -155467.83
+    - 17295.803, -81920, -155457.28
+    - 18470.426, -81163.38, -155454.45
+    - 18207.057, -81920, -155454.11
+    - 18565.238, -81707.52, -155467.48
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0EE990:Skyrim.esm
+  Unknown: 32
+  Point: 20587.936, -79054.45, 8855.344
+  MergedTo:
+  - 3BA037:AlternatePerspective.esp
+  Island:
+    Min: 20480, -79973.266, 8855.344
+    Max: 20689.268, -78217.45, 8855.344
+    Triangles:
+    - 2, 7, 1
+    - 8, 9, 5
+    - 7, 9, 4
+    - 3, 1, 7
+    - 4, 9, 6
+    - 9, 7, 0
+    - 6, 9, 8
+    - 2, 0, 7
+    Vertices:
+    - 20480, -78807.41, 8855.344
+    - 20511.809, -78217.45, 8855.344
+    - 20480, -78631.83, 8855.344
+    - 20659.133, -78224.48, 8855.344
+    - 20673.363, -79088.336, 8855.344
+    - 20689.268, -79973.266, 8855.344
+    - 20678.385, -79341.17, 8855.344
+    - 20662.48, -78364.94, 8855.344
+    - 20682.57, -79586.984, 8855.344
+    - 20536.92, -79973.266, 8855.344
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 5
+- NavigationMesh: 368EDD:AlternatePerspective.esp
+  Point: 14761.828, -80397.03, 8279.506
+  PreferredMergesFlag: 1045926966
+  MergedTo:
+  - 42E8FD:AlternatePerspective.esp
+  - 2D1020:AlternatePerspective.esp
+  - 42E8FB:AlternatePerspective.esp
+  - 42E8FE:AlternatePerspective.esp
+  - 0EB632:Skyrim.esm
+  - 0EC73D:Skyrim.esm
+  - 0CCB5C:Skyrim.esm
+  PreferredMerges:
+  - 2D101F:AlternatePerspective.esp
+  - 0C28D0:Skyrim.esm
+  - 3BA037:AlternatePerspective.esp
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 091A00:Skyrim.esm
+  - Unknown: -460622861
+    Door: 0E56C6:AlternatePerspective.esp
+  - Unknown: -460622861
+    Door: 0E56C5:AlternatePerspective.esp
+  - Unknown: -460622861
+    Door: 025FB2:Skyrim.esm
+  - Unknown: -460622861
+    Door: 05DF01:Skyrim.esm
+  - Unknown: -460622861
+    Door: 025FAE:Skyrim.esm
+  - Unknown: -460622861
+    Door: 1B53BA:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 3
+- NavigationMesh: 103120:Skyrim.esm
+  Unknown: 64
+  Point: 173984.75, -88130.71, 10525.382
+  PreferredMergesFlag: 1031317818
+  MergedTo:
+  - 106976:Skyrim.esm
+  - 106985:Skyrim.esm
+  - 106E9D:Skyrim.esm
+  PreferredMerges:
+  - 104FC5:Skyrim.esm
+  - 0E0BCB:Skyrim.esm
+  - 0E0BF5:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -22, 42
+- NavigationMesh: 0CCE37:Skyrim.esm
+  Unknown: 32
+  Point: 20360, -78752.08, -154918.31
+  Island:
+    Min: 20224, -78848, -154979.88
+    Max: 20480, -78656, -154865.81
+    Triangles:
+    - 6, 0, 1
+    - 4, 2, 3
+    - 0, 4, 3
+    - 0, 5, 4
+    - 5, 0, 6
+    Vertices:
+    - 20287.488, -78816.516, -154952.5
+    - 20352, -78848, -154925.58
+    - 20224, -78656, -154979.88
+    - 20224, -78784.26, -154979.88
+    - 20415.488, -78656, -154888.62
+    - 20480, -78669.82, -154866.27
+    - 20480, -78803.45, -154865.81
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 21FB02:AlternatePerspective.esp
+  Point: 108.05933, 67.220116, -83.535095
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 04C92A:AlternatePerspective.esp
+  - Unknown: -460622861
+    Door: 04C92C:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 04C921:AlternatePerspective.esp
+- NavigationMesh: 0E88CC:Skyrim.esm
+  Unknown: 64
+  Point: -35382.9, 59296.02, -12536.658
+  PreferredMergesFlag: 1041090781
+  MergedTo:
+  - 10625B:Skyrim.esm
+  PreferredMerges:
+  - 0E88CD:Skyrim.esm
+  - 0E8086:Skyrim.esm
+  - 0E88AC:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: 14, -9
+- NavigationMesh: 10DE11:Skyrim.esm
+  Unknown: 32
+  Point: 16816.764, -79825.3, -134205.5
+  Island:
+    Min: 16441.186, -80060.516, -154609.19
+    Max: 16672.408, -79817.64, -154562.69
+    Triangles:
+    - 4, 2, 0
+    - 6, 0, 2
+    - 0, 1, 4
+    - 2, 3, 5
+    - 2, 5, 6
+    Vertices:
+    - 16441.186, -79821.52, -154602.12
+    - 16441.186, -80044, -154609.19
+    - 16672.408, -80052.74, -154569.02
+    - 16663.16, -79817.64, -154562.69
+    - 16570.67, -80060.516, -154607.89
+    - 16573.445, -79819.586, -154563.06
+    - 16482.805, -79820.555, -154563.44
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0EC742:Skyrim.esm
+  Point: 17266.629, -71665.05, 7027.828
+  PreferredMergesFlag: 1012010273
+  MergedTo:
+  - 0EBE13:Skyrim.esm
+  PreferredMerges:
+  - 0EC741:Skyrim.esm
+  - 2AD8EF:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -18, 4
+- NavigationMesh: 01C7A4:Skyrim.esm
+  Point: 22998.248, -79417.63, 9080.836
+  PreferredMergesFlag: 1044297996
+  MergedTo:
+  - 0EE98C:Skyrim.esm
+  - 0EC74A:Skyrim.esm
+  - 0EC737:Skyrim.esm
+  PreferredMerges:
+  - 07C628:Skyrim.esm
+  - 3BA037:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 5
+- NavigationMesh: 0C28CE:Skyrim.esm
+  Unknown: 32
+  Point: 13370.568, -84955.27, 8769.265
+  MergedTo:
+  - 0EE98F:Skyrim.esm
+  - 0EE97A:Skyrim.esm
+  - 0EE98A:Skyrim.esm
+  Island:
+    Min: 12288, -86016, 8472.883
+    Max: 16015.121, -83682.18, 9672.945
+    Triangles:
+    - 5, 30, 1
+    - 31, 28, 33
+    - 4, 7, 24
+    - 4, 11, 27
+    - 19, 12, 5
+    - 32, 33, 28
+    - 19, 13, 12
+    - 13, 6, 14
+    - 27, 5, 16
+    - 23, 20, 0
+    - 28, 3, 32
+    - 8, 11, 4
+    - 10, 13, 14
+    - 30, 23, 1
+    - 8, 4, 24
+    - 18, 5, 12
+    - 29, 30, 28
+    - 29, 28, 31
+    - 29, 26, 23
+    - 4, 34, 7
+    - 29, 23, 30
+    - 8, 24, 25
+    - 11, 5, 27
+    - 28, 18, 22
+    - 6, 13, 19
+    - 2, 18, 12
+    - 23, 21, 1
+    - 28, 17, 15
+    - 0, 21, 23
+    - 18, 28, 30
+    - 12, 9, 2
+    - 5, 18, 30
+    - 19, 5, 11
+    - 28, 15, 3
+    Vertices:
+    - 15925.67, -85978.66, 9620.143
+    - 15627.501, -85791.95, 9413.731
+    - 12660.712, -86016, 8943.308
+    - 13883.208, -86016, 8760.897
+    - 12466.901, -83719.52, 8554.487
+    - 13585.038, -83812.875, 8655.292
+    - 12288, -85119.81, 8828.102
+    - 12288, -83906.23, 8501.685
+    - 12288, -84550.36, 8578.488
+    - 12288, -86016, 8972.108
+    - 12288, -85250.51, 8885.704
+    - 12288, -84727.734, 8564.088
+    - 12288, -85511.9, 8943.308
+    - 12288, -85297.18, 8904.905
+    - 12288, -85185.16, 8861.703
+    - 13823.574, -86016, 8756.098
+    - 13435.953, -83728.86, 8607.29
+    - 13749.031, -86016, 8760.897
+    - 12794.889, -86016, 8924.106
+    - 12288, -85054.47, 8799.3
+    - 16015.121, -86016, 9672.945
+    - 15702.043, -85838.63, 9466.534
+    - 13048.333, -86016, 8900.105
+    - 15612.592, -86016, 9572.14
+    - 12288, -83971.57, 8535.286
+    - 12288, -84036.92, 8573.688
+    - 15031.161, -86016, 9231.322
+    - 13361.411, -83682.18, 8578.488
+    - 13555.222, -86016, 8775.299
+    - 14807.534, -86016, 9106.516
+    - 14136.652, -84681.055, 8511.285
+    - 14330.463, -86016, 8837.702
+    - 14077.019, -86016, 8780.099
+    - 14270.828, -86016, 8823.301
+    - 12347.634, -83784.87, 8472.883
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 3
+- NavigationMesh: 07A84E:AlternatePerspective.esp
+  Point: -17, -2085, -50.615376
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 0752FA:AlternatePerspective.esp
+- NavigationMesh: 1CEADB:AlternatePerspective.esp
+  Point: -222.89273, -66.88259, 240.23308
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 1CEA56:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 1CEA41:AlternatePerspective.esp
+- NavigationMesh: 0EC734:Skyrim.esm
+  Point: 9198.549, -80253.055, 5936.6294
+  PreferredMergesFlag: 1042443638
+  MergedTo:
+  - 0EC736:Skyrim.esm
+  PreferredMerges:
+  - 0E8404:Skyrim.esm
+  - 0EE983:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 2
+- NavigationMesh: 0FECF1:Skyrim.esm
+  Unknown: 32
+  Point: 18671.49, -81837.68, 8344.911
+  MergedTo:
+  - 02AB79:Skyrim.esm
+  Island:
+    Min: 18377.451, -81920, 8344.911
+    Max: 18798.195, -81714.31, 8344.911
+    Triangles:
+    - 0, 1, 2
+    - 4, 2, 1
+    - 1, 3, 4
+    Vertices:
+    - 18377.451, -81920, 8344.911
+    - 18715.729, -81920, 8344.911
+    - 18710.68, -81715.13, 8344.911
+    - 18798.195, -81851.71, 8344.911
+    - 18754.438, -81783.42, 8344.911
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0EC73F:Skyrim.esm
+  Point: 14367.819, -75075.27, 7364.107
+  PreferredMergesFlag: 1009789963
+  MergedTo:
+  - 0EC736:Skyrim.esm
+  PreferredMerges:
+  - 2AD8EF:AlternatePerspective.esp
+  - 0EC741:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -19, 3
+- NavigationMesh: 10377B:Skyrim.esm
+  Unknown: 64
+  Point: 26663.953, 100537.73, -13024.316
+  PreferredMergesFlag: 1036239812
+  MergedTo:
+  - 01689A:Skyrim.esm
+  - 103618:Skyrim.esm
+  PreferredMerges:
+  - 103613:Skyrim.esm
+  - 0ECBF3:Skyrim.esm
+  - 0168CE:Skyrim.esm
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 084B2D:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: 24, 6
+- NavigationMesh: 098776:Skyrim.esm
+  Unknown: 32
+  Point: 17747.898, -75712.086, -155887.05
+  PreferredMergesFlag: 1043434595
+  PreferredMerges:
+  - 04657A:Skyrim.esm
+  Island:
+    Min: 16384, -77824, -156738.03
+    Max: 20480, -73728, -155185.1
+    Triangles:
+    - 5, 16, 3
+    - 21, 5, 3
+    - 10, 0, 25
+    - 15, 10, 25
+    - 7, 10, 1
+    - 16, 0, 10
+    - 9, 0, 5
+    - 5, 21, 13
+    - 1, 10, 6
+    - 26, 25, 0
+    - 25, 14, 22
+    - 22, 23, 25
+    - 20, 18, 19
+    - 15, 25, 23
+    - 12, 16, 10
+    - 10, 17, 6
+    - 1, 6, 4
+    - 3, 16, 20
+    - 10, 15, 2
+    - 26, 27, 25
+    - 5, 0, 16
+    - 6, 17, 11
+    - 20, 16, 18
+    - 25, 24, 14
+    - 2, 17, 10
+    - 6, 11, 8
+    Vertices:
+    - 17874.943, -73957.375, -156060.95
+    - 16384, -75595.77, -156197.61
+    - 16384, -74694.66, -156365.33
+    - 19218.432, -77824, -155253.42
+    - 16384, -75333.63, -156253.52
+    - 19660.8, -76005.375, -155489.47
+    - 16384, -75268.09, -156234.88
+    - 17743.871, -77824, -155402.5
+    - 16384, -75202.56, -156253.52
+    - 19054.592, -75268.09, -155650.97
+    - 17973.248, -77824, -155371.45
+    - 16384, -75087.875, -156253.52
+    - 18137.088, -77824, -155365.23
+    - 20480, -76972.03, -155259.64
+    - 16384, -74252.29, -156595.16
+    - 16384, -74563.586, -156371.53
+    - 18333.695, -77824, -155340.39
+    - 16384, -74956.8, -156352.9
+    - 18530.305, -77824, -155321.75
+    - 18595.84, -77824, -155309.33
+    - 18956.29, -77824, -155278.27
+    - 20480, -77742.08, -155191.31
+    - 16384, -74317.82, -156564.11
+    - 16384, -74498.05, -156483.34
+    - 16384, -74186.75, -156620.02
+    - 16384, -73875.45, -156713.19
+    - 16613.377, -73728, -156682.12
+    - 16384, -73728, -156738.03
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -19, 4
+- NavigationMesh: 2AD8F0:AlternatePerspective.esp
+  Unknown: 32
+  Point: 16560.072, -77616.61, 8226.934
+  MergedTo:
+  - 0CCE3D:Skyrim.esm
+  - 0D8C90:Skyrim.esm
+  Island:
+    Min: 16384, -77824, 8221.193
+    Max: 16848.416, -77389.02, 8232.323
+    Triangles:
+    - 2, 0, 3
+    - 1, 2, 6
+    - 3, 0, 4
+    - 2, 5, 6
+    - 5, 2, 3
+    Vertices:
+    - 16848.416, -77824, 8224.488
+    - 16384, -77824, 8225.734
+    - 16556.764, -77824, 8230.8545
+    - 16577.197, -77455.14, 8226.58
+    - 16770.395, -77582.16, 8221.193
+    - 16384, -77389.02, 8232.323
+    - 16384, -77528.22, 8230.765
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -19, 4
+- NavigationMesh: 2D101F:AlternatePerspective.esp
+  Point: 15282.013, -83037.91, 8639.213
+  PreferredMergesFlag: 1040290110
+  PreferredMerges:
+  - 368EDD:AlternatePerspective.esp
+  - 02AB79:Skyrim.esm
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 015B6A:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 3
+- NavigationMesh: 0F3E7C:Skyrim.esm
+  Unknown: 32
+  Point: 13877.79, -80444.76, -154742.44
+  Island:
+    Min: 13786.159, -80548.11, -154746.22
+    Max: 13971.597, -80340.07, -154736.34
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 3
+- NavigationMesh: 0CCE3D:Skyrim.esm
+  Unknown: 32
+  Point: 17529.717, -76672.586, 8495.051
+  MergedTo:
+  - 2AD8F0:AlternatePerspective.esp
+  - 2AD8EF:AlternatePerspective.esp
+  - 42E8FD:AlternatePerspective.esp
+  Island:
+    Min: 16384, -77824, 8387.383
+    Max: 18719.9, -75809.1, 8713.046
+    Triangles:
+    - 3, 1, 0
+    - 9, 7, 1
+    - 1, 3, 4
+    - 7, 5, 0
+    - 5, 6, 10
+    - 5, 7, 8
+    - 1, 7, 0
+    - 5, 10, 0
+    - 2, 0, 10
+    Vertices:
+    - 17421.14, -77824, 8700.02
+    - 18486.31, -75881.64, 8403.015
+    - 17122.145, -77824, 8703.928
+    - 18719.9, -75954.17, 8403.015
+    - 18654.496, -75809.1, 8403.015
+    - 16384, -77034.16, 8693.506
+    - 16384, -77292.07, 8698.717
+    - 17467.857, -76284.62, 8403.015
+    - 17056.74, -76469.984, 8399.106
+    - 17813.57, -76139.55, 8403.015
+    - 16888.555, -77670.87, 8713.046
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -19, 4
+- NavigationMesh: 0EE995:Skyrim.esm
+  Unknown: 32
+  Point: 20411.318, -85954.305, 11530.323
+  MergedTo:
+  - 0EE994:Skyrim.esm
+  - 0EE980:Skyrim.esm
+  Island:
+    Min: 20336.555, -86016, 11512.4
+    Max: 20480, -85907.164, 11547.274
+    Triangles:
+    - 0, 1, 2
+    - 4, 3, 0
+    - 0, 2, 4
+    Vertices:
+    - 20351.473, -86015.56, 11547.274
+    - 20480, -86016, 11512.4
+    - 20480, -85919.79, 11521.188
+    - 20336.555, -85907.164, 11540.0205
+    - 20408.277, -85913.695, 11530.535
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 4
+- NavigationMesh: 3E7AF9:AlternatePerspective.esp
+  Point: 297.45352, 536.22974, 0.11151307
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 0752F3:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 075286:AlternatePerspective.esp
+- NavigationMesh: 42E8FF:AlternatePerspective.esp
+  Unknown: 32
+  Point: 18328.838, -80635.67, 8515.43
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 1CEAEE:AlternatePerspective.esp
+  Island:
+    Min: 17974.246, -80856.6, 8515.43
+    Max: 18918.328, -80133.484, 8515.43
+    Triangles:
+    - 0, 5, 1
+    - 6, 7, 5
+    - 5, 7, 1
+    - 0, 1, 2
+    - 4, 7, 6
+    - 0, 3, 5
+    Vertices:
+    - 18113.97, -80136.375, 8515.43
+    - 18918.328, -80830.57, 8515.43
+    - 18910.775, -80657.02, 8515.43
+    - 17974.246, -80136.375, 8515.43
+    - 18151.734, -80850.82, 8515.43
+    - 17985.574, -80466.12, 8515.43
+    - 17996.904, -80856.6, 8515.43
+    - 18223.484, -80839.25, 8515.43
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 433A02:AlternatePerspective.esp
+  Point: 5.0085115, 112.0415, 195.46248
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 1C47BF:AlternatePerspective.esp
+  - Unknown: -460622861
+    Door: 1B53BC:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 1B53BB:AlternatePerspective.esp
+- NavigationMesh: 42E8FB:AlternatePerspective.esp
+  Unknown: 32
+  Point: 16704.617, -80747.46, 8222.482
+  MergedTo:
+  - 368EDD:AlternatePerspective.esp
+  Island:
+    Min: 16384, -80893.89, 8201.554
+    Max: 17016.074, -80591.99, 8260.964
+    Triangles:
+    - 6, 1, 7
+    - 0, 3, 2
+    - 0, 4, 3
+    - 4, 5, 3
+    - 0, 2, 6
+    - 7, 0, 6
+    Vertices:
+    - 16692.453, -80876.984, 8211.297
+    - 16384, -80893.89, 8201.554
+    - 16743.018, -80630.63, 8217.238
+    - 16841.621, -80637.88, 8230.309
+    - 16975.621, -80751.4, 8248.131
+    - 17016.074, -80665.66, 8260.727
+    - 16384, -80591.99, 8203.93
+    - 16485.133, -80889.06, 8206.782
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 42E8FD:AlternatePerspective.esp
+  Unknown: 32
+  Point: 17394.227, -79424.24, 8655.39
+  MergedTo:
+  - 368EDD:AlternatePerspective.esp
+  - 3BA037:AlternatePerspective.esp
+  - 0CCE3D:Skyrim.esm
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 21961D:AlternatePerspective.esp
+  Island:
+    Min: 16384, -80815.54, 8583.782
+    Max: 17855.945, -77824, 8770.744
+    Triangles:
+    - 2, 9, 1
+    - 3, 0, 4
+    - 1, 4, 7
+    - 7, 4, 6
+    - 7, 6, 5
+    - 9, 10, 3
+    - 1, 9, 4
+    - 9, 3, 4
+    - 3, 10, 8
+    Vertices:
+    - 17855.945, -79606.96, 8623.418
+    - 16384, -80205.266, 8623.418
+    - 16384, -80420.66, 8616.6875
+    - 17791.18, -80085.6, 8603.974
+    - 17832.395, -79140.27, 8673.524
+    - 17420.25, -77824, 8701.942
+    - 17755.854, -78757.36, 8692.22
+    - 17125.861, -77824, 8703.4375
+    - 17673.424, -80528.35, 8594.252
+    - 17320.158, -80755.71, 8583.782
+    - 17473.24, -80815.54, 8615.191
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 1C47C6:AlternatePerspective.esp
+  Point: -9.8153305, -409.07303, 8.647049
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 1C47BE:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 1C4703:AlternatePerspective.esp
+- NavigationMesh: 0E56BE:AlternatePerspective.esp
+  Point: 5297.3037, 12508.662, 1280.2609
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 0E56C3:AlternatePerspective.esp
+  - Unknown: -460622861
+    Door: 0E56C4:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 0D5AC1:AlternatePerspective.esp
+- NavigationMesh: 1CEBE9:AlternatePerspective.esp
+  Point: -29.455082, -23.84269, 100.76739
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 1CEAF3:AlternatePerspective.esp
+  - Unknown: -460622861
+    Door: 1CEAF4:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 1CEAEF:AlternatePerspective.esp
+- NavigationMesh: 04781E:AlternatePerspective.esp
+  Point: 2153.0823, -528.70593, 2.357525E-05
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 03D4F2:AlternatePerspective.esp
+  - Unknown: -460622861
+    Door: 00591E:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 005900:AlternatePerspective.esp
+- NavigationMesh: 0E56BF:AlternatePerspective.esp
+  Unknown: 32
+  Point: 4026.9395, 10475.598, 747.1647
+  Island:
+    Min: 3956.3672, 10407.497, 747.16174
+    Max: 4094.1265, 10545.801, 747.1708
+    Triangles:
+    - 0, 1, 2
+    - 3, 2, 1
+    Vertices:
+    - 3956.3672, 10407.497, 747.16974
+    - 4093.5754, 10410.263, 747.16174
+    - 3962.9797, 10538.056, 747.16174
+    - 4094.1265, 10545.801, 747.16174
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 0D5AC1:AlternatePerspective.esp
+- NavigationMesh: 42E900:AlternatePerspective.esp
+  Unknown: 32
+  Point: 16540.09, -80317.18, -154758.94
+  Island:
+    Min: 16384, -80482.53, -154774.38
+    Max: 16679.34, -80188.77, -154746.69
+    Triangles:
+    - 0, 1, 4
+    - 4, 2, 3
+    - 4, 0, 1
+    - 3, 0, 4
+    Vertices:
+    - 16679.34, -80482.53, -154765.84
+    - 16675.795, -80236.95, -154748.8
+    - 16384, -80415.555, -154766.3
+    - 16582.469, -80470.78, -154774.38
+    - 16384, -80188.77, -154757.2
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 42E8FE:AlternatePerspective.esp
+  Unknown: 32
+  Point: 16426.715, -81220.8, 8307.925
+  MergedTo:
+  - 368EDD:AlternatePerspective.esp
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 21961C:AlternatePerspective.esp
+  Island:
+    Min: 16384, -81318.23, 8255.494
+    Max: 16477.781, -81130.445, 8346.884
+    Triangles:
+    - 0, 1, 2
+    - 3, 1, 0
+    Vertices:
+    - 16460.9, -81318.23, 8346.884
+    - 16384, -81130.445, 8255.494
+    - 16384, -81298.695, 8292.781
+    - 16477.781, -81136.45, 8336.282
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 3364D0:AlternatePerspective.esp
+  Point: 2176.9282, 2126.59, 112.35876
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 2C1D00:AlternatePerspective.esp
+- NavigationMesh: 0EE983:Skyrim.esm
+  Unknown: 32
+  Point: 10558.483, -82639.26, 6863.566
+  PreferredMergesFlag: 1046094163
+  MergedTo:
+  - 0EE982:Skyrim.esm
+  - 0EC73D:Skyrim.esm
+  PreferredMerges:
+  - 0EC734:Skyrim.esm
+  - 0C28D0:Skyrim.esm
+  Island:
+    Min: 8192, -83840, 6008
+    Max: 12288, -81920, 7658.3643
+    Triangles:
+    - 1, 2, 4
+    - 21, 3, 15
+    - 7, 13, 18
+    - 12, 7, 14
+    - 19, 11, 1
+    - 17, 0, 5
+    - 14, 7, 18
+    - 18, 11, 8
+    - 2, 1, 21
+    - 20, 18, 22
+    - 23, 19, 1
+    - 10, 7, 12
+    - 4, 16, 9
+    - 21, 1, 18
+    - 11, 18, 1
+    - 1, 4, 9
+    - 20, 21, 18
+    - 4, 16, 9
+    - 0, 1, 9
+    - 20, 3, 21
+    - 5, 0, 9
+    - 6, 18, 8
+    - 18, 13, 22
+    Vertices:
+    - 12025.856, -81927.68, 7572.5454
+    - 11829.248, -81927.68, 7460.3203
+    - 11829.248, -83010.56, 7334.8926
+    - 10682.368, -83840, 7407.509
+    - 11960.32, -82818.56, 7387.7046
+    - 12288, -82296.32, 7605.5527
+    - 9830.4, -81927.68, 6272.058
+    - 8830.976, -81927.68, 6008
+    - 10207.232, -81927.68, 6476.7036
+    - 12288, -82688, 7532.9365
+    - 9404.416, -81927.68, 6146.6304
+    - 10747.904, -81927.68, 6839.7837
+    - 9469.952, -81927.68, 6166.435
+    - 8192, -81989.12, 6027.804
+    - 9519.104, -81927.68, 6179.6377
+    - 10747.904, -83840, 7407.509
+    - 12288, -82818.56, 7473.5234
+    - 12288, -81927.68, 7651.7627
+    - 9650.176, -81927.68, 6212.645
+    - 11010.048, -81927.68, 6991.617
+    - 10616.832, -83840, 7414.1104
+    - 11190.272, -83778.56, 7301.8857
+    - 8192, -82496, 6377.6816
+    - 11386.88, -81927.68, 7202.864
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 2
+- NavigationMesh: 0EE98F:Skyrim.esm
+  Unknown: 32
+  Point: 12081.288, -84314.414, 8590.932
+  MergedTo:
+  - 0C28CE:Skyrim.esm
+  Island:
+    Min: 11880.622, -84725.125, 8536.056
+    Max: 12288, -83967.82, 8631.478
+    Triangles:
+    - 2, 4, 5
+    - 5, 4, 0
+    - 0, 1, 5
+    - 0, 4, 3
+    Vertices:
+    - 12032.167, -83967.82, 8536.056
+    - 11880.622, -84092.016, 8562.773
+    - 12288, -84725.125, 8568.881
+    - 12288, -84034.46, 8574.988
+    - 12288, -84546.4, 8579.187
+    - 11931.137, -84667.57, 8604.76
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 2
+- NavigationMesh: 0C28D0:Skyrim.esm
+  Unknown: 32
+  Point: 13030.724, -82550.28, 7925.739
+  PreferredMergesFlag: 1034062377
+  PreferredMerges:
+  - 368EDD:AlternatePerspective.esp
+  - 0EE983:Skyrim.esm
+  Island:
+    Min: 12288, -83008, 7536.879
+    Max: 13776, -81920, 8191.998
+    Triangles:
+    - 2, 13, 15
+    - 4, 2, 0
+    - 6, 2, 3
+    - 8, 16, 6
+    - 15, 12, 2
+    - 2, 1, 14
+    - 5, 3, 2
+    - 14, 11, 2
+    - 14, 7, 9
+    - 0, 2, 12
+    - 2, 16, 1
+    - 14, 9, 10
+    - 10, 11, 14
+    - 2, 4, 5
+    - 2, 6, 16
+    Vertices:
+    - 12668.928, -81920, 7867.059
+    - 13180.8, -83008, 7851.336
+    - 13371.264, -82115.84, 8142.209
+    - 12288, -82685.95, 7536.879
+    - 12288, -81920, 7657.421
+    - 12288, -82294.27, 7605.011
+    - 12335.616, -82733.82, 7539.4995
+    - 13567.68, -82947.07, 8191.998
+    - 12734.4, -83008, 7646.939
+    - 13692.672, -82947.07, 8150.0703
+    - 13776, -82833.92, 8176.2754
+    - 13555.776, -82442.24, 8173.655
+    - 12799.872, -81920, 7937.812
+    - 13246.272, -81920, 8131.727
+    - 13502.208, -82947.07, 8191.998
+    - 12889.152, -81920, 7998.083
+    - 13055.808, -83008, 7806.788
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 3
+- NavigationMesh: 21E72A:AlternatePerspective.esp
+  Point: 2252.6406, -447.3028, 255.58437
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 12147B:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 121359:AlternatePerspective.esp
+- NavigationMesh: 02AB79:Skyrim.esm
+  Point: 17214.516, -83091.83, 8379.703
+  PreferredMergesFlag: 1037345350
+  MergedTo:
+  - 0FECF1:Skyrim.esm
+  PreferredMerges:
+  - 3BA037:AlternatePerspective.esp
+  - 2D101F:AlternatePerspective.esp
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 1CEA42:AlternatePerspective.esp
+  - Unknown: -460622861
+    Door: 3C43C1:AlternatePerspective.esp
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 4
+- NavigationMesh: 0EC737:Skyrim.esm
+  Point: 22749.986, -76311.78, 9467.174
+  MergedTo:
+  - 01C7A4:Skyrim.esm
+  - 0EC738:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -19, 5
+- NavigationMesh: 0EE980:Skyrim.esm
+  Point: 18964.486, -88620.36, 11706.942
+  PreferredMergesFlag: 1033366981
+  MergedTo:
+  - 0EE996:Skyrim.esm
+  - 2D101D:AlternatePerspective.esp
+  - 0EE995:Skyrim.esm
+  - 0EE997:Skyrim.esm
+  - 0EE987:Skyrim.esm
+  - 0EE99B:Skyrim.esm
+  - 0EE97A:Skyrim.esm
+  PreferredMerges:
+  - 0EE9A2:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -22, 4
+- NavigationMesh: 0E491C:Skyrim.esm
+  Unknown: 32
+  Point: 16006.375, -80329.64, -154697
+  Island:
+    Min: 15803.894, -80464.26, -154728.16
+    Max: 16185.249, -80199.34, -154664.44
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 3
+- NavigationMesh: 0E6D56:Skyrim.esm
+  Unknown: 32
+  Point: 17482.773, -79691.61, -154743.47
+  MergedTo:
+  - 0E1E96:Skyrim.esm
+  Island:
+    Min: 16680.863, -80823.21, -154804.84
+    Max: 17871.506, -78440.08, -154622.78
+    Triangles:
+    - 2, 0, 9
+    - 7, 9, 0
+    - 9, 7, 4
+    - 7, 0, 1
+    - 2, 9, 6
+    - 10, 9, 4
+    - 8, 5, 0
+    - 0, 3, 1
+    - 5, 3, 0
+    Vertices:
+    - 17871.506, -79431.46, -154750.22
+    - 17514.312, -78478.21, -154623.52
+    - 17866.744, -79631.64, -154763.33
+    - 17609.564, -78440.08, -154622.78
+    - 16680.863, -80489.57, -154766.97
+    - 17728.629, -78640.26, -154674.48
+    - 17771.492, -80032.01, -154780.81
+    - 16680.863, -80241.73, -154752.4
+    - 17800.066, -78878.58, -154705.8
+    - 17628.615, -80584.9, -154788.1
+    - 17452.4, -80823.21, -154781.55
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0FECF2:Skyrim.esm
+  Unknown: 32
+  Point: 15258.464, -83052.62, -155100.02
+  PreferredMergesFlag: 998916856
+  PreferredMerges:
+  - 0C28D1:Skyrim.esm
+  Island:
+    Min: 14282.981, -84178.2, -155552.38
+    Max: 16384, -81920, -153907.78
+    Triangles:
+    - 17, 19, 2
+    - 1, 3, 0
+    - 53, 61, 15
+    - 49, 0, 3
+    - 49, 11, 12
+    - 59, 32, 29
+    - 56, 14, 31
+    - 42, 45, 60
+    - 54, 6, 15
+    - 38, 51, 31
+    - 58, 55, 60
+    - 43, 39, 40
+    - 43, 15, 6
+    - 39, 35, 4
+    - 29, 27, 31
+    - 5, 43, 6
+    - 17, 16, 28
+    - 17, 28, 26
+    - 6, 50, 44
+    - 33, 17, 39
+    - 12, 8, 49
+    - 15, 43, 40
+    - 20, 17, 24
+    - 7, 54, 15
+    - 49, 32, 59
+    - 16, 17, 30
+    - 49, 46, 0
+    - 31, 34, 38
+    - 25, 41, 15
+    - 22, 23, 32
+    - 52, 50, 6
+    - 49, 13, 32
+    - 49, 9, 11
+    - 29, 31, 15
+    - 4, 33, 39
+    - 49, 10, 9
+    - 2, 18, 17
+    - 15, 14, 25
+    - 15, 41, 53
+    - 40, 39, 17
+    - 26, 24, 17
+    - 49, 42, 46
+    - 31, 51, 56
+    - 42, 49, 59
+    - 39, 37, 36
+    - 17, 33, 30
+    - 36, 35, 39
+    - 32, 13, 21
+    - 17, 20, 19
+    - 48, 46, 47
+    - 29, 32, 27
+    - 13, 49, 8
+    - 42, 60, 46
+    - 23, 27, 32
+    - 15, 31, 14
+    - 6, 44, 5
+    - 0, 46, 48
+    - 55, 46, 60
+    - 15, 57, 7
+    - 61, 57, 15
+    Vertices:
+    - 16333.576, -81929.03, -155532.64
+    - 16157.09, -81920, -155552.38
+    - 14484.68, -82778.12, -153940.67
+    - 16005.816, -81920, -155552.38
+    - 14627.549, -83527.84, -153940.67
+    - 14316.598, -82976.836, -154197.23
+    - 14593.933, -82751.016, -154368.27
+    - 14871.267, -82751.016, -154506.4
+    - 14904.883, -81920, -155526.06
+    - 15316.683, -81920, -155545.8
+    - 15425.936, -81920, -155545.8
+    - 15157.005, -81920, -155552.38
+    - 15056.156, -81920, -155552.38
+    - 14711.589, -81920, -155532.64
+    - 14955.308, -83455.58, -154736.66
+    - 14846.055, -83166.53, -154690.61
+    - 15089.772, -83338.15, -153947.25
+    - 14551.912, -83184.59, -153940.67
+    - 14350.214, -82895.55, -153940.67
+    - 14551.912, -82714.89, -153940.67
+    - 14644.356, -82705.85, -153920.94
+    - 14652.761, -81920, -155532.64
+    - 14299.79, -83003.94, -155289.23
+    - 14282.981, -83112.33, -155210.3
+    - 14955.308, -82778.12, -153907.78
+    - 15014.136, -83392.35, -154690.61
+    - 15072.965, -82886.51, -153934.1
+    - 14291.386, -83274.92, -155124.78
+    - 15148.602, -83112.33, -153940.67
+    - 14535.104, -83238.79, -155078.73
+    - 15005.731, -83428.48, -153947.25
+    - 14350.214, -83383.31, -155065.58
+    - 14341.81, -82877.48, -155361.61
+    - 14862.862, -83545.91, -153940.67
+    - 14425.851, -83473.64, -155065.58
+    - 14509.892, -83518.805, -153940.67
+    - 14425.851, -83455.58, -153953.83
+    - 14367.022, -83365.25, -153953.83
+    - 14526.699, -83509.77, -155012.95
+    - 14316.598, -83256.86, -154019.61
+    - 14493.083, -83202.66, -154026.19
+    - 15072.965, -83338.15, -154690.61
+    - 15215.834, -83862.055, -155368.19
+    - 14291.386, -83049.1, -154164.34
+    - 14341.81, -82913.61, -154230.12
+    - 15316.683, -83898.19, -155381.34
+    - 16384, -83672.37, -155355.03
+    - 16384, -83428.48, -155355.03
+    - 16384, -83292.984, -155355.03
+    - 15745.29, -81920, -155545.8
+    - 14425.851, -82823.28, -154302.48
+    - 14694.781, -83545.91, -154907.69
+    - 14501.487, -82769.086, -154328.8
+    - 15123.389, -83202.66, -154690.61
+    - 14770.418, -82714.89, -154440.62
+    - 16384, -83916.25, -155355.03
+    - 14778.822, -83554.94, -154855.06
+    - 14972.115, -82778.12, -154572.2
+    - 16384, -84178.2, -155355.03
+    - 14762.014, -83320.086, -155453.7
+    - 16274.747, -84169.17, -155355.03
+    - 15089.772, -82958.77, -154690.61
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -21, 3
+- NavigationMesh: 0EB633:Skyrim.esm
+  Unknown: 32
+  Point: 16704.617, -80747.46, -155508.3
+  MergedTo:
+  - 0C28D1:Skyrim.esm
+  Island:
+    Min: 16384, -80893.89, -155528.6
+    Max: 17016.074, -80591.99, -155471.62
+    Triangles:
+    - 6, 7, 1
+    - 0, 2, 6
+    - 0, 4, 3
+    - 0, 3, 2
+    - 4, 5, 3
+    - 1, 0, 6
+    Vertices:
+    - 16692.453, -80876.984, -155521.3
+    - 16485.133, -80889.06, -155520.62
+    - 16743.018, -80630.63, -155515.38
+    - 16841.621, -80637.88, -155502.16
+    - 16975.621, -80751.4, -155484.39
+    - 17016.074, -80665.66, -155471.62
+    - 16384, -80591.99, -155528.6
+    - 16384, -80893.89, -155520.16
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0EB632:Skyrim.esm
+  Unknown: 32
+  Point: 16478.865, -81459.42, 8214.288
+  MergedTo:
+  - 368EDD:AlternatePerspective.esp
+  Island:
+    Min: 16384, -81592.91, 8192.643
+    Max: 16634.56, -81371.086, 8231.32
+    Triangles:
+    - 5, 0, 3
+    - 1, 3, 0
+    - 0, 5, 2
+    - 2, 4, 0
+    Vertices:
+    - 16384, -81458.04, 8196.511
+    - 16384, -81592.91, 8205.793
+    - 16463.178, -81377.3, 8217.706
+    - 16634.56, -81588.47, 8231.166
+    - 16394.021, -81371.086, 8192.643
+    - 16532.332, -81383.51, 8225.596
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0BF7A6:Skyrim.esm
+  Point: -2452.1184, -3692.5723, -1170.2476
+  PreferredMergesFlag: 1015593253
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 0F8237:Skyrim.esm
+  - Unknown: -460622861
+    Door: 0909D2:Skyrim.esm
+  - Unknown: -460622861
+    Door: 091608:Skyrim.esm
+  - Unknown: -460622861
+    Door: 0F8238:Skyrim.esm
+  - Unknown: -460622861
+    Door: 05DF95:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 05DE24:Skyrim.esm
+- NavigationMesh: 04657A:Skyrim.esm
+  Unknown: 32
+  Point: 18193.543, -79220.25, -155421.97
+  PreferredMergesFlag: 1037598907
+  MergedTo:
+  - 0C28D1:Skyrim.esm
+  PreferredMerges:
+  - 098776:Skyrim.esm
+  Island:
+    Min: 16384, -80631.01, -155592.69
+    Max: 20480, -77824, -155231.19
+    Triangles:
+    - 5, 27, 17
+    - 14, 22, 25
+    - 3, 16, 0
+    - 23, 16, 2
+    - 18, 7, 11
+    - 23, 24, 16
+    - 1, 22, 19
+    - 25, 22, 3
+    - 21, 4, 22
+    - 22, 15, 12
+    - 9, 3, 26
+    - 8, 16, 22
+    - 17, 18, 5
+    - 2, 16, 10
+    - 22, 1, 15
+    - 3, 9, 13
+    - 0, 16, 24
+    - 10, 16, 28
+    - 18, 6, 7
+    - 18, 17, 22
+    - 25, 3, 13
+    - 21, 22, 17
+    - 18, 11, 5
+    - 14, 18, 22
+    - 16, 3, 22
+    - 20, 17, 27
+    - 19, 22, 4
+    Vertices:
+    - 16384, -79171.37, -155562.33
+    - 18137.088, -77824, -155384.47
+    - 16384, -78542.59, -155559.42
+    - 16564.225, -80193.12, -155565.22
+    - 18530.305, -77824, -155339.64
+    - 20480, -79148.91, -155257.22
+    - 20332.545, -80002.234, -155271.67
+    - 20480, -79586.8, -155258.66
+    - 16384, -78082.24, -155565.22
+    - 18071.553, -80631.01, -155462.55
+    - 16384, -78407.86, -155568.11
+    - 20480, -79508.2, -155261.55
+    - 17743.871, -77835.23, -155419.17
+    - 18071.553, -80586.09, -155490.02
+    - 19300.352, -79856.27, -155330.97
+    - 17973.248, -77824, -155388.8
+    - 16384, -78160.84, -155566.66
+    - 18972.672, -77824, -155294.81
+    - 19857.408, -80069.61, -155329.52
+    - 18333.695, -77824, -155359.88
+    - 19218.432, -77824, -155273.12
+    - 18595.84, -77824, -155329.52
+    - 17072.129, -77891.37, -155498.7
+    - 16384, -78576.28, -155556.53
+    - 16384, -78744.695, -155546.42
+    - 18120.703, -80586.09, -155485.69
+    - 17956.863, -80631.01, -155471.22
+    - 20463.617, -78991.72, -155231.19
+    - 16384, -78216.984, -155568.11
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 0E8404:Skyrim.esm
+  Point: 6842.4463, -79269.94, 5036.5073
+  PreferredMergesFlag: 1042601674
+  MergedTo:
+  - 0ED013:Skyrim.esm
+  - 0EFC52:Skyrim.esm
+  PreferredMerges:
+  - 0EC735:Skyrim.esm
+  - 0EC734:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 1
+- NavigationMesh: 100F4B:Skyrim.esm
+  Unknown: 64
+  Point: 109263.77, 104283.68, -8915.636
+  PreferredMergesFlag: 1038130830
+  MergedTo:
+  - 10C05C:Skyrim.esm
+  - 10C05B:Skyrim.esm
+  - 10C05A:Skyrim.esm
+  - 100F4E:Skyrim.esm
+  PreferredMerges:
+  - 0DAFD0:Skyrim.esm
+  - 1074B4:Skyrim.esm
+  LinkedDoors:
+  - Unknown: -460622861
+    Door: 0177F7:Skyrim.esm
+  - Unknown: -460622861
+    Door: 0DAF21:Skyrim.esm
+  - Unknown: -460622861
+    Door: 0177EE:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: 25, 26
+- NavigationMesh: 098779:Skyrim.esm
+  Unknown: 32
+  Point: 16594.936, -77590.43, 7747.7524
+  Island:
+    Min: 16384, -77822.33, 7737.2905
+    Max: 16848.416, -77389.02, 7790.738
+    Triangles:
+    - 5, 2, 0
+    - 1, 2, 5
+    - 1, 4, 3
+    - 4, 1, 5
+    Vertices:
+    - 16770.395, -77581.414, 7737.2905
+    - 16554.904, -77822.33, 7746.911
+    - 16848.416, -77822.33, 7740.4976
+    - 16384, -77529.414, 7746.6973
+    - 16384, -77389.02, 7748.4077
+    - 16577.197, -77454.88, 7742.6353
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -19, 4
+- NavigationMesh: 0B87DF:Skyrim.esm
+  Unknown: 64
+  Point: 137317.58, 22598.166, -12089.594
+  PreferredMergesFlag: 1035993088
+  MergedTo:
+  - 0FC129:Skyrim.esm
+  - 0B87E0:Skyrim.esm
+  - 0B87E5:Skyrim.esm
+  PreferredMerges:
+  - 0B87CA:Skyrim.esm
+  - 0B87DC:Skyrim.esm
+  - 0FC116:Skyrim.esm
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: 5, 33
+- NavigationMesh: 0D8C90:Skyrim.esm
+  Unknown: 32
+  Point: 16625.078, -77859.8, 8229.334
+  MergedTo:
+  - 2AD8F0:AlternatePerspective.esp
+  Island:
+    Min: 16461.914, -77931.37, 8224.513
+    Max: 16856.309, -77824, 8232.224
+    Triangles:
+    - 0, 1, 2
+    Vertices:
+    - 16461.914, -77931.37, 8232.224
+    - 16854.73, -77824, 8224.513
+    - 16556.568, -77824, 8231.236
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoWorldParent
+    ParentWorldspace: 00003C:Skyrim.esm
+    ParentWorldspaceCoord: -20, 4
+- NavigationMesh: 016D9E:Skyrim.esm
+  Point: -228.5482, -97.23483, 63.95582
+  Unknown2: -1511415748
+  Parent:
+    MutagenObjectType: NavigationMapInfoCellParent
+    ParentCell: 013A67:Skyrim.esm
+PreferredPathing:
+  NavmeshSets:
+  - Navmeshes:
+    - 105E9A:Skyrim.esm
+  - Navmeshes:
+    - 105E9A:Skyrim.esm
+    - 0F0963:Skyrim.esm
+    - 058838:Skyrim.esm
+    - 0B0120:Skyrim.esm
+    - 03BE7A:Skyrim.esm
+    - 06E8ED:Skyrim.esm
+    - 052934:Skyrim.esm
+    - 0E9D17:Skyrim.esm
+    - 06E9C9:Skyrim.esm
+    - 09BA6D:Skyrim.esm
+    - 10C67D:Skyrim.esm
+    - 09BA68:Skyrim.esm
+    - 10C682:Skyrim.esm
+    - 105ABB:Skyrim.esm
+    - 105AB9:Skyrim.esm
+    - 105AA3:Skyrim.esm
+    - 105AA5:Skyrim.esm
+    - 105AA6:Skyrim.esm
+    - 105AA8:Skyrim.esm
+    - 105AA9:Skyrim.esm
+    - 105AAB:Skyrim.esm
+    - 105AAC:Skyrim.esm
+    - 105A7D:Skyrim.esm
+    - 105A79:Skyrim.esm
+    - 105A77:Skyrim.esm
+    - 1050E9:Skyrim.esm
+    - 1050EB:Skyrim.esm
+    - 1050CA:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 10377B:Skyrim.esm
+  - Navmeshes:
+    - 105E9A:Skyrim.esm
+    - 0F0963:Skyrim.esm
+    - 058838:Skyrim.esm
+    - 0B0120:Skyrim.esm
+    - 03BE7A:Skyrim.esm
+    - 06E8ED:Skyrim.esm
+    - 052934:Skyrim.esm
+    - 0E9D17:Skyrim.esm
+    - 06E9C9:Skyrim.esm
+    - 09BA6D:Skyrim.esm
+    - 10C67D:Skyrim.esm
+    - 09BA68:Skyrim.esm
+    - 10C682:Skyrim.esm
+    - 105ABB:Skyrim.esm
+    - 105AB9:Skyrim.esm
+    - 105AA3:Skyrim.esm
+    - 105AA5:Skyrim.esm
+    - 105AA6:Skyrim.esm
+    - 105AA8:Skyrim.esm
+    - 105AA9:Skyrim.esm
+    - 105AAB:Skyrim.esm
+    - 105AAC:Skyrim.esm
+    - 105A7D:Skyrim.esm
+    - 105A79:Skyrim.esm
+    - 105A77:Skyrim.esm
+    - 1050E9:Skyrim.esm
+    - 1050EB:Skyrim.esm
+    - 1050CA:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+    - 0B87DC:Skyrim.esm
+    - 0B87C7:Skyrim.esm
+    - 0F07DF:Skyrim.esm
+    - 0BBC1D:Skyrim.esm
+    - 0BBC0A:Skyrim.esm
+    - 0AAB2A:Skyrim.esm
+    - 101E29:Skyrim.esm
+    - 0AAB27:Skyrim.esm
+    - 0AAB28:Skyrim.esm
+    - 0BAE54:Skyrim.esm
+    - 0BB460:Skyrim.esm
+    - 0BB463:Skyrim.esm
+    - 04C03A:Skyrim.esm
+    - 0BB465:Skyrim.esm
+    - 0BA4D7:Skyrim.esm
+    - 0BA4D8:Skyrim.esm
+    - 101B96:Skyrim.esm
+    - 08C397:Skyrim.esm
+    - 04C082:Skyrim.esm
+    - 0180E7:Skyrim.esm
+    - 017E20:Skyrim.esm
+    - 101675:Skyrim.esm
+    - 1017EF:Skyrim.esm
+    - 1017F0:Skyrim.esm
+    - 0799FB:Skyrim.esm
+    - 079A3C:Skyrim.esm
+    - 0799F6:Skyrim.esm
+    - 1017F7:Skyrim.esm
+    - 0E6430:Skyrim.esm
+    - 079A5A:Skyrim.esm
+    - 1017F8:Skyrim.esm
+    - 079A55:Skyrim.esm
+    - 079A82:Skyrim.esm
+    - 079A81:Skyrim.esm
+    - 01E6DE:Skyrim.esm
+    - 01E017:Skyrim.esm
+    - 01E019:Skyrim.esm
+    - 01D8CE:Skyrim.esm
+    - 0E3766:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 103120:Skyrim.esm
+  - Navmeshes:
+    - 105E9A:Skyrim.esm
+    - 0F0963:Skyrim.esm
+    - 058838:Skyrim.esm
+    - 0B0120:Skyrim.esm
+    - 03BE7A:Skyrim.esm
+    - 06E8ED:Skyrim.esm
+    - 052934:Skyrim.esm
+    - 0E9D17:Skyrim.esm
+    - 06E9C9:Skyrim.esm
+    - 09BA6D:Skyrim.esm
+    - 10C67D:Skyrim.esm
+    - 09BA68:Skyrim.esm
+    - 10C682:Skyrim.esm
+    - 105ABB:Skyrim.esm
+    - 105AB9:Skyrim.esm
+    - 105AA3:Skyrim.esm
+    - 105AA5:Skyrim.esm
+    - 105AA6:Skyrim.esm
+    - 105AA8:Skyrim.esm
+    - 105AA9:Skyrim.esm
+    - 105AAB:Skyrim.esm
+    - 105AAC:Skyrim.esm
+    - 105A7D:Skyrim.esm
+    - 105A79:Skyrim.esm
+    - 105A77:Skyrim.esm
+    - 1050E9:Skyrim.esm
+    - 1050EB:Skyrim.esm
+    - 1050CA:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 0FD6C9:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 100F4B:Skyrim.esm
+  - Navmeshes:
+    - 105E9A:Skyrim.esm
+    - 0F0963:Skyrim.esm
+    - 058838:Skyrim.esm
+    - 0B0120:Skyrim.esm
+    - 03BE7A:Skyrim.esm
+    - 06E8ED:Skyrim.esm
+    - 052934:Skyrim.esm
+    - 0E9D17:Skyrim.esm
+    - 06E9C9:Skyrim.esm
+    - 09BA6D:Skyrim.esm
+    - 10C67D:Skyrim.esm
+    - 09BA68:Skyrim.esm
+    - 10C682:Skyrim.esm
+    - 105ABB:Skyrim.esm
+    - 105AB9:Skyrim.esm
+    - 105AA3:Skyrim.esm
+    - 105AA5:Skyrim.esm
+    - 105AA6:Skyrim.esm
+    - 105AA8:Skyrim.esm
+    - 105AA9:Skyrim.esm
+    - 105AAB:Skyrim.esm
+    - 105AAC:Skyrim.esm
+    - 105A7D:Skyrim.esm
+    - 105A79:Skyrim.esm
+    - 105A77:Skyrim.esm
+    - 1050E9:Skyrim.esm
+    - 1050EB:Skyrim.esm
+    - 1050CA:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+  - Navmeshes:
+    - 105E9A:Skyrim.esm
+    - 0B097B:Skyrim.esm
+    - 06E8E2:Skyrim.esm
+    - 06E8E1:Skyrim.esm
+    - 0F798E:Skyrim.esm
+    - 0E8A8F:Skyrim.esm
+    - 0E8A94:Skyrim.esm
+    - 10737D:Skyrim.esm
+    - 106C52:Skyrim.esm
+    - 107374:Skyrim.esm
+    - 0E8A6A:Skyrim.esm
+    - 0C2526:Skyrim.esm
+    - 0CD7B8:Skyrim.esm
+    - 0E8B80:Skyrim.esm
+    - 0E8B81:Skyrim.esm
+    - 0E8B60:Skyrim.esm
+    - 0268F0:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 104FB0:Skyrim.esm
+    - 104FAF:Skyrim.esm
+    - 0E8250:Skyrim.esm
+    - 0E8230:Skyrim.esm
+    - 0A3F44:Skyrim.esm
+    - 104736:Skyrim.esm
+    - 0F3E7F:Skyrim.esm
+    - 0E8688:Skyrim.esm
+    - 0E8666:Skyrim.esm
+    - 0E8667:Skyrim.esm
+    - 0E863D:Skyrim.esm
+    - 054402:Skyrim.esm
+    - 054401:Skyrim.esm
+    - 0E861F:Skyrim.esm
+    - 0E8620:Skyrim.esm
+    - 0E8608:Skyrim.esm
+    - 0E8609:Skyrim.esm
+    - 0E85E9:Skyrim.esm
+    - 0E85EA:Skyrim.esm
+    - 0E85C8:Skyrim.esm
+    - 0E85CF:Skyrim.esm
+    - 0E85D0:Skyrim.esm
+    - 0E85D1:Skyrim.esm
+    - 0E85AA:Skyrim.esm
+    - 0E8583:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 079BBF:Skyrim.esm
+  - Navmeshes:
+    - 105E9A:Skyrim.esm
+    - 0F0963:Skyrim.esm
+    - 0B709E:Skyrim.esm
+    - 05C0A7:Skyrim.esm
+    - 0B70B9:Skyrim.esm
+    - 0EF76B:Skyrim.esm
+    - 0EF764:Skyrim.esm
+    - 0EF75B:Skyrim.esm
+    - 0DC19A:Skyrim.esm
+    - 0F2ABC:Skyrim.esm
+    - 0E8914:Skyrim.esm
+    - 0E8915:Skyrim.esm
+    - 071985:Skyrim.esm
+    - 0702C3:Skyrim.esm
+    - 0E88E4:Skyrim.esm
+    - 0E88E5:Skyrim.esm
+    - 0E88C7:Skyrim.esm
+    - 0E88D0:Skyrim.esm
+    - 0E88C9:Skyrim.esm
+    - 0E88CA:Skyrim.esm
+    - 105B82:Skyrim.esm
+    - 0E88AB:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88CC:Skyrim.esm
+  - Navmeshes:
+    - 105E9A:Skyrim.esm
+    - 0B097B:Skyrim.esm
+    - 06E8E2:Skyrim.esm
+    - 06E8E1:Skyrim.esm
+    - 0F798E:Skyrim.esm
+    - 0E8A8F:Skyrim.esm
+    - 0E8A94:Skyrim.esm
+    - 10737D:Skyrim.esm
+    - 106C52:Skyrim.esm
+    - 107374:Skyrim.esm
+    - 0E8A6A:Skyrim.esm
+    - 0C2526:Skyrim.esm
+    - 0CD7B8:Skyrim.esm
+    - 0E8B80:Skyrim.esm
+    - 0E8B81:Skyrim.esm
+    - 0E8B60:Skyrim.esm
+    - 0268F0:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0EDB5E:Skyrim.esm
+    - 0EDB6B:Skyrim.esm
+    - 0EDB67:Skyrim.esm
+    - 0EDB49:Skyrim.esm
+    - 0F759E:Skyrim.esm
+    - 0E8CDC:Skyrim.esm
+    - 0EDB85:Skyrim.esm
+    - 015DA6:Skyrim.esm
+    - 015DAB:Skyrim.esm
+    - 015DF8:Skyrim.esm
+    - 0EDBDA:Skyrim.esm
+    - 0E8CF1:Skyrim.esm
+    - 0EA38C:Skyrim.esm
+    - 0EA36E:Skyrim.esm
+    - 0EA36D:Skyrim.esm
+    - 0EA35D:Skyrim.esm
+    - 0EA35C:Skyrim.esm
+    - 021640:Skyrim.esm
+    - 104703:Skyrim.esm
+    - 0E875F:Skyrim.esm
+    - 0E871C:Skyrim.esm
+    - 042F6A:Skyrim.esm
+    - 090CCD:Skyrim.esm
+    - 108D0A:Skyrim.esm
+    - 1064C7:Skyrim.esm
+    - 1064D8:Skyrim.esm
+    - 0E8213:Skyrim.esm
+    - 1064D6:Skyrim.esm
+    - 1064D5:Skyrim.esm
+    - 1064E7:Skyrim.esm
+    - 108C0F:Skyrim.esm
+    - 1030CB:Skyrim.esm
+  - Navmeshes:
+    - 105E9A:Skyrim.esm
+    - 0B097B:Skyrim.esm
+    - 06E8E2:Skyrim.esm
+    - 06E8E1:Skyrim.esm
+    - 0F798E:Skyrim.esm
+    - 0E8A8F:Skyrim.esm
+    - 0E8A94:Skyrim.esm
+    - 10737D:Skyrim.esm
+    - 106C52:Skyrim.esm
+    - 107374:Skyrim.esm
+    - 0E8A6A:Skyrim.esm
+    - 0C2526:Skyrim.esm
+    - 0CD7B8:Skyrim.esm
+    - 0E8B80:Skyrim.esm
+    - 0E8B81:Skyrim.esm
+    - 0E8B60:Skyrim.esm
+    - 0268F0:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 104FB0:Skyrim.esm
+    - 104FAF:Skyrim.esm
+    - 0E8250:Skyrim.esm
+    - 0E8230:Skyrim.esm
+    - 0A3F44:Skyrim.esm
+  - Navmeshes:
+    - 10377B:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 1050CA:Skyrim.esm
+    - 1050EB:Skyrim.esm
+    - 1050E9:Skyrim.esm
+    - 105A77:Skyrim.esm
+    - 105A79:Skyrim.esm
+    - 105A7D:Skyrim.esm
+    - 105AAC:Skyrim.esm
+    - 105AAB:Skyrim.esm
+    - 105AA9:Skyrim.esm
+    - 105AA8:Skyrim.esm
+    - 105AA6:Skyrim.esm
+    - 105AA5:Skyrim.esm
+    - 105AA3:Skyrim.esm
+    - 105AB9:Skyrim.esm
+    - 105ABB:Skyrim.esm
+    - 10C682:Skyrim.esm
+    - 09BA68:Skyrim.esm
+    - 10C67D:Skyrim.esm
+    - 09BA6D:Skyrim.esm
+    - 06E9C9:Skyrim.esm
+    - 0E9D17:Skyrim.esm
+    - 052934:Skyrim.esm
+    - 06E8ED:Skyrim.esm
+    - 03BE7A:Skyrim.esm
+    - 0B0120:Skyrim.esm
+    - 058838:Skyrim.esm
+    - 0F0963:Skyrim.esm
+    - 105E9A:Skyrim.esm
+  - Navmeshes:
+    - 10377B:Skyrim.esm
+  - Navmeshes:
+    - 10377B:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+    - 0B87DC:Skyrim.esm
+    - 0B87C7:Skyrim.esm
+    - 0F07DF:Skyrim.esm
+    - 0BBC1D:Skyrim.esm
+    - 0BBC0A:Skyrim.esm
+    - 0AAB2A:Skyrim.esm
+    - 101E29:Skyrim.esm
+    - 0AAB27:Skyrim.esm
+    - 0AAB28:Skyrim.esm
+    - 0BAE54:Skyrim.esm
+    - 0BB460:Skyrim.esm
+    - 0BB463:Skyrim.esm
+    - 04C03A:Skyrim.esm
+    - 0BB465:Skyrim.esm
+    - 0BA4D7:Skyrim.esm
+    - 0BA4D8:Skyrim.esm
+    - 101B96:Skyrim.esm
+    - 08C397:Skyrim.esm
+    - 04C082:Skyrim.esm
+    - 0180E7:Skyrim.esm
+    - 017E20:Skyrim.esm
+    - 101675:Skyrim.esm
+    - 1017EF:Skyrim.esm
+    - 1017F0:Skyrim.esm
+    - 0799FB:Skyrim.esm
+    - 079A3C:Skyrim.esm
+    - 0799F6:Skyrim.esm
+    - 1017F7:Skyrim.esm
+    - 0E6430:Skyrim.esm
+    - 079A5A:Skyrim.esm
+    - 1017F8:Skyrim.esm
+    - 079A55:Skyrim.esm
+    - 079A82:Skyrim.esm
+    - 079A81:Skyrim.esm
+    - 01E6DE:Skyrim.esm
+    - 01E017:Skyrim.esm
+    - 01E019:Skyrim.esm
+    - 01D8CE:Skyrim.esm
+    - 0E3766:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 103120:Skyrim.esm
+  - Navmeshes:
+    - 10377B:Skyrim.esm
+    - 0168CE:Skyrim.esm
+    - 03C06D:Skyrim.esm
+    - 01689A:Skyrim.esm
+    - 103627:Skyrim.esm
+    - 103626:Skyrim.esm
+    - 103620:Skyrim.esm
+    - 103B1B:Skyrim.esm
+    - 103B46:Skyrim.esm
+    - 103B2B:Skyrim.esm
+    - 103B22:Skyrim.esm
+    - 105912:Skyrim.esm
+    - 10591B:Skyrim.esm
+    - 0167D5:Skyrim.esm
+    - 0C6F02:Skyrim.esm
+    - 106305:Skyrim.esm
+    - 10635F:Skyrim.esm
+    - 10634B:Skyrim.esm
+    - 106357:Skyrim.esm
+    - 106F9A:Skyrim.esm
+    - 106FA6:Skyrim.esm
+    - 106FAE:Skyrim.esm
+    - 0F0962:Skyrim.esm
+    - 100037:Skyrim.esm
+    - 10003D:Skyrim.esm
+    - 100073:Skyrim.esm
+    - 1058AD:Skyrim.esm
+    - 103AF7:Skyrim.esm
+    - 100519:Skyrim.esm
+    - 0F7F02:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 100F4B:Skyrim.esm
+  - Navmeshes:
+    - 10377B:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+  - Navmeshes:
+    - 10377B:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0F0B17:Skyrim.esm
+    - 0FF82C:Skyrim.esm
+    - 0EA199:Skyrim.esm
+    - 0EBEC9:Skyrim.esm
+    - 0C1A27:Skyrim.esm
+    - 0FF8B6:Skyrim.esm
+    - 101F3C:Skyrim.esm
+    - 101F3D:Skyrim.esm
+    - 101F38:Skyrim.esm
+    - 101A9C:Skyrim.esm
+    - 101A9E:Skyrim.esm
+    - 101A96:Skyrim.esm
+    - 101A85:Skyrim.esm
+    - 0E93C5:Skyrim.esm
+    - 0E86C3:Skyrim.esm
+    - 0E86A5:Skyrim.esm
+    - 0E86A6:Skyrim.esm
+    - 0E8687:Skyrim.esm
+    - 0E93A9:Skyrim.esm
+    - 0EA09C:Skyrim.esm
+    - 0E807E:Skyrim.esm
+    - 0EA082:Skyrim.esm
+    - 0E8601:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 079BBF:Skyrim.esm
+  - Navmeshes:
+    - 10377B:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88CC:Skyrim.esm
+  - Navmeshes:
+    - 10377B:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AB:Skyrim.esm
+    - 105B82:Skyrim.esm
+    - 0E88CA:Skyrim.esm
+    - 0E88C9:Skyrim.esm
+    - 0E88D0:Skyrim.esm
+    - 0E88C7:Skyrim.esm
+    - 0E88E5:Skyrim.esm
+    - 0E88E4:Skyrim.esm
+    - 0702C3:Skyrim.esm
+    - 071985:Skyrim.esm
+    - 0E8915:Skyrim.esm
+    - 0E8914:Skyrim.esm
+    - 0706C6:Skyrim.esm
+    - 0E8912:Skyrim.esm
+    - 0E8911:Skyrim.esm
+    - 0E8910:Skyrim.esm
+    - 015EBA:Skyrim.esm
+    - 0268FB:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0EDB5E:Skyrim.esm
+    - 0EDB6B:Skyrim.esm
+    - 0EDB67:Skyrim.esm
+    - 0EDB49:Skyrim.esm
+    - 0F759E:Skyrim.esm
+    - 0E8CDC:Skyrim.esm
+    - 0EDB85:Skyrim.esm
+    - 015DA6:Skyrim.esm
+    - 015DAB:Skyrim.esm
+    - 015DF8:Skyrim.esm
+    - 0EDBDA:Skyrim.esm
+    - 0E8CF1:Skyrim.esm
+    - 0EA38C:Skyrim.esm
+    - 0EA36E:Skyrim.esm
+    - 0EA36D:Skyrim.esm
+    - 0EA35D:Skyrim.esm
+    - 0EA35C:Skyrim.esm
+    - 021640:Skyrim.esm
+    - 104703:Skyrim.esm
+    - 0E875F:Skyrim.esm
+    - 0E871C:Skyrim.esm
+    - 042F6A:Skyrim.esm
+    - 090CCD:Skyrim.esm
+    - 108D0A:Skyrim.esm
+    - 1064C7:Skyrim.esm
+    - 1064D8:Skyrim.esm
+    - 0E8213:Skyrim.esm
+    - 1064D6:Skyrim.esm
+    - 1064D5:Skyrim.esm
+    - 1064E7:Skyrim.esm
+    - 108C0F:Skyrim.esm
+    - 1030CB:Skyrim.esm
+  - Navmeshes:
+    - 10377B:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AB:Skyrim.esm
+    - 105B82:Skyrim.esm
+    - 0E88CA:Skyrim.esm
+    - 0E88C9:Skyrim.esm
+    - 0E88D0:Skyrim.esm
+    - 0E88C7:Skyrim.esm
+    - 0E88E5:Skyrim.esm
+    - 0E88E4:Skyrim.esm
+    - 0702C3:Skyrim.esm
+    - 071985:Skyrim.esm
+    - 0E8915:Skyrim.esm
+    - 0E8914:Skyrim.esm
+    - 0706C6:Skyrim.esm
+    - 0E8912:Skyrim.esm
+    - 0E8911:Skyrim.esm
+    - 0E8910:Skyrim.esm
+    - 015EBA:Skyrim.esm
+    - 0268FB:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 104FB0:Skyrim.esm
+    - 104FAF:Skyrim.esm
+    - 0E8250:Skyrim.esm
+    - 0E8230:Skyrim.esm
+    - 0A3F44:Skyrim.esm
+  - Navmeshes:
+    - 103120:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 01D8CD:Skyrim.esm
+    - 104E8D:Skyrim.esm
+    - 0C1A2A:Skyrim.esm
+    - 0C1A2D:Skyrim.esm
+    - 01E6C6:Skyrim.esm
+    - 10822C:Skyrim.esm
+    - 10822E:Skyrim.esm
+    - 106C48:Skyrim.esm
+    - 106C4A:Skyrim.esm
+    - 0797EC:Skyrim.esm
+    - 0797FC:Skyrim.esm
+    - 0798EA:Skyrim.esm
+    - 0798F2:Skyrim.esm
+    - 07980C:Skyrim.esm
+    - 0799F4:Skyrim.esm
+    - 101816:Skyrim.esm
+    - 0792D8:Skyrim.esm
+    - 085F5B:Skyrim.esm
+    - 085F5A:Skyrim.esm
+    - 04C06C:Skyrim.esm
+    - 04C076:Skyrim.esm
+    - 101676:Skyrim.esm
+    - 017E20:Skyrim.esm
+    - 0180E7:Skyrim.esm
+    - 04C082:Skyrim.esm
+    - 08C397:Skyrim.esm
+    - 101B96:Skyrim.esm
+    - 0BA4D8:Skyrim.esm
+    - 0BA4D7:Skyrim.esm
+    - 0BB465:Skyrim.esm
+    - 04C03A:Skyrim.esm
+    - 0BB463:Skyrim.esm
+    - 0BB460:Skyrim.esm
+    - 0BAE54:Skyrim.esm
+    - 0AAB28:Skyrim.esm
+    - 0AAB27:Skyrim.esm
+    - 101E29:Skyrim.esm
+    - 0AAB2A:Skyrim.esm
+    - 042F23:Skyrim.esm
+    - 0B87D9:Skyrim.esm
+    - 0B87DC:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 1050CA:Skyrim.esm
+    - 1050EB:Skyrim.esm
+    - 1050E9:Skyrim.esm
+    - 105A77:Skyrim.esm
+    - 105A79:Skyrim.esm
+    - 105A7D:Skyrim.esm
+    - 105AAC:Skyrim.esm
+    - 105AAB:Skyrim.esm
+    - 105AA9:Skyrim.esm
+    - 105AA8:Skyrim.esm
+    - 105AA6:Skyrim.esm
+    - 105AA5:Skyrim.esm
+    - 105AA3:Skyrim.esm
+    - 105AB9:Skyrim.esm
+    - 105ABB:Skyrim.esm
+    - 10C682:Skyrim.esm
+    - 09BA68:Skyrim.esm
+    - 10C67D:Skyrim.esm
+    - 09BA6D:Skyrim.esm
+    - 06E9C9:Skyrim.esm
+    - 0E9D17:Skyrim.esm
+    - 052934:Skyrim.esm
+    - 06E8ED:Skyrim.esm
+    - 03BE7A:Skyrim.esm
+    - 0B0120:Skyrim.esm
+    - 058838:Skyrim.esm
+    - 0F0963:Skyrim.esm
+    - 105E9A:Skyrim.esm
+  - Navmeshes:
+    - 103120:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 01D8CD:Skyrim.esm
+    - 104E8D:Skyrim.esm
+    - 0C1A2A:Skyrim.esm
+    - 0C1A2D:Skyrim.esm
+    - 01E6C6:Skyrim.esm
+    - 10822C:Skyrim.esm
+    - 10822E:Skyrim.esm
+    - 106C48:Skyrim.esm
+    - 106C4A:Skyrim.esm
+    - 0797EC:Skyrim.esm
+    - 0797FC:Skyrim.esm
+    - 0798EA:Skyrim.esm
+    - 0798F2:Skyrim.esm
+    - 07980C:Skyrim.esm
+    - 0799F4:Skyrim.esm
+    - 101816:Skyrim.esm
+    - 0792D8:Skyrim.esm
+    - 085F5B:Skyrim.esm
+    - 085F5A:Skyrim.esm
+    - 04C06C:Skyrim.esm
+    - 04C076:Skyrim.esm
+    - 101676:Skyrim.esm
+    - 017E20:Skyrim.esm
+    - 0180E7:Skyrim.esm
+    - 04C082:Skyrim.esm
+    - 08C397:Skyrim.esm
+    - 101B96:Skyrim.esm
+    - 0BA4D8:Skyrim.esm
+    - 0BA4D7:Skyrim.esm
+    - 0BB465:Skyrim.esm
+    - 04C03A:Skyrim.esm
+    - 0BB463:Skyrim.esm
+    - 0BB460:Skyrim.esm
+    - 0BAE54:Skyrim.esm
+    - 0AAB28:Skyrim.esm
+    - 0AAB27:Skyrim.esm
+    - 101E29:Skyrim.esm
+    - 0AAB2A:Skyrim.esm
+    - 042F23:Skyrim.esm
+    - 0B87D9:Skyrim.esm
+    - 0B87DC:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 10377B:Skyrim.esm
+  - Navmeshes:
+    - 103120:Skyrim.esm
+  - Navmeshes:
+    - 103120:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 01D8CD:Skyrim.esm
+    - 104E8D:Skyrim.esm
+    - 0C1A2A:Skyrim.esm
+    - 0C1A2D:Skyrim.esm
+    - 01E6C6:Skyrim.esm
+    - 10822C:Skyrim.esm
+    - 10822E:Skyrim.esm
+    - 106C48:Skyrim.esm
+    - 106C4A:Skyrim.esm
+    - 0797EC:Skyrim.esm
+    - 0797FC:Skyrim.esm
+    - 0798EA:Skyrim.esm
+    - 0798F2:Skyrim.esm
+    - 07980C:Skyrim.esm
+    - 0799F4:Skyrim.esm
+    - 101816:Skyrim.esm
+    - 0792D8:Skyrim.esm
+    - 085F5B:Skyrim.esm
+    - 085F5A:Skyrim.esm
+    - 04C06C:Skyrim.esm
+    - 04C076:Skyrim.esm
+    - 101676:Skyrim.esm
+    - 017E20:Skyrim.esm
+    - 0180E7:Skyrim.esm
+    - 04C082:Skyrim.esm
+    - 08C397:Skyrim.esm
+    - 101B96:Skyrim.esm
+    - 0BA4D8:Skyrim.esm
+    - 0BA4D7:Skyrim.esm
+    - 0BB465:Skyrim.esm
+    - 04C03A:Skyrim.esm
+    - 0BB463:Skyrim.esm
+    - 0BB460:Skyrim.esm
+    - 0BAE54:Skyrim.esm
+    - 0AAB28:Skyrim.esm
+    - 0AAB27:Skyrim.esm
+    - 101E29:Skyrim.esm
+    - 0AAB2A:Skyrim.esm
+    - 042F23:Skyrim.esm
+    - 0B87D9:Skyrim.esm
+    - 0B87DC:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 0FD6C9:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 100F4B:Skyrim.esm
+  - Navmeshes:
+    - 103120:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 01D8CD:Skyrim.esm
+    - 104E8D:Skyrim.esm
+    - 0C1A2A:Skyrim.esm
+    - 0C1A2D:Skyrim.esm
+    - 01E6C6:Skyrim.esm
+    - 10822C:Skyrim.esm
+    - 10822E:Skyrim.esm
+    - 106C48:Skyrim.esm
+    - 106C4A:Skyrim.esm
+    - 0797EC:Skyrim.esm
+    - 0797FC:Skyrim.esm
+    - 0798EA:Skyrim.esm
+    - 0798F2:Skyrim.esm
+    - 07980C:Skyrim.esm
+    - 0799F4:Skyrim.esm
+    - 101816:Skyrim.esm
+    - 0792D8:Skyrim.esm
+    - 085F5B:Skyrim.esm
+    - 085F5A:Skyrim.esm
+    - 04C06C:Skyrim.esm
+    - 04C076:Skyrim.esm
+    - 101676:Skyrim.esm
+    - 017E20:Skyrim.esm
+    - 0180E7:Skyrim.esm
+    - 04C082:Skyrim.esm
+    - 08C397:Skyrim.esm
+    - 101B96:Skyrim.esm
+    - 0BA4D8:Skyrim.esm
+    - 0BA4D7:Skyrim.esm
+    - 0BB465:Skyrim.esm
+    - 04C03A:Skyrim.esm
+    - 0BB463:Skyrim.esm
+    - 0BB460:Skyrim.esm
+    - 0BAE54:Skyrim.esm
+    - 0AAB28:Skyrim.esm
+    - 0AAB27:Skyrim.esm
+    - 101E29:Skyrim.esm
+    - 0AAB2A:Skyrim.esm
+    - 042F23:Skyrim.esm
+    - 0B87D9:Skyrim.esm
+    - 0B87DC:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+  - Navmeshes:
+    - 103120:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 01D8CD:Skyrim.esm
+    - 104E8D:Skyrim.esm
+    - 0C1A2A:Skyrim.esm
+    - 0C1A2D:Skyrim.esm
+    - 01E6C6:Skyrim.esm
+    - 10822C:Skyrim.esm
+    - 10822E:Skyrim.esm
+    - 106C48:Skyrim.esm
+    - 106C4A:Skyrim.esm
+    - 0797EC:Skyrim.esm
+    - 0797FC:Skyrim.esm
+    - 0798EA:Skyrim.esm
+    - 0798F2:Skyrim.esm
+    - 07980C:Skyrim.esm
+    - 0799F4:Skyrim.esm
+    - 101816:Skyrim.esm
+    - 0792D8:Skyrim.esm
+    - 085F5B:Skyrim.esm
+    - 085F5A:Skyrim.esm
+    - 04C06C:Skyrim.esm
+    - 04C074:Skyrim.esm
+    - 04C033:Skyrim.esm
+    - 079218:Skyrim.esm
+    - 085EBF:Skyrim.esm
+    - 079211:Skyrim.esm
+    - 079220:Skyrim.esm
+    - 085F32:Skyrim.esm
+    - 085ED0:Skyrim.esm
+    - 104686:Skyrim.esm
+    - 0C401E:Skyrim.esm
+    - 0C401D:Skyrim.esm
+    - 01FD17:Skyrim.esm
+    - 061AA1:Skyrim.esm
+    - 0C4082:Skyrim.esm
+    - 01FD08:Skyrim.esm
+    - 0C4081:Skyrim.esm
+    - 10DE7D:Skyrim.esm
+    - 10467B:Skyrim.esm
+    - 101650:Skyrim.esm
+    - 104683:Skyrim.esm
+    - 0F768C:Skyrim.esm
+    - 0C419C:Skyrim.esm
+    - 0C419F:Skyrim.esm
+    - 0F766E:Skyrim.esm
+    - 0F766C:Skyrim.esm
+    - 0F766B:Skyrim.esm
+    - 0FBFC3:Skyrim.esm
+    - 0FB915:Skyrim.esm
+    - 0FBFC6:Skyrim.esm
+    - 0FB913:Skyrim.esm
+    - 0FBFB1:Skyrim.esm
+    - 0FC54E:Skyrim.esm
+    - 0FC55E:Skyrim.esm
+    - 0FC54B:Skyrim.esm
+    - 0FC545:Skyrim.esm
+    - 0FC544:Skyrim.esm
+    - 0EE50A:Skyrim.esm
+    - 0FC52A:Skyrim.esm
+    - 0FC528:Skyrim.esm
+    - 0FC524:Skyrim.esm
+    - 0FC515:Skyrim.esm
+    - 0FC507:Skyrim.esm
+    - 0FC504:Skyrim.esm
+    - 0FC4E8:Skyrim.esm
+    - 0FC4EA:Skyrim.esm
+    - 0EA08B:Skyrim.esm
+    - 0EA084:Skyrim.esm
+    - 0EA083:Skyrim.esm
+    - 04813E:Skyrim.esm
+    - 0EA5DC:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 079BBF:Skyrim.esm
+  - Navmeshes:
+    - 103120:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 01D8CD:Skyrim.esm
+    - 104E8D:Skyrim.esm
+    - 0C1A2A:Skyrim.esm
+    - 0C1A2D:Skyrim.esm
+    - 01E6C6:Skyrim.esm
+    - 10822C:Skyrim.esm
+    - 10822E:Skyrim.esm
+    - 106C48:Skyrim.esm
+    - 106C4A:Skyrim.esm
+    - 0797EC:Skyrim.esm
+    - 0797FC:Skyrim.esm
+    - 0798EA:Skyrim.esm
+    - 0798F2:Skyrim.esm
+    - 07980C:Skyrim.esm
+    - 0799F4:Skyrim.esm
+    - 101816:Skyrim.esm
+    - 0792D8:Skyrim.esm
+    - 085F5B:Skyrim.esm
+    - 085F5A:Skyrim.esm
+    - 04C06C:Skyrim.esm
+    - 04C076:Skyrim.esm
+    - 101676:Skyrim.esm
+    - 017E20:Skyrim.esm
+    - 0180E7:Skyrim.esm
+    - 04C082:Skyrim.esm
+    - 08C397:Skyrim.esm
+    - 101B96:Skyrim.esm
+    - 0BA4D8:Skyrim.esm
+    - 0BA4D7:Skyrim.esm
+    - 0BB465:Skyrim.esm
+    - 04C03A:Skyrim.esm
+    - 0BB463:Skyrim.esm
+    - 0BB460:Skyrim.esm
+    - 0BAE54:Skyrim.esm
+    - 0AAB28:Skyrim.esm
+    - 0AAB27:Skyrim.esm
+    - 101E29:Skyrim.esm
+    - 0AAB2A:Skyrim.esm
+    - 042F23:Skyrim.esm
+    - 0B87D9:Skyrim.esm
+    - 0B87DC:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88CC:Skyrim.esm
+  - Navmeshes:
+    - 103120:Skyrim.esm
+    - 104FC5:Skyrim.esm
+    - 0EEA5A:Skyrim.esm
+    - 106975:Skyrim.esm
+    - 10602D:Skyrim.esm
+    - 10602C:Skyrim.esm
+    - 0F337F:Skyrim.esm
+    - 0F3383:Skyrim.esm
+    - 0435E2:Skyrim.esm
+    - 0F338C:Skyrim.esm
+    - 10539F:Skyrim.esm
+    - 105271:Skyrim.esm
+    - 10526E:Skyrim.esm
+    - 105269:Skyrim.esm
+    - 01BD47:Skyrim.esm
+    - 1041E9:Skyrim.esm
+    - 1041CE:Skyrim.esm
+    - 102D91:Skyrim.esm
+    - 102D90:Skyrim.esm
+    - 102D77:Skyrim.esm
+    - 02F53A:Skyrim.esm
+    - 01BD52:Skyrim.esm
+    - 102D75:Skyrim.esm
+    - 0F674B:Skyrim.esm
+    - 0F624C:Skyrim.esm
+    - 0F624B:Skyrim.esm
+    - 0F623E:Skyrim.esm
+    - 0F6235:Skyrim.esm
+    - 0F6234:Skyrim.esm
+    - 0F6233:Skyrim.esm
+    - 0F6232:Skyrim.esm
+    - 0F6231:Skyrim.esm
+    - 0F6240:Skyrim.esm
+    - 0F6252:Skyrim.esm
+    - 0F514C:Skyrim.esm
+    - 0F514A:Skyrim.esm
+    - 0F5149:Skyrim.esm
+    - 0F5148:Skyrim.esm
+    - 0F621D:Skyrim.esm
+    - 0F5110:Skyrim.esm
+    - 0F510E:Skyrim.esm
+    - 0F621C:Skyrim.esm
+    - 0F621B:Skyrim.esm
+    - 0F621A:Skyrim.esm
+    - 01C8FA:Skyrim.esm
+    - 01D164:Skyrim.esm
+    - 0FE4F2:Skyrim.esm
+    - 01C8F4:Skyrim.esm
+    - 01C8E2:Skyrim.esm
+    - 01C8E1:Skyrim.esm
+    - 07C628:Skyrim.esm
+    - 01C7A4:Skyrim.esm
+    - 3BA037:AlternatePerspective.esp
+    - 2AD8EF:AlternatePerspective.esp
+    - 0EC73F:Skyrim.esm
+    - 0EC741:Skyrim.esm
+    - 0EBDE2:Skyrim.esm
+    - 0EBDE4:Skyrim.esm
+    - 0977C6:Skyrim.esm
+    - 108B70:Skyrim.esm
+    - 0E847B:Skyrim.esm
+    - 0978B4:Skyrim.esm
+    - 0F13EB:Skyrim.esm
+    - 05C9B5:Skyrim.esm
+    - 0E847A:Skyrim.esm
+    - 0F0668:Skyrim.esm
+    - 05CC64:Skyrim.esm
+    - 05CC33:Skyrim.esm
+    - 0E845B:Skyrim.esm
+    - 0F065E:Skyrim.esm
+    - 0E8459:Skyrim.esm
+    - 0F065D:Skyrim.esm
+    - 0F065C:Skyrim.esm
+    - 0F065B:Skyrim.esm
+    - 0E8473:Skyrim.esm
+    - 0F13E6:Skyrim.esm
+    - 10FC44:Skyrim.esm
+    - 0FE29F:Skyrim.esm
+    - 0FE28D:Skyrim.esm
+    - 0FE28E:Skyrim.esm
+    - 0FE286:Skyrim.esm
+    - 0E84F3:Skyrim.esm
+    - 049000:Skyrim.esm
+    - 0E8526:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FC190:Skyrim.esm
+    - 0FC191:Skyrim.esm
+    - 0FC194:Skyrim.esm
+    - 0E855C:Skyrim.esm
+    - 0FC4E0:Skyrim.esm
+    - 0879BD:Skyrim.esm
+    - 0C64D1:Skyrim.esm
+    - 108BEF:Skyrim.esm
+    - 0F9056:Skyrim.esm
+    - 1032E9:Skyrim.esm
+    - 1032EA:Skyrim.esm
+    - 1032ED:Skyrim.esm
+    - 1032E2:Skyrim.esm
+    - 1032E0:Skyrim.esm
+    - 102119:Skyrim.esm
+    - 1020E8:Skyrim.esm
+    - 1020E9:Skyrim.esm
+    - 1020EA:Skyrim.esm
+    - 1020EC:Skyrim.esm
+    - 1020ED:Skyrim.esm
+    - 1020EE:Skyrim.esm
+    - 1020CC:Skyrim.esm
+    - 1020F1:Skyrim.esm
+    - 1020C8:Skyrim.esm
+    - 1020B1:Skyrim.esm
+    - 1020B4:Skyrim.esm
+    - 100A25:Skyrim.esm
+    - 0FFD6E:Skyrim.esm
+    - 0FFD6B:Skyrim.esm
+    - 106504:Skyrim.esm
+    - 1064F8:Skyrim.esm
+    - 1064F7:Skyrim.esm
+    - 1064FB:Skyrim.esm
+    - 094C23:Skyrim.esm
+    - 1064FC:Skyrim.esm
+    - 1030CB:Skyrim.esm
+  - Navmeshes:
+    - 103120:Skyrim.esm
+    - 104FC5:Skyrim.esm
+    - 0EEA5A:Skyrim.esm
+    - 106975:Skyrim.esm
+    - 10602D:Skyrim.esm
+    - 10602C:Skyrim.esm
+    - 0F337F:Skyrim.esm
+    - 0F3383:Skyrim.esm
+    - 0435E2:Skyrim.esm
+    - 0F338C:Skyrim.esm
+    - 10539F:Skyrim.esm
+    - 105271:Skyrim.esm
+    - 10526E:Skyrim.esm
+    - 105269:Skyrim.esm
+    - 01BD47:Skyrim.esm
+    - 1041E9:Skyrim.esm
+    - 1041CE:Skyrim.esm
+    - 102D91:Skyrim.esm
+    - 102D90:Skyrim.esm
+    - 102D77:Skyrim.esm
+    - 02F53A:Skyrim.esm
+    - 01BD52:Skyrim.esm
+    - 102D75:Skyrim.esm
+    - 0F674B:Skyrim.esm
+    - 0F624C:Skyrim.esm
+    - 0F624B:Skyrim.esm
+    - 0F623E:Skyrim.esm
+    - 0F6235:Skyrim.esm
+    - 0F6234:Skyrim.esm
+    - 0F6233:Skyrim.esm
+    - 0F6232:Skyrim.esm
+    - 0F6231:Skyrim.esm
+    - 0F6240:Skyrim.esm
+    - 0F6252:Skyrim.esm
+    - 0F514C:Skyrim.esm
+    - 0F514A:Skyrim.esm
+    - 0F5149:Skyrim.esm
+    - 0F5148:Skyrim.esm
+    - 0F621D:Skyrim.esm
+    - 0F5110:Skyrim.esm
+    - 0F510E:Skyrim.esm
+    - 0F621C:Skyrim.esm
+    - 0F621B:Skyrim.esm
+    - 0F621A:Skyrim.esm
+    - 01C8FA:Skyrim.esm
+    - 01D164:Skyrim.esm
+    - 0FE4F2:Skyrim.esm
+    - 01C8F4:Skyrim.esm
+    - 01C8E2:Skyrim.esm
+    - 01C8E1:Skyrim.esm
+    - 07C628:Skyrim.esm
+    - 01C7A4:Skyrim.esm
+    - 3BA037:AlternatePerspective.esp
+    - 2AD8EF:AlternatePerspective.esp
+    - 0EC73F:Skyrim.esm
+    - 0EC741:Skyrim.esm
+    - 0EBDE2:Skyrim.esm
+    - 0EBDE4:Skyrim.esm
+    - 0977C6:Skyrim.esm
+    - 108B70:Skyrim.esm
+    - 0E847B:Skyrim.esm
+    - 0978B4:Skyrim.esm
+    - 0F13EB:Skyrim.esm
+    - 05C9B5:Skyrim.esm
+    - 0E847A:Skyrim.esm
+    - 0F0668:Skyrim.esm
+    - 05CC64:Skyrim.esm
+    - 05CC33:Skyrim.esm
+    - 0E845B:Skyrim.esm
+    - 0F065E:Skyrim.esm
+    - 0E8459:Skyrim.esm
+    - 0F065D:Skyrim.esm
+    - 0F065C:Skyrim.esm
+    - 0F065B:Skyrim.esm
+    - 0E8473:Skyrim.esm
+    - 0F13E6:Skyrim.esm
+    - 10FC44:Skyrim.esm
+    - 0FE29F:Skyrim.esm
+    - 0FE28D:Skyrim.esm
+    - 0FE28E:Skyrim.esm
+    - 0FE286:Skyrim.esm
+    - 0E84F3:Skyrim.esm
+    - 049000:Skyrim.esm
+    - 0E8526:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0E8583:Skyrim.esm
+    - 0E85AA:Skyrim.esm
+    - 0E85D1:Skyrim.esm
+    - 0E85D0:Skyrim.esm
+    - 0E85CF:Skyrim.esm
+    - 0E85C8:Skyrim.esm
+    - 0E85EA:Skyrim.esm
+    - 0E85E9:Skyrim.esm
+    - 0E8609:Skyrim.esm
+    - 0E8608:Skyrim.esm
+    - 0E8620:Skyrim.esm
+    - 0E861F:Skyrim.esm
+    - 054401:Skyrim.esm
+    - 054402:Skyrim.esm
+    - 0E863D:Skyrim.esm
+    - 0E8667:Skyrim.esm
+    - 0E8666:Skyrim.esm
+    - 0E8688:Skyrim.esm
+    - 0F3E7F:Skyrim.esm
+    - 104736:Skyrim.esm
+    - 0A3F44:Skyrim.esm
+  - Navmeshes:
+    - 100F4B:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 0F7F02:Skyrim.esm
+    - 100519:Skyrim.esm
+    - 103AF7:Skyrim.esm
+    - 1058AD:Skyrim.esm
+    - 100073:Skyrim.esm
+    - 10003D:Skyrim.esm
+    - 100037:Skyrim.esm
+    - 0F0962:Skyrim.esm
+    - 106FAE:Skyrim.esm
+    - 106FA6:Skyrim.esm
+    - 106F9A:Skyrim.esm
+    - 106357:Skyrim.esm
+    - 10634B:Skyrim.esm
+    - 10635F:Skyrim.esm
+    - 106305:Skyrim.esm
+    - 0C6F02:Skyrim.esm
+    - 0167D5:Skyrim.esm
+    - 10591B:Skyrim.esm
+    - 105912:Skyrim.esm
+    - 103B22:Skyrim.esm
+    - 103B2B:Skyrim.esm
+    - 103B46:Skyrim.esm
+    - 103B1B:Skyrim.esm
+    - 103620:Skyrim.esm
+    - 103626:Skyrim.esm
+    - 103627:Skyrim.esm
+    - 0ECBF6:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 1050CA:Skyrim.esm
+    - 1050EB:Skyrim.esm
+    - 1050E9:Skyrim.esm
+    - 105A77:Skyrim.esm
+    - 105A79:Skyrim.esm
+    - 105A7D:Skyrim.esm
+    - 105AAC:Skyrim.esm
+    - 105AAB:Skyrim.esm
+    - 105AA9:Skyrim.esm
+    - 105AA8:Skyrim.esm
+    - 105AA6:Skyrim.esm
+    - 105AA5:Skyrim.esm
+    - 105AA3:Skyrim.esm
+    - 105AB9:Skyrim.esm
+    - 105ABB:Skyrim.esm
+    - 10C682:Skyrim.esm
+    - 09BA68:Skyrim.esm
+    - 10C67D:Skyrim.esm
+    - 09BA6D:Skyrim.esm
+    - 06E9C9:Skyrim.esm
+    - 0E9D17:Skyrim.esm
+    - 052934:Skyrim.esm
+    - 06E8ED:Skyrim.esm
+    - 03BE7A:Skyrim.esm
+    - 0B0120:Skyrim.esm
+    - 058838:Skyrim.esm
+    - 0F0963:Skyrim.esm
+    - 105E9A:Skyrim.esm
+  - Navmeshes:
+    - 100F4B:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 0F7F02:Skyrim.esm
+    - 100519:Skyrim.esm
+    - 103AF7:Skyrim.esm
+    - 1058AD:Skyrim.esm
+    - 100073:Skyrim.esm
+    - 10003D:Skyrim.esm
+    - 100037:Skyrim.esm
+    - 0F0962:Skyrim.esm
+    - 106FAE:Skyrim.esm
+    - 106FA6:Skyrim.esm
+    - 106F9A:Skyrim.esm
+    - 106357:Skyrim.esm
+    - 10634B:Skyrim.esm
+    - 10635F:Skyrim.esm
+    - 106305:Skyrim.esm
+    - 0C6F02:Skyrim.esm
+    - 0167D5:Skyrim.esm
+    - 10591B:Skyrim.esm
+    - 105912:Skyrim.esm
+    - 103B22:Skyrim.esm
+    - 103B2B:Skyrim.esm
+    - 103B46:Skyrim.esm
+    - 103B1B:Skyrim.esm
+    - 103620:Skyrim.esm
+    - 103626:Skyrim.esm
+    - 103627:Skyrim.esm
+    - 01689A:Skyrim.esm
+    - 03C06D:Skyrim.esm
+    - 103618:Skyrim.esm
+    - 10377B:Skyrim.esm
+  - Navmeshes:
+    - 100F4B:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 0FD693:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+    - 0B87DC:Skyrim.esm
+    - 0B87C7:Skyrim.esm
+    - 0F07DF:Skyrim.esm
+    - 0BBC1D:Skyrim.esm
+    - 0BBC0A:Skyrim.esm
+    - 0AAB2A:Skyrim.esm
+    - 101E29:Skyrim.esm
+    - 0AAB27:Skyrim.esm
+    - 0AAB28:Skyrim.esm
+    - 0BAE54:Skyrim.esm
+    - 0BB460:Skyrim.esm
+    - 0BB463:Skyrim.esm
+    - 04C03A:Skyrim.esm
+    - 0BB465:Skyrim.esm
+    - 0BA4D7:Skyrim.esm
+    - 0BA4D8:Skyrim.esm
+    - 101B96:Skyrim.esm
+    - 08C397:Skyrim.esm
+    - 04C082:Skyrim.esm
+    - 0180E7:Skyrim.esm
+    - 017E20:Skyrim.esm
+    - 101675:Skyrim.esm
+    - 1017EF:Skyrim.esm
+    - 1017F0:Skyrim.esm
+    - 0799FB:Skyrim.esm
+    - 079A3C:Skyrim.esm
+    - 0799F6:Skyrim.esm
+    - 1017F7:Skyrim.esm
+    - 0E6430:Skyrim.esm
+    - 079A5A:Skyrim.esm
+    - 1017F8:Skyrim.esm
+    - 079A55:Skyrim.esm
+    - 079A82:Skyrim.esm
+    - 079A81:Skyrim.esm
+    - 01E6DE:Skyrim.esm
+    - 01E017:Skyrim.esm
+    - 01E019:Skyrim.esm
+    - 01D8CE:Skyrim.esm
+    - 0E3766:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 103120:Skyrim.esm
+  - Navmeshes:
+    - 100F4B:Skyrim.esm
+  - Navmeshes:
+    - 100F4B:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 0FD693:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+  - Navmeshes:
+    - 100F4B:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 0FD693:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0F0B17:Skyrim.esm
+    - 0FF82C:Skyrim.esm
+    - 0EA199:Skyrim.esm
+    - 0EBEC9:Skyrim.esm
+    - 0C1A27:Skyrim.esm
+    - 0FF8B6:Skyrim.esm
+    - 101F3C:Skyrim.esm
+    - 101F3D:Skyrim.esm
+    - 101F38:Skyrim.esm
+    - 101A9C:Skyrim.esm
+    - 101A9E:Skyrim.esm
+    - 101A96:Skyrim.esm
+    - 101A85:Skyrim.esm
+    - 0E93C5:Skyrim.esm
+    - 0E86C3:Skyrim.esm
+    - 0E86A5:Skyrim.esm
+    - 0E86A6:Skyrim.esm
+    - 0E8687:Skyrim.esm
+    - 0E93A9:Skyrim.esm
+    - 0EA09C:Skyrim.esm
+    - 0E807E:Skyrim.esm
+    - 0EA082:Skyrim.esm
+    - 0E8601:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 079BBF:Skyrim.esm
+  - Navmeshes:
+    - 100F4B:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 0F7F02:Skyrim.esm
+    - 100519:Skyrim.esm
+    - 103AF7:Skyrim.esm
+    - 1058AD:Skyrim.esm
+    - 100073:Skyrim.esm
+    - 10003D:Skyrim.esm
+    - 100037:Skyrim.esm
+    - 0F0962:Skyrim.esm
+    - 106FAE:Skyrim.esm
+    - 106FA6:Skyrim.esm
+    - 106F9A:Skyrim.esm
+    - 106357:Skyrim.esm
+    - 10634B:Skyrim.esm
+    - 10635F:Skyrim.esm
+    - 106305:Skyrim.esm
+    - 0C6F02:Skyrim.esm
+    - 0167D5:Skyrim.esm
+    - 10591B:Skyrim.esm
+    - 105912:Skyrim.esm
+    - 103B22:Skyrim.esm
+    - 103B2B:Skyrim.esm
+    - 103B46:Skyrim.esm
+    - 103B1B:Skyrim.esm
+    - 103620:Skyrim.esm
+    - 103626:Skyrim.esm
+    - 103627:Skyrim.esm
+    - 0ECBF6:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88CC:Skyrim.esm
+  - Navmeshes:
+    - 100F4B:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 0FD693:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0F0B17:Skyrim.esm
+    - 0FF82C:Skyrim.esm
+    - 0EA199:Skyrim.esm
+    - 0EBEC9:Skyrim.esm
+    - 0C1A27:Skyrim.esm
+    - 0FF8B6:Skyrim.esm
+    - 101F3C:Skyrim.esm
+    - 101F3D:Skyrim.esm
+    - 101F38:Skyrim.esm
+    - 101A9C:Skyrim.esm
+    - 101A9E:Skyrim.esm
+    - 101A96:Skyrim.esm
+    - 101A85:Skyrim.esm
+    - 0E93C5:Skyrim.esm
+    - 0E86C3:Skyrim.esm
+    - 0E86A5:Skyrim.esm
+    - 0E86A6:Skyrim.esm
+    - 0E8687:Skyrim.esm
+    - 0E93A9:Skyrim.esm
+    - 0EA09C:Skyrim.esm
+    - 0E807E:Skyrim.esm
+    - 0EA082:Skyrim.esm
+    - 0E8601:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 079BBF:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FC190:Skyrim.esm
+    - 0FC191:Skyrim.esm
+    - 0FC194:Skyrim.esm
+    - 0E855C:Skyrim.esm
+    - 0FC4E0:Skyrim.esm
+    - 0879BD:Skyrim.esm
+    - 0C64D1:Skyrim.esm
+    - 108BEF:Skyrim.esm
+    - 0F9056:Skyrim.esm
+    - 1032E9:Skyrim.esm
+    - 1032EA:Skyrim.esm
+    - 1032ED:Skyrim.esm
+    - 1032E2:Skyrim.esm
+    - 1032E0:Skyrim.esm
+    - 102119:Skyrim.esm
+    - 1020E8:Skyrim.esm
+    - 1020E9:Skyrim.esm
+    - 1020EA:Skyrim.esm
+    - 1020EC:Skyrim.esm
+    - 1020ED:Skyrim.esm
+    - 1020EE:Skyrim.esm
+    - 1020CC:Skyrim.esm
+    - 1020F1:Skyrim.esm
+    - 1020C8:Skyrim.esm
+    - 1020B1:Skyrim.esm
+    - 1020B4:Skyrim.esm
+    - 100A25:Skyrim.esm
+    - 0FFD6E:Skyrim.esm
+    - 0FFD6B:Skyrim.esm
+    - 106504:Skyrim.esm
+    - 1064F8:Skyrim.esm
+    - 1064F7:Skyrim.esm
+    - 1064FB:Skyrim.esm
+    - 094C23:Skyrim.esm
+    - 1064FC:Skyrim.esm
+    - 1030CB:Skyrim.esm
+  - Navmeshes:
+    - 100F4B:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 0FD693:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0F0B17:Skyrim.esm
+    - 0FF82C:Skyrim.esm
+    - 0EA199:Skyrim.esm
+    - 0EBEC9:Skyrim.esm
+    - 0C1A27:Skyrim.esm
+    - 0FF8B6:Skyrim.esm
+    - 101F3C:Skyrim.esm
+    - 101F3D:Skyrim.esm
+    - 101F38:Skyrim.esm
+    - 101A9C:Skyrim.esm
+    - 101A9E:Skyrim.esm
+    - 101A96:Skyrim.esm
+    - 101A85:Skyrim.esm
+    - 0E93C5:Skyrim.esm
+    - 0E86C3:Skyrim.esm
+    - 0E86A5:Skyrim.esm
+    - 0E86A6:Skyrim.esm
+    - 0E8687:Skyrim.esm
+    - 0E93A9:Skyrim.esm
+    - 0EA09C:Skyrim.esm
+    - 0E807E:Skyrim.esm
+    - 0EA082:Skyrim.esm
+    - 0E8601:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 079BBF:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0E8583:Skyrim.esm
+    - 0E85AA:Skyrim.esm
+    - 0E85D1:Skyrim.esm
+    - 0E85D0:Skyrim.esm
+    - 0E85CF:Skyrim.esm
+    - 0E85C8:Skyrim.esm
+    - 0E85EA:Skyrim.esm
+    - 0E85E9:Skyrim.esm
+    - 0E8609:Skyrim.esm
+    - 0E8608:Skyrim.esm
+    - 0E8620:Skyrim.esm
+    - 0E861F:Skyrim.esm
+    - 054401:Skyrim.esm
+    - 054402:Skyrim.esm
+    - 0E863D:Skyrim.esm
+    - 0E8667:Skyrim.esm
+    - 0E8666:Skyrim.esm
+    - 0E8688:Skyrim.esm
+    - 0F3E7F:Skyrim.esm
+    - 104736:Skyrim.esm
+    - 0A3F44:Skyrim.esm
+  - Navmeshes:
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 1050CA:Skyrim.esm
+    - 1050EB:Skyrim.esm
+    - 1050E9:Skyrim.esm
+    - 105A77:Skyrim.esm
+    - 105A79:Skyrim.esm
+    - 105A7D:Skyrim.esm
+    - 105AAC:Skyrim.esm
+    - 105AAB:Skyrim.esm
+    - 105AA9:Skyrim.esm
+    - 105AA8:Skyrim.esm
+    - 105AA6:Skyrim.esm
+    - 105AA5:Skyrim.esm
+    - 105AA3:Skyrim.esm
+    - 105AB9:Skyrim.esm
+    - 105ABB:Skyrim.esm
+    - 10C682:Skyrim.esm
+    - 09BA68:Skyrim.esm
+    - 10C67D:Skyrim.esm
+    - 09BA6D:Skyrim.esm
+    - 06E9C9:Skyrim.esm
+    - 0E9D17:Skyrim.esm
+    - 052934:Skyrim.esm
+    - 06E8ED:Skyrim.esm
+    - 03BE7A:Skyrim.esm
+    - 0B0120:Skyrim.esm
+    - 058838:Skyrim.esm
+    - 0F0963:Skyrim.esm
+    - 105E9A:Skyrim.esm
+  - Navmeshes:
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 10377B:Skyrim.esm
+  - Navmeshes:
+    - 0B87DF:Skyrim.esm
+    - 0B87DC:Skyrim.esm
+    - 0B87C7:Skyrim.esm
+    - 0F07DF:Skyrim.esm
+    - 0BBC1D:Skyrim.esm
+    - 0BBC0A:Skyrim.esm
+    - 0AAB2A:Skyrim.esm
+    - 101E29:Skyrim.esm
+    - 0AAB27:Skyrim.esm
+    - 0AAB28:Skyrim.esm
+    - 0BAE54:Skyrim.esm
+    - 0BB460:Skyrim.esm
+    - 0BB463:Skyrim.esm
+    - 04C03A:Skyrim.esm
+    - 0BB465:Skyrim.esm
+    - 0BA4D7:Skyrim.esm
+    - 0BA4D8:Skyrim.esm
+    - 101B96:Skyrim.esm
+    - 08C397:Skyrim.esm
+    - 04C082:Skyrim.esm
+    - 0180E7:Skyrim.esm
+    - 017E20:Skyrim.esm
+    - 101675:Skyrim.esm
+    - 1017EF:Skyrim.esm
+    - 1017F0:Skyrim.esm
+    - 0799FB:Skyrim.esm
+    - 079A3C:Skyrim.esm
+    - 0799F6:Skyrim.esm
+    - 1017F7:Skyrim.esm
+    - 0E6430:Skyrim.esm
+    - 079A5A:Skyrim.esm
+    - 1017F8:Skyrim.esm
+    - 079A55:Skyrim.esm
+    - 079A82:Skyrim.esm
+    - 079A81:Skyrim.esm
+    - 01E6DE:Skyrim.esm
+    - 01E017:Skyrim.esm
+    - 01E019:Skyrim.esm
+    - 01D8CE:Skyrim.esm
+    - 0E3766:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 103120:Skyrim.esm
+  - Navmeshes:
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 0FD6C9:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 100F4B:Skyrim.esm
+  - Navmeshes:
+    - 0B87DF:Skyrim.esm
+  - Navmeshes:
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87C8:Skyrim.esm
+    - 10B267:Skyrim.esm
+    - 0FA27B:Skyrim.esm
+    - 019052:Skyrim.esm
+    - 0FA262:Skyrim.esm
+    - 018FDE:Skyrim.esm
+    - 018C31:Skyrim.esm
+    - 103583:Skyrim.esm
+    - 103584:Skyrim.esm
+    - 103585:Skyrim.esm
+    - 0D0472:Skyrim.esm
+    - 01874D:Skyrim.esm
+    - 0FE14F:Skyrim.esm
+    - 0FBFAD:Skyrim.esm
+    - 0FBFAA:Skyrim.esm
+    - 0FBFCE:Skyrim.esm
+    - 0FB918:Skyrim.esm
+    - 0FB917:Skyrim.esm
+    - 0FBFC3:Skyrim.esm
+    - 0FB915:Skyrim.esm
+    - 0FBFC6:Skyrim.esm
+    - 0FB913:Skyrim.esm
+    - 0FBFB1:Skyrim.esm
+    - 0FC54E:Skyrim.esm
+    - 0FC55E:Skyrim.esm
+    - 0FC54B:Skyrim.esm
+    - 0FC545:Skyrim.esm
+    - 0FC544:Skyrim.esm
+    - 0EE50A:Skyrim.esm
+    - 0FC52A:Skyrim.esm
+    - 0FC528:Skyrim.esm
+    - 0FC524:Skyrim.esm
+    - 0FC515:Skyrim.esm
+    - 0FC507:Skyrim.esm
+    - 0FC504:Skyrim.esm
+    - 0FC4E8:Skyrim.esm
+    - 0FC4EA:Skyrim.esm
+    - 0EA08B:Skyrim.esm
+    - 0EA084:Skyrim.esm
+    - 0EA083:Skyrim.esm
+    - 04813E:Skyrim.esm
+    - 0EA5DC:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 079BBF:Skyrim.esm
+  - Navmeshes:
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88CC:Skyrim.esm
+  - Navmeshes:
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87C8:Skyrim.esm
+    - 10B267:Skyrim.esm
+    - 0FA27B:Skyrim.esm
+    - 019052:Skyrim.esm
+    - 0FA262:Skyrim.esm
+    - 018FDE:Skyrim.esm
+    - 018C31:Skyrim.esm
+    - 103583:Skyrim.esm
+    - 103584:Skyrim.esm
+    - 103585:Skyrim.esm
+    - 0D0472:Skyrim.esm
+    - 01874D:Skyrim.esm
+    - 0FE14F:Skyrim.esm
+    - 0FBFAD:Skyrim.esm
+    - 0FBFAA:Skyrim.esm
+    - 0FBFCE:Skyrim.esm
+    - 0FB918:Skyrim.esm
+    - 0FB917:Skyrim.esm
+    - 0FBFC3:Skyrim.esm
+    - 0FB915:Skyrim.esm
+    - 0FBFC6:Skyrim.esm
+    - 0FB913:Skyrim.esm
+    - 0FBFB1:Skyrim.esm
+    - 0FC54E:Skyrim.esm
+    - 0FC55E:Skyrim.esm
+    - 0FC54B:Skyrim.esm
+    - 0FC545:Skyrim.esm
+    - 0FC544:Skyrim.esm
+    - 0EE50A:Skyrim.esm
+    - 0FC52A:Skyrim.esm
+    - 0FC528:Skyrim.esm
+    - 0FC524:Skyrim.esm
+    - 0FC515:Skyrim.esm
+    - 0FC507:Skyrim.esm
+    - 0FC504:Skyrim.esm
+    - 0FC4E8:Skyrim.esm
+    - 0FC4EA:Skyrim.esm
+    - 0EA08B:Skyrim.esm
+    - 0EA084:Skyrim.esm
+    - 0EA083:Skyrim.esm
+    - 04813E:Skyrim.esm
+    - 0EA5DC:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 079BBF:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FC190:Skyrim.esm
+    - 0FC191:Skyrim.esm
+    - 0FC194:Skyrim.esm
+    - 0E855C:Skyrim.esm
+    - 0FC4E0:Skyrim.esm
+    - 0879BD:Skyrim.esm
+    - 0C64D1:Skyrim.esm
+    - 108BEF:Skyrim.esm
+    - 0F9056:Skyrim.esm
+    - 1032E9:Skyrim.esm
+    - 1032EA:Skyrim.esm
+    - 1032ED:Skyrim.esm
+    - 1032E2:Skyrim.esm
+    - 1032E0:Skyrim.esm
+    - 102119:Skyrim.esm
+    - 1020E8:Skyrim.esm
+    - 1020E9:Skyrim.esm
+    - 1020EA:Skyrim.esm
+    - 1020EC:Skyrim.esm
+    - 1020ED:Skyrim.esm
+    - 1020EE:Skyrim.esm
+    - 1020CC:Skyrim.esm
+    - 1020F1:Skyrim.esm
+    - 1020C8:Skyrim.esm
+    - 1020B1:Skyrim.esm
+    - 1020B4:Skyrim.esm
+    - 100A25:Skyrim.esm
+    - 0FFD6E:Skyrim.esm
+    - 0FFD6B:Skyrim.esm
+    - 106504:Skyrim.esm
+    - 1064F8:Skyrim.esm
+    - 1064F7:Skyrim.esm
+    - 1064FB:Skyrim.esm
+    - 094C23:Skyrim.esm
+    - 1064FC:Skyrim.esm
+    - 1030CB:Skyrim.esm
+  - Navmeshes:
+    - 0B87DF:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87C8:Skyrim.esm
+    - 10B267:Skyrim.esm
+    - 0FA27B:Skyrim.esm
+    - 019052:Skyrim.esm
+    - 0FA262:Skyrim.esm
+    - 018FDE:Skyrim.esm
+    - 018C31:Skyrim.esm
+    - 103583:Skyrim.esm
+    - 103584:Skyrim.esm
+    - 103585:Skyrim.esm
+    - 0D0472:Skyrim.esm
+    - 01874D:Skyrim.esm
+    - 0FE14F:Skyrim.esm
+    - 0FBFAD:Skyrim.esm
+    - 0FBFAA:Skyrim.esm
+    - 0FBFCE:Skyrim.esm
+    - 0FB918:Skyrim.esm
+    - 0FB917:Skyrim.esm
+    - 0FBFC3:Skyrim.esm
+    - 0FB915:Skyrim.esm
+    - 0FBFC6:Skyrim.esm
+    - 0FB913:Skyrim.esm
+    - 0FBFB1:Skyrim.esm
+    - 0FC54E:Skyrim.esm
+    - 0FC55E:Skyrim.esm
+    - 0FC54B:Skyrim.esm
+    - 0FC545:Skyrim.esm
+    - 0FC544:Skyrim.esm
+    - 0EE50A:Skyrim.esm
+    - 0FC52A:Skyrim.esm
+    - 0FC528:Skyrim.esm
+    - 0FC524:Skyrim.esm
+    - 0FC515:Skyrim.esm
+    - 0FC507:Skyrim.esm
+    - 0FC504:Skyrim.esm
+    - 0FC4E8:Skyrim.esm
+    - 0FC4EA:Skyrim.esm
+    - 0EA08B:Skyrim.esm
+    - 0EA084:Skyrim.esm
+    - 0EA083:Skyrim.esm
+    - 04813E:Skyrim.esm
+    - 0EA5DC:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 079BBF:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0E8583:Skyrim.esm
+    - 0E85AA:Skyrim.esm
+    - 0E85D1:Skyrim.esm
+    - 0E85D0:Skyrim.esm
+    - 0E85CF:Skyrim.esm
+    - 0E85C8:Skyrim.esm
+    - 0E85EA:Skyrim.esm
+    - 0E85E9:Skyrim.esm
+    - 0E8609:Skyrim.esm
+    - 0E8608:Skyrim.esm
+    - 0E8620:Skyrim.esm
+    - 0E861F:Skyrim.esm
+    - 054401:Skyrim.esm
+    - 054402:Skyrim.esm
+    - 0E863D:Skyrim.esm
+    - 0E8667:Skyrim.esm
+    - 0E8666:Skyrim.esm
+    - 0E8688:Skyrim.esm
+    - 0F3E7F:Skyrim.esm
+    - 104736:Skyrim.esm
+    - 0A3F44:Skyrim.esm
+  - Navmeshes:
+    - 079BBF:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0E8583:Skyrim.esm
+    - 0E85AA:Skyrim.esm
+    - 0E85D1:Skyrim.esm
+    - 0E85D0:Skyrim.esm
+    - 0E85CF:Skyrim.esm
+    - 0E85C8:Skyrim.esm
+    - 0E85EA:Skyrim.esm
+    - 0E85E9:Skyrim.esm
+    - 0E8609:Skyrim.esm
+    - 0E8608:Skyrim.esm
+    - 0E8620:Skyrim.esm
+    - 0E861F:Skyrim.esm
+    - 054401:Skyrim.esm
+    - 054402:Skyrim.esm
+    - 0E863D:Skyrim.esm
+    - 0E8667:Skyrim.esm
+    - 0E8666:Skyrim.esm
+    - 0E8688:Skyrim.esm
+    - 0F3E7F:Skyrim.esm
+    - 104736:Skyrim.esm
+    - 0A3F44:Skyrim.esm
+    - 0E8230:Skyrim.esm
+    - 0E8250:Skyrim.esm
+    - 104FAF:Skyrim.esm
+    - 104FB0:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0268F0:Skyrim.esm
+    - 0E8B60:Skyrim.esm
+    - 0E8B81:Skyrim.esm
+    - 0E8B80:Skyrim.esm
+    - 0CD7B8:Skyrim.esm
+    - 0C2526:Skyrim.esm
+    - 0E8A6A:Skyrim.esm
+    - 107374:Skyrim.esm
+    - 106C52:Skyrim.esm
+    - 10737D:Skyrim.esm
+    - 0E8A94:Skyrim.esm
+    - 0E8A8F:Skyrim.esm
+    - 0F798E:Skyrim.esm
+    - 06E8E1:Skyrim.esm
+    - 06E8E2:Skyrim.esm
+    - 0B097B:Skyrim.esm
+    - 105E9A:Skyrim.esm
+  - Navmeshes:
+    - 079BBF:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0E8601:Skyrim.esm
+    - 0EA082:Skyrim.esm
+    - 0E807E:Skyrim.esm
+    - 0EA09C:Skyrim.esm
+    - 0E93A9:Skyrim.esm
+    - 0E8687:Skyrim.esm
+    - 0E86A6:Skyrim.esm
+    - 0E86A5:Skyrim.esm
+    - 0E86C3:Skyrim.esm
+    - 0E93C5:Skyrim.esm
+    - 101A85:Skyrim.esm
+    - 101A96:Skyrim.esm
+    - 101A9E:Skyrim.esm
+    - 101A9C:Skyrim.esm
+    - 101F38:Skyrim.esm
+    - 101F3D:Skyrim.esm
+    - 101F3C:Skyrim.esm
+    - 0FF8B6:Skyrim.esm
+    - 0C1A27:Skyrim.esm
+    - 0EBEC9:Skyrim.esm
+    - 0EA199:Skyrim.esm
+    - 0FF82C:Skyrim.esm
+    - 0F0B17:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 10377B:Skyrim.esm
+  - Navmeshes:
+    - 079BBF:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0EA5DC:Skyrim.esm
+    - 04813E:Skyrim.esm
+    - 0EA083:Skyrim.esm
+    - 0EA084:Skyrim.esm
+    - 0EA08B:Skyrim.esm
+    - 0FC4EA:Skyrim.esm
+    - 0FC4E8:Skyrim.esm
+    - 0FC504:Skyrim.esm
+    - 0FC507:Skyrim.esm
+    - 0FC515:Skyrim.esm
+    - 0FC524:Skyrim.esm
+    - 0FC528:Skyrim.esm
+    - 0FC52A:Skyrim.esm
+    - 0EE50A:Skyrim.esm
+    - 0FC544:Skyrim.esm
+    - 0FC545:Skyrim.esm
+    - 0FC54B:Skyrim.esm
+    - 0FC55E:Skyrim.esm
+    - 0FC54E:Skyrim.esm
+    - 0FBFB1:Skyrim.esm
+    - 0FB913:Skyrim.esm
+    - 0FBFC6:Skyrim.esm
+    - 0FB915:Skyrim.esm
+    - 0FBFC3:Skyrim.esm
+    - 0F766B:Skyrim.esm
+    - 0F766C:Skyrim.esm
+    - 0F766E:Skyrim.esm
+    - 0C419F:Skyrim.esm
+    - 0C419C:Skyrim.esm
+    - 0F768C:Skyrim.esm
+    - 104683:Skyrim.esm
+    - 101650:Skyrim.esm
+    - 10467B:Skyrim.esm
+    - 10DE7D:Skyrim.esm
+    - 0C4081:Skyrim.esm
+    - 01FD08:Skyrim.esm
+    - 0C4082:Skyrim.esm
+    - 061AA1:Skyrim.esm
+    - 01FD17:Skyrim.esm
+    - 0C401D:Skyrim.esm
+    - 0C401E:Skyrim.esm
+    - 104686:Skyrim.esm
+    - 085ED0:Skyrim.esm
+    - 085F32:Skyrim.esm
+    - 079220:Skyrim.esm
+    - 079211:Skyrim.esm
+    - 085EBF:Skyrim.esm
+    - 079218:Skyrim.esm
+    - 04C033:Skyrim.esm
+    - 04C074:Skyrim.esm
+    - 04C06C:Skyrim.esm
+    - 085F5A:Skyrim.esm
+    - 085F5B:Skyrim.esm
+    - 0792D8:Skyrim.esm
+    - 101816:Skyrim.esm
+    - 0799F4:Skyrim.esm
+    - 07980C:Skyrim.esm
+    - 0798F2:Skyrim.esm
+    - 0798EA:Skyrim.esm
+    - 0797FC:Skyrim.esm
+    - 0797EC:Skyrim.esm
+    - 106C4A:Skyrim.esm
+    - 106C48:Skyrim.esm
+    - 10822E:Skyrim.esm
+    - 10822C:Skyrim.esm
+    - 01E6C6:Skyrim.esm
+    - 0C1A2D:Skyrim.esm
+    - 0C1A2A:Skyrim.esm
+    - 104E8D:Skyrim.esm
+    - 01D8CD:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 103120:Skyrim.esm
+  - Navmeshes:
+    - 079BBF:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0E8601:Skyrim.esm
+    - 0EA082:Skyrim.esm
+    - 0E807E:Skyrim.esm
+    - 0EA09C:Skyrim.esm
+    - 0E93A9:Skyrim.esm
+    - 0E8687:Skyrim.esm
+    - 0E86A6:Skyrim.esm
+    - 0E86A5:Skyrim.esm
+    - 0E86C3:Skyrim.esm
+    - 0E93C5:Skyrim.esm
+    - 101A85:Skyrim.esm
+    - 101A96:Skyrim.esm
+    - 101A9E:Skyrim.esm
+    - 101A9C:Skyrim.esm
+    - 101F38:Skyrim.esm
+    - 101F3D:Skyrim.esm
+    - 101F3C:Skyrim.esm
+    - 0FF8B6:Skyrim.esm
+    - 0C1A27:Skyrim.esm
+    - 0EBEC9:Skyrim.esm
+    - 0EA199:Skyrim.esm
+    - 0FF82C:Skyrim.esm
+    - 0F0B17:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 0FD6C9:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 100F4B:Skyrim.esm
+  - Navmeshes:
+    - 079BBF:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0EA5DC:Skyrim.esm
+    - 04813E:Skyrim.esm
+    - 0EA083:Skyrim.esm
+    - 0EA084:Skyrim.esm
+    - 0EA08B:Skyrim.esm
+    - 0FC4EA:Skyrim.esm
+    - 0FC4E8:Skyrim.esm
+    - 0FC504:Skyrim.esm
+    - 0FC507:Skyrim.esm
+    - 0FC515:Skyrim.esm
+    - 0FC524:Skyrim.esm
+    - 0FC528:Skyrim.esm
+    - 0FC52A:Skyrim.esm
+    - 0EE50A:Skyrim.esm
+    - 0FC544:Skyrim.esm
+    - 0FC545:Skyrim.esm
+    - 0FC54B:Skyrim.esm
+    - 0FC55E:Skyrim.esm
+    - 0FC54E:Skyrim.esm
+    - 0FBFB1:Skyrim.esm
+    - 0FB913:Skyrim.esm
+    - 0FBFC6:Skyrim.esm
+    - 0FB915:Skyrim.esm
+    - 0FBFC3:Skyrim.esm
+    - 0FB917:Skyrim.esm
+    - 0FB918:Skyrim.esm
+    - 0FBFCE:Skyrim.esm
+    - 0FBFAA:Skyrim.esm
+    - 0FBFAD:Skyrim.esm
+    - 0FE14F:Skyrim.esm
+    - 01874D:Skyrim.esm
+    - 0D0472:Skyrim.esm
+    - 103585:Skyrim.esm
+    - 103584:Skyrim.esm
+    - 103583:Skyrim.esm
+    - 018C31:Skyrim.esm
+    - 018FDE:Skyrim.esm
+    - 0FA262:Skyrim.esm
+    - 019052:Skyrim.esm
+    - 0FA27B:Skyrim.esm
+    - 10B267:Skyrim.esm
+    - 0B87C8:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+  - Navmeshes:
+    - 079BBF:Skyrim.esm
+  - Navmeshes:
+    - 079BBF:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0FF83A:Skyrim.esm
+    - 0E8654:Skyrim.esm
+    - 0E8679:Skyrim.esm
+    - 0E8699:Skyrim.esm
+    - 0FF088:Skyrim.esm
+    - 0E86B6:Skyrim.esm
+    - 0E86DB:Skyrim.esm
+    - 105BD1:Skyrim.esm
+    - 105BD0:Skyrim.esm
+    - 105BCB:Skyrim.esm
+    - 105BCC:Skyrim.esm
+    - 105BDF:Skyrim.esm
+    - 105BC5:Skyrim.esm
+    - 105BC6:Skyrim.esm
+    - 105B93:Skyrim.esm
+    - 105B92:Skyrim.esm
+    - 0E881E:Skyrim.esm
+    - 0E8826:Skyrim.esm
+    - 10F8C6:Skyrim.esm
+    - 0E886A:Skyrim.esm
+    - 079B86:Skyrim.esm
+    - 105B81:Skyrim.esm
+    - 105B78:Skyrim.esm
+    - 105BA0:Skyrim.esm
+    - 105B75:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88CC:Skyrim.esm
+  - Navmeshes:
+    - 079BBF:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FC190:Skyrim.esm
+    - 0FC191:Skyrim.esm
+    - 0FC194:Skyrim.esm
+    - 0E855C:Skyrim.esm
+    - 0FC4E0:Skyrim.esm
+    - 0879BD:Skyrim.esm
+    - 0C64D1:Skyrim.esm
+    - 108BEF:Skyrim.esm
+    - 0F9056:Skyrim.esm
+    - 1032E9:Skyrim.esm
+    - 1032EA:Skyrim.esm
+    - 1032ED:Skyrim.esm
+    - 1032E2:Skyrim.esm
+    - 1032E0:Skyrim.esm
+    - 102119:Skyrim.esm
+    - 1020E8:Skyrim.esm
+    - 1020E9:Skyrim.esm
+    - 1020EA:Skyrim.esm
+    - 1020EC:Skyrim.esm
+    - 1020ED:Skyrim.esm
+    - 1020EE:Skyrim.esm
+    - 1020CC:Skyrim.esm
+    - 1020F1:Skyrim.esm
+    - 1020C8:Skyrim.esm
+    - 1020B1:Skyrim.esm
+    - 1020B4:Skyrim.esm
+    - 100A25:Skyrim.esm
+    - 0FFD6E:Skyrim.esm
+    - 0FFD6B:Skyrim.esm
+    - 106504:Skyrim.esm
+    - 1064F8:Skyrim.esm
+    - 1064F7:Skyrim.esm
+    - 1064FB:Skyrim.esm
+    - 094C23:Skyrim.esm
+    - 1064FC:Skyrim.esm
+    - 1030CB:Skyrim.esm
+  - Navmeshes:
+    - 079BBF:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0E8583:Skyrim.esm
+    - 0E85AA:Skyrim.esm
+    - 0E85D1:Skyrim.esm
+    - 0E85D0:Skyrim.esm
+    - 0E85CF:Skyrim.esm
+    - 0E85C8:Skyrim.esm
+    - 0E85EA:Skyrim.esm
+    - 0E85E9:Skyrim.esm
+    - 0E8609:Skyrim.esm
+    - 0E8608:Skyrim.esm
+    - 0E8620:Skyrim.esm
+    - 0E861F:Skyrim.esm
+    - 054401:Skyrim.esm
+    - 054402:Skyrim.esm
+    - 0E863D:Skyrim.esm
+    - 0E8667:Skyrim.esm
+    - 0E8666:Skyrim.esm
+    - 0E8688:Skyrim.esm
+    - 0F3E7F:Skyrim.esm
+    - 104736:Skyrim.esm
+    - 0A3F44:Skyrim.esm
+  - Navmeshes:
+    - 0E88CC:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AB:Skyrim.esm
+    - 105B82:Skyrim.esm
+    - 0E88CA:Skyrim.esm
+    - 0E88C9:Skyrim.esm
+    - 0E88D0:Skyrim.esm
+    - 0E88C7:Skyrim.esm
+    - 0E88E5:Skyrim.esm
+    - 0E88E4:Skyrim.esm
+    - 0702C3:Skyrim.esm
+    - 071985:Skyrim.esm
+    - 0E8915:Skyrim.esm
+    - 0E8914:Skyrim.esm
+    - 0706C6:Skyrim.esm
+    - 0E8912:Skyrim.esm
+    - 0E8911:Skyrim.esm
+    - 0E8910:Skyrim.esm
+    - 015EBA:Skyrim.esm
+    - 0268FB:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0268F0:Skyrim.esm
+    - 0E8B60:Skyrim.esm
+    - 0E8B81:Skyrim.esm
+    - 0E8B80:Skyrim.esm
+    - 0CD7B8:Skyrim.esm
+    - 0C2526:Skyrim.esm
+    - 0E8A6A:Skyrim.esm
+    - 107374:Skyrim.esm
+    - 106C52:Skyrim.esm
+    - 10737D:Skyrim.esm
+    - 0E8A94:Skyrim.esm
+    - 0E8A8F:Skyrim.esm
+    - 0F798E:Skyrim.esm
+    - 06E8E1:Skyrim.esm
+    - 06E8E2:Skyrim.esm
+    - 0B097B:Skyrim.esm
+    - 105E9A:Skyrim.esm
+  - Navmeshes:
+    - 0E88CC:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 10377B:Skyrim.esm
+  - Navmeshes:
+    - 0E88CC:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+    - 0B87DC:Skyrim.esm
+    - 0B87C7:Skyrim.esm
+    - 0F07DF:Skyrim.esm
+    - 0BBC1D:Skyrim.esm
+    - 0BBC0A:Skyrim.esm
+    - 0AAB2A:Skyrim.esm
+    - 101E29:Skyrim.esm
+    - 0AAB27:Skyrim.esm
+    - 0AAB28:Skyrim.esm
+    - 0BAE54:Skyrim.esm
+    - 0BB460:Skyrim.esm
+    - 0BB463:Skyrim.esm
+    - 04C03A:Skyrim.esm
+    - 0BB465:Skyrim.esm
+    - 0BA4D7:Skyrim.esm
+    - 0BA4D8:Skyrim.esm
+    - 101B96:Skyrim.esm
+    - 08C397:Skyrim.esm
+    - 04C082:Skyrim.esm
+    - 0180E7:Skyrim.esm
+    - 017E20:Skyrim.esm
+    - 101675:Skyrim.esm
+    - 1017EF:Skyrim.esm
+    - 1017F0:Skyrim.esm
+    - 0799FB:Skyrim.esm
+    - 079A3C:Skyrim.esm
+    - 0799F6:Skyrim.esm
+    - 1017F7:Skyrim.esm
+    - 0E6430:Skyrim.esm
+    - 079A5A:Skyrim.esm
+    - 1017F8:Skyrim.esm
+    - 079A55:Skyrim.esm
+    - 079A82:Skyrim.esm
+    - 079A81:Skyrim.esm
+    - 01E6DE:Skyrim.esm
+    - 01E017:Skyrim.esm
+    - 01E019:Skyrim.esm
+    - 01D8CE:Skyrim.esm
+    - 0E3766:Skyrim.esm
+    - 0BFB0F:Skyrim.esm
+    - 0E0BF5:Skyrim.esm
+    - 103120:Skyrim.esm
+  - Navmeshes:
+    - 0E88CC:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 0FD6C9:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 100F4B:Skyrim.esm
+  - Navmeshes:
+    - 0E88CC:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0EFB01:Skyrim.esm
+    - 0EFB02:Skyrim.esm
+    - 068BA4:Skyrim.esm
+    - 1038D5:Skyrim.esm
+    - 1038D4:Skyrim.esm
+    - 09BC89:Skyrim.esm
+    - 0EF9F2:Skyrim.esm
+    - 1038E1:Skyrim.esm
+    - 1038E2:Skyrim.esm
+    - 1038E5:Skyrim.esm
+    - 1038EE:Skyrim.esm
+    - 102F21:Skyrim.esm
+    - 102F1F:Skyrim.esm
+    - 102F1E:Skyrim.esm
+    - 0FFD1A:Skyrim.esm
+    - 0FFD1E:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 0FF7FE:Skyrim.esm
+    - 0F0CD9:Skyrim.esm
+    - 0199AE:Skyrim.esm
+    - 07403C:Skyrim.esm
+    - 0F0CD8:Skyrim.esm
+    - 0FF0DB:Skyrim.esm
+    - 0FF0DC:Skyrim.esm
+    - 0F9430:Skyrim.esm
+    - 0F946A:Skyrim.esm
+    - 0F0B91:Skyrim.esm
+    - 0FA27E:Skyrim.esm
+    - 0FA288:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+  - Navmeshes:
+    - 0E88CC:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 105B75:Skyrim.esm
+    - 105BA0:Skyrim.esm
+    - 105B78:Skyrim.esm
+    - 105B81:Skyrim.esm
+    - 079B86:Skyrim.esm
+    - 0E886A:Skyrim.esm
+    - 10F8C6:Skyrim.esm
+    - 0E8826:Skyrim.esm
+    - 0E881E:Skyrim.esm
+    - 105B92:Skyrim.esm
+    - 105B93:Skyrim.esm
+    - 105BC6:Skyrim.esm
+    - 105BC5:Skyrim.esm
+    - 105BDF:Skyrim.esm
+    - 105BCC:Skyrim.esm
+    - 105BCB:Skyrim.esm
+    - 105BD0:Skyrim.esm
+    - 105BD1:Skyrim.esm
+    - 0E86DB:Skyrim.esm
+    - 0E86B6:Skyrim.esm
+    - 0FF088:Skyrim.esm
+    - 0E8699:Skyrim.esm
+    - 0E8679:Skyrim.esm
+    - 0E8654:Skyrim.esm
+    - 0FF83A:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 079BBF:Skyrim.esm
+  - Navmeshes:
+    - 0E88CC:Skyrim.esm
+  - Navmeshes:
+    - 0E88CC:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AB:Skyrim.esm
+    - 105B82:Skyrim.esm
+    - 0E88CA:Skyrim.esm
+    - 0E88C9:Skyrim.esm
+    - 0E88D0:Skyrim.esm
+    - 0E88C7:Skyrim.esm
+    - 0E88E5:Skyrim.esm
+    - 0E88E4:Skyrim.esm
+    - 0702C3:Skyrim.esm
+    - 071985:Skyrim.esm
+    - 0E8915:Skyrim.esm
+    - 0E8914:Skyrim.esm
+    - 0706C6:Skyrim.esm
+    - 0E8912:Skyrim.esm
+    - 0E8911:Skyrim.esm
+    - 0E8910:Skyrim.esm
+    - 015EBA:Skyrim.esm
+    - 0268FB:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0EDB5E:Skyrim.esm
+    - 0EDB6B:Skyrim.esm
+    - 0EDB67:Skyrim.esm
+    - 0EDB49:Skyrim.esm
+    - 0F759E:Skyrim.esm
+    - 0E8CDC:Skyrim.esm
+    - 0EDB85:Skyrim.esm
+    - 015DA6:Skyrim.esm
+    - 015DAB:Skyrim.esm
+    - 015DF8:Skyrim.esm
+    - 0EDBDA:Skyrim.esm
+    - 0E8CF1:Skyrim.esm
+    - 0EA38C:Skyrim.esm
+    - 0EA36E:Skyrim.esm
+    - 0EA36D:Skyrim.esm
+    - 0EA35D:Skyrim.esm
+    - 0EA35C:Skyrim.esm
+    - 021640:Skyrim.esm
+    - 104703:Skyrim.esm
+    - 0E875F:Skyrim.esm
+    - 0E871C:Skyrim.esm
+    - 042F6A:Skyrim.esm
+    - 090CCD:Skyrim.esm
+    - 108D0A:Skyrim.esm
+    - 1064C7:Skyrim.esm
+    - 1064D8:Skyrim.esm
+    - 0E8213:Skyrim.esm
+    - 1064D6:Skyrim.esm
+    - 1064D5:Skyrim.esm
+    - 1064E7:Skyrim.esm
+    - 108C0F:Skyrim.esm
+    - 1030CB:Skyrim.esm
+  - Navmeshes:
+    - 0E88CC:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AB:Skyrim.esm
+    - 105B82:Skyrim.esm
+    - 0E88CA:Skyrim.esm
+    - 0E88C9:Skyrim.esm
+    - 0E88D0:Skyrim.esm
+    - 0E88C7:Skyrim.esm
+    - 0E88E5:Skyrim.esm
+    - 0E88E4:Skyrim.esm
+    - 0702C3:Skyrim.esm
+    - 071985:Skyrim.esm
+    - 0E8915:Skyrim.esm
+    - 0E8914:Skyrim.esm
+    - 0706C6:Skyrim.esm
+    - 0E8912:Skyrim.esm
+    - 0E8911:Skyrim.esm
+    - 0E8910:Skyrim.esm
+    - 015EBA:Skyrim.esm
+    - 0268FB:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 104FB0:Skyrim.esm
+    - 104FAF:Skyrim.esm
+    - 0E8250:Skyrim.esm
+    - 0E8230:Skyrim.esm
+    - 0A3F44:Skyrim.esm
+  - Navmeshes:
+    - 1030CB:Skyrim.esm
+    - 108C0F:Skyrim.esm
+    - 1064E7:Skyrim.esm
+    - 1064D5:Skyrim.esm
+    - 1064D6:Skyrim.esm
+    - 0E8213:Skyrim.esm
+    - 1064D8:Skyrim.esm
+    - 1064C7:Skyrim.esm
+    - 108D0A:Skyrim.esm
+    - 090CCD:Skyrim.esm
+    - 042F6A:Skyrim.esm
+    - 0E871C:Skyrim.esm
+    - 0E875F:Skyrim.esm
+    - 104703:Skyrim.esm
+    - 021640:Skyrim.esm
+    - 0EA35C:Skyrim.esm
+    - 0EA35D:Skyrim.esm
+    - 0EA36D:Skyrim.esm
+    - 0EA36E:Skyrim.esm
+    - 0EA38C:Skyrim.esm
+    - 0E8CF1:Skyrim.esm
+    - 0EDBDA:Skyrim.esm
+    - 015DF8:Skyrim.esm
+    - 015DAB:Skyrim.esm
+    - 015DA6:Skyrim.esm
+    - 0EDB85:Skyrim.esm
+    - 0E8CDC:Skyrim.esm
+    - 0F759E:Skyrim.esm
+    - 0EDB49:Skyrim.esm
+    - 0EDB67:Skyrim.esm
+    - 0EDB6B:Skyrim.esm
+    - 0EDB5E:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0268F0:Skyrim.esm
+    - 0E8B60:Skyrim.esm
+    - 0E8B81:Skyrim.esm
+    - 0E8B80:Skyrim.esm
+    - 0CD7B8:Skyrim.esm
+    - 0C2526:Skyrim.esm
+    - 0E8A6A:Skyrim.esm
+    - 107374:Skyrim.esm
+    - 106C52:Skyrim.esm
+    - 10737D:Skyrim.esm
+    - 0E8A94:Skyrim.esm
+    - 0E8A8F:Skyrim.esm
+    - 0F798E:Skyrim.esm
+    - 06E8E1:Skyrim.esm
+    - 06E8E2:Skyrim.esm
+    - 0B097B:Skyrim.esm
+    - 105E9A:Skyrim.esm
+  - Navmeshes:
+    - 1030CB:Skyrim.esm
+    - 108C0F:Skyrim.esm
+    - 1064E7:Skyrim.esm
+    - 1064D5:Skyrim.esm
+    - 1064D6:Skyrim.esm
+    - 0E8213:Skyrim.esm
+    - 1064D8:Skyrim.esm
+    - 1064C7:Skyrim.esm
+    - 108D0A:Skyrim.esm
+    - 090CCD:Skyrim.esm
+    - 042F6A:Skyrim.esm
+    - 0E871C:Skyrim.esm
+    - 0E875F:Skyrim.esm
+    - 104703:Skyrim.esm
+    - 021640:Skyrim.esm
+    - 0EA35C:Skyrim.esm
+    - 0EA35D:Skyrim.esm
+    - 0EA36D:Skyrim.esm
+    - 0EA36E:Skyrim.esm
+    - 0EA38C:Skyrim.esm
+    - 0E8CF1:Skyrim.esm
+    - 0EDBDA:Skyrim.esm
+    - 015DF8:Skyrim.esm
+    - 015DAB:Skyrim.esm
+    - 015DA6:Skyrim.esm
+    - 0EDB85:Skyrim.esm
+    - 0E8CDC:Skyrim.esm
+    - 0F759E:Skyrim.esm
+    - 0EDB49:Skyrim.esm
+    - 0EDB67:Skyrim.esm
+    - 0EDB6B:Skyrim.esm
+    - 0EDB5E:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0268FB:Skyrim.esm
+    - 015EBA:Skyrim.esm
+    - 0E8910:Skyrim.esm
+    - 0E8911:Skyrim.esm
+    - 0E8912:Skyrim.esm
+    - 0706C6:Skyrim.esm
+    - 0E8914:Skyrim.esm
+    - 0E8915:Skyrim.esm
+    - 071985:Skyrim.esm
+    - 0702C3:Skyrim.esm
+    - 0E88E4:Skyrim.esm
+    - 0E88E5:Skyrim.esm
+    - 0E88C7:Skyrim.esm
+    - 0E88D0:Skyrim.esm
+    - 0E88C9:Skyrim.esm
+    - 0E88CA:Skyrim.esm
+    - 105B82:Skyrim.esm
+    - 0E88AB:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 10377B:Skyrim.esm
+  - Navmeshes:
+    - 1030CB:Skyrim.esm
+    - 1064FC:Skyrim.esm
+    - 094C23:Skyrim.esm
+    - 1064FB:Skyrim.esm
+    - 1064F7:Skyrim.esm
+    - 1064F8:Skyrim.esm
+    - 106504:Skyrim.esm
+    - 0FFD6B:Skyrim.esm
+    - 0FFD6E:Skyrim.esm
+    - 100A25:Skyrim.esm
+    - 1020B4:Skyrim.esm
+    - 1020B1:Skyrim.esm
+    - 1020C8:Skyrim.esm
+    - 1020F1:Skyrim.esm
+    - 1020CC:Skyrim.esm
+    - 1020EE:Skyrim.esm
+    - 1020ED:Skyrim.esm
+    - 1020EC:Skyrim.esm
+    - 1020EA:Skyrim.esm
+    - 1020E9:Skyrim.esm
+    - 1020E8:Skyrim.esm
+    - 102119:Skyrim.esm
+    - 1032E0:Skyrim.esm
+    - 1032E2:Skyrim.esm
+    - 1032ED:Skyrim.esm
+    - 1032EA:Skyrim.esm
+    - 1032E9:Skyrim.esm
+    - 0F9056:Skyrim.esm
+    - 108BEF:Skyrim.esm
+    - 0C64D1:Skyrim.esm
+    - 0879BD:Skyrim.esm
+    - 0FC4E0:Skyrim.esm
+    - 0E855C:Skyrim.esm
+    - 0FC194:Skyrim.esm
+    - 0FC191:Skyrim.esm
+    - 0FC190:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0E8526:Skyrim.esm
+    - 049000:Skyrim.esm
+    - 0E84F3:Skyrim.esm
+    - 0FE286:Skyrim.esm
+    - 0FE28E:Skyrim.esm
+    - 0FE28D:Skyrim.esm
+    - 0FE29F:Skyrim.esm
+    - 10FC44:Skyrim.esm
+    - 0F13E6:Skyrim.esm
+    - 0E8473:Skyrim.esm
+    - 0F065B:Skyrim.esm
+    - 0F065C:Skyrim.esm
+    - 0F065D:Skyrim.esm
+    - 0E8459:Skyrim.esm
+    - 0F065E:Skyrim.esm
+    - 0E845B:Skyrim.esm
+    - 05CC33:Skyrim.esm
+    - 05CC64:Skyrim.esm
+    - 0F0668:Skyrim.esm
+    - 0E847A:Skyrim.esm
+    - 05C9B5:Skyrim.esm
+    - 0F13EB:Skyrim.esm
+    - 0978B4:Skyrim.esm
+    - 0E847B:Skyrim.esm
+    - 108B70:Skyrim.esm
+    - 0977C6:Skyrim.esm
+    - 0EBDE4:Skyrim.esm
+    - 0EBDE2:Skyrim.esm
+    - 0EC741:Skyrim.esm
+    - 0EC73F:Skyrim.esm
+    - 2AD8EF:AlternatePerspective.esp
+    - 3BA037:AlternatePerspective.esp
+    - 01C7A4:Skyrim.esm
+    - 07C628:Skyrim.esm
+    - 01C8E1:Skyrim.esm
+    - 01C8E2:Skyrim.esm
+    - 01C8F4:Skyrim.esm
+    - 0FE4F2:Skyrim.esm
+    - 01D164:Skyrim.esm
+    - 01C8FA:Skyrim.esm
+    - 0F621A:Skyrim.esm
+    - 0F621B:Skyrim.esm
+    - 0F621C:Skyrim.esm
+    - 0F510E:Skyrim.esm
+    - 0F5110:Skyrim.esm
+    - 0F621D:Skyrim.esm
+    - 0F5148:Skyrim.esm
+    - 0F5149:Skyrim.esm
+    - 0F514A:Skyrim.esm
+    - 0F514C:Skyrim.esm
+    - 0F6252:Skyrim.esm
+    - 0F6240:Skyrim.esm
+    - 0F6231:Skyrim.esm
+    - 0F6232:Skyrim.esm
+    - 0F6233:Skyrim.esm
+    - 0F6234:Skyrim.esm
+    - 0F6235:Skyrim.esm
+    - 0F623E:Skyrim.esm
+    - 0F624B:Skyrim.esm
+    - 0F624C:Skyrim.esm
+    - 0F674B:Skyrim.esm
+    - 102D75:Skyrim.esm
+    - 01BD52:Skyrim.esm
+    - 02F53A:Skyrim.esm
+    - 102D77:Skyrim.esm
+    - 102D90:Skyrim.esm
+    - 102D91:Skyrim.esm
+    - 1041CE:Skyrim.esm
+    - 1041E9:Skyrim.esm
+    - 01BD47:Skyrim.esm
+    - 105269:Skyrim.esm
+    - 10526E:Skyrim.esm
+    - 105271:Skyrim.esm
+    - 10539F:Skyrim.esm
+    - 0F338C:Skyrim.esm
+    - 0435E2:Skyrim.esm
+    - 0F3383:Skyrim.esm
+    - 0F337F:Skyrim.esm
+    - 10602C:Skyrim.esm
+    - 10602D:Skyrim.esm
+    - 106975:Skyrim.esm
+    - 0EEA5A:Skyrim.esm
+    - 104FC5:Skyrim.esm
+    - 103120:Skyrim.esm
+  - Navmeshes:
+    - 1030CB:Skyrim.esm
+    - 1064FC:Skyrim.esm
+    - 094C23:Skyrim.esm
+    - 1064FB:Skyrim.esm
+    - 1064F7:Skyrim.esm
+    - 1064F8:Skyrim.esm
+    - 106504:Skyrim.esm
+    - 0FFD6B:Skyrim.esm
+    - 0FFD6E:Skyrim.esm
+    - 100A25:Skyrim.esm
+    - 1020B4:Skyrim.esm
+    - 1020B1:Skyrim.esm
+    - 1020C8:Skyrim.esm
+    - 1020F1:Skyrim.esm
+    - 1020CC:Skyrim.esm
+    - 1020EE:Skyrim.esm
+    - 1020ED:Skyrim.esm
+    - 1020EC:Skyrim.esm
+    - 1020EA:Skyrim.esm
+    - 1020E9:Skyrim.esm
+    - 1020E8:Skyrim.esm
+    - 102119:Skyrim.esm
+    - 1032E0:Skyrim.esm
+    - 1032E2:Skyrim.esm
+    - 1032ED:Skyrim.esm
+    - 1032EA:Skyrim.esm
+    - 1032E9:Skyrim.esm
+    - 0F9056:Skyrim.esm
+    - 108BEF:Skyrim.esm
+    - 0C64D1:Skyrim.esm
+    - 0879BD:Skyrim.esm
+    - 0FC4E0:Skyrim.esm
+    - 0E855C:Skyrim.esm
+    - 0FC194:Skyrim.esm
+    - 0FC191:Skyrim.esm
+    - 0FC190:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 079BBF:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0E8601:Skyrim.esm
+    - 0EA082:Skyrim.esm
+    - 0E807E:Skyrim.esm
+    - 0EA09C:Skyrim.esm
+    - 0E93A9:Skyrim.esm
+    - 0E8687:Skyrim.esm
+    - 0E86A6:Skyrim.esm
+    - 0E86A5:Skyrim.esm
+    - 0E86C3:Skyrim.esm
+    - 0E93C5:Skyrim.esm
+    - 101A85:Skyrim.esm
+    - 101A96:Skyrim.esm
+    - 101A9E:Skyrim.esm
+    - 101A9C:Skyrim.esm
+    - 101F38:Skyrim.esm
+    - 101F3D:Skyrim.esm
+    - 101F3C:Skyrim.esm
+    - 0FF8B6:Skyrim.esm
+    - 0C1A27:Skyrim.esm
+    - 0EBEC9:Skyrim.esm
+    - 0EA199:Skyrim.esm
+    - 0FF82C:Skyrim.esm
+    - 0F0B17:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 0FD6C9:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 100F4B:Skyrim.esm
+  - Navmeshes:
+    - 1030CB:Skyrim.esm
+    - 1064FC:Skyrim.esm
+    - 094C23:Skyrim.esm
+    - 1064FB:Skyrim.esm
+    - 1064F7:Skyrim.esm
+    - 1064F8:Skyrim.esm
+    - 106504:Skyrim.esm
+    - 0FFD6B:Skyrim.esm
+    - 0FFD6E:Skyrim.esm
+    - 100A25:Skyrim.esm
+    - 1020B4:Skyrim.esm
+    - 1020B1:Skyrim.esm
+    - 1020C8:Skyrim.esm
+    - 1020F1:Skyrim.esm
+    - 1020CC:Skyrim.esm
+    - 1020EE:Skyrim.esm
+    - 1020ED:Skyrim.esm
+    - 1020EC:Skyrim.esm
+    - 1020EA:Skyrim.esm
+    - 1020E9:Skyrim.esm
+    - 1020E8:Skyrim.esm
+    - 102119:Skyrim.esm
+    - 1032E0:Skyrim.esm
+    - 1032E2:Skyrim.esm
+    - 1032ED:Skyrim.esm
+    - 1032EA:Skyrim.esm
+    - 1032E9:Skyrim.esm
+    - 0F9056:Skyrim.esm
+    - 108BEF:Skyrim.esm
+    - 0C64D1:Skyrim.esm
+    - 0879BD:Skyrim.esm
+    - 0FC4E0:Skyrim.esm
+    - 0E855C:Skyrim.esm
+    - 0FC194:Skyrim.esm
+    - 0FC191:Skyrim.esm
+    - 0FC190:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 079BBF:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0EA5DC:Skyrim.esm
+    - 04813E:Skyrim.esm
+    - 0EA083:Skyrim.esm
+    - 0EA084:Skyrim.esm
+    - 0EA08B:Skyrim.esm
+    - 0FC4EA:Skyrim.esm
+    - 0FC4E8:Skyrim.esm
+    - 0FC504:Skyrim.esm
+    - 0FC507:Skyrim.esm
+    - 0FC515:Skyrim.esm
+    - 0FC524:Skyrim.esm
+    - 0FC528:Skyrim.esm
+    - 0FC52A:Skyrim.esm
+    - 0EE50A:Skyrim.esm
+    - 0FC544:Skyrim.esm
+    - 0FC545:Skyrim.esm
+    - 0FC54B:Skyrim.esm
+    - 0FC55E:Skyrim.esm
+    - 0FC54E:Skyrim.esm
+    - 0FBFB1:Skyrim.esm
+    - 0FB913:Skyrim.esm
+    - 0FBFC6:Skyrim.esm
+    - 0FB915:Skyrim.esm
+    - 0FBFC3:Skyrim.esm
+    - 0FB917:Skyrim.esm
+    - 0FB918:Skyrim.esm
+    - 0FBFCE:Skyrim.esm
+    - 0FBFAA:Skyrim.esm
+    - 0FBFAD:Skyrim.esm
+    - 0FE14F:Skyrim.esm
+    - 01874D:Skyrim.esm
+    - 0D0472:Skyrim.esm
+    - 103585:Skyrim.esm
+    - 103584:Skyrim.esm
+    - 103583:Skyrim.esm
+    - 018C31:Skyrim.esm
+    - 018FDE:Skyrim.esm
+    - 0FA262:Skyrim.esm
+    - 019052:Skyrim.esm
+    - 0FA27B:Skyrim.esm
+    - 10B267:Skyrim.esm
+    - 0B87C8:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+  - Navmeshes:
+    - 1030CB:Skyrim.esm
+    - 1064FC:Skyrim.esm
+    - 094C23:Skyrim.esm
+    - 1064FB:Skyrim.esm
+    - 1064F7:Skyrim.esm
+    - 1064F8:Skyrim.esm
+    - 106504:Skyrim.esm
+    - 0FFD6B:Skyrim.esm
+    - 0FFD6E:Skyrim.esm
+    - 100A25:Skyrim.esm
+    - 1020B4:Skyrim.esm
+    - 1020B1:Skyrim.esm
+    - 1020C8:Skyrim.esm
+    - 1020F1:Skyrim.esm
+    - 1020CC:Skyrim.esm
+    - 1020EE:Skyrim.esm
+    - 1020ED:Skyrim.esm
+    - 1020EC:Skyrim.esm
+    - 1020EA:Skyrim.esm
+    - 1020E9:Skyrim.esm
+    - 1020E8:Skyrim.esm
+    - 102119:Skyrim.esm
+    - 1032E0:Skyrim.esm
+    - 1032E2:Skyrim.esm
+    - 1032ED:Skyrim.esm
+    - 1032EA:Skyrim.esm
+    - 1032E9:Skyrim.esm
+    - 0F9056:Skyrim.esm
+    - 108BEF:Skyrim.esm
+    - 0C64D1:Skyrim.esm
+    - 0879BD:Skyrim.esm
+    - 0FC4E0:Skyrim.esm
+    - 0E855C:Skyrim.esm
+    - 0FC194:Skyrim.esm
+    - 0FC191:Skyrim.esm
+    - 0FC190:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 079BBF:Skyrim.esm
+  - Navmeshes:
+    - 1030CB:Skyrim.esm
+    - 108C0F:Skyrim.esm
+    - 1064E7:Skyrim.esm
+    - 1064D5:Skyrim.esm
+    - 1064D6:Skyrim.esm
+    - 0E8213:Skyrim.esm
+    - 1064D8:Skyrim.esm
+    - 1064C7:Skyrim.esm
+    - 108D0A:Skyrim.esm
+    - 090CCD:Skyrim.esm
+    - 042F6A:Skyrim.esm
+    - 0E871C:Skyrim.esm
+    - 0E875F:Skyrim.esm
+    - 104703:Skyrim.esm
+    - 021640:Skyrim.esm
+    - 0EA35C:Skyrim.esm
+    - 0EA35D:Skyrim.esm
+    - 0EA36D:Skyrim.esm
+    - 0EA36E:Skyrim.esm
+    - 0EA38C:Skyrim.esm
+    - 0E8CF1:Skyrim.esm
+    - 0EDBDA:Skyrim.esm
+    - 015DF8:Skyrim.esm
+    - 015DAB:Skyrim.esm
+    - 015DA6:Skyrim.esm
+    - 0EDB85:Skyrim.esm
+    - 0E8CDC:Skyrim.esm
+    - 0F759E:Skyrim.esm
+    - 0EDB49:Skyrim.esm
+    - 0EDB67:Skyrim.esm
+    - 0EDB6B:Skyrim.esm
+    - 0EDB5E:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0268FB:Skyrim.esm
+    - 015EBA:Skyrim.esm
+    - 0E8910:Skyrim.esm
+    - 0E8911:Skyrim.esm
+    - 0E8912:Skyrim.esm
+    - 0706C6:Skyrim.esm
+    - 0E8914:Skyrim.esm
+    - 0E8915:Skyrim.esm
+    - 071985:Skyrim.esm
+    - 0702C3:Skyrim.esm
+    - 0E88E4:Skyrim.esm
+    - 0E88E5:Skyrim.esm
+    - 0E88C7:Skyrim.esm
+    - 0E88D0:Skyrim.esm
+    - 0E88C9:Skyrim.esm
+    - 0E88CA:Skyrim.esm
+    - 105B82:Skyrim.esm
+    - 0E88AB:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88CC:Skyrim.esm
+  - Navmeshes:
+    - 1030CB:Skyrim.esm
+  - Navmeshes:
+    - 1030CB:Skyrim.esm
+    - 108C0F:Skyrim.esm
+    - 1064E7:Skyrim.esm
+    - 1064D5:Skyrim.esm
+    - 1064D6:Skyrim.esm
+    - 0E8213:Skyrim.esm
+    - 1064D8:Skyrim.esm
+    - 1064C7:Skyrim.esm
+    - 108D0A:Skyrim.esm
+    - 090CCD:Skyrim.esm
+    - 042F6A:Skyrim.esm
+    - 0E871C:Skyrim.esm
+    - 0E875F:Skyrim.esm
+    - 104703:Skyrim.esm
+    - 021640:Skyrim.esm
+    - 0EA35C:Skyrim.esm
+    - 0EA35D:Skyrim.esm
+    - 0EA36D:Skyrim.esm
+    - 0EA36E:Skyrim.esm
+    - 0EA38C:Skyrim.esm
+    - 0E8CF1:Skyrim.esm
+    - 0EDBDA:Skyrim.esm
+    - 015DF8:Skyrim.esm
+    - 015DAB:Skyrim.esm
+    - 015DA6:Skyrim.esm
+    - 0EDB85:Skyrim.esm
+    - 0E8CDC:Skyrim.esm
+    - 0F759E:Skyrim.esm
+    - 0EDB49:Skyrim.esm
+    - 0EDB67:Skyrim.esm
+    - 0EDB6B:Skyrim.esm
+    - 0EDB5E:Skyrim.esm
+    - 104FB1:Skyrim.esm
+    - 0E8250:Skyrim.esm
+    - 0E8230:Skyrim.esm
+    - 0A3F44:Skyrim.esm
+  - Navmeshes:
+    - 0A3F44:Skyrim.esm
+    - 0E8230:Skyrim.esm
+    - 0E8250:Skyrim.esm
+    - 104FAF:Skyrim.esm
+    - 104FB0:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0268F0:Skyrim.esm
+    - 0E8B60:Skyrim.esm
+    - 0E8B81:Skyrim.esm
+    - 0E8B80:Skyrim.esm
+    - 0CD7B8:Skyrim.esm
+    - 0C2526:Skyrim.esm
+    - 0E8A6A:Skyrim.esm
+    - 107374:Skyrim.esm
+    - 106C52:Skyrim.esm
+    - 10737D:Skyrim.esm
+    - 0E8A94:Skyrim.esm
+    - 0E8A8F:Skyrim.esm
+    - 0F798E:Skyrim.esm
+    - 06E8E1:Skyrim.esm
+    - 06E8E2:Skyrim.esm
+    - 0B097B:Skyrim.esm
+    - 105E9A:Skyrim.esm
+  - Navmeshes:
+    - 0A3F44:Skyrim.esm
+    - 0E8230:Skyrim.esm
+    - 0E8250:Skyrim.esm
+    - 104FAF:Skyrim.esm
+    - 104FB0:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0268FB:Skyrim.esm
+    - 015EBA:Skyrim.esm
+    - 0E8910:Skyrim.esm
+    - 0E8911:Skyrim.esm
+    - 0E8912:Skyrim.esm
+    - 0706C6:Skyrim.esm
+    - 0E8914:Skyrim.esm
+    - 0E8915:Skyrim.esm
+    - 071985:Skyrim.esm
+    - 0702C3:Skyrim.esm
+    - 0E88E4:Skyrim.esm
+    - 0E88E5:Skyrim.esm
+    - 0E88C7:Skyrim.esm
+    - 0E88D0:Skyrim.esm
+    - 0E88C9:Skyrim.esm
+    - 0E88CA:Skyrim.esm
+    - 105B82:Skyrim.esm
+    - 0E88AB:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88AD:Skyrim.esm
+    - 0E88AE:Skyrim.esm
+    - 075394:Skyrim.esm
+    - 105B74:Skyrim.esm
+    - 0E88D4:Skyrim.esm
+    - 075393:Skyrim.esm
+    - 0E88D6:Skyrim.esm
+    - 0E88EE:Skyrim.esm
+    - 105B5B:Skyrim.esm
+    - 0D6013:Skyrim.esm
+    - 096909:Skyrim.esm
+    - 103594:Skyrim.esm
+    - 103591:Skyrim.esm
+    - 10358F:Skyrim.esm
+    - 096E82:Skyrim.esm
+    - 096D3A:Skyrim.esm
+    - 096913:Skyrim.esm
+    - 068BBC:Skyrim.esm
+    - 068BBD:Skyrim.esm
+    - 09757B:Skyrim.esm
+    - 097129:Skyrim.esm
+    - 097576:Skyrim.esm
+    - 097575:Skyrim.esm
+    - 0ECBF4:Skyrim.esm
+    - 0ECBF3:Skyrim.esm
+    - 10377B:Skyrim.esm
+  - Navmeshes:
+    - 0A3F44:Skyrim.esm
+    - 104736:Skyrim.esm
+    - 0F3E7F:Skyrim.esm
+    - 0E8688:Skyrim.esm
+    - 0E8666:Skyrim.esm
+    - 0E8667:Skyrim.esm
+    - 0E863D:Skyrim.esm
+    - 054402:Skyrim.esm
+    - 054401:Skyrim.esm
+    - 0E861F:Skyrim.esm
+    - 0E8620:Skyrim.esm
+    - 0E8608:Skyrim.esm
+    - 0E8609:Skyrim.esm
+    - 0E85E9:Skyrim.esm
+    - 0E85EA:Skyrim.esm
+    - 0E85C8:Skyrim.esm
+    - 0E85CF:Skyrim.esm
+    - 0E85D0:Skyrim.esm
+    - 0E85D1:Skyrim.esm
+    - 0E85AA:Skyrim.esm
+    - 0E8583:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0E8526:Skyrim.esm
+    - 049000:Skyrim.esm
+    - 0E84F3:Skyrim.esm
+    - 0FE286:Skyrim.esm
+    - 0FE28E:Skyrim.esm
+    - 0FE28D:Skyrim.esm
+    - 0FE29F:Skyrim.esm
+    - 10FC44:Skyrim.esm
+    - 0F13E6:Skyrim.esm
+    - 0E8473:Skyrim.esm
+    - 0F065B:Skyrim.esm
+    - 0F065C:Skyrim.esm
+    - 0F065D:Skyrim.esm
+    - 0E8459:Skyrim.esm
+    - 0F065E:Skyrim.esm
+    - 0E845B:Skyrim.esm
+    - 05CC33:Skyrim.esm
+    - 05CC64:Skyrim.esm
+    - 0F0668:Skyrim.esm
+    - 0E847A:Skyrim.esm
+    - 05C9B5:Skyrim.esm
+    - 0F13EB:Skyrim.esm
+    - 0978B4:Skyrim.esm
+    - 0E847B:Skyrim.esm
+    - 108B70:Skyrim.esm
+    - 0977C6:Skyrim.esm
+    - 0EBDE4:Skyrim.esm
+    - 0EBDE2:Skyrim.esm
+    - 0EC741:Skyrim.esm
+    - 0EC73F:Skyrim.esm
+    - 2AD8EF:AlternatePerspective.esp
+    - 3BA037:AlternatePerspective.esp
+    - 01C7A4:Skyrim.esm
+    - 07C628:Skyrim.esm
+    - 01C8E1:Skyrim.esm
+    - 01C8E2:Skyrim.esm
+    - 01C8F4:Skyrim.esm
+    - 0FE4F2:Skyrim.esm
+    - 01D164:Skyrim.esm
+    - 01C8FA:Skyrim.esm
+    - 0F621A:Skyrim.esm
+    - 0F621B:Skyrim.esm
+    - 0F621C:Skyrim.esm
+    - 0F510E:Skyrim.esm
+    - 0F5110:Skyrim.esm
+    - 0F621D:Skyrim.esm
+    - 0F5148:Skyrim.esm
+    - 0F5149:Skyrim.esm
+    - 0F514A:Skyrim.esm
+    - 0F514C:Skyrim.esm
+    - 0F6252:Skyrim.esm
+    - 0F6240:Skyrim.esm
+    - 0F6231:Skyrim.esm
+    - 0F6232:Skyrim.esm
+    - 0F6233:Skyrim.esm
+    - 0F6234:Skyrim.esm
+    - 0F6235:Skyrim.esm
+    - 0F623E:Skyrim.esm
+    - 0F624B:Skyrim.esm
+    - 0F624C:Skyrim.esm
+    - 0F674B:Skyrim.esm
+    - 102D75:Skyrim.esm
+    - 01BD52:Skyrim.esm
+    - 02F53A:Skyrim.esm
+    - 102D77:Skyrim.esm
+    - 102D90:Skyrim.esm
+    - 102D91:Skyrim.esm
+    - 1041CE:Skyrim.esm
+    - 1041E9:Skyrim.esm
+    - 01BD47:Skyrim.esm
+    - 105269:Skyrim.esm
+    - 10526E:Skyrim.esm
+    - 105271:Skyrim.esm
+    - 10539F:Skyrim.esm
+    - 0F338C:Skyrim.esm
+    - 0435E2:Skyrim.esm
+    - 0F3383:Skyrim.esm
+    - 0F337F:Skyrim.esm
+    - 10602C:Skyrim.esm
+    - 10602D:Skyrim.esm
+    - 106975:Skyrim.esm
+    - 0EEA5A:Skyrim.esm
+    - 104FC5:Skyrim.esm
+    - 103120:Skyrim.esm
+  - Navmeshes:
+    - 0A3F44:Skyrim.esm
+    - 104736:Skyrim.esm
+    - 0F3E7F:Skyrim.esm
+    - 0E8688:Skyrim.esm
+    - 0E8666:Skyrim.esm
+    - 0E8667:Skyrim.esm
+    - 0E863D:Skyrim.esm
+    - 054402:Skyrim.esm
+    - 054401:Skyrim.esm
+    - 0E861F:Skyrim.esm
+    - 0E8620:Skyrim.esm
+    - 0E8608:Skyrim.esm
+    - 0E8609:Skyrim.esm
+    - 0E85E9:Skyrim.esm
+    - 0E85EA:Skyrim.esm
+    - 0E85C8:Skyrim.esm
+    - 0E85CF:Skyrim.esm
+    - 0E85D0:Skyrim.esm
+    - 0E85D1:Skyrim.esm
+    - 0E85AA:Skyrim.esm
+    - 0E8583:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 079BBF:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0E8601:Skyrim.esm
+    - 0EA082:Skyrim.esm
+    - 0E807E:Skyrim.esm
+    - 0EA09C:Skyrim.esm
+    - 0E93A9:Skyrim.esm
+    - 0E8687:Skyrim.esm
+    - 0E86A6:Skyrim.esm
+    - 0E86A5:Skyrim.esm
+    - 0E86C3:Skyrim.esm
+    - 0E93C5:Skyrim.esm
+    - 101A85:Skyrim.esm
+    - 101A96:Skyrim.esm
+    - 101A9E:Skyrim.esm
+    - 101A9C:Skyrim.esm
+    - 101F38:Skyrim.esm
+    - 101F3D:Skyrim.esm
+    - 101F3C:Skyrim.esm
+    - 0FF8B6:Skyrim.esm
+    - 0C1A27:Skyrim.esm
+    - 0EBEC9:Skyrim.esm
+    - 0EA199:Skyrim.esm
+    - 0FF82C:Skyrim.esm
+    - 0F0B17:Skyrim.esm
+    - 0FFD20:Skyrim.esm
+    - 0FFD22:Skyrim.esm
+    - 0FFD35:Skyrim.esm
+    - 0FFD39:Skyrim.esm
+    - 0FFD3F:Skyrim.esm
+    - 0FFD45:Skyrim.esm
+    - 1011FF:Skyrim.esm
+    - 100C8E:Skyrim.esm
+    - 100C8D:Skyrim.esm
+    - 0F0CDA:Skyrim.esm
+    - 100C96:Skyrim.esm
+    - 100C9B:Skyrim.esm
+    - 100C9F:Skyrim.esm
+    - 100CAD:Skyrim.esm
+    - 100CA5:Skyrim.esm
+    - 01651C:Skyrim.esm
+    - 016571:Skyrim.esm
+    - 016573:Skyrim.esm
+    - 016574:Skyrim.esm
+    - 016608:Skyrim.esm
+    - 0FD68C:Skyrim.esm
+    - 0FD6C9:Skyrim.esm
+    - 0FD6C6:Skyrim.esm
+    - 016633:Skyrim.esm
+    - 016672:Skyrim.esm
+    - 0F1612:Skyrim.esm
+    - 0FD6E9:Skyrim.esm
+    - 0FD6EB:Skyrim.esm
+    - 016721:Skyrim.esm
+    - 0FD6C2:Skyrim.esm
+    - 01679D:Skyrim.esm
+    - 0F1692:Skyrim.esm
+    - 0F168A:Skyrim.esm
+    - 0F1684:Skyrim.esm
+    - 016849:Skyrim.esm
+    - 0D9316:Skyrim.esm
+    - 0DAFE3:Skyrim.esm
+    - 0DAFD0:Skyrim.esm
+    - 100F4B:Skyrim.esm
+  - Navmeshes:
+    - 0A3F44:Skyrim.esm
+    - 104736:Skyrim.esm
+    - 0F3E7F:Skyrim.esm
+    - 0E8688:Skyrim.esm
+    - 0E8666:Skyrim.esm
+    - 0E8667:Skyrim.esm
+    - 0E863D:Skyrim.esm
+    - 054402:Skyrim.esm
+    - 054401:Skyrim.esm
+    - 0E861F:Skyrim.esm
+    - 0E8620:Skyrim.esm
+    - 0E8608:Skyrim.esm
+    - 0E8609:Skyrim.esm
+    - 0E85E9:Skyrim.esm
+    - 0E85EA:Skyrim.esm
+    - 0E85C8:Skyrim.esm
+    - 0E85CF:Skyrim.esm
+    - 0E85D0:Skyrim.esm
+    - 0E85D1:Skyrim.esm
+    - 0E85AA:Skyrim.esm
+    - 0E8583:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 079BBF:Skyrim.esm
+    - 079BC2:Skyrim.esm
+    - 0867EA:Skyrim.esm
+    - 0BFB15:Skyrim.esm
+    - 0EA5DA:Skyrim.esm
+    - 0EA5DC:Skyrim.esm
+    - 04813E:Skyrim.esm
+    - 0EA083:Skyrim.esm
+    - 0EA084:Skyrim.esm
+    - 0EA08B:Skyrim.esm
+    - 0FC4EA:Skyrim.esm
+    - 0FC4E8:Skyrim.esm
+    - 0FC504:Skyrim.esm
+    - 0FC507:Skyrim.esm
+    - 0FC515:Skyrim.esm
+    - 0FC524:Skyrim.esm
+    - 0FC528:Skyrim.esm
+    - 0FC52A:Skyrim.esm
+    - 0EE50A:Skyrim.esm
+    - 0FC544:Skyrim.esm
+    - 0FC545:Skyrim.esm
+    - 0FC54B:Skyrim.esm
+    - 0FC55E:Skyrim.esm
+    - 0FC54E:Skyrim.esm
+    - 0FBFB1:Skyrim.esm
+    - 0FB913:Skyrim.esm
+    - 0FBFC6:Skyrim.esm
+    - 0FB915:Skyrim.esm
+    - 0FBFC3:Skyrim.esm
+    - 0FB917:Skyrim.esm
+    - 0FB918:Skyrim.esm
+    - 0FBFCE:Skyrim.esm
+    - 0FBFAA:Skyrim.esm
+    - 0FBFAD:Skyrim.esm
+    - 0FE14F:Skyrim.esm
+    - 01874D:Skyrim.esm
+    - 0D0472:Skyrim.esm
+    - 103585:Skyrim.esm
+    - 103584:Skyrim.esm
+    - 103583:Skyrim.esm
+    - 018C31:Skyrim.esm
+    - 018FDE:Skyrim.esm
+    - 0FA262:Skyrim.esm
+    - 019052:Skyrim.esm
+    - 0FA27B:Skyrim.esm
+    - 10B267:Skyrim.esm
+    - 0B87C8:Skyrim.esm
+    - 0FA2A3:Skyrim.esm
+    - 0B87D2:Skyrim.esm
+    - 0FC11F:Skyrim.esm
+    - 0FC116:Skyrim.esm
+    - 0B87DF:Skyrim.esm
+  - Navmeshes:
+    - 0A3F44:Skyrim.esm
+    - 104736:Skyrim.esm
+    - 0F3E7F:Skyrim.esm
+    - 0E8688:Skyrim.esm
+    - 0E8666:Skyrim.esm
+    - 0E8667:Skyrim.esm
+    - 0E863D:Skyrim.esm
+    - 054402:Skyrim.esm
+    - 054401:Skyrim.esm
+    - 0E861F:Skyrim.esm
+    - 0E8620:Skyrim.esm
+    - 0E8608:Skyrim.esm
+    - 0E8609:Skyrim.esm
+    - 0E85E9:Skyrim.esm
+    - 0E85EA:Skyrim.esm
+    - 0E85C8:Skyrim.esm
+    - 0E85CF:Skyrim.esm
+    - 0E85D0:Skyrim.esm
+    - 0E85D1:Skyrim.esm
+    - 0E85AA:Skyrim.esm
+    - 0E8583:Skyrim.esm
+    - 0FCAD2:Skyrim.esm
+    - 0FCAD7:Skyrim.esm
+    - 0E853B:Skyrim.esm
+    - 0E853C:Skyrim.esm
+    - 0E853D:Skyrim.esm
+    - 0E8541:Skyrim.esm
+    - 0E855F:Skyrim.esm
+    - 0E8560:Skyrim.esm
+    - 0E8588:Skyrim.esm
+    - 0E858D:Skyrim.esm
+    - 0E858E:Skyrim.esm
+    - 0E858F:Skyrim.esm
+    - 0E85B3:Skyrim.esm
+    - 0E85B4:Skyrim.esm
+    - 0E85D8:Skyrim.esm
+    - 0E85F6:Skyrim.esm
+    - 0E85F7:Skyrim.esm
+    - 0FF836:Skyrim.esm
+    - 0E8616:Skyrim.esm
+    - 0BD7D1:Skyrim.esm
+    - 0EA07E:Skyrim.esm
+    - 0E8605:Skyrim.esm
+    - 0BD7D6:Skyrim.esm
+    - 0EA5DB:Skyrim.esm
+    - 0A3449:Skyrim.esm
+    - 0B8335:Skyrim.esm
+    - 079BBF:Skyrim.esm
+  - Navmeshes:
+    - 0A3F44:Skyrim.esm
+    - 0E8230:Skyrim.esm
+    - 0E8250:Skyrim.esm
+    - 104FAF:Skyrim.esm
+    - 104FB0:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0E87CC:Skyrim.esm
+    - 0268EE:Skyrim.esm
+    - 0EBEAE:Skyrim.esm
+    - 0E87F0:Skyrim.esm
+    - 105189:Skyrim.esm
+    - 104F6A:Skyrim.esm
+    - 0F6A8C:Skyrim.esm
+    - 0E1350:Skyrim.esm
+    - 10C681:Skyrim.esm
+    - 0E887D:Skyrim.esm
+    - 015E52:Skyrim.esm
+    - 015E87:Skyrim.esm
+    - 015E86:Skyrim.esm
+    - 015EB3:Skyrim.esm
+    - 0E8B21:Skyrim.esm
+    - 0E8B41:Skyrim.esm
+    - 0268FB:Skyrim.esm
+    - 015EBA:Skyrim.esm
+    - 0E8910:Skyrim.esm
+    - 0E8911:Skyrim.esm
+    - 0E8912:Skyrim.esm
+    - 0706C6:Skyrim.esm
+    - 0E8914:Skyrim.esm
+    - 0E8915:Skyrim.esm
+    - 071985:Skyrim.esm
+    - 0702C3:Skyrim.esm
+    - 0E88E4:Skyrim.esm
+    - 0E88E5:Skyrim.esm
+    - 0E88C7:Skyrim.esm
+    - 0E88D0:Skyrim.esm
+    - 0E88C9:Skyrim.esm
+    - 0E88CA:Skyrim.esm
+    - 105B82:Skyrim.esm
+    - 0E88AB:Skyrim.esm
+    - 0E88AC:Skyrim.esm
+    - 0E88CC:Skyrim.esm
+  - Navmeshes:
+    - 0A3F44:Skyrim.esm
+    - 0E8230:Skyrim.esm
+    - 0E8250:Skyrim.esm
+    - 104FAF:Skyrim.esm
+    - 104FB0:Skyrim.esm
+    - 0E879E:Skyrim.esm
+    - 0EDB5E:Skyrim.esm
+    - 0EDB6B:Skyrim.esm
+    - 0EDB67:Skyrim.esm
+    - 0EDB49:Skyrim.esm
+    - 0F759E:Skyrim.esm
+    - 0E8CDC:Skyrim.esm
+    - 0EDB85:Skyrim.esm
+    - 015DA6:Skyrim.esm
+    - 015DAB:Skyrim.esm
+    - 015DF8:Skyrim.esm
+    - 0EDBDA:Skyrim.esm
+    - 0E8CF1:Skyrim.esm
+    - 0EA38C:Skyrim.esm
+    - 0EA36E:Skyrim.esm
+    - 0EA36D:Skyrim.esm
+    - 0EA35D:Skyrim.esm
+    - 0EA35C:Skyrim.esm
+    - 021640:Skyrim.esm
+    - 104703:Skyrim.esm
+    - 0E875F:Skyrim.esm
+    - 0E871C:Skyrim.esm
+    - 042F6A:Skyrim.esm
+    - 090CCD:Skyrim.esm
+    - 108D0A:Skyrim.esm
+    - 1064C7:Skyrim.esm
+    - 1064D8:Skyrim.esm
+    - 0E8213:Skyrim.esm
+    - 1064D6:Skyrim.esm
+    - 1064D5:Skyrim.esm
+    - 1064E7:Skyrim.esm
+    - 108C0F:Skyrim.esm
+    - 1030CB:Skyrim.esm
+  - Navmeshes:
+    - 0A3F44:Skyrim.esm
+  NavmeshTree:
+  - NavMesh: 0E88CC:Skyrim.esm
+    NodeIndex: 6
+  - NavMesh: 105E9A:Skyrim.esm
+  - NavMesh: 0A3F44:Skyrim.esm
+    NodeIndex: 8
+  - NavMesh: 0B87DF:Skyrim.esm
+    NodeIndex: 4
+  - NavMesh: 100F4B:Skyrim.esm
+    NodeIndex: 3
+  - NavMesh: 10377B:Skyrim.esm
+    NodeIndex: 1
+  - NavMesh: 103120:Skyrim.esm
+    NodeIndex: 2
+  - NavMesh: 079BBF:Skyrim.esm
+    NodeIndex: 5
+  - NavMesh: 1030CB:Skyrim.esm
+    NodeIndex: 7

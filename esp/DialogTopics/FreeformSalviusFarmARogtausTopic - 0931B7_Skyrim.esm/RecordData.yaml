@@ -1,0 +1,9 @@
+FormKey: 0931B7:Skyrim.esm
+EditorID: FreeformSalviusFarmARogtausTopic
+Name:
+  TargetLanguage: English
+  Value: You said your son is in Old Hroldan?
+Priority: 60
+Branch: 0931C1:Skyrim.esm
+Quest: 02EC5C:Skyrim.esm
+SubtypeName: CUST

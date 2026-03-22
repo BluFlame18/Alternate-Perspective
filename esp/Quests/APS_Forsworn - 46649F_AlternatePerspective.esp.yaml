@@ -1,0 +1,91 @@
+FormKey: 46649F:AlternatePerspective.esp
+EditorID: APS_Forsworn
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_Forsworn_0546649F
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_myLoc
+      Object: 46649F:AlternatePerspective.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 46649F:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_portLoc
+      Object: 46649F:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DruadachRedoubtFaction
+      Object: 0E3609:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Help_Msg
+      Object: 4664A1:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: uniform
+      Objects:
+      - Name: ''
+        Object: 0D8D4E:Skyrim.esm
+      - Name: ''
+        Object: 0D8D50:Skyrim.esm
+      - Name: ''
+        Object: 0D8D55:Skyrim.esm
+  FileName: QF_APS_Forsworn_0546649F
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_Forsworn_0546649F
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_APS_Forsworn_0546649F
+    FragmentName: Fragment_2
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 46649F:AlternatePerspective.esp
+      Alias: 1
+    Scripts:
+    - Name: APAddFactionWhileInLoc
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FactionToAdd
+        Object: 0E3609:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocationToCheck
+        Object: 01916F:Skyrim.esm
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 58
+Aliases:
+- ID: 1
+  Name: Player
+  Flags:
+  - AllowReserved
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Type: Location
+  Name: myLoc
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  - AllowReserved
+  SpecificLocation: 01916F:Skyrim.esm
+- Name: portLoc
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 3
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null

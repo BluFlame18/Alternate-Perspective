@@ -1,0 +1,8 @@
+FormKey: 0C068A:Skyrim.esm
+EditorID: DialogueSolitudeViarmo02Topic
+Name:
+  TargetLanguage: English
+  Value: What do you know about dragons?
+Branch: 0C07FF:Skyrim.esm
+Quest: 02E1AD:Skyrim.esm
+SubtypeName: CUST

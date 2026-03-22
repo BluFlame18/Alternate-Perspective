@@ -1,0 +1,181 @@
+FormKey: 0E1520:Skyrim.esm
+EditorID: dunCGHadvarToDKeep03
+Version2: 9
+Flags:
+- PreferredSpeed
+- IgnoreCombat
+- WeaponDrawn
+- NoCombatAlert
+Type: Package
+PreferredSpeed: Run
+Unknown: 136
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+DataInputVersion: 8
+Data:
+- Key: 11
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: Target to Escort
+    Flags:
+    - Public
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 000014:Skyrim.esm
+- Key: 2
+  Value:
+    MutagenObjectType: PackageDataInt
+    Name: 'Number of Followers:'
+    Flags: []
+    Data: 1
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Destination
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationTarget
+        Link: 10BEDD:Skyrim.esm
+      Radius: 150
+- Key: 19
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Dist01
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationTarget
+        Link: 0ED5FE:Skyrim.esm
+      Radius: 64
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: 'Distance to Wait for Follower(s):'
+    Flags:
+    - Public
+    Data: 750
+- Key: 5
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: 'Follower Min Distance:'
+    Flags:
+    - Public
+    Data: 120
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: 'Follower Max Distance:'
+    Flags:
+    - Public
+    Data: 256
+- Key: 13
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Ride Horse?
+    Flags:
+    - Public
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: PreferPreferredPath?
+    Flags:
+    - Public
+- Key: 17
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: Run if Behind Distance
+    Flags:
+    - Public
+    Data: 500
+- Key: 0
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 1
+  Value:
+    MutagenObjectType: APackageData
+    Name: EscortedActor(s)
+    Flags:
+    - Public
+- Key: 7
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 8
+  Value:
+    MutagenObjectType: APackageData
+    Name: Initial Location to find Follower(s)
+    Flags:
+    - Public
+- Key: 9
+  Value:
+    MutagenObjectType: APackageData
+    Name: Follower(s)
+    Flags:
+    - Public
+- Key: 10
+  Value:
+    MutagenObjectType: APackageData
+    Name: Follower(s) ObjectList
+    Flags: []
+XnamMarker: 0x14
+ProcedureTree:
+- BranchType: Sequence
+  Root:
+    BranchCount: 2
+  Unknown: []
+- BranchType: Procedure
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 0D0593:Skyrim.esm
+      Stage: 169
+  ProcedureType: Escort
+  Flags: []
+  DataInputIndices:
+  - 11
+  - 2
+  - 19
+  - 4
+  - 5
+  - 6
+  - 13
+  - 15
+  - 17
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Escort
+  Flags:
+  - SuccessCompletesPackage
+  DataInputIndices:
+  - 11
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 13
+  - 15
+  - 17
+  Unknown: []
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

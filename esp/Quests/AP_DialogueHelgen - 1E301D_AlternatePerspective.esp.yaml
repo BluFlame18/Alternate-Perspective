@@ -1,0 +1,190 @@
+FormKey: 1E301D:AlternatePerspective.esp
+EditorID: AP_DialogueHelgen
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APDialogueHelgen
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Blacksmith
+      Object: 1E301D:AlternatePerspective.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GunnarStart
+      Object: 308B33:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Haming
+      Object: 1E301D:AlternatePerspective.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ingrid
+      Object: 1E301D:AlternatePerspective.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IngridStart
+      Object: 308B35:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MatlaraStart
+      Object: 13FAEA:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RestingPilgrimBackup
+      Object: 1E301D:AlternatePerspective.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RestingPilgrimOwner
+      Object: 1E301D:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkaleiRequest
+      Object: 201671:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TorolfStart
+      Object: 308B31:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TorriStart
+      Object: 308B32:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Vilod
+      Object: 1E301D:AlternatePerspective.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VilodFavor
+      Object: 400FFF:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VilodStart
+      Object: 308B34:AlternatePerspective.esp
+  - Name: APMessengerUtil
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventScript
+      Object: 1E301D:AlternatePerspective.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeToBlackBackImod
+      Object: 0F756F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeToBlackHoldImod
+      Object: 0F756E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: helgenInnMarker
+      Object: 32C2CC:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Split
+      Object: 3F1CF7:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WarpTime
+      Object: 3F1CF9:AlternatePerspective.esp
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1E301D:AlternatePerspective.esp
+      Alias: 13
+    Scripts:
+    - Name: APDialoguePlayer
+  - Property:
+      Name: ''
+      Object: 1E301D:AlternatePerspective.esp
+      Alias: 2
+    Scripts:
+    - Name: SwapAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: BackupAlias
+        Object: 1E301D:AlternatePerspective.esp
+        Alias: 3
+Flags:
+- RunOnce
+Priority: 30
+TextDisplayGlobals:
+- 09CC98:Skyrim.esm
+Filter: Dialogue\Falkreath\Helgen\
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 10
+Stages:
+- {}
+NextAliasID: 14
+Aliases:
+- ID: 13
+  Name: Player
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: RestingPilgrimOwner
+  Flags:
+  - AllowReserved
+  UniqueActor: 013640:Skyrim.esm
+  Factions:
+  - 05091B:Skyrim.esm
+  - 051596:Skyrim.esm
+  - 09CC97:Skyrim.esm
+  - 04C925:AlternatePerspective.esp
+  - 04C926:AlternatePerspective.esp
+  PackageData:
+  - 05BC31:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: RestingPilgrimBackup
+  Flags:
+  - AllowReserved
+  UniqueActor: 013641:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: Blacksmith
+  Flags:
+  - AllowReserved
+  UniqueActor: 013643:Skyrim.esm
+  VoiceTypes: Null
+- ID: 11
+  Name: Shopkeeper
+  Flags:
+  - AllowReserved
+  UniqueActor: 1CEAF7:AlternatePerspective.esp
+  Factions:
+  - 051596:Skyrim.esm
+  - 051599:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: Vilod
+  Flags:
+  - AllowReserved
+  UniqueActor: 01363E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: Haming
+  Flags:
+  - AllowReserved
+  UniqueActor: 013642:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: Ingrid
+  Flags:
+  - AllowReserved
+  UniqueActor: 01363F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: Jacob
+  Flags:
+  - AllowReserved
+  UniqueActor: 1CEA43:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: ImperialCaptain
+  Flags:
+  - AllowReserved
+  ForcedReference: 0654F7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 10
+  Name: ImperialSoldier
+  Flags:
+  - AllowReserved
+  ForcedReference: 0D60F9:AlternatePerspective.esp
+  VoiceTypes: Null

@@ -1,0 +1,11 @@
+FormKey: 04C925:AlternatePerspective.esp
+EditorID: AP_HelgenRestingPilgrimInnFaction
+Name:
+  TargetLanguage: English
+  Value: Helgen Resting Pilgrim Inn Faction
+Flags:
+- CanBeOwner
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

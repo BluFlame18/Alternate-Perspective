@@ -1,0 +1,15 @@
+FormKey: 1CEAF5:AlternatePerspective.esp
+EditorID: AP_SkaleisJunkKey
+ObjectBounds:
+  First: 0, -6, -1
+  Second: 0, 6, 1
+Name:
+  TargetLanguage: English
+  Value: Key to Skalei's Junk
+Model:
+  File: Clutter\Key01.nif
+  Data: 0x020000000000000000000000
+PickUpSound: 03ED75:Skyrim.esm
+PutDownSound: 03ED78:Skyrim.esm
+Keywords:
+- 0914EF:Skyrim.esm

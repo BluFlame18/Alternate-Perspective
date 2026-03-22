@@ -1,0 +1,46 @@
+FormKey: 34F9F0:AlternatePerspective.esp
+EditorID: APS_DocksRavenRock
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_DocksRavenRock_0634F9F0
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFarmClothes02
+      Object: 0209A6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFarmClothesVariant04
+      Object: 06C1D8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC2Init
+      Object: 016E02:Dragonborn.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC2RRASForce
+      Object: 032152:Dragonborn.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC2RRGjalundInit
+      Object: 02ADD5:Dragonborn.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dockMarker
+      Object: 34F9EF:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myWeap
+      Object: 01E60A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RRShipRide
+      Object: 018B0F:Dragonborn.esm
+  FileName: QF_APS_DocksRavenRock_0634F9F0
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_DocksRavenRock_0634F9F0
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 2

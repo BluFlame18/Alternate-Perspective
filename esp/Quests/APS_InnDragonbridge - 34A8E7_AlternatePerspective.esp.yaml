@@ -1,0 +1,49 @@
+FormKey: 34A8E7:AlternatePerspective.esp
+EditorID: APS_InnDragonbridge
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_InnDragonbridge_0634A8E7
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CenterCell
+      Object: 34A8E7:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Inn
+      Object: 34A8E7:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myWeap
+      Object: 01E60A:Skyrim.esm
+  FileName: QF_APS_InnDragonbridge_0634A8E7
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_InnDragonbridge_0634A8E7
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 2
+Aliases:
+- Type: Location
+  Name: Inn
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 020008:Skyrim.esm
+- ID: 1
+  Name: CenterCell
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 0
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null

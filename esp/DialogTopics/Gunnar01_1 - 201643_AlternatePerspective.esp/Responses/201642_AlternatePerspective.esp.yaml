@@ -1,0 +1,25 @@
+FormKey: 201642:AlternatePerspective.esp
+Flags: {}
+Topic: 201640:AlternatePerspective.esp
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 201646:AlternatePerspective.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I've seen enough death in my life to know that if Ulfric wins this war, dark times await us.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 4
+  ComparisonValue: 1

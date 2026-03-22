@@ -1,0 +1,27 @@
+FormKey: 3BF197:AlternatePerspective.esp
+EditorID: APS_VanillaStart
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_VanillaStart_053BF197
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+  FileName: QF_APS_VanillaStart_053BF197
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_VanillaStart_053BF197
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_APS_VanillaStart_053BF197
+    FragmentName: Fragment_1
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+NextAliasID: 0

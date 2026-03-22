@@ -1,0 +1,49 @@
+FormKey: 34A8E6:AlternatePerspective.esp
+EditorID: APS_InnOldHroldan
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_InnOldHroldan_0634A8E6
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CenterCell
+      Object: 34A8E6:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Inn
+      Object: 34A8E6:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myWeap
+      Object: 01E60A:Skyrim.esm
+  FileName: QF_APS_InnOldHroldan_0634A8E6
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_InnOldHroldan_0634A8E6
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 2
+Aliases:
+- Type: Location
+  Name: Inn
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 01F7CB:Skyrim.esm
+- ID: 1
+  Name: CenterCell
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 0
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null

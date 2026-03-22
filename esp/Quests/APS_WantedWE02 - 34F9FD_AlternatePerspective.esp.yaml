@@ -1,0 +1,99 @@
+FormKey: 34F9FD:AlternatePerspective.esp
+EditorID: APS_WantedWE02
+Flags:
+- 0x1000
+Priority: 50
+Event: SCPT
+NextAliasID: 9
+Aliases:
+- Name: Trigger
+  Flags: []
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x52310000
+  VoiceTypes: Null
+- ID: 1
+  Type: Location
+  Name: TriggerLoc
+  Flags:
+  - AllowReuseInQuest
+  - AllowCleared
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x4C310000
+- ID: 2
+  Name: CenterMarker
+  Flags: []
+  FindMatchingRefNearAlias:
+    AliasID: 0
+    Type: LinkedRefChild
+  VoiceTypes: Null
+- ID: 3
+  Name: SceneMark1
+  Flags: []
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsLinkedToConditionData
+      UseAliases: True
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasRefTypeConditionData
+      LocationReferenceType: 04A5F9:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: SceneMark2
+  Flags: []
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsLinkedToConditionData
+      UseAliases: True
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasRefTypeConditionData
+      LocationReferenceType: 04A5F9:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 5
+  Name: SceneMark3
+  Flags: []
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsLinkedToConditionData
+      UseAliases: True
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasRefTypeConditionData
+      LocationReferenceType: 04A5F9:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 6
+  Name: Hunter01
+  Flags: []
+  CreateReferenceToObject:
+    Object: 34F9F5:AlternatePerspective.esp
+    AliasID: 3
+    Level: Hard
+  VoiceTypes: Null
+- ID: 7
+  Name: Hunter02
+  Flags: []
+  CreateReferenceToObject:
+    Object: 34F9F5:AlternatePerspective.esp
+    AliasID: 3
+    Level: Hard
+  VoiceTypes: Null
+- ID: 8
+  Name: Hunter03
+  Flags: []
+  CreateReferenceToObject:
+    Object: 34F9F3:AlternatePerspective.esp
+    AliasID: 3
+    Level: Hard
+  VoiceTypes: Null

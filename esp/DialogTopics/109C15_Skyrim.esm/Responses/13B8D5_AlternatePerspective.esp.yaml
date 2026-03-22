@@ -1,0 +1,17 @@
+FormKey: 13B8D5:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: 109C19:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Anger
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Let's go!
+  ScriptNotes: commanding, heroic, wants to save the player's life
+  Edits: "Originally: \"With me, prisoner. Let's go!\""

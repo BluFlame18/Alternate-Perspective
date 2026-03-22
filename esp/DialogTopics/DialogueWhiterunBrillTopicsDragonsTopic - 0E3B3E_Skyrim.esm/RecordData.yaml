@@ -1,0 +1,8 @@
+FormKey: 0E3B3E:Skyrim.esm
+EditorID: DialogueWhiterunBrillTopicsDragonsTopic
+Name:
+  TargetLanguage: English
+  Value: There's still the threat of a dragon attack.
+Branch: 0E3DE6:Skyrim.esm
+Quest: 0270A4:Skyrim.esm
+SubtypeName: CUST

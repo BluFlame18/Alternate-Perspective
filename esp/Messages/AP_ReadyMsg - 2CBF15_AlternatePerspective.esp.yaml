@@ -1,0 +1,15 @@
+FormKey: 2CBF15:AlternatePerspective.esp
+EditorID: AP_ReadyMsg
+Description:
+  TargetLanguage: English
+  Value: Ready to spawn into the world?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Let me rethink..
+- Text:
+    TargetLanguage: English
+    Value: Let's go!

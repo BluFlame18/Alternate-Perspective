@@ -1,0 +1,8 @@
+FormKey: 0BD6ED:Skyrim.esm
+EditorID: DialogueSolitudeSvari02Topic
+Name:
+  TargetLanguage: English
+  Value: Okay, if you don't want to hear about the dragon...
+Branch: 0BD727:Skyrim.esm
+Quest: 02E1AD:Skyrim.esm
+SubtypeName: CUST

@@ -1,0 +1,36 @@
+FormKey: 206783:AlternatePerspective.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_AP_04206783
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_AP_04206783
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_AP_04206783
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+Topic: 0D5111:Skyrim.esm
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- Emotion: Surprise
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I suspect we might have use for someone resourceful like you. Not many survived Helgen.
+  ScriptNotes: coming around
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01327E:Skyrim.esm
+  ComparisonValue: 1

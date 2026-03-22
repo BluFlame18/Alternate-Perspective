@@ -1,0 +1,15 @@
+FormKey: 20165A:AlternatePerspective.esp
+EditorID: AP_VilodServiceFaction
+Flags:
+- Vendor
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorBuySellList: 10BED9:Skyrim.esm
+MerchantContainer: 201659:AlternatePerspective.esp
+VendorValues:
+  EndHour: 23
+VendorLocation:
+  Target:
+    MutagenObjectType: LocationFallback
+    Type: NearSelf

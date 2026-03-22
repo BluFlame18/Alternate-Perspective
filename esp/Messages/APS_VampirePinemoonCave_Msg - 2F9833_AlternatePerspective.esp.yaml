@@ -1,0 +1,9 @@
+FormKey: 2F9833:AlternatePerspective.esp
+EditorID: APS_VampirePinemoonCave_Msg
+Description:
+  TargetLanguage: English
+  Value: You are now a Traitor to the Vampires of Pinemoon Cave.
+INAM: 0x00000000
+Quest: 3B50DE:AlternatePerspective.esp
+Flags:
+- MessageBox

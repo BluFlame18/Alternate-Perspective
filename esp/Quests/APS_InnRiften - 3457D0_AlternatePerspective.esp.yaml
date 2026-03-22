@@ -1,0 +1,50 @@
+FormKey: 3457D0:AlternatePerspective.esp
+EditorID: APS_InnRiften
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_AP_RiftenInn_063457D0
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BeeNBarb
+      Object: 3457D0:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CenterCell
+      Object: 3457D0:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myWeap
+      Object: 01E60A:Skyrim.esm
+  FileName: QF_AP_RiftenInn_063457D0
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_AP_RiftenInn_063457D0
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 3
+Aliases:
+- ID: 1
+  Type: Location
+  Name: BeeNBarb
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 02247E:Skyrim.esm
+- ID: 2
+  Name: CenterCell
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 1
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null

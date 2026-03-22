@@ -1,0 +1,46 @@
+FormKey: 3DD8ED:AlternatePerspective.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_AP_063DD8ED
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: APSMQ105
+      Objects:
+      - Name: ''
+        Object: 3D36E9:AlternatePerspective.esp
+      - Name: ''
+        Object: 3D36EA:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackWhite
+      Object: 10100D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeToBlackHoldImod
+      Object: 0F756E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HoldWhite
+      Object: 10100C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Split
+      Object: 3F1CF8:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WarpTime
+      Object: 3F1CF9:AlternatePerspective.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_AP_063DD8ED
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_AP_063DD8ED
+      FragmentName: Fragment_2
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+ResponseData: 40B18E:AlternatePerspective.esp
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 40B189:AlternatePerspective.esp
+  ComparisonValue: 1

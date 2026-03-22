@@ -1,0 +1,27 @@
+FormKey: 0EF985:Skyrim.esm
+Version2: 7
+Flags: {}
+PreviousDialog: 0EF984:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Puzzled
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Are you a relative of one of the Riften dock workers, Argonian?
+  ScriptNotes: interviewing a prisoner
+  Edits: ''
+  SpeakerIdleAnimation: 0EE3B6:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 119
+    Race: 013740:Skyrim.esm
+  ComparisonValue: 1

@@ -1,0 +1,26 @@
+FormKey: 0F42FC:Skyrim.esm
+Version2: 4
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- Emotion: Anger
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Face your death with some courage, thief.
+  ScriptNotes: grim, stoic, offended at weakness
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetDeadConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 14

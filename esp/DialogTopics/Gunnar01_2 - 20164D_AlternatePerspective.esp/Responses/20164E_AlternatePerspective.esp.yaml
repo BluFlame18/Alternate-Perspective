@@ -1,0 +1,25 @@
+FormKey: 20164E:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 201646:AlternatePerspective.esp
+Responses:
+- Emotion: Anger
+  EmotionValue: 70
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Do you live under a rock? The Stormcloak Rebellion is fighting the Empire to free Skyrim, or at least so they say. It's a pointless undertaking.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 4
+  ComparisonValue: 1

@@ -1,0 +1,12 @@
+FormKey: 37D33C:AlternatePerspective.esp
+Parent: 013010:Skyrim.esm
+PreviousSibling: 01E491:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsEditorLocationConditionData
+    RunOnType: EventData
+    RunOnTypeIndex: 12626
+    Location: 019288:Skyrim.esm
+  ComparisonValue: 1
+MaxConcurrentQuests: 0

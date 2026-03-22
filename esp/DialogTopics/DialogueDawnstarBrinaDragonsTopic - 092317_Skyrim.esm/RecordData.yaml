@@ -1,0 +1,8 @@
+FormKey: 092317:Skyrim.esm
+EditorID: DialogueDawnstarBrinaDragonsTopic
+Name:
+  TargetLanguage: English
+  Value: Is Dawnstar prepared for dragon attacks?
+Branch: 092373:Skyrim.esm
+Quest: 03829F:Skyrim.esm
+SubtypeName: CUST

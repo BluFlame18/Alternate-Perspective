@@ -1,0 +1,8 @@
+FormKey: 0C3683:Skyrim.esm
+EditorID: DialogueDragonBridgeAzzadaTopicsBranch3Topic
+Name:
+  TargetLanguage: English
+  Value: Do you worry about raising a family in these dangerous times?
+Branch: 0C36AA:Skyrim.esm
+Quest: 0212AB:Skyrim.esm
+SubtypeName: CUST

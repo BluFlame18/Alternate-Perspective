@@ -1,0 +1,9 @@
+FormKey: 201640:AlternatePerspective.esp
+EditorID: Gunnar01Topic
+Name:
+  TargetLanguage: English
+  Value: Were you always a blacksmith?
+Priority: 30
+Branch: 20163F:AlternatePerspective.esp
+Quest: 1E301D:AlternatePerspective.esp
+SubtypeName: CUST

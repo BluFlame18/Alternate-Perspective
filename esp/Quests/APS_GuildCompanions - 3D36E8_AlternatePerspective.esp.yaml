@@ -1,0 +1,58 @@
+FormKey: 3D36E8:AlternatePerspective.esp
+EditorID: APS_GuildCompanions
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_GuildCompanions_063D36E8
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_portLoc
+      Object: 3D36E8:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: C00Fight
+      Object: 0BC0BD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameHour
+      Object: 000038:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SHIELD
+      Object: 013955:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Sword
+      Object: 013989:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TG01
+      Object: 04B2D9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: uniform
+      Objects:
+      - Name: ''
+        Object: 013948:Skyrim.esm
+      - Name: ''
+        Object: 012E4B:Skyrim.esm
+      - Name: ''
+        Object: 012E46:Skyrim.esm
+      - Name: ''
+        Object: 012E4D:Skyrim.esm
+  FileName: QF_APS_GuildCompanions_063D36E8
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_GuildCompanions_063D36E8
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+NextAliasID: 4
+Aliases:
+- Name: portLoc
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 4757A5:AlternatePerspective.esp
+  VoiceTypes: Null

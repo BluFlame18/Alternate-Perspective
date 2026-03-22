@@ -1,0 +1,9 @@
+FormKey: 093126:Skyrim.esm
+EditorID: DialogueWhiterunJarlTopic4BranchTopic
+Name:
+  TargetLanguage: English
+  Value: How can you protect Whiterun from the dragons?
+Priority: 40
+Branch: 09313B:Skyrim.esm
+Quest: 0270A4:Skyrim.esm
+SubtypeName: CUST

@@ -1,0 +1,48 @@
+FormKey: 2C1D12:AlternatePerspective.esp
+MajorRecordFlagsRaw: 134217728
+EditorID: AP_StartRoomNobleChest
+SkyrimMajorRecordFlags:
+- 0x8000000
+ObjectBounds:
+  First: -68, -24, 0
+  Second: 68, 24, 32
+Name:
+  TargetLanguage: English
+  Value: Chest
+Model:
+  File: Furniture\Noble\NobleChest01.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 01397E:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013980:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 01359D:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013982:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 012EB7:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013790:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013981:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 03B562:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 01397D:Skyrim.esm
+    Count: 50
+Flags:
+- AllowSoundsWhenAnimation
+OpenSound: 0E3CB8:Skyrim.esm
+CloseSound: 0E3CB9:Skyrim.esm
+MajorFlags:
+- NavMeshGenerationBoundingBox

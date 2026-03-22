@@ -1,0 +1,35 @@
+FormKey: 3D36EA:AlternatePerspective.esp
+EditorID: APS_MQSkipMQ105Ralof
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_MQSkipRalof_063D36EA
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_portLoc
+      Object: 3D36EA:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105
+      Object: 0242BA:Skyrim.esm
+  FileName: QF_APS_MQSkipRalof_063D36EA
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_MQSkipRalof_063D36EA
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+NextAliasID: 1
+Aliases:
+- Name: portLoc
+  Flags: []
+  ForcedReference: 07B0C0:Skyrim.esm
+  VoiceTypes: Null

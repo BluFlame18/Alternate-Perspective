@@ -1,0 +1,49 @@
+FormKey: 3457DF:AlternatePerspective.esp
+EditorID: APS_InnWinterhold
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_InnWinterhold_063457DF
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CenterCell
+      Object: 3457DF:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FrozenHearth
+      Object: 3457DF:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myWeap
+      Object: 01E60A:Skyrim.esm
+  FileName: QF_APS_InnWinterhold_063457DF
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_InnWinterhold_063457DF
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 2
+Aliases:
+- Type: Location
+  Name: FrozenHearth
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 01EB7C:Skyrim.esm
+- ID: 1
+  Name: CenterCell
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 0
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null

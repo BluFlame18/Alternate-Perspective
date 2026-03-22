@@ -1,0 +1,9 @@
+FormKey: 3877A2:AlternatePerspective.esp
+EditorID: APS_ShipwreckedMessage
+Description:
+  TargetLanguage: English
+  Value: >+
+    I must've hit my head when the ship crashed and sunk. My head still hurts but I must get out of here before I run out of air.
+INAM: 0x00000000
+Flags:
+- MessageBox

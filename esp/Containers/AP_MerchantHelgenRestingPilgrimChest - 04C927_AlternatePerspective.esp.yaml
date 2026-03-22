@@ -1,0 +1,58 @@
+FormKey: 04C927:AlternatePerspective.esp
+MajorRecordFlagsRaw: 134217728
+EditorID: AP_MerchantHelgenRestingPilgrimChest
+SkyrimMajorRecordFlags:
+- 0x8000000
+ObjectBounds:
+  First: -47, -25, 0
+  Second: 47, 24, 47
+Name:
+  TargetLanguage: English
+  Value: Chest
+Model:
+  File: Clutter\Containers\Chest01\Chest01.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 10C1CC:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10F91B:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10F91A:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 04DA25:Skyrim.esm
+    Count: 3
+- Item:
+    Item: 04B0BA:Skyrim.esm
+    Count: 3
+- Item:
+    Item: 09CD48:Skyrim.esm
+    Count: 6
+- Item:
+    Item: 09CD49:Skyrim.esm
+    Count: 4
+- Item:
+    Item: 09CD4A:Skyrim.esm
+    Count: 2
+- Item:
+    Item: 101D80:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 072AEA:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 098E5E:Skyrim.esm
+    Count: 7
+- Item:
+    Item: 098E5F:Skyrim.esm
+    Count: 10
+- Item:
+    Item: 034CDF:Skyrim.esm
+    Count: 1
+Flags:
+- Respawns
+MajorFlags:
+- NavMeshGenerationBoundingBox

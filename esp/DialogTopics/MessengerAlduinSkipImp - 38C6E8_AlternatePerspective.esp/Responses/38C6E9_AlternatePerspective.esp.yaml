@@ -1,0 +1,23 @@
+FormKey: 38C6E9:AlternatePerspective.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_AP_0638C6E9
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_AP_0638C6E9
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_AP_0638C6E9
+      FragmentName: Fragment_1
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+ResponseData: 40B18E:AlternatePerspective.esp
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 40B189:AlternatePerspective.esp
+  ComparisonValue: 1

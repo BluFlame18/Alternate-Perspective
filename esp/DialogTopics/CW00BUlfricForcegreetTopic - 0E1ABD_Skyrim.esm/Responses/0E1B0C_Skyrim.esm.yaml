@@ -1,0 +1,55 @@
+FormKey: 0E1B0C:Skyrim.esm
+Version2: 5
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: 0E1B0B:Skyrim.esm
+FavorLevel: None
+LinkTo:
+- 0E1AAD:Skyrim.esm
+- 0E1AB9:Skyrim.esm
+- 01FC33:Skyrim.esm
+Responses:
+- Emotion: Anger
+  EmotionValue: 25
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: As you can see, I have much that requires my attention. If you're inclined to gab, there are some nice prison guards you may like to meet...
+  ScriptNotes: serious, not quite threatening
+  Edits: I'm a busy man, if you like to gab, I know some very nice prison wardens I could introduce you to.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04679E:Skyrim.esm
+  ComparisonValue: 7
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 019E53:Skyrim.esm
+    VariableName: ::PlayerGotIntro_var
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 0E1B5A:Skyrim.esm
+    Stage: 20
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 0E1B5A:Skyrim.esm
+    Stage: 10
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInDialogueWithPlayerConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01414D:Skyrim.esm
+  ComparisonValue: 1

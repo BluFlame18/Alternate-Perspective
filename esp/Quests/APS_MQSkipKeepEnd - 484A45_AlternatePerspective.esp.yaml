@@ -1,0 +1,39 @@
+FormKey: 484A45:AlternatePerspective.esp
+EditorID: APS_MQSkipKeepEnd
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_MQSkipKeepEnd_05484A45
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: companionTpMarker
+      Object: 484A47:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: playerTpMarker
+      Object: 0BF49D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SplitMsg
+      Object: 484A46:AlternatePerspective.esp
+  FileName: QF_APS_MQSkipKeepEnd_05484A45
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_APS_MQSkipKeepEnd_05484A45
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_APS_MQSkipKeepEnd_05484A45
+    FragmentName: Fragment_1
+Stages:
+- {}
+- Index: 5
+  Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+NextAliasID: 0

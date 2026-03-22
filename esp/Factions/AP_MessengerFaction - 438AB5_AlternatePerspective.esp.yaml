@@ -1,0 +1,9 @@
+FormKey: 438AB5:AlternatePerspective.esp
+EditorID: AP_MessengerFaction
+Relations:
+- Target: 438AB4:AlternatePerspective.esp
+  Reaction: Friend
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

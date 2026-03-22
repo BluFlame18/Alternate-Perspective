@@ -1,0 +1,8 @@
+FormKey: 0DBAE9:Skyrim.esm
+EditorID: DialogueIvarsteadTembaBranchTopic
+Name:
+  TargetLanguage: English
+  Value: What's making you so angry?
+Branch: 0DBB0D:Skyrim.esm
+Quest: 021236:Skyrim.esm
+SubtypeName: CUST

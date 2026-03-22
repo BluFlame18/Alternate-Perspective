@@ -1,0 +1,17 @@
+FormKey: 1CEBE8:AlternatePerspective.esp
+EditorID: AP_ServicesSkaleisScrap
+Flags:
+- Vendor
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorBuySellList: 06CB48:Skyrim.esm
+MerchantContainer: 1CEBE7:AlternatePerspective.esp
+VendorValues:
+  StartHour: 9
+  EndHour: 20
+  NotSellBuy: True
+VendorLocation:
+  Target:
+    MutagenObjectType: LocationCell
+    Link: 1CEAEF:AlternatePerspective.esp

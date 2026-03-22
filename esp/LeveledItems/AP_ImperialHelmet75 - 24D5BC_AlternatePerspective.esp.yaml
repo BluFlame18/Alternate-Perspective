@@ -1,0 +1,8 @@
+FormKey: 24D5BC:AlternatePerspective.esp
+EditorID: AP_ImperialHelmet75
+ChanceNone: 0.25
+Entries:
+- Data:
+    Level: 1
+    Reference: 013EDB:Skyrim.esm
+    Count: 1

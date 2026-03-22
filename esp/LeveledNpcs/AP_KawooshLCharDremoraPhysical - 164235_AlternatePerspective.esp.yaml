@@ -1,0 +1,11 @@
+FormKey: 164235:AlternatePerspective.esp
+EditorID: AP_KawooshLCharDremoraPhysical
+Entries:
+- Data:
+    Level: 1
+    Reference: 01E79B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 025D1A:Skyrim.esm
+    Count: 1

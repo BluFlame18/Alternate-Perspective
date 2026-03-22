@@ -1,0 +1,9 @@
+FormKey: 34F9F4:AlternatePerspective.esp
+EditorID: APS_WantedHunterFaction
+Relations:
+- Target: 34F9F4:AlternatePerspective.esp
+  Reaction: Ally
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

@@ -1,0 +1,32 @@
+FormKey: 0752D2:AlternatePerspective.esp
+EditorID: AP_Test_CellIntroduction
+ObjectBounds:
+  First: -9, -12, -2
+  Second: 8, 12, 2
+Name:
+  TargetLanguage: English
+  Value: Read Me
+Model:
+  File: Clutter\Books\BasicBook03a.nif
+  Data: 0x020000000000000000000000
+BookText:
+  TargetLanguage: English
+  Value: >+
+    <img src='img://Textures/Interface/Books/Illuminated_Letters/T_letter.png'>he Cellar of the Resting Pilgrim is considered Alternative Perspective's Authors personal testing room. If you are here, you most certainly used the console or some other "out-of-intended" method to get here
+
+
+    If you are a regular player, there is no reason for you to be here. You can explore the cells, they won't break your game but there won't be anything useful for you here
+
+    The entire Cellar is filled with testing Utility I use to test my own mods. I consider them general testing utility and allow anyone to make use of them in any way they want, including editing the cell or its contents (as long as this involve editing AP directly of course)
+
+
+    The Navmesh in this cell is generated in a way that should disallow any Actor to freely move around, be aware of that when trying to test Follower functionality
+Keywords:
+- 0937A2:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+Weight: 500
+InventoryArt: 0153F8:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''

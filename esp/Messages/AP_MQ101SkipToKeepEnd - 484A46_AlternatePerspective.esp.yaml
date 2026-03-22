@@ -1,0 +1,31 @@
+FormKey: 484A46:AlternatePerspective.esp
+EditorID: AP_MQ101SkipToKeepEnd
+Description:
+  TargetLanguage: English
+  Value: >-
+    The Imperials captured Ulfric Stormcloak and brought him to Helgen where he should be executed. However, during the execution a black Dragon attacked Helgen. With help of Ralof (one of the Prisoners) and Hadvar (an Imperial Soldier) and you manage to escape the balzing inferno through a collapsed cave that opened up in Helgen Keep. 
+
+
+    Who helped you traverse through the cave?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: This isn't my fate (Cancel)
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetStageConditionData
+      Quest: 484A45:AlternatePerspective.esp
+    ComparisonValue: 5
+- Text:
+    TargetLanguage: English
+    Value: Hadvar
+- Text:
+    TargetLanguage: English
+    Value: Ralof

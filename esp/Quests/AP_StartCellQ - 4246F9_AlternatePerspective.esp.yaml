@@ -1,0 +1,38 @@
+FormKey: 4246F9:AlternatePerspective.esp
+EditorID: AP_StartCellQ
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Type: Misc
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Examine the Room
+  Targets:
+  - {}
+  - AliasID: 2
+  - AliasID: 3
+  - AliasID: 1
+NextAliasID: 4
+Aliases:
+- Name: EndTable
+  Flags: []
+  ForcedReference: 4246FA:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: StrongBox
+  Flags: []
+  ForcedReference: 4246F3:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Wardrobe
+  Flags: []
+  ForcedReference: 4246EF:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Chest
+  Flags: []
+  ForcedReference: 317E7D:AlternatePerspective.esp
+  VoiceTypes: Null

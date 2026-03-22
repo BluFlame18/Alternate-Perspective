@@ -1,0 +1,9 @@
+FormKey: 2F4732:AlternatePerspective.esp
+EditorID: APS_VampireMovarthsLair_Msg
+Description:
+  TargetLanguage: English
+  Value: You are now a Traitor to the Vampires of Morvarth's Lair.
+INAM: 0x00000000
+Quest: 3B50E0:AlternatePerspective.esp
+Flags:
+- MessageBox

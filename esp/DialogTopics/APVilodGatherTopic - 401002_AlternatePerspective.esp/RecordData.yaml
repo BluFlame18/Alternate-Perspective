@@ -1,0 +1,8 @@
+FormKey: 401002:AlternatePerspective.esp
+EditorID: APVilodGatherTopic
+Name:
+  TargetLanguage: English
+  Value: I got your Juniper Berries.
+Branch: 401001:AlternatePerspective.esp
+Quest: 400FFF:AlternatePerspective.esp
+SubtypeName: CUST

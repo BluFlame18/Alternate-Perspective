@@ -1,0 +1,14 @@
+FormKey: 102D4F:AlternatePerspective.esp
+EditorID: AP_dunCGPlayerStaggerSPELL
+Name:
+  TargetLanguage: English
+  Value: Stagger Player
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+CastType: FireAndForget
+Effects:
+- BaseEffect: 102D4E:AlternatePerspective.esp
+  Data:
+    Magnitude: 60

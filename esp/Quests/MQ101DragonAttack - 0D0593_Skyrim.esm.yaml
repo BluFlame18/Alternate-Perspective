@@ -1,0 +1,1284 @@
+FormKey: 0D0593:Skyrim.esm
+EditorID: MQ101DragonAttack
+Version2: 8
+VirtualMachineAdapter:
+  Scripts:
+  - Name: MQ101DragonAttackQuestScript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: dragonInScene1Ready
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fCameraShake01
+      Data: 0.1
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fCameraShake02
+      Data: 0.01
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fduration01
+      Data: 3
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fduration02
+      Data: 1
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fLIntensity01
+      Data: 0.5
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fLIntensity02
+      Data: 0.1
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fRIntensity01
+      Data: 0.5
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fRIntensity02
+      Data: 0.1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myDustFX
+      Object: 088109:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myDustOrigin01
+      Object: 107A8D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myDustOrigin02
+      Object: 107A8E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mySound01
+      Object: 03CB88:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mySoundOrigin01
+      Object: 107A8F:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: playerInSquare
+    - MutagenObjectType: ScriptObjectProperty
+      Name: staggerOrigin
+      Object: 107A8C:Skyrim.esm
+  - Name: QF_MQ101DragonAttack_000D0593
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AlduinAttackEnableMarker1
+      Object: 0AD3AE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AlduinAttackWeather
+      Object: 0D9329:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AlduinPatrolBTowerExplosionTrigger
+      Object: 0D56D0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alduin
+      Object: 0D0593:Skyrim.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AlduinLookTargetTowerA
+      Object: 0D0593:Skyrim.esm
+      Alias: 156
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AlduinShoutTargetD01
+      Object: 0D0593:Skyrim.esm
+      Alias: 143
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ArcherBTower
+      Object: 0D0593:Skyrim.esm
+      Alias: 130
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianGunnar
+      Object: 0D0593:Skyrim.esm
+      Alias: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianIngrid
+      Object: 0D0593:Skyrim.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianMatlara
+      Object: 0D0593:Skyrim.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianTorolf
+      Object: 0D0593:Skyrim.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianTorri
+      Object: 0D0593:Skyrim.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianVilod
+      Object: 0D0593:Skyrim.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DragonBaitATower
+      Object: 0D0593:Skyrim.esm
+      Alias: 128
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DragonBaitBTower
+      Object: 0D0593:Skyrim.esm
+      Alias: 129
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DragonBaitDBridge
+      Object: 0D0593:Skyrim.esm
+      Alias: 134
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ElenwensHorse
+      Object: 0D0593:Skyrim.esm
+      Alias: 133
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GeneralTullius
+      Object: 0D0593:Skyrim.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hadvar
+      Object: 0D0593:Skyrim.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Helgen
+      Object: 0D0593:Skyrim.esm
+      Alias: 152
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialArcherA01
+      Object: 0D0593:Skyrim.esm
+      Alias: 136
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialArcherA02
+      Object: 0D0593:Skyrim.esm
+      Alias: 137
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialArcherA03
+      Object: 0D0593:Skyrim.esm
+      Alias: 154
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialArcherC01
+      Object: 0D0593:Skyrim.esm
+      Alias: 138
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialArcherC02
+      Object: 0D0593:Skyrim.esm
+      Alias: 148
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialArcherD01
+      Object: 0D0593:Skyrim.esm
+      Alias: 139
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialArcherD02
+      Object: 0D0593:Skyrim.esm
+      Alias: 146
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialArcherD03
+      Object: 0D0593:Skyrim.esm
+      Alias: 147
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialArcherD04
+      Object: 0D0593:Skyrim.esm
+      Alias: 153
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialMageC01
+      Object: 0D0593:Skyrim.esm
+      Alias: 149
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialMageD01
+      Object: 0D0593:Skyrim.esm
+      Alias: 150
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldier01
+      Object: 0D0593:Skyrim.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldier02
+      Object: 0D0593:Skyrim.esm
+      Alias: 126
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldierFodderC01
+      Object: 0D0593:Skyrim.esm
+      Alias: 140
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldierFodderD01
+      Object: 0D0593:Skyrim.esm
+      Alias: 141
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldierHelgen01
+      Object: 0D0593:Skyrim.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldierHelgen02
+      Object: 0D0593:Skyrim.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 0D0593:Skyrim.esm
+      Alias: 119
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ralof
+      Object: 0D0593:Skyrim.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RalofLookInnMarker
+      Object: 0D0593:Skyrim.esm
+      Alias: 135
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RalofTowerLookMarker
+      Object: 0D0593:Skyrim.esm
+      Alias: 145
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner01
+      Object: 0D0593:Skyrim.esm
+      Alias: 121
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner02
+      Object: 0D0593:Skyrim.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner03
+      Object: 0D0593:Skyrim.esm
+      Alias: 124
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner04
+      Object: 0D0593:Skyrim.esm
+      Alias: 125
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakTowerA
+      Object: 0D0593:Skyrim.esm
+      Alias: 151
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tower01RubbleLookMarker
+      Object: 0D0593:Skyrim.esm
+      Alias: 142
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TowerCollision
+      Object: 0D0593:Skyrim.esm
+      Alias: 159
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TowerDoor
+      Object: 0D0593:Skyrim.esm
+      Alias: 157
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ulfric
+      Object: 0D0593:Skyrim.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackoutImod
+      Object: 0B6301:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlockerBMarker
+      Object: 0D9627:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlockerCMarker
+      Object: 0D9625:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenJump
+      Object: 108C2C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenMove
+      Object: 108C32:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CollisionAMarker
+      Object: 0E2467:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CollisionBMarker
+      Object: 0E247E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CollisionCMarker
+      Object: 0E248A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CollisionInnBackside
+      Object: 0F8213:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CollisionInnMarker
+      Object: 0EB625:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonAttackDAlduinFlightGrab
+      Object: 0E72BC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonAttackScene1
+      Object: 0D0594:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonAttackSceneBPerchTower
+      Object: 0D67AA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonAttackSceneBStrafeTower
+      Object: 0D67A8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonAttackSceneCAlduin
+      Object: 0DEDC8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonAttackSceneCPerchWall
+      Object: 0D67A9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonAttackSceneDAlduinBlockTravel
+      Object: 0E150A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonAttackSceneDAlduinStrafe
+      Object: 0DF7C8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonAttackSceneDToKeep
+      Object: 0DEDBB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonAttackSceneRoadInn
+      Object: 0DB91C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonTowerHole
+      Object: 06CF54:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: duncgHadvarFailsafeMarker
+      Object: 10F925:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunCGHelgenGatesMarker
+      Object: 1041B0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunCGResistFire
+      Object: 102074:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ExplosionTriggerA01
+      Object: 0DF7B4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ExplosionTriggerB02
+      Object: 0DEDC7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ExplosionTriggerC01
+      Object: 0E6D57:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FortGuard1Marker5
+      Object: 0AA7B9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FortGuard1Marker8
+      Object: 0AA7B9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GeneralTulliusDMarker1
+      Object: 0DEDB6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard1Marker8
+      Object: 0B62FA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard2Marker8
+      Object: 0CCB5F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GunnarMarker8
+      Object: 0CD6B0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarCMarkerMoveTo
+      Object: 0B8195:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarDMarkerMoveTo
+      Object: 0ED5FE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarMarker8
+      Object: 0B62F9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HouseBlockerMarker
+      Object: 0B8198:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ImperialSoldier01DMarker1
+      Object: 0DEDBC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MatlaraWoundedMarker
+      Object: 0E6D66:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101DragonAttackSceneRubble
+      Object: 10A190:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101RalofMarker9
+      Object: 0CD696:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerchTowerAttackSmashBite
+      Object: 107A96:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerInCTrigger
+      Object: 0DEDBA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerInInnRoadTrigger
+      Object: 0DEDB5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerInInnTrigger
+      Object: 0D7D75:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerInKeepAreaTrigger
+      Object: 0E151C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerInnMoveMarker
+      Object: 0CD6AD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerInSquareTrigger
+      Object: 0D67BD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerMarker8
+      Object: 0CCB5D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGAreaA
+      Object: 0D9616:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGAreaAClutter
+      Object: 0B81CF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGAreaB
+      Object: 0B81D0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGAreaBClutter
+      Object: 0D9617:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGAreaC
+      Object: 0D9618:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGAreaD
+      Object: 0D9619:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGAreaE
+      Object: 0D9614:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGAreaEClutter
+      Object: 0C78EB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGMajorClutter
+      Object: 0F8214:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGMajorFX
+      Object: 0F829B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGOutsideClutter
+      Object: 0C78EA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostCGTriggerMarker
+      Object: 0F7E82:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RalofHeadtrackARubble
+      Object: 0DF7AB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RalofMarker8
+      Object: 0B6300:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RalofOutsideKeepMarker1
+      Object: 0E1518:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RubbleAMarker
+      Object: 0D9610:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RubbleBMarker
+      Object: 0D9611:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RubbleCMarker
+      Object: 0D9612:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RubbleDMarker
+      Object: 0D9613:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RubbleEMarker
+      Object: 0D9615:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SetStageTriggerPreLedge
+      Object: 0B817D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SmokeFXA
+      Object: 0D9605:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SmokeFXB
+      Object: 0D9606:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SmokeFXC
+      Object: 0D9608:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SmokeFXD
+      Object: 0D9607:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SmokeFXE
+      Object: 0D9609:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StormcloakPrisoner1Marker8
+      Object: 0B62FC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StormcloakPrisoner2Marker8
+      Object: 0B62FD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StormcloakPrisoner3Marker8
+      Object: 0B62FE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TorolfMarker8
+      Object: 0CD6B2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TorolfWoundedMarker
+      Object: 0DB923:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TorriMarker8
+      Object: 0CD6B1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TowerARockDebrisMarker
+      Object: 0E72B2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TulliusMarker8
+      Object: 0CCB5E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UlfricMarker8
+      Object: 0B62FB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VilodWoundedMarker
+      Object: 0DF7D0:Skyrim.esm
+  FileName: QF_MQ101DragonAttack_000D0593
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_237
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_232
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_305
+  - Stage: 22
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_314
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_310
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_308
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_311
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_309
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_228
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_284
+  - Stage: 103
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_297
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_286
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_289
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_239
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_313
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_234
+  - Stage: 151
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_302
+  - Stage: 152
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_264
+  - Stage: 155
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_241
+  - Stage: 156
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_251
+  - Stage: 158
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_280
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_243
+  - Stage: 161
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_293
+  - Stage: 162
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_295
+  - Stage: 163
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_299
+  - Stage: 164
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_249
+  - Stage: 168
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_306
+  - Stage: 169
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_321
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_259
+  - Stage: 171
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_268
+  - Stage: 172
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_266
+  - Stage: 173
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_276
+  - Stage: 174
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_304
+  - Stage: 175
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_301
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_270
+  - Stage: 181
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_272
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_273
+  - Stage: 192
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_319
+  - Stage: 195
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_303
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_MQ101DragonAttack_000D0593
+    FragmentName: Fragment_275
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0D0593:Skyrim.esm
+      Alias: 30
+    Scripts:
+    - Name: mq101alduinscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PerchTowerAttackSmashBite
+        Object: 107A96:Skyrim.esm
+Flags:
+- RunOnce
+Priority: 81
+QuestFormVersion: 65
+Type: MainQuest
+Filter: Main Quest\
+Stages:
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 22
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 103
+  LogEntries:
+  - Flags: []
+- Index: 105
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 151
+  LogEntries:
+  - Flags: []
+- Index: 152
+  LogEntries:
+  - Flags: []
+- Index: 155
+  LogEntries:
+  - Flags: []
+- Index: 156
+  LogEntries:
+  - Flags: []
+- Index: 158
+  LogEntries:
+  - Flags: []
+- Index: 160
+  LogEntries:
+  - Flags: []
+- Index: 161
+  LogEntries:
+  - Flags: []
+- Index: 162
+  LogEntries:
+  - Flags: []
+- Index: 163
+  LogEntries:
+  - Flags: []
+- Index: 164
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 165
+  LogEntries:
+  - Flags: []
+- Index: 168
+  LogEntries:
+  - Flags: []
+- Index: 169
+  LogEntries:
+  - Flags: []
+- Index: 170
+  LogEntries:
+  - Flags: []
+- Index: 171
+  LogEntries:
+  - Flags: []
+- Index: 172
+  LogEntries:
+  - Flags: []
+- Index: 173
+  LogEntries:
+  - Flags: []
+- Index: 174
+  LogEntries:
+  - Flags: []
+- Index: 175
+  LogEntries:
+  - Flags: []
+- Index: 180
+  LogEntries:
+  - Flags: []
+- Index: 181
+  LogEntries:
+  - Flags: []
+- Index: 190
+  LogEntries:
+  - Flags: []
+- Index: 192
+  LogEntries:
+  - Flags: []
+- Index: 195
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags: []
+NextAliasID: 162
+Aliases:
+- ID: 152
+  Type: Location
+  Name: Helgen
+  Flags:
+  - Optional
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 63
+- ID: 119
+  Name: Player
+  Flags:
+  - Optional
+  - AllowReserved
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Hadvar
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - QuestObject
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 1
+  Factions:
+  - 0F3E6B:Skyrim.esm
+  PackageData:
+  - 0DB91E:Skyrim.esm
+  - 1095E0:Skyrim.esm
+  - 0FF240:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: Ralof
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 12
+  Factions:
+  - 0F3E6B:Skyrim.esm
+  PackageData:
+  - 10C509:Skyrim.esm
+  - 0BECD5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: GeneralTullius
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198BA:Skyrim.esm
+  Factions:
+  - 0F3E6B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 13
+  Name: Ulfric
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B131:Skyrim.esm
+  Factions:
+  - 0F3E6B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 30
+  Name: Alduin
+  Flags:
+  - Optional
+  - AllowDisabled
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 30
+  Factions:
+  - 0F3E6B:Skyrim.esm
+  PackageData:
+  - 0E77F6:Skyrim.esm
+  - 0E1E8C:Skyrim.esm
+  - 0E77F5:Skyrim.esm
+  - 0DF7C7:Skyrim.esm
+  - 0B817B:Skyrim.esm
+  - 109D0C:Skyrim.esm
+  - 0E77F4:Skyrim.esm
+  VoiceTypes: Null
+- ID: 121
+  Name: StormcloakPrisoner01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 38
+  VoiceTypes: Null
+- ID: 42
+  Name: StormcloakPrisoner02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 42
+  VoiceTypes: Null
+- ID: 124
+  Name: StormcloakPrisoner03
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 43
+  VoiceTypes: Null
+- ID: 125
+  Name: StormcloakPrisoner04
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 44
+  VoiceTypes: Null
+- ID: 29
+  Name: ImperialSoldier01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 29
+  VoiceTypes: 0391C7:Skyrim.esm
+- ID: 126
+  Name: ImperialSoldier02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 17
+  VoiceTypes: 0391C7:Skyrim.esm
+- ID: 32
+  Name: ImperialSoldierHelgen01
+  Flags:
+  - Optional
+  - AllowDisabled
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 32
+  VoiceTypes: Null
+- ID: 34
+  Name: ImperialSoldierHelgen02
+  Flags:
+  - Optional
+  - AllowDisabled
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 34
+  VoiceTypes: Null
+- ID: 50
+  Name: CivilianGunnar
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 50
+  PackageData:
+  - 1095DF:Skyrim.esm
+  - 0DB91D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 51
+  Name: CivilianTorolf
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 51
+  PackageData:
+  - 0DB924:Skyrim.esm
+  VoiceTypes: Null
+- ID: 52
+  Name: CivilianTorri
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 52
+  PackageData:
+  - 1095DE:Skyrim.esm
+  - 0DB91B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 53
+  Name: CivilianMatlara
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 53
+  PackageData:
+  - 0E6D67:Skyrim.esm
+  VoiceTypes: Null
+- ID: 54
+  Name: CivilianIngrid
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 54
+  VoiceTypes: Null
+- ID: 55
+  Name: CivilianVilod
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  External:
+    Quest: 03372B:Skyrim.esm
+    AliasID: 55
+  PackageData:
+  - 0DF7D1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 128
+  Name: DragonBaitATower
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  UniqueActor: 0D67B8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 129
+  Name: DragonBaitBTower
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  UniqueActor: 0D7D7D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 130
+  Name: ArcherBTower
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  UniqueActor: 0D7D8E:Skyrim.esm
+  PackageData:
+  - 0E4918:Skyrim.esm
+  VoiceTypes: Null
+- ID: 133
+  Name: ElenwensHorse
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 0527F1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 134
+  Name: DragonBaitDBridge
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0E1E95:Skyrim.esm
+  VoiceTypes: Null
+- ID: 135
+  Name: RalofLookInnMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 0E4913:Skyrim.esm
+  VoiceTypes: Null
+- ID: 136
+  Name: ImperialArcherA01
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0E491B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 137
+  Name: ImperialArcherA02
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0E4920:Skyrim.esm
+  VoiceTypes: Null
+- ID: 138
+  Name: ImperialArcherC01
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0E6D5C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 139
+  Name: ImperialArcherD01
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0E72BB:Skyrim.esm
+  VoiceTypes: Null
+- ID: 140
+  Name: ImperialSoldierFodderC01
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0E77F9:Skyrim.esm
+  PackageData:
+  - 0E77FA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 141
+  Name: ImperialSoldierFodderD01
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0E77FD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 142
+  Name: Tower01RubbleLookMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 0DF7AB:Skyrim.esm
+  VoiceTypes: Null
+- ID: 143
+  Name: AlduinShoutTargetD01
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 0E1E91:Skyrim.esm
+  VoiceTypes: Null
+- ID: 145
+  Name: RalofTowerLookMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 0DEECA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 146
+  Name: ImperialArcherD02
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0F3E6D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 147
+  Name: ImperialArcherD03
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0F3E6E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 148
+  Name: ImperialArcherC02
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0F3E6F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 149
+  Name: ImperialMageC01
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0F3E77:Skyrim.esm
+  VoiceTypes: Null
+- ID: 150
+  Name: ImperialMageD01
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0F3E76:Skyrim.esm
+  VoiceTypes: Null
+- ID: 151
+  Name: StormcloakTowerA
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  Location:
+    AliasID: 152
+    RefType: 0F8210:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 100826:Skyrim.esm
+  VoiceTypes: 0CD6BC:Skyrim.esm
+- ID: 153
+  Name: ImperialArcherD04
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0F94A9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 154
+  Name: ImperialArcherA03
+  Flags:
+  - Optional
+  - AllowDisabled
+  UniqueActor: 0F94AE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 156
+  Name: AlduinLookTargetTowerA
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 0FF8CA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 157
+  Name: TowerDoor
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 10757B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 159
+  Name: TowerCollision
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 10757D:Skyrim.esm
+  VoiceTypes: Null

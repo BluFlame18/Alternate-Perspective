@@ -1,0 +1,5594 @@
+FormKey: 03372B:Skyrim.esm
+EditorID: MQ101
+Version2: 5
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APMQ101
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: APMarker
+      Object: 312D3C:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFarmBoots02
+      Object: 0209A5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFarmClothes02
+      Object: 0209A6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueHelgen
+      Object: 1E301D:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: enterTrigger
+      Object: 3271CA:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeToBlackHoldImod
+      Object: 0F756E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeUpFromBlack
+      Object: 16422F:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FarmClothesOutfit02
+      Object: 327167:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HousePurchase
+      Object: 0A7B33:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleDLC1BossExplosion1stP
+      Object: 003D81:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: introBedScr
+      Object: 03D5D9:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: kdMarker2
+      Object: 0E4748:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: master
+      Object: 0EB803:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: qstScr
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TG05_GetUp
+      Object: 0D17FA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: titleSequenceMarker
+      Object: 117157:AlternatePerspective.esp
+  - Name: APMQ101Controller
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart1
+      Object: 0B9DF3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart1HorseMarker
+      Object: 3BF18D:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart1Prisoner01Marker
+      Object: 3BA03B:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart1Prisoner02Marker
+      Object: 3BA046:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart1Prisoner03Marker
+      Object: 3BA047:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart1Prisoner04Marker
+      Object: 3BA048:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart1SoldierMarker
+      Object: 3BA03D:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart2
+      Object: 0BB970:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart2HorseMarker
+      Object: 3BF191:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart2PlayerMarker
+      Object: 3BA038:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart2Prisoner01Marker
+      Object: 3BA039:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart2RalofMarker
+      Object: 3BA03A:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart2SoldierMarker
+      Object: 3BA03C:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart2UlfricMarker
+      Object: 3BA045:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChargenFxTrigger
+      Object: 10FDE3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueHelgenScr
+      Object: 1E301D:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueWhiterunGuardGateStop
+      Object: 0D1984:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunHunterDoor
+      Object: 018574:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GunnarIntroPos
+      Object: 0AAF9F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarHorseMarker
+      Object: 3BF194:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarLedgerMarker
+      Object: 0654E6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarMarker
+      Object: 3BA03E:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenGunnarDoor
+      Object: 1B532D:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenKeep
+      Object: 363DDA:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenWatchtower
+      Object: 363DDB:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQQuickstart
+      Object: 04679E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkaleiPlazzaSeat
+      Object: 34F98D:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: startcell
+      Object: 2C1D00:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StopAfterIntroList
+      Object: 45202C:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TulliusHorseMarker
+      Object: 3BA043:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TulliusStartMarker
+      Object: 3BA03F:AlternatePerspective.esp
+  - Name: defaultquestrespawnscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: debugFlag
+      Object: 05B43F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RespawnMarkerFailsafe
+      Object: 0B4057:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: respawnTimeMax
+      Data: 10
+    - MutagenObjectType: ScriptIntProperty
+      Name: respawnTimeMin
+      Data: 3
+  - Name: MQ101QuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alduin
+      Object: 03372B:Skyrim.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArgonianRace
+      Object: 013740:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BretonRace
+      Object: 013741:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CGDragonAttackBlurLong
+      Object: 10CDC7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ConjureFamiliar
+      Object: 0640B6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DarkElfRace
+      Object: 013742:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fury
+      Object: 04DEEB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Headsman
+      Object: 03372B:Skyrim.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenCrowdWallaMarker1
+      Object: 10E42A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenCrowdWallaMarker2
+      Object: 10E42B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HighElfRace
+      Object: 013743:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartDriverExit
+      Object: 07592F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartDriverIdle
+      Object: 0B8C4E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPassengerAExit
+      Object: 01C0BF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPassengerAIdle
+      Object: 0B8C50:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPassengerBExit
+      Object: 07592C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPassengerBIdle
+      Object: 0B8C51:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPassengerCExit
+      Object: 07592D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPassengerCIdle
+      Object: 0B8C4F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPassengerDExit
+      Object: 07592E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPassengerDIdle
+      Object: 0B8C52:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleWalkingCameraEnd
+      Object: 10C00D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleWalkingCameraStart
+      Object: 10C00C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ImperialRace
+      Object: 013744:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KeepDoorMessage
+      Object: 01C045:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KhajiitRace
+      Object: 013745:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NextClip
+      Object: 10EB3C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NordRace
+      Object: 013746:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OrcRace
+      Object: 013747:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerAlduinIMOD
+      Object: 101DAC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RedguardRace
+      Object: 013748:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Riverwood
+      Object: 013163:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Sparks
+      Object: 02DD2A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StormcloakPrisoner01
+      Object: 03372B:Skyrim.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WoodElfRace
+      Object: 013749:Skyrim.esm
+  - Name: QF_MQ101_0003372B_new
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AlduinAttackEnableMarker1
+      Object: 0AD3AE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AlduinAttackScene
+      Object: 0AA7DF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AlduinAttackWeather
+      Object: 0D9329:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alduin
+      Object: 03372B:Skyrim.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BarracksRoomSoldier01
+      Object: 03372B:Skyrim.esm
+      Alias: 173
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BarracksRoomSoldier01StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 171
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BarracksRoomSoldier02
+      Object: 03372B:Skyrim.esm
+      Alias: 174
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BarracksRoomSoldier02StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 172
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bear
+      Object: 03372B:Skyrim.esm
+      Alias: 97
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cart1
+      Object: 03372B:Skyrim.esm
+      Alias: 116
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cart1Spawn
+      Object: 03372B:Skyrim.esm
+      Alias: 191
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cart2
+      Object: 03372B:Skyrim.esm
+      Alias: 117
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cart2Spawn
+      Object: 03372B:Skyrim.esm
+      Alias: 192
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CartHorse1
+      Object: 03372B:Skyrim.esm
+      Alias: 93
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CartHorse2
+      Object: 03372B:Skyrim.esm
+      Alias: 94
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianGunnar
+      Object: 03372B:Skyrim.esm
+      Alias: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianIngrid
+      Object: 03372B:Skyrim.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianJacob
+      Object: 03372B:Skyrim.esm
+      Alias: 188
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianMatlara
+      Object: 03372B:Skyrim.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianSkalei
+      Object: 03372B:Skyrim.esm
+      Alias: 187
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianTorolf
+      Object: 03372B:Skyrim.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianTorri
+      Object: 03372B:Skyrim.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CivilianVilod
+      Object: 03372B:Skyrim.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DeadStormcloakHeadtrackMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 113
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DragonLookMarker2
+      Object: 03372B:Skyrim.esm
+      Alias: 165
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DragonLookMarker3
+      Object: 03372B:Skyrim.esm
+      Alias: 166
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Elenwen
+      Object: 03372B:Skyrim.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ElenwenStartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GeneralTullius
+      Object: 03372B:Skyrim.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GunjarCorpse
+      Object: 03372B:Skyrim.esm
+      Alias: 144
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hadvar
+      Object: 03372B:Skyrim.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HadvarHorse
+      Object: 03372B:Skyrim.esm
+      Alias: 115
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HadvarLookIntoLedgerMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 186
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HadvarStartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HallwayStormcloak01
+      Object: 03372B:Skyrim.esm
+      Alias: 155
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HallwayStormcloak02
+      Object: 03372B:Skyrim.esm
+      Alias: 156
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HallwayStormcloak03
+      Object: 03372B:Skyrim.esm
+      Alias: 157
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HallwayStormcloakStartMarker1
+      Object: 03372B:Skyrim.esm
+      Alias: 158
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HallwayStormcloakStartMarker2
+      Object: 03372B:Skyrim.esm
+      Alias: 159
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HallwayStormcloakStartMarker3
+      Object: 03372B:Skyrim.esm
+      Alias: 160
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Headsman
+      Object: 03372B:Skyrim.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HeadsmanStartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Helgen
+      Object: 03372B:Skyrim.esm
+      Alias: 63
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HelgenArcher01
+      Object: 03372B:Skyrim.esm
+      Alias: 146
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HelgenArcher02
+      Object: 03372B:Skyrim.esm
+      Alias: 149
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HelgenArcher03
+      Object: 03372B:Skyrim.esm
+      Alias: 148
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HelgenArcher04
+      Object: 03372B:Skyrim.esm
+      Alias: 147
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldier01
+      Object: 03372B:Skyrim.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldier02
+      Object: 03372B:Skyrim.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldierFort01
+      Object: 03372B:Skyrim.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldierHelgen01
+      Object: 03372B:Skyrim.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImperialSoldierHelgen02
+      Object: 03372B:Skyrim.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Justiciar01
+      Object: 03372B:Skyrim.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Justiciar02
+      Object: 03372B:Skyrim.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JusticiarMarker1
+      Object: 03372B:Skyrim.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JusticiarMarker2
+      Object: 03372B:Skyrim.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KeepDoorInteriorImperials
+      Object: 03372B:Skyrim.esm
+      Alias: 98
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KeepDoorInteriorStormcloaks
+      Object: 03372B:Skyrim.esm
+      Alias: 99
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KeepLever1
+      Object: 03372B:Skyrim.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KeepLever2
+      Object: 03372B:Skyrim.esm
+      Alias: 133
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KeepLockedCageDoor1
+      Object: 03372B:Skyrim.esm
+      Alias: 104
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KeepLockedDoor1
+      Object: 03372B:Skyrim.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LockedCage
+      Object: 03372B:Skyrim.esm
+      Alias: 176
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveAlleyway01
+      Object: 03372B:Skyrim.esm
+      Alias: 122
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveInn01
+      Object: 03372B:Skyrim.esm
+      Alias: 121
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveKeepCourtyard
+      Object: 03372B:Skyrim.esm
+      Alias: 123
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveKeepDoorImperial
+      Object: 03372B:Skyrim.esm
+      Alias: 124
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveKeepDoorStormcloaks
+      Object: 03372B:Skyrim.esm
+      Alias: 125
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveKeepEscape1
+      Object: 03372B:Skyrim.esm
+      Alias: 138
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveKeepEscape2
+      Object: 03372B:Skyrim.esm
+      Alias: 139
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveKeepEscape3
+      Object: 03372B:Skyrim.esm
+      Alias: 140
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveKeepEscape4
+      Object: 03372B:Skyrim.esm
+      Alias: 141
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveKeepEscape5
+      Object: 03372B:Skyrim.esm
+      Alias: 142
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObjectiveKeepEscapeExit
+      Object: 03372B:Skyrim.esm
+      Alias: 126
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 03372B:Skyrim.esm
+      Alias: 183
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerFriend
+      Object: 03372B:Skyrim.esm
+      Alias: 73
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerGearChest
+      Object: 03372B:Skyrim.esm
+      Alias: 190
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerStartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomEnemy1StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 74
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomEnemy2StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 75
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomEnemy3StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 76
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomEnemy4StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 77
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomEnemy5StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 78
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomImperial1
+      Object: 03372B:Skyrim.esm
+      Alias: 105
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomImperial2
+      Object: 03372B:Skyrim.esm
+      Alias: 106
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomImperial3
+      Object: 03372B:Skyrim.esm
+      Alias: 107
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomImperial4
+      Object: 03372B:Skyrim.esm
+      Alias: 108
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomImperial5
+      Object: 03372B:Skyrim.esm
+      Alias: 109
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomStormcloak1
+      Object: 03372B:Skyrim.esm
+      Alias: 84
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomStormcloak2
+      Object: 03372B:Skyrim.esm
+      Alias: 85
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomStormcloak3
+      Object: 03372B:Skyrim.esm
+      Alias: 86
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomStormcloak4
+      Object: 03372B:Skyrim.esm
+      Alias: 87
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PoolRoomStormcloak5
+      Object: 03372B:Skyrim.esm
+      Alias: 88
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Priest
+      Object: 03372B:Skyrim.esm
+      Alias: 179
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PriestStartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 178
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Prisoner01
+      Object: 03372B:Skyrim.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Prisoner02
+      Object: 03372B:Skyrim.esm
+      Alias: 119
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PrisonerMarker1
+      Object: 03372B:Skyrim.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ralof
+      Object: 03372B:Skyrim.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RalofStartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SoldierFortAssistant
+      Object: 03372B:Skyrim.esm
+      Alias: 189
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SoldierMarker1
+      Object: 03372B:Skyrim.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SoldierMarker2
+      Object: 03372B:Skyrim.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SoldierMarkerFort1
+      Object: 03372B:Skyrim.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SoldierMarkerHelgen1
+      Object: 03372B:Skyrim.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SoldierMarkerHelgen2
+      Object: 03372B:Skyrim.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SoldierMarkerInsideFort1
+      Object: 03372B:Skyrim.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Spider1
+      Object: 03372B:Skyrim.esm
+      Alias: 127
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Spider2
+      Object: 03372B:Skyrim.esm
+      Alias: 128
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Spider3
+      Object: 03372B:Skyrim.esm
+      Alias: 129
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Spider4
+      Object: 03372B:Skyrim.esm
+      Alias: 130
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Spider5
+      Object: 03372B:Skyrim.esm
+      Alias: 131
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StoreoomBarrel
+      Object: 03372B:Skyrim.esm
+      Alias: 175
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StoreroomImperial1
+      Object: 03372B:Skyrim.esm
+      Alias: 134
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StoreroomImperial2
+      Object: 03372B:Skyrim.esm
+      Alias: 135
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StoreroomStormcloak1
+      Object: 03372B:Skyrim.esm
+      Alias: 136
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StoreroomStormcloak2
+      Object: 03372B:Skyrim.esm
+      Alias: 137
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner01
+      Object: 03372B:Skyrim.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner02
+      Object: 03372B:Skyrim.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner03
+      Object: 03372B:Skyrim.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner04
+      Object: 03372B:Skyrim.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner1StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner2StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner3StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StormcloakPrisoner4StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torturer
+      Object: 03372B:Skyrim.esm
+      Alias: 71
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomImperialMarker1
+      Object: 03372B:Skyrim.esm
+      Alias: 161
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomImperialMarker2
+      Object: 03372B:Skyrim.esm
+      Alias: 162
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomImperialMarker3
+      Object: 03372B:Skyrim.esm
+      Alias: 163
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomImperialSoldier1
+      Object: 03372B:Skyrim.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomImperialSoldier2
+      Object: 03372B:Skyrim.esm
+      Alias: 153
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomImperialSoldier3
+      Object: 03372B:Skyrim.esm
+      Alias: 154
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomStormcloak1
+      Object: 03372B:Skyrim.esm
+      Alias: 68
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomStormcloak1StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomStormcloak2
+      Object: 03372B:Skyrim.esm
+      Alias: 69
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomStormcloak2StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomStormcloak3
+      Object: 03372B:Skyrim.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TortureRoomStormcloak3StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 95
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TrophyRoomPrisoner01
+      Object: 03372B:Skyrim.esm
+      Alias: 152
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TrophyRoomPrisoner01StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 151
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TrophyRoomPrisoner02
+      Object: 03372B:Skyrim.esm
+      Alias: 170
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TrophyRoomPrisoner02StartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 169
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TulliusHorse
+      Object: 03372B:Skyrim.esm
+      Alias: 114
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TulliusStartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ulfric
+      Object: 03372B:Skyrim.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlfricStartMarker
+      Object: 03372B:Skyrim.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WardenContainer
+      Object: 03372B:Skyrim.esm
+      Alias: 62
+    - MutagenObjectType: ScriptObjectProperty
+      Name: APStage5Scene
+      Object: 2000FA:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorGag
+      Object: 0F9670:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackoutImod
+      Object: 0B6301:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlockGateCollisionMarker
+      Object: 0D74C0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: borderCollision
+      Object: 2D1029:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BoundStandingCut
+      Object: 109B6A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BridgeCollapseTrigger
+      Object: 0BACC8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BridgeDebris
+      Object: 10AB26:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BridgeDragonRoarMarker
+      Object: 0E9DA6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BridgeOriginal
+      Object: 0945B8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CaptiveFaction
+      Object: 05B4D5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart1Marker4
+      Object: 075C24:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart1Marker5
+      Object: 0CCB5B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart2Marker4
+      Object: 075C26:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cart2Marker5
+      Object: 0CCB5A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CartHorse1Marker4
+      Object: 075C18:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CartHorse1Marker5
+      Object: 0BF474:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CartHorse2Marker4
+      Object: 075C34:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CartHorse2Marker5
+      Object: 0BF472:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CartPathAmbientMarker
+      Object: 0B8EE1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CartSound
+      Object: 056B18:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenActivateBody
+      Object: 108C2E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenActivateOpen
+      Object: 108C2D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenAttack
+      Object: 108C30:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenAttackwithPower
+      Object: 10E28E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenBlock
+      Object: 109629:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenBlock02
+      Object: 10E0F5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenLockpick
+      Object: 108CCD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenLook
+      Object: 1095D7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenLookPC
+      Object: 10E813:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenMove
+      Object: 108C32:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenMovePC
+      Object: 10E814:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenOpenInventory
+      Object: 108C2F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenPowerAttack
+      Object: 10E0F4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenReadyWeapon
+      Object: 108C31:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenSneak
+      Object: 108CCE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenTrigger
+      Object: 10FDE3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CiviliansOutsideHelgenMarker
+      Object: 0D95FE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesPrisoner
+      Object: 03C9FE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesPrisonerShoes
+      Object: 03CA00:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CollapsingBridge
+      Object: 0945B8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CollapsingBridgeAnim
+      Object: 0C8960:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CollisionWall
+      Object: 1E1AF6:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonRoarDistant01
+      Object: 0FF7CA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonRoarDistant02
+      Object: 0FF7CB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunCGDragonVoiceStormCall
+      Object: 0B2388:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EastGate
+      Object: 0AA79F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ElenwenHorse
+      Object: 0527F1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ExitMusic
+      Object: 08DC7C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ExplosionTriggerA01
+      Object: 0DF7B4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ExtHelgenAttackASREF
+      Object: 10D906:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeUpFromBlack
+      Object: 0591A3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FortGuard1Marker5
+      Object: 0AA7B9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FortGuard1Marker8
+      Object: 0B62FA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FortNeugradEnableMarker
+      Object: 0E8BDD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameHour
+      Object: 000038:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard1KeepMarker1
+      Object: 0B35A9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard1Marker4
+      Object: 0A9DF3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard1Marker5
+      Object: 0AA7A2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard1Marker8
+      Object: 0B62FA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard2KeepMarker1
+      Object: 0B35AA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard2Marker4
+      Object: 0A9DEE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard2Marker5
+      Object: 0AA7A7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard2Marker8
+      Object: 0CCB5F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarHorseMarker4
+      Object: 100CDE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarKeepMarker1
+      Object: 0B35A8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarMarker4
+      Object: 0A9DEC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarMarker5
+      Object: 0654E6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarMarker8
+      Object: 0B62F9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarOutfit
+      Object: 0AD23D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadvarRiverwoodMarker
+      Object: 038B08:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenAutoDoor
+      Object: 025FB2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenCrowdWallaMarker1
+      Object: 10E42A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenCrowdWallaMarker2
+      Object: 10E42B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenDisEnabMarker
+      Object: 0D09AE:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenEndMarker
+      Object: 0947D1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenFriendMarker
+      Object: 02BFA8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenReserved
+      Object: 01BC95:Skyrim.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartDriverSway
+      Object: 106AE9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPrisonerASway
+      Object: 106AE3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPrisonerBSway
+      Object: 106AE4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPrisonerCIdle
+      Object: 0B8C4F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPrisonerCSway
+      Object: 106AE5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCartPrisonerDSway
+      Object: 106AE6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleExecutionerAlduinReaction
+      Object: 10EB3C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleExecutionerAlduinReactionDeath
+      Object: 106AE7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ImperialBow
+      Object: 013841:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Imperialsword
+      Object: 0135B8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IntoTorriScene
+      Object: 0E6D69:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IntroMusic
+      Object: 0FED06:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IronArrow
+      Object: 01397D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KeepGate1
+      Object: 090A05:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KeepIntroSceneA
+      Object: 020167:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KeepIntroSceneB
+      Object: 04E1E2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KeepScene2A
+      Object: 026358:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KeepScene2B
+      Object: 0B622C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KeepScene4A
+      Object: 0B9670:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KeepScene4B
+      Object: 05B2CD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KeepScene5A
+      Object: 0BF48C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KeepScene5B
+      Object: 05B3F0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Lockpick
+      Object: 00000A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LongBow
+      Object: 03B562:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101CrowdOhREF
+      Object: 108CEF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101CrowdWalla1REF
+      Object: 108CEE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101CrowdWalla2REF
+      Object: 108CED:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101CrowdWallaMarker1
+      Object: 108CEE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101DragonAttack
+      Object: 0D0593:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101DragonShoutsMarkerREF
+      Object: 0D77EE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101ImperialFaction
+      Object: 0BF465:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101KeepEnemyScene1A
+      Object: 0F5B51:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101KeepEnemyScene1B
+      Object: 0F5B52:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101KeepEnemyScene2A
+      Object: 0F5B53:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101KeepEnemyScene2B
+      Object: 0F5BB7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101LokirEnemyFaction
+      Object: 105EDF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101OutsideClutterMarker
+      Object: 0FDCC9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101StormcloakFaction
+      Object: 0BF464:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102
+      Object: 04E50D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102A
+      Object: 02BF9C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102B
+      Object: 02610A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102ChargenFriendExitMarker
+      Object: 0D19AA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSCombatBossChargen
+      Object: 1094AA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSDungeonChargen
+      Object: 1094A9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NorthGate
+      Object: 0A9D96:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDragonFlightRoar
+      Object: 03CB88:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDragonFlightRoarObstructed
+      Object: 0A7EA9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OffsetBoundStandingStart
+      Object: 0B600A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OffsetStop
+      Object: 08C0A0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Phase2RespawnMarker1
+      Object: 0B9658:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Phase2RespawnMarker2
+      Object: 0B9659:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Phase3RespawnMarker1
+      Object: 02E35A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Phase3RespawnMarker2
+      Object: 02E3C4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Phase4RespawnMarker1
+      Object: 02E3C5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Phase4RespawnMarker2
+      Object: 02E3C6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 000DB1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerImperialKeepMarker1
+      Object: 0B4056:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerInnMoveMarker
+      Object: 0CD6AD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerKeepStartMarker
+      Object: 06E215:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerMarker4
+      Object: 0A9DEF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerMarker5
+      Object: 0D764B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerMarker8
+      Object: 0CCB5D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerSonKeepMarker1
+      Object: 0B4057:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerStartMarker
+      Object: 013806:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PostMQ101KeepMarker
+      Object: 0F8236:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PrisonerCuffs
+      Object: 103941:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PrisonerCuffsPlayer
+      Object: 10E039:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PrisonerMarker4
+      Object: 0A9DF2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PrisonerMarker5
+      Object: 0AA7A5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PrisonerOutfit
+      Object: 0A1983:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RalofKeepExteriorMarker
+      Object: 0527F0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RalofKeepMarker1
+      Object: 0B404F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RalofMarker4
+      Object: 0A9DF0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RalofMarker8
+      Object: 0B6300:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RalofOutfit
+      Object: 108E55:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene1
+      Object: 0BECD4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene3
+      Object: 04679B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene4
+      Object: 0CD68E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SittingAngleLimit
+      Object: 07F8F0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkyrimClear
+      Object: 012F89:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Son1KeepMarker1
+      Object: 0B404D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Son1Marker4
+      Object: 0A9DF1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Son1Marker5
+      Object: 0D7649:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Son2KeepMarker1
+      Object: 0B404E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Son2Marker4
+      Object: 0A9DF7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Son2Marker5
+      Object: 0AA7AB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Son3Marker4
+      Object: 0A9DF6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Son3Marker5
+      Object: 0AA7AA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Son4Marker4
+      Object: 0A9DF5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Son4Marker5
+      Object: 0AA7A9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SteelDagger
+      Object: 013986:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StormcloakPrisoner1Marker8
+      Object: 0B62FC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StormcloakPrisoner2Marker8
+      Object: 0B62FD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StormcloakPrisoner3Marker8
+      Object: 0B62FE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempChooseSidesMessage
+      Object: 0947D2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempChooseSidesMessage2
+      Object: 06E1DF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TEMPEndGate
+      Object: 0AF671:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempMessage1
+      Object: 04679C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempMessage2
+      Object: 04679D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TemporaryFriendsFaction
+      Object: 0B4054:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TorolfMarker8
+      Object: 0CD6B2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TorriMarker8
+      Object: 0CD6B1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TorturerSpellTome
+      Object: 09CD53:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TulliusKeepMarker1
+      Object: 0AAEE1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TulliusMarker4
+      Object: 0A9DED:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TulliusMarker5
+      Object: 0AA7A1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TulliusMarker8
+      Object: 0CCB5E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UlfricKeepMarker1
+      Object: 0AAEE0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UlfricMarker4
+      Object: 0A9DF4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UlfricMarker5
+      Object: 0AA7A8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UlfricMarker8
+      Object: 0B62FB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UlfricOutfit
+      Object: 045C33:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WestGate
+      Object: 21451B:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WordFus
+      Object: 013E22:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WordRo
+      Object: 013E23:Skyrim.esm
+  FileName: QF_MQ101_0003372B_new
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_2
+  - StageIndex: 5
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_332
+  - StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_191
+  - StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_190
+  - StageIndex: 3
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_27
+  - StageIndex: 4
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_156
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_380
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_282
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_294
+  - Stage: 3
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_372
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_381
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_56
+  - Stage: 5
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_383
+  - Stage: 5
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_351
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_57
+  - Stage: 6
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_374
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_59
+  - Stage: 7
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_377
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_157
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_159
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_4
+  - Stage: 10
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_79
+  - Stage: 10
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_197
+  - Stage: 10
+    StageIndex: 3
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_334
+  - Stage: 10
+    StageIndex: 4
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_389
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_175
+  - Stage: 12
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_390
+  - Stage: 12
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_336
+  - Stage: 14
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_315
+  - Stage: 14
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_338
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_177
+  - Stage: 15
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_339
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_109
+  - Stage: 20
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_340
+  - Stage: 22
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_207
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_29
+  - Stage: 26
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_32
+  - Stage: 26
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_384
+  - Stage: 27
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_238
+  - Stage: 28
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_241
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_111
+  - Stage: 30
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_204
+  - Stage: 32
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_281
+  - Stage: 32
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_388
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_218
+  - Stage: 37
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_292
+  - Stage: 39
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_291
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_193
+  - Stage: 40
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_341
+  - Stage: 41
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_290
+  - Stage: 42
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_199
+  - Stage: 43
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_235
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_202
+  - Stage: 46
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_240
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_179
+  - Stage: 52
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_185
+  - Stage: 54
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_209
+  - Stage: 54
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_343
+  - Stage: 56
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_210
+  - Stage: 58
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_181
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_212
+  - Stage: 62
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_214
+  - Stage: 64
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_216
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_318
+  - Stage: 65
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_354
+  - Stage: 67
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_306
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_227
+  - Stage: 70
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_346
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_13
+  - Stage: 75
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_394
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_11
+  - Stage: 81
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_313
+  - Stage: 82
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_266
+  - Stage: 84
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_268
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_327
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_33
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_287
+  - Stage: 95
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_348
+  - Stage: 97
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_288
+  - Stage: 98
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_308
+  - Stage: 99
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_309
+  - Stage: 99
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_350
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_15
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_228
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_230
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_295
+  - Stage: 140
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_353
+  - Stage: 145
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_328
+  - Stage: 145
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_367
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_42
+  - Stage: 150
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_355
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_316
+  - Stage: 160
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_395
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_243
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_50
+  - Stage: 195
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_52
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_17
+  - Stage: 202
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_311
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_21
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_23
+  - Stage: 240
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_74
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_44
+  - Stage: 250
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_48
+  - Stage: 250
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_46
+  - Stage: 250
+    StageIndex: 3
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_363
+  - Stage: 250
+    StageIndex: 4
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_391
+  - Stage: 251
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_392
+  - Stage: 252
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_330
+  - Stage: 255
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_260
+  - Stage: 255
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_262
+  - Stage: 255
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_261
+  - Stage: 256
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_320
+  - Stage: 257
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_263
+  - Stage: 257
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_265
+  - Stage: 257
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_264
+  - Stage: 258
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_317
+  - Stage: 260
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_69
+  - Stage: 265
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_103
+  - Stage: 267
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_136
+  - Stage: 268
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_255
+  - Stage: 270
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_54
+  - Stage: 270
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_113
+  - Stage: 270
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_112
+  - Stage: 272
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_296
+  - Stage: 275
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_76
+  - Stage: 280
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_67
+  - Stage: 285
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_144
+  - Stage: 290
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_72
+  - Stage: 292
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_321
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_61
+  - Stage: 300
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_63
+  - Stage: 300
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_62
+  - Stage: 305
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_138
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_99
+  - Stage: 310
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_258
+  - Stage: 310
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_257
+  - Stage: 315
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_299
+  - Stage: 317
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_300
+  - Stage: 318
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_331
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_286
+  - Stage: 320
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_275
+  - Stage: 320
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_274
+  - Stage: 340
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_259
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_65
+  - Stage: 360
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_77
+  - Stage: 360
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_146
+  - Stage: 360
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_82
+  - Stage: 365
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_269
+  - Stage: 368
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_280
+  - Stage: 370
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_87
+  - Stage: 380
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_89
+  - Stage: 380
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_247
+  - Stage: 390
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_301
+  - Stage: 395
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_302
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_85
+  - Stage: 400
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_148
+  - Stage: 400
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_97
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_95
+  - Stage: 450
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_107
+  - Stage: 450
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_105
+  - Stage: 460
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_276
+  - Stage: 460
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_277
+  - Stage: 470
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_249
+  - Stage: 480
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_117
+  - Stage: 485
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_284
+  - Stage: 490
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_173
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_101
+  - Stage: 500
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_154
+  - Stage: 500
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_152
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_122
+  - Stage: 560
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_283
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_253
+  - Stage: 630
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_251
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_195
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_131
+  - Stage: 700
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_325
+  - Stage: 700
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_324
+  - Stage: 705
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_312
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_303
+  - Stage: 720
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_169
+  - Stage: 725
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_323
+  - Stage: 730
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_128
+  - Stage: 750
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_129
+  - Stage: 760
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_285
+  - Stage: 780
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_206
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_278
+  - Stage: 800
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_121
+  - Stage: 800
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_120
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_245
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_19
+  - Stage: 1000
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_MQ101_0003372B_new
+    FragmentName: Fragment_365
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 183
+    Scripts:
+    - Name: MQ101PlayerScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ101KeepDoorKey
+        Object: 0B5178:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerAlduinIMOD
+        Object: 101DAC:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 1
+    Scripts:
+    - Name: MQ101FriendScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ101FriendPickpocketSayTopic
+        Object: 10E2CF:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ101PickpocketMessage
+        Object: 10DFFF:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 12
+    Scripts:
+    - Name: MQ101CartRiderScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageOnExit
+        Data: 64
+    - Name: MQ101FriendScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ101FriendPickpocketSayTopic
+        Object: 10E2CF:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ101PickpocketMessage
+        Object: 10DFFF:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 13
+    Scripts:
+    - Name: MQ101CartRiderScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageOnExit
+        Data: 60
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 14
+    Scripts:
+    - Name: MQ101LokirScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: HelgenArcher01
+        Object: 03372B:Skyrim.esm
+        Alias: 146
+      - MutagenObjectType: ScriptObjectProperty
+        Name: HelgenArcher02
+        Object: 03372B:Skyrim.esm
+        Alias: 149
+      - MutagenObjectType: ScriptObjectProperty
+        Name: HelgenArcher03
+        Object: 03372B:Skyrim.esm
+        Alias: 148
+      - MutagenObjectType: ScriptObjectProperty
+        Name: HelgenArcher04
+        Object: 03372B:Skyrim.esm
+        Alias: 147
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PrisonerCuffs
+        Object: 103941:Skyrim.esm
+    - Name: MQ101CartRiderScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageOnExit
+        Data: 64
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 119
+    Scripts:
+    - Name: MQ101CartRiderScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageOnExit
+        Data: 64
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 38
+    Scripts:
+    - Name: MQ101CartRiderScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageOnExit
+        Data: 64
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 42
+    Scripts:
+    - Name: MQ101CartRiderScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageOnExit
+        Data: 52
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 43
+    Scripts:
+    - Name: MQ101CartRiderScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageOnExit
+        Data: 60
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 44
+    Scripts:
+    - Name: MQ101CartRiderScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageOnExit
+        Data: 52
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 134
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 318
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 340
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 135
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 318
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 340
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 136
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 318
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 340
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 137
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 318
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 340
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 68
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 370
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 380
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 69
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 370
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 380
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 96
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 370
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 380
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 70
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 370
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 380
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 153
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 370
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 380
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 154
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 370
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 380
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 105
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 106
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 107
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 108
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 109
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 84
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 85
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 86
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 87
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 88
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 29
+    Scripts:
+    - Name: MQ101CartRiderScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageOnExit
+        Data: 46
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 17
+    Scripts:
+    - Name: MQ101CartRiderScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageOnExit
+        Data: 45
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 71
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 370
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 380
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 98
+    Scripts:
+    - Name: MQ101KeepDoorScript
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 99
+    Scripts:
+    - Name: MQ101KeepDoorScript
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 56
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 265
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 133
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 268
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 62
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 257
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 9
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 58
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 300
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 9
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 104
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 400
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 430
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 9
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 93
+    Scripts:
+    - Name: MQ101StartingCellLoadRegisterScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQQuickstart
+        Object: 04679E:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 94
+    Scripts:
+    - Name: MQ101StartingCellLoadRegisterScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQQuickstart
+        Object: 04679E:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 97
+    Scripts:
+    - Name: MQ101BearScript
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 127
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 630
+      - MutagenObjectType: ScriptIntProperty
+        Name: onHitStage
+        Data: 600
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 128
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 630
+      - MutagenObjectType: ScriptIntProperty
+        Name: onHitStage
+        Data: 600
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 129
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 630
+      - MutagenObjectType: ScriptIntProperty
+        Name: onHitStage
+        Data: 600
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 130
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 630
+      - MutagenObjectType: ScriptIntProperty
+        Name: onHitStage
+        Data: 600
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 131
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 630
+      - MutagenObjectType: ScriptIntProperty
+        Name: onHitStage
+        Data: 600
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 144
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 257
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 152
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 270
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 280
+      - MutagenObjectType: ScriptIntProperty
+        Name: onHitStage
+        Data: 270
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 170
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: onCombatStage
+        Data: 270
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 280
+      - MutagenObjectType: ScriptIntProperty
+        Name: onHitStage
+        Data: 270
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 173
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 280
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 174
+    Scripts:
+    - Name: mq101enemyscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: myFactionPath
+        Data: 2
+      - MutagenObjectType: ScriptIntProperty
+        Name: onDeathStage
+        Data: 280
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 175
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 317
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+  - Property:
+      Name: ''
+      Object: 03372B:Skyrim.esm
+      Alias: 176
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 395
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 9
+    - Name: MQ101LockedCage
+Name:
+  TargetLanguage: English
+  Value: Unbound
+Flags:
+- RunOnce
+Priority: 80
+QuestFormVersion: 65
+Type: MainQuest
+Filter: Main Quest\
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 4
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 2
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 3
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 4
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 1
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 3
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 4
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 6
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+- Index: 6
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 7
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 8
+  LogEntries:
+  - Flags: []
+- Index: 9
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 1
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 6
+- Index: 12
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 6
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 6
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 6
+- Index: 14
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 22
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 26
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 27
+  LogEntries:
+  - Flags: []
+- Index: 28
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 1
+- Index: 32
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 1
+  - Flags: []
+  - Flags: []
+- Index: 35
+  LogEntries:
+  - Flags: []
+- Index: 37
+  LogEntries:
+  - Flags: []
+- Index: 39
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 41
+  LogEntries:
+  - Flags: []
+- Index: 42
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+- Index: 43
+  LogEntries:
+  - Flags: []
+- Index: 45
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+- Index: 46
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 52
+  LogEntries:
+  - Flags: []
+- Index: 54
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 56
+  LogEntries:
+  - Flags: []
+- Index: 58
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 62
+  LogEntries:
+  - Flags: []
+- Index: 64
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 67
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 75
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 6
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 6
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 81
+  LogEntries:
+  - Flags: []
+- Index: 82
+  LogEntries:
+  - Flags: []
+- Index: 84
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 97
+  LogEntries:
+  - Flags: []
+- Index: 98
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 99
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 100
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    NextQuest: 04E50D:Skyrim.esm
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+- Index: 145
+  LogEntries:
+  - Flags: []
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been captured by the Empire and sentenced to death alongside the Stormcloak rebels. We were taken to Helgen, but before I could be executed a dragon appeared and attacked the town. I need to find some way to escape.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+    Entry:
+      TargetLanguage: English
+      Value: The Empire captured Ulfric Stormcloak and sentenced him to death alongside his rebels. They were taken to Helgen, but during the exeuction a dragon appeared and attacked the town. I need to find some way to escape.
+- Index: 160
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+  - Flags: []
+- Index: 180
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been captured by the Empire and sentenced to death alongside the Stormcloak rebels. We were taken to Helgen, but before I could be executed a dragon appeared and attacked the town. I need to find some way to escape.
+- Index: 190
+  LogEntries:
+  - Flags: []
+- Index: 195
+  LogEntries:
+  - Flags: []
+- Index: 200
+  Unknown: 32
+  LogEntries:
+  - Flags: []
+    NextQuest: 04E50D:Skyrim.esm
+- Index: 202
+  LogEntries:
+  - Flags: []
+- Index: 210
+  Unknown: 67
+  LogEntries:
+  - Flags: []
+- Index: 220
+  LogEntries:
+  - Flags: []
+- Index: 240
+  LogEntries:
+  - Flags: []
+- Index: 250
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 484A45:AlternatePerspective.esp
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 484A45:AlternatePerspective.esp
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 6
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 6
+- Index: 251
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 6
+- Index: 252
+  LogEntries:
+  - Flags: []
+- Index: 255
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 256
+  LogEntries:
+  - Flags: []
+- Index: 257
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 258
+  LogEntries:
+  - Flags: []
+- Index: 260
+  LogEntries:
+  - Flags: []
+- Index: 265
+  LogEntries:
+  - Flags: []
+- Index: 267
+  LogEntries:
+  - Flags: []
+- Index: 268
+  LogEntries:
+  - Flags: []
+- Index: 270
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 272
+  LogEntries:
+  - Flags: []
+- Index: 275
+  LogEntries:
+  - Flags: []
+- Index: 280
+  LogEntries:
+  - Flags: []
+- Index: 285
+  LogEntries:
+  - Flags: []
+- Index: 290
+  LogEntries:
+  - Flags: []
+- Index: 292
+  LogEntries:
+  - Flags: []
+- Index: 300
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 305
+  LogEntries:
+  - Flags: []
+- Index: 310
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 315
+  LogEntries:
+  - Flags: []
+- Index: 317
+  LogEntries:
+  - Flags: []
+- Index: 318
+  LogEntries:
+  - Flags: []
+- Index: 320
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 340
+  LogEntries:
+  - Flags: []
+- Index: 350
+  LogEntries:
+  - Flags: []
+- Index: 360
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 365
+  LogEntries:
+  - Flags: []
+- Index: 368
+  LogEntries:
+  - Flags: []
+- Index: 370
+  LogEntries:
+  - Flags: []
+- Index: 380
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+- Index: 390
+  LogEntries:
+  - Flags: []
+- Index: 395
+  LogEntries:
+  - Flags: []
+- Index: 400
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 450
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 460
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 470
+  LogEntries:
+  - Flags: []
+- Index: 480
+  LogEntries:
+  - Flags: []
+- Index: 485
+  LogEntries:
+  - Flags: []
+- Index: 490
+  LogEntries:
+  - Flags: []
+- Index: 500
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 550
+  LogEntries:
+  - Flags: []
+- Index: 560
+  LogEntries:
+  - Flags: []
+- Index: 600
+  LogEntries:
+  - Flags: []
+- Index: 630
+  LogEntries:
+  - Flags: []
+- Index: 650
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+- Index: 700
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 705
+  LogEntries:
+  - Flags: []
+- Index: 710
+  LogEntries:
+  - Flags: []
+- Index: 720
+  LogEntries:
+  - Flags: []
+- Index: 725
+  LogEntries:
+  - Flags: []
+- Index: 730
+  LogEntries:
+  - Flags: []
+- Index: 750
+  LogEntries:
+  - Flags: []
+- Index: 760
+  LogEntries:
+  - Flags: []
+- Index: 780
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+- Index: 800
+  LogEntries:
+  - Flags: []
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 1
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 03372B:Skyrim.esm
+        VariableName: ::FactionPath_var
+      ComparisonValue: 2
+- Index: 900
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I have escaped both my execution and a dragon attack at Helgen. I now have my freedom to do as I see fit in Skyrim.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 04679E:Skyrim.esm
+      ComparisonValue: 7
+    Entry:
+      TargetLanguage: English
+      Value: I managed to escape the Dragon Attack at Helgen and can go my own way now in Skyrim.
+- Index: 1000
+  Unknown: 1
+  LogEntries:
+  - Flags: []
+  - Flags: []
+Objectives:
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Make your way to the Keep
+  Targets:
+  - AliasID: 12
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0D0593:Skyrim.esm
+      ComparisonValue: 10
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0D0593:Skyrim.esm
+      ComparisonValue: 110
+  - AliasID: 121
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0D0593:Skyrim.esm
+      ComparisonValue: 110
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0D0593:Skyrim.esm
+      ComparisonValue: 120
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0D0593:Skyrim.esm
+      ComparisonValue: 120
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0D0593:Skyrim.esm
+      ComparisonValue: 180
+  - AliasID: 123
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0D0593:Skyrim.esm
+      ComparisonValue: 180
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0D0593:Skyrim.esm
+      ComparisonValue: 190
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Enter the Keep with Hadvar or Ralof
+  Targets:
+  - AliasID: 124
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 05DE24:Skyrim.esm
+  - AliasID: 125
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 05DE24:Skyrim.esm
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find some equipment
+  Targets:
+  - AliasID: 62
+- Index: 65
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Loot Gunjar's body
+  Targets:
+  - AliasID: 144
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Search the barrel for potions
+  Targets:
+  - AliasID: 175
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Attempt to pick the lock to the cage
+  Targets:
+  - AliasID: 176
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Recover your gear
+  Targets:
+  - AliasID: 190
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Escape Helgen
+  Targets:
+  - AliasID: 138
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03372B:Skyrim.esm
+      ComparisonValue: 350
+  - AliasID: 139
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03372B:Skyrim.esm
+      ComparisonValue: 350
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03372B:Skyrim.esm
+      ComparisonValue: 400
+  - AliasID: 140
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03372B:Skyrim.esm
+      ComparisonValue: 400
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03372B:Skyrim.esm
+      ComparisonValue: 450
+  - AliasID: 141
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03372B:Skyrim.esm
+      ComparisonValue: 450
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03372B:Skyrim.esm
+      ComparisonValue: 500
+  - AliasID: 142
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03372B:Skyrim.esm
+      ComparisonValue: 500
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03372B:Skyrim.esm
+      ComparisonValue: 600
+  - AliasID: 126
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03372B:Skyrim.esm
+      ComparisonValue: 600
+NextAliasID: 193
+Aliases:
+- ID: 63
+  Type: Location
+  Name: Helgen
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  SpecificLocation: 018A4A:Skyrim.esm
+- ID: 183
+  Name: Player
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  Factions:
+  - 04E1E1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Hadvar
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  UniqueActor: 02BF9F:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 01C9FC:Skyrim.esm
+  PackageData:
+  - 03DE32:Skyrim.esm
+  - 027219:Skyrim.esm
+  - 0CD69A:Skyrim.esm
+  - 0F42FE:Skyrim.esm
+  - 0C1F81:Skyrim.esm
+  - 08406A:Skyrim.esm
+  - 400F73:AlternatePerspective.esp
+  - 0C28D6:Skyrim.esm
+  - 3E2969:AlternatePerspective.esp
+  - 084069:Skyrim.esm
+  - 015B67:Skyrim.esm
+  - 09003C:Skyrim.esm
+  - 04679F:Skyrim.esm
+  - 02C30B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: Ralof
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  UniqueActor: 02BF9D:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 01C9FD:Skyrim.esm
+  PackageData:
+  - 03DE36:Skyrim.esm
+  - 027217:Skyrim.esm
+  - 0AAEE2:Skyrim.esm
+  - 0654E3:Skyrim.esm
+  - 109628:Skyrim.esm
+  - 0BECD5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: GeneralTullius
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  ForcedReference: 0198BA:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  PackageData:
+  - 0CD69B:Skyrim.esm
+  - 0AA7D8:Skyrim.esm
+  - 4849CF:AlternatePerspective.esp
+  - 084059:Skyrim.esm
+  - 3E296A:AlternatePerspective.esp
+  - 015B67:Skyrim.esm
+  - 09003C:Skyrim.esm
+  - 0467A2:Skyrim.esm
+  - 4570C2:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Elenwen
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  ForcedReference: 0198BC:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  PackageData:
+  - 0A9DFE:Skyrim.esm
+  - 0A9E00:Skyrim.esm
+  - 0467A1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 13
+  Name: Ulfric
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  ForcedReference: 01B131:Skyrim.esm
+  CombatOverridePackageList: 0BAC0C:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  PackageData:
+  - 0AAEE2:Skyrim.esm
+  - 0654E3:Skyrim.esm
+  - 0BECD5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 30
+  Name: Alduin
+  Flags:
+  - AllowDisabled
+  UniqueActor: 032B94:Skyrim.esm
+  Factions:
+  - 438AB4:AlternatePerspective.esp
+  PackageData:
+  - 0AA7E0:Skyrim.esm
+  - 0D07F4:Skyrim.esm
+  - 032DB8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: PlayerStartMarker
+  Flags: []
+  ForcedReference: 04678E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 23
+  Name: RalofStartMarker
+  Flags: []
+  ForcedReference: 046790:Skyrim.esm
+  VoiceTypes: Null
+- ID: 37
+  Name: StormcloakPrisoner1StartMarker
+  Flags: []
+  ForcedReference: 0A9DE8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 39
+  Name: StormcloakPrisoner2StartMarker
+  Flags: []
+  ForcedReference: 0A9DE9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 40
+  Name: StormcloakPrisoner3StartMarker
+  Flags: []
+  ForcedReference: 0A9DEB:Skyrim.esm
+  VoiceTypes: Null
+- ID: 41
+  Name: StormcloakPrisoner4StartMarker
+  Flags: []
+  ForcedReference: 0A9DEA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 113
+  Name: DeadStormcloakHeadtrackMarker
+  Flags: []
+  ForcedReference: 05B4D7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 66
+  Name: TortureRoomStormcloak1StartMarker
+  Flags: []
+  ForcedReference: 05CEC9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 67
+  Name: TortureRoomStormcloak2StartMarker
+  Flags: []
+  ForcedReference: 05CEC6:Skyrim.esm
+  VoiceTypes: Null
+- ID: 95
+  Name: TortureRoomStormcloak3StartMarker
+  Flags: []
+  ForcedReference: 05CEC8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 158
+  Name: HallwayStormcloakStartMarker1
+  Flags: []
+  ForcedReference: 0FE507:Skyrim.esm
+  VoiceTypes: Null
+- ID: 159
+  Name: HallwayStormcloakStartMarker2
+  Flags: []
+  ForcedReference: 0FE508:Skyrim.esm
+  VoiceTypes: Null
+- ID: 160
+  Name: HallwayStormcloakStartMarker3
+  Flags: []
+  ForcedReference: 0FE509:Skyrim.esm
+  VoiceTypes: Null
+- ID: 161
+  Name: TortureRoomImperialMarker1
+  Flags: []
+  ForcedReference: 0FE50D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 162
+  Name: TortureRoomImperialMarker2
+  Flags: []
+  ForcedReference: 0FE50E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 163
+  Name: TortureRoomImperialMarker3
+  Flags: []
+  ForcedReference: 0FE50F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 74
+  Name: PoolRoomEnemy1StartMarker
+  Flags: []
+  ForcedReference: 0B79D6:Skyrim.esm
+  VoiceTypes: Null
+- ID: 75
+  Name: PoolRoomEnemy2StartMarker
+  Flags: []
+  ForcedReference: 0B79D8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 76
+  Name: PoolRoomEnemy3StartMarker
+  Flags: []
+  ForcedReference: 0B79D5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 77
+  Name: PoolRoomEnemy4StartMarker
+  Flags: []
+  ForcedReference: 0B79D9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 78
+  Name: PoolRoomEnemy5StartMarker
+  Flags: []
+  ForcedReference: 0BAC21:Skyrim.esm
+  VoiceTypes: Null
+- ID: 24
+  Name: HadvarStartMarker
+  Flags: []
+  ForcedReference: 046795:Skyrim.esm
+  VoiceTypes: Null
+- ID: 25
+  Name: TulliusStartMarker
+  Flags: []
+  ForcedReference: 046796:Skyrim.esm
+  VoiceTypes: Null
+- ID: 26
+  Name: UlfricStartMarker
+  Flags: []
+  ForcedReference: 046791:Skyrim.esm
+  VoiceTypes: Null
+- ID: 27
+  Name: ElenwenStartMarker
+  Flags: []
+  ForcedReference: 046797:Skyrim.esm
+  VoiceTypes: Null
+- ID: 28
+  Name: PrisonerMarker1
+  Flags: []
+  ForcedReference: 04678F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 186
+  Name: HadvarLookIntoLedgerMarker
+  Flags: []
+  ForcedReference: 102D4A:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Prisoner01
+  Flags:
+  - ReservesLocationOrReference
+  - AllowDisabled
+  UniqueActor: 04679A:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  VoiceTypes: Null
+- ID: 119
+  Name: Prisoner02
+  Flags:
+  - ReservesLocationOrReference
+  - AllowDisabled
+  UniqueActor: 075135:AlternatePerspective.esp
+  Factions:
+  - 04E1E1:Skyrim.esm
+  PackageData:
+  - 065C94:Skyrim.esm
+  VoiceTypes: Null
+- ID: 38
+  Name: StormcloakPrisoner01
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 63
+    RefType: 0654F1:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 0AAEE2:Skyrim.esm
+  - 0654E3:Skyrim.esm
+  - 0BECD5:Skyrim.esm
+  VoiceTypes: 0CD6BC:Skyrim.esm
+- ID: 42
+  Name: StormcloakPrisoner02
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 0654F2:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 0AAEE2:Skyrim.esm
+  - 0654E3:Skyrim.esm
+  - 0BECD5:Skyrim.esm
+  VoiceTypes: 0CD6BD:Skyrim.esm
+- ID: 43
+  Name: StormcloakPrisoner03
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 0654F3:Skyrim.esm
+  CombatOverridePackageList: 0BAC0C:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 0AAEE2:Skyrim.esm
+  - 0654E3:Skyrim.esm
+  - 0BECD5:Skyrim.esm
+  VoiceTypes: 0CD6BC:Skyrim.esm
+- ID: 44
+  Name: StormcloakPrisoner04
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 0654F4:Skyrim.esm
+  CombatOverridePackageList: 0BAC0C:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 0AAEE2:Skyrim.esm
+  - 0654E3:Skyrim.esm
+  - 0BECD5:Skyrim.esm
+  VoiceTypes: 0CD6BC:Skyrim.esm
+- ID: 134
+  Name: StoreroomImperial1
+  Flags:
+  - AllowDisabled
+  - UsesStoredText
+  Location:
+    AliasID: 63
+    RefType: 05CEF2:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 05CEEA:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 135
+  Name: StoreroomImperial2
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 05CEF3:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 05CEEB:Skyrim.esm
+  VoiceTypes: 08DE5D:Skyrim.esm
+- ID: 136
+  Name: StoreroomStormcloak1
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 05CEF0:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 05CEEA:Skyrim.esm
+  VoiceTypes: 0467BB:Skyrim.esm
+- ID: 137
+  Name: StoreroomStormcloak2
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 05CEF1:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 05CEEB:Skyrim.esm
+  VoiceTypes: 0F830A:Skyrim.esm
+- ID: 68
+  Name: TortureRoomStormcloak1
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0FE511:Skyrim.esm
+    AliasID: 66
+    Level: Medium
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 03EB76:Skyrim.esm
+  - 03EB75:Skyrim.esm
+  - 05CEE4:Skyrim.esm
+  - 02C30B:Skyrim.esm
+  VoiceTypes: 0467BB:Skyrim.esm
+- ID: 69
+  Name: TortureRoomStormcloak2
+  Flags: []
+  CreateReferenceToObject:
+    Object: 10A1A3:Skyrim.esm
+    AliasID: 67
+    Level: Medium
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 03EB76:Skyrim.esm
+  - 03EB74:Skyrim.esm
+  - 05CEE5:Skyrim.esm
+  - 02C30B:Skyrim.esm
+  VoiceTypes: 0467BB:Skyrim.esm
+- ID: 96
+  Name: TortureRoomStormcloak3
+  Flags: []
+  CreateReferenceToObject:
+    Object: 0FE512:Skyrim.esm
+    AliasID: 95
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 03EB76:Skyrim.esm
+  - 03EB74:Skyrim.esm
+  - 05CEE7:Skyrim.esm
+  - 02C30B:Skyrim.esm
+  VoiceTypes: 05B205:Skyrim.esm
+- ID: 155
+  Name: HallwayStormcloak01
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0467BB:Skyrim.esm
+    AliasID: 158
+    Level: Medium
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 0FE50A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 156
+  Name: HallwayStormcloak02
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0467BB:Skyrim.esm
+    AliasID: 159
+    Level: Medium
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 0FE50B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 157
+  Name: HallwayStormcloak03
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 05B205:Skyrim.esm
+    AliasID: 160
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 0FE50C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 70
+  Name: TortureRoomImperialSoldier1
+  Flags: []
+  CreateReferenceToObject:
+    Object: 0B9655:Skyrim.esm
+    AliasID: 161
+    Level: Medium
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 03EB76:Skyrim.esm
+  - 03EB73:Skyrim.esm
+  - 0B9669:Skyrim.esm
+  - 02C30B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 153
+  Name: TortureRoomImperialSoldier2
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0FE510:Skyrim.esm
+    AliasID: 162
+    Level: Medium
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 03EB76:Skyrim.esm
+  - 03EB75:Skyrim.esm
+  - 05CEE5:Skyrim.esm
+  - 02C30B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 154
+  Name: TortureRoomImperialSoldier3
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0FE510:Skyrim.esm
+    AliasID: 163
+    Level: Medium
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 03EB76:Skyrim.esm
+  - 03EB74:Skyrim.esm
+  - 05CEE7:Skyrim.esm
+  - 02C30B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 105
+  Name: PoolRoomImperial1
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 04E1DC:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 0F5BB5:Skyrim.esm
+  VoiceTypes: 08DE5D:Skyrim.esm
+- ID: 106
+  Name: PoolRoomImperial2
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 04E1DD:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 0F5BB6:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 107
+  Name: PoolRoomImperial3
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 04E1DE:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 03EB62:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 108
+  Name: PoolRoomImperial4
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 04E1DF:Skyrim.esm
+  CombatOverridePackageList: 04E1CE:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 03EB62:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 109
+  Name: PoolRoomImperial5
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 04E1E0:Skyrim.esm
+  CombatOverridePackageList: 04E1CE:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 03EB4D:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 84
+  Name: PoolRoomStormcloak1
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 04E1BB:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 0F5BB5:Skyrim.esm
+  VoiceTypes: 0F830A:Skyrim.esm
+- ID: 85
+  Name: PoolRoomStormcloak2
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 04E1BC:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 0F5BB6:Skyrim.esm
+  VoiceTypes: 0467BB:Skyrim.esm
+- ID: 86
+  Name: PoolRoomStormcloak3
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 04E1C6:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 03EB62:Skyrim.esm
+  VoiceTypes: 05B205:Skyrim.esm
+- ID: 87
+  Name: PoolRoomStormcloak4
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 04E1C7:Skyrim.esm
+  CombatOverridePackageList: 04E1CE:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 03EB62:Skyrim.esm
+  VoiceTypes: 04D366:Skyrim.esm
+- ID: 88
+  Name: PoolRoomStormcloak5
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 04E1CA:Skyrim.esm
+  CombatOverridePackageList: 04E1CE:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF464:Skyrim.esm
+  PackageData:
+  - 03EB4D:Skyrim.esm
+  VoiceTypes: 04D366:Skyrim.esm
+- ID: 19
+  Name: SoldierMarker1
+  Flags: []
+  ForcedReference: 046792:Skyrim.esm
+  VoiceTypes: Null
+- ID: 16
+  Name: SoldierMarker2
+  Flags: []
+  ForcedReference: 046793:Skyrim.esm
+  VoiceTypes: Null
+- ID: 31
+  Name: SoldierMarkerHelgen1
+  Flags: []
+  ForcedReference: 0A9DDA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 33
+  Name: SoldierMarkerHelgen2
+  Flags: []
+  ForcedReference: 0A9DDD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 35
+  Name: SoldierMarkerFort1
+  Flags: []
+  ForcedReference: 0A9DE1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 59
+  Name: SoldierMarkerInsideFort1
+  Flags: []
+  ForcedReference: 0B35A8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 46
+  Name: HeadsmanStartMarker
+  Flags: []
+  ForcedReference: 0AA7CD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 29
+  Name: ImperialSoldier01
+  Flags: []
+  Location:
+    AliasID: 63
+    RefType: 0654E8:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 0CD69C:Skyrim.esm
+  - 0C28DA:Skyrim.esm
+  VoiceTypes: 047CBA:Skyrim.esm
+- ID: 17
+  Name: ImperialSoldier02
+  Flags: []
+  Location:
+    AliasID: 63
+    RefType: 0654E8:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 0CD69D:Skyrim.esm
+  - 0C28D9:Skyrim.esm
+  VoiceTypes: 047CBA:Skyrim.esm
+- ID: 32
+  Name: ImperialSoldierHelgen01
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 0654E9:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 0A9DDC:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 34
+  Name: ImperialSoldierHelgen02
+  Flags:
+  - Essential
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 0654EA:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 0A9DDF:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 36
+  Name: ImperialSoldierFort01
+  Flags:
+  - Essential
+  Location:
+    AliasID: 63
+    RefType: 0654EB:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 0FF23F:Skyrim.esm
+  - 0FF241:Skyrim.esm
+  - 0FF23E:Skyrim.esm
+  - 359BD5:AlternatePerspective.esp
+  VoiceTypes: 0AAFAC:Skyrim.esm
+- ID: 47
+  Name: Headsman
+  Flags:
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0AA7D6:Skyrim.esm
+    AliasID: 46
+  Factions:
+  - 0B4054:Skyrim.esm
+  PackageData:
+  - 025FE3:Skyrim.esm
+  - 0AA7D5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 71
+  Name: Torturer
+  Flags:
+  - ReservesLocationOrReference
+  - AllowDisabled
+  UniqueActor: 0B9652:Skyrim.esm
+  CombatOverridePackageList: 0BAC0C:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 08DE5C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: JusticiarMarker1
+  Flags: []
+  ForcedReference: 046798:Skyrim.esm
+  VoiceTypes: Null
+- ID: 21
+  Name: JusticiarMarker2
+  Flags: []
+  ForcedReference: 046799:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: Justiciar01
+  Flags:
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0467B8:Skyrim.esm
+    AliasID: 15
+  Factions:
+  - 0B4054:Skyrim.esm
+  PackageData:
+  - 0B7A21:Skyrim.esm
+  - 02C30B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: Justiciar02
+  Flags:
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0467B8:Skyrim.esm
+    AliasID: 21
+  Factions:
+  - 0B4054:Skyrim.esm
+  PackageData:
+  - 0B7A22:Skyrim.esm
+  - 02C30B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 50
+  Name: CivilianGunnar
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - AllowReserved
+  UniqueActor: 013643:Skyrim.esm
+  PackageData:
+  - 0CD6B6:Skyrim.esm
+  - 34F997:AlternatePerspective.esp
+  - 0AAFA0:Skyrim.esm
+  VoiceTypes: Null
+- ID: 51
+  Name: CivilianTorolf
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - AllowReserved
+  UniqueActor: 013641:Skyrim.esm
+  PackageData:
+  - 0CD6B8:Skyrim.esm
+  - 015B6C:Skyrim.esm
+  - 1DC9F4:AlternatePerspective.esp
+  - 0D95F3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 52
+  Name: CivilianTorri
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - AllowReserved
+  UniqueActor: 013642:Skyrim.esm
+  PackageData:
+  - 0CD6B7:Skyrim.esm
+  - 0D95F0:Skyrim.esm
+  VoiceTypes: Null
+- ID: 53
+  Name: CivilianMatlara
+  Flags:
+  - QuestObject
+  - AllowReserved
+  UniqueActor: 013640:Skyrim.esm
+  PackageData:
+  - 0CD6B9:Skyrim.esm
+  - 0AAFA7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 54
+  Name: CivilianIngrid
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - AllowReserved
+  UniqueActor: 01363F:Skyrim.esm
+  PackageData:
+  - 0CD6BA:Skyrim.esm
+  - 0AAFA8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 55
+  Name: CivilianVilod
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - AllowReserved
+  UniqueActor: 01363E:Skyrim.esm
+  PackageData:
+  - 0CD6BB:Skyrim.esm
+  - 0AAFAA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 187
+  Name: CivilianSkalei
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - AllowReserved
+  UniqueActor: 1CEAF7:AlternatePerspective.esp
+  PackageData:
+  - 359BCD:AlternatePerspective.esp
+  - 34F98E:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 188
+  Name: CivilianJacob
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - AllowReserved
+  UniqueActor: 1CEAF7:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 98
+  Name: KeepDoorInteriorImperials
+  Flags: []
+  ForcedReference: 0909D2:Skyrim.esm
+  VoiceTypes: Null
+- ID: 99
+  Name: KeepDoorInteriorStormcloaks
+  Flags: []
+  ForcedReference: 05DF95:Skyrim.esm
+  VoiceTypes: Null
+- ID: 56
+  Name: KeepLever1
+  Flags: []
+  ForcedReference: 090A06:Skyrim.esm
+  VoiceTypes: Null
+- ID: 133
+  Name: KeepLever2
+  Flags: []
+  ForcedReference: 047CC0:Skyrim.esm
+  VoiceTypes: Null
+- ID: 62
+  Name: WardenContainer
+  Flags: []
+  Location:
+    AliasID: 63
+    RefType: 0B622F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 58
+  Name: KeepLockedDoor1
+  Flags: []
+  ForcedReference: 09B0A5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 104
+  Name: KeepLockedCageDoor1
+  Flags: []
+  ForcedReference: 09163E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 73
+  Name: PlayerFriend
+  Flags:
+  - Optional
+  CombatOverridePackageList: 0BAC0C:Skyrim.esm
+  Factions:
+  - 04E1E1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 93
+  Name: CartHorse1
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - AllowDisabled
+  ForcedReference: 0B9DF2:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  PackageData:
+  - 0CD68F:Skyrim.esm
+  - 0BF475:Skyrim.esm
+  - 0BF473:Skyrim.esm
+  - 0BB981:Skyrim.esm
+  - 0C28D5:Skyrim.esm
+  - 3E2968:AlternatePerspective.esp
+  - 0B9E1C:Skyrim.esm
+  - 04D364:Skyrim.esm
+  VoiceTypes: Null
+- ID: 94
+  Name: CartHorse2
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - AllowDisabled
+  ForcedReference: 0BB971:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  PackageData:
+  - 0CD68F:Skyrim.esm
+  - 0BF47C:Skyrim.esm
+  - 0BF47B:Skyrim.esm
+  - 0BF47A:Skyrim.esm
+  - 400F72:AlternatePerspective.esp
+  - 0C28D7:Skyrim.esm
+  - 3E2967:AlternatePerspective.esp
+  - 0BF477:Skyrim.esm
+  - 04D364:Skyrim.esm
+  VoiceTypes: Null
+- ID: 191
+  Name: Cart1Spawn
+  Flags: []
+  ForcedReference: 0D5445:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 192
+  Name: Cart2Spawn
+  Flags: []
+  ForcedReference: 0D5446:AlternatePerspective.esp
+  VoiceTypes: Null
+- ID: 116
+  Name: Cart1
+  Flags:
+  - ReservesLocationOrReference
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 075C16:Skyrim.esm
+    AliasID: 191
+  VoiceTypes: Null
+- ID: 117
+  Name: Cart2
+  Flags:
+  - ReservesLocationOrReference
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 075C16:Skyrim.esm
+    AliasID: 192
+  VoiceTypes: Null
+- ID: 114
+  Name: TulliusHorse
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - Essential
+  - AllowDisabled
+  ForcedReference: 0A9DE7:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  PackageData:
+  - 04D364:Skyrim.esm
+  VoiceTypes: Null
+- ID: 115
+  Name: HadvarHorse
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - Essential
+  - AllowDisabled
+  ForcedReference: 0654E1:Skyrim.esm
+  Factions:
+  - 0B4054:Skyrim.esm
+  PackageData:
+  - 46B4CA:AlternatePerspective.esp
+  - 04D364:Skyrim.esm
+  VoiceTypes: Null
+- ID: 97
+  Name: Bear
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  ForcedReference: 0B301C:Skyrim.esm
+  PackageData:
+  - 10DE3C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 121
+  Name: ObjectiveInn01
+  Flags: []
+  ForcedReference: 0E24C3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 122
+  Name: ObjectiveAlleyway01
+  Flags: []
+  ForcedReference: 0E24C4:Skyrim.esm
+  VoiceTypes: Null
+- ID: 123
+  Name: ObjectiveKeepCourtyard
+  Flags: []
+  ForcedReference: 0E24C5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 124
+  Name: ObjectiveKeepDoorImperial
+  Flags: []
+  ForcedReference: 0E24C8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 125
+  Name: ObjectiveKeepDoorStormcloaks
+  Flags: []
+  ForcedReference: 0E24C7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 138
+  Name: ObjectiveKeepEscape1
+  Flags: []
+  ForcedReference: 02636A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 139
+  Name: ObjectiveKeepEscape2
+  Flags:
+  - AllowReuseInQuest
+  ForcedReference: 01C046:Skyrim.esm
+  VoiceTypes: Null
+- ID: 140
+  Name: ObjectiveKeepEscape3
+  Flags: []
+  ForcedReference: 01C04A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 141
+  Name: ObjectiveKeepEscape4
+  Flags: []
+  ForcedReference: 02E3C7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 142
+  Name: ObjectiveKeepEscape5
+  Flags: []
+  ForcedReference: 0BF48E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 126
+  Name: ObjectiveKeepEscapeExit
+  Flags: []
+  ForcedReference: 0AD242:Skyrim.esm
+  VoiceTypes: Null
+- ID: 127
+  Name: Spider1
+  Flags: []
+  Location:
+    AliasID: 63
+    RefType: 03EB77:Skyrim.esm
+  VoiceTypes: Null
+- ID: 128
+  Name: Spider2
+  Flags: []
+  Location:
+    AliasID: 63
+    RefType: 03EB77:Skyrim.esm
+  VoiceTypes: Null
+- ID: 129
+  Name: Spider3
+  Flags: []
+  Location:
+    AliasID: 63
+    RefType: 03EB77:Skyrim.esm
+  VoiceTypes: Null
+- ID: 130
+  Name: Spider4
+  Flags: []
+  Location:
+    AliasID: 63
+    RefType: 03EB77:Skyrim.esm
+  VoiceTypes: Null
+- ID: 131
+  Name: Spider5
+  Flags: []
+  Location:
+    AliasID: 63
+    RefType: 03EB77:Skyrim.esm
+  VoiceTypes: Null
+- ID: 144
+  Name: GunjarCorpse
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B1694:Skyrim.esm
+  VoiceTypes: Null
+- ID: 146
+  Name: HelgenArcher01
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 0F7B52:Skyrim.esm
+  Factions:
+  - 0BF465:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 149
+  Name: HelgenArcher02
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 63
+    RefType: 0F7B53:Skyrim.esm
+  Factions:
+  - 0BF465:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 148
+  Name: HelgenArcher03
+  Flags:
+  - Optional
+  Location:
+    AliasID: 63
+    RefType: 0F7B54:Skyrim.esm
+  Factions:
+  - 0BF465:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 147
+  Name: HelgenArcher04
+  Flags:
+  - Optional
+  Location:
+    AliasID: 63
+    RefType: 0F7B55:Skyrim.esm
+  Factions:
+  - 0BF465:Skyrim.esm
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 151
+  Name: TrophyRoomPrisoner01StartMarker
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  ForcedReference: 0AAEE0:Skyrim.esm
+  VoiceTypes: Null
+- ID: 169
+  Name: TrophyRoomPrisoner02StartMarker
+  Flags: []
+  ForcedReference: 103AF6:Skyrim.esm
+  VoiceTypes: Null
+- ID: 152
+  Name: TrophyRoomPrisoner01
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0467BB:Skyrim.esm
+    AliasID: 151
+  VoiceTypes: 0467BB:Skyrim.esm
+- ID: 170
+  Name: TrophyRoomPrisoner02
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 05B205:Skyrim.esm
+    AliasID: 169
+  VoiceTypes: 05B205:Skyrim.esm
+- ID: 165
+  Name: DragonLookMarker2
+  Flags: []
+  ForcedReference: 10055C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 166
+  Name: DragonLookMarker3
+  Flags: []
+  ForcedReference: 10055D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 171
+  Name: BarracksRoomSoldier01StartMarker
+  Flags: []
+  ForcedReference: 0B35A9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 172
+  Name: BarracksRoomSoldier02StartMarker
+  Flags: []
+  ForcedReference: 0B35AA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 173
+  Name: BarracksRoomSoldier01
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0AAFAC:Skyrim.esm
+    AliasID: 171
+  Items:
+  - Item:
+      Item: 0B5178:Skyrim.esm
+      Count: 1
+  PackageData:
+  - 1041A8:Skyrim.esm
+  VoiceTypes: 0AAFAC:Skyrim.esm
+- ID: 174
+  Name: BarracksRoomSoldier02
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 06E21C:Skyrim.esm
+    AliasID: 172
+  PackageData:
+  - 1041A7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 175
+  Name: StoreoomBarrel
+  Flags: []
+  ForcedReference: 0B1625:Skyrim.esm
+  VoiceTypes: Null
+- ID: 176
+  Name: LockedCage
+  Flags: []
+  ForcedReference: 0B167F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 178
+  Name: PriestStartMarker
+  Flags: []
+  ForcedReference: 107574:Skyrim.esm
+  VoiceTypes: Null
+- ID: 179
+  Name: Priest
+  Flags:
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 107572:Skyrim.esm
+    AliasID: 178
+  PackageData:
+  - 107576:Skyrim.esm
+  - 04D364:Skyrim.esm
+  VoiceTypes: Null
+- ID: 189
+  Name: SoldierFortAssistant
+  Flags:
+  - ReservesLocationOrReference
+  - AllowDisabled
+  ForcedReference: 3730E8:AlternatePerspective.esp
+  Factions:
+  - 0BF465:Skyrim.esm
+  PackageData:
+  - 3730EA:AlternatePerspective.esp
+  - 3730E9:AlternatePerspective.esp
+  VoiceTypes: 046794:Skyrim.esm
+- ID: 190
+  Name: PlayerGearChest
+  Flags:
+  - AllowDisabled
+  ForcedReference: 406084:AlternatePerspective.esp
+  VoiceTypes: Null

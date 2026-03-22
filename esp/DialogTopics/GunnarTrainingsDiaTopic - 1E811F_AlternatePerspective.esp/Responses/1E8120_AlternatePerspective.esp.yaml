@@ -1,0 +1,46 @@
+FormKey: 1E8120:AlternatePerspective.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_AP_041E8120
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_AP_041E8120
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_AP_041E8120
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I hope you're not planing to use this knowledge against the Empire.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 4
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetBaseActorValueConditionData
+    RunOnType: Target
+    ActorValue: Smithing
+  ComparisonValue: 05451A:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0E3A49:Skyrim.esm
+  ComparisonValue: 1

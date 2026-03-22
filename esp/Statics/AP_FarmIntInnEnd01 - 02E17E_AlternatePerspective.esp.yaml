@@ -1,0 +1,10 @@
+FormKey: 02E17E:AlternatePerspective.esp
+EditorID: AP_FarmIntInnEnd01
+ObjectBounds:
+  First: -279, -492, -2
+  Second: 236, 491, 834
+Model:
+  File: AlternatePerspective\architecture\farmhouse\interior\APfarmintinnend01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

@@ -1,0 +1,17 @@
+FormKey: 13B8D4:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: 0E14B7:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Fear
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: It's you and me. Stay close!
+  ScriptNotes: commanding and heroic
+  Edits: ''

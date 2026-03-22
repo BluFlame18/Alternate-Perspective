@@ -1,0 +1,40 @@
+FormKey: 41A49C:AlternatePerspective.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_AP_0541A49C
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_AP_0541A49C
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_AP_0541A49C
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - InvisibleContinue
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 41A49D:AlternatePerspective.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Tell me, Wunduniik. Who are you? What will be your Dez, your Fate?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInDialogueWithPlayerConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 31CFBA:AlternatePerspective.esp
+  ComparisonValue: 1

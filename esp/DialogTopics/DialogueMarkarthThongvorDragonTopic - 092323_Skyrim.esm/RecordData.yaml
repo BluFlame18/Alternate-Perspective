@@ -1,0 +1,8 @@
+FormKey: 092323:Skyrim.esm
+EditorID: DialogueMarkarthThongvorDragonTopic
+Name:
+  TargetLanguage: English
+  Value: Is Markarth prepared to deal with dragons?
+Branch: 092360:Skyrim.esm
+Quest: 017F05:Skyrim.esm
+SubtypeName: CUST

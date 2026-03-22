@@ -1,0 +1,15 @@
+FormKey: 11D210:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: 04E1A2:Skyrim.esm
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Take Gunjar's gear. He won't be needing it any more.
+  ScriptNotes: ''
+  Edits: "Originally: \"There you go. You may as well take Gunjar's gear. He won't be needing it any more."
+  SpeakerIdleAnimation: 109B69:Skyrim.esm

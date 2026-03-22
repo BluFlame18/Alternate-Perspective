@@ -1,0 +1,7 @@
+FormKey: 0BC567:AlternatePerspective.esp
+EditorID: SkaleiRequestEntry01
+Quest: 1E301D:AlternatePerspective.esp
+Category: Player
+Flags:
+- Blocking
+StartingTopic: 0BC569:AlternatePerspective.esp

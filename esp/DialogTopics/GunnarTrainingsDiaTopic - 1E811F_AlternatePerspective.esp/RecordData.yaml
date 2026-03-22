@@ -1,0 +1,9 @@
+FormKey: 1E811F:AlternatePerspective.esp
+EditorID: GunnarTrainingsDiaTopic
+Name:
+  TargetLanguage: English
+  Value: I need training in Smithing.
+Priority: 40
+Branch: 1E811E:AlternatePerspective.esp
+Quest: 1E301D:AlternatePerspective.esp
+SubtypeName: CUST

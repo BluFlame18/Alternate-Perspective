@@ -1,0 +1,8 @@
+FormKey: 201677:AlternatePerspective.esp
+EditorID: SkaleisRequest_01
+Name:
+  TargetLanguage: English
+  Value: Yes, she owns a shop in Helgen.
+Branch: 201674:AlternatePerspective.esp
+Quest: 201671:AlternatePerspective.esp
+SubtypeName: CUST

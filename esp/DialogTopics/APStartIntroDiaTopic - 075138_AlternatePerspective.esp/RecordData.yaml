@@ -1,0 +1,9 @@
+FormKey: 075138:AlternatePerspective.esp
+EditorID: APStartIntroDiaTopic
+Name:
+  TargetLanguage: English
+  Value: I'd like to rent a room. (Start Intro (<Global=RoomCost> gold))
+Priority: 10
+Branch: 075137:AlternatePerspective.esp
+Quest: 1E301D:AlternatePerspective.esp
+SubtypeName: CUST

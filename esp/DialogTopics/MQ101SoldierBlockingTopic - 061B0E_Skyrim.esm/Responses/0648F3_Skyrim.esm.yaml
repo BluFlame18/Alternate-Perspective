@@ -1,0 +1,33 @@
+FormKey: 0648F3:Skyrim.esm
+Version2: 2
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+PreviousDialog: 0648F2:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Fear
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Better down here than out there.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 250
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 06491A:Skyrim.esm
+  ComparisonValue: 1

@@ -1,0 +1,37 @@
+FormKey: 020121:Skyrim.esm
+Version2: 4
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__00020121
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BoundStandingCut
+      Object: 109B6A:Skyrim.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__00020121
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__00020121
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: There you go. Take a look around, there should be plenty of gear to choose from. I'm going to see if I can find something for these burns.
+  ScriptNotes: ''
+  Edits: ''
+  SpeakerIdleAnimation: 109B69:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04679E:Skyrim.esm
+  ComparisonValue: 7

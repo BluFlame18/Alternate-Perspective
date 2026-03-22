@@ -1,0 +1,26 @@
+FormKey: 210993:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: 0E1AEF:Skyrim.esm
+FavorLevel: None
+LinkTo:
+- 210995:AlternatePerspective.esp
+- 210998:AlternatePerspective.esp
+Responses:
+- Emotion: Disgust
+  EmotionValue: 35
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Silently watching, waiting for my head to roll.
+  ScriptNotes: ironic, a hint of judgment
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01414D:Skyrim.esm
+  ComparisonValue: 1

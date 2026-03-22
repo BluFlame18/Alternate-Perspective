@@ -1,0 +1,10 @@
+FormKey: 34F98F:AlternatePerspective.esp
+EditorID: AP_FarmhouseDoorStatic
+ObjectBounds:
+  First: -47, -8, 0
+  Second: 48, 4, 176
+Model:
+  File: Architecture\Farmhouse\FarmhouseDoor01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

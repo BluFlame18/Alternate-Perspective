@@ -1,0 +1,9 @@
+FormKey: 0D5114:Skyrim.esm
+EditorID: CW00TulliusGreetPrisoner
+Version2: 4
+Name:
+  TargetLanguage: English
+  Value: '...'
+Branch: 0D5178:Skyrim.esm
+Quest: 0D3C5F:Skyrim.esm
+SubtypeName: CUST

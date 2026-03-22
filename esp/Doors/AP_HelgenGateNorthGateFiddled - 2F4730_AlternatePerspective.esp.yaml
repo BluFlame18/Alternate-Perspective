@@ -1,0 +1,11 @@
+FormKey: 2F4730:AlternatePerspective.esp
+EditorID: AP_HelgenGateNorthGateFiddled
+ObjectBounds:
+  First: -244, -11, 0
+  Second: 244, 17, 331
+Name:
+  TargetLanguage: English
+  Value: Gate
+Model:
+  File: AlternatePerspective\clutter\helgen\helgenNorthGate.nif
+  Data: 0x020000000600000000000000A54FDECC646473004E28BE12B7D53AA2646473004E28BE12C725ADED646473004E28BE12A7759658646473004E28BE12CF51173D646473004E28BE12309A27C7646473004E28BE12

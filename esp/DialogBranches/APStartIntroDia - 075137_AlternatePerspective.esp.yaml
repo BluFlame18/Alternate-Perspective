@@ -1,0 +1,7 @@
+FormKey: 075137:AlternatePerspective.esp
+EditorID: APStartIntroDia
+Quest: 1E301D:AlternatePerspective.esp
+Category: Player
+Flags:
+- TopLevel
+StartingTopic: 075138:AlternatePerspective.esp

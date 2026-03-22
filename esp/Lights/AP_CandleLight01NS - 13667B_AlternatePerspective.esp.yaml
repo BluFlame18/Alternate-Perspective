@@ -1,0 +1,24 @@
+FormKey: 13667B:AlternatePerspective.esp
+MajorRecordFlagsRaw: 131072
+EditorID: AP_CandleLight01NS
+SkyrimMajorRecordFlags:
+- Dangerous_OffLimits_InteriorCell
+ObjectBounds:
+  First: -38, -40, -74
+  Second: 38, 40, 48
+Time: -1
+Radius: 256
+Color: '#00DFCA73'
+Flags:
+- Dynamic
+- Pulse
+- PortalStrict
+FalloffExponent: 1
+FOV: 90
+NearClip: 6.0278
+FlickerPeriod: 0.33333334
+FlickerIntensityAmplitude: 0.2
+FlickerMovementAmplitude: 1
+FadeValue: 1
+MajorFlags:
+- PortalStrict

@@ -1,0 +1,16 @@
+FormKey: 317EAF:AlternatePerspective.esp
+EditorID: AP_SwampDragon
+ObjectBounds:
+  First: -317, -597, -147
+  Second: 294, 191, 726
+Name:
+  TargetLanguage: English
+  Value: Alternate Perspective
+Model:
+  File: LoadScreenArt\LoadscreenSwampDragon1.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Alternate Perspective
+Flags: []

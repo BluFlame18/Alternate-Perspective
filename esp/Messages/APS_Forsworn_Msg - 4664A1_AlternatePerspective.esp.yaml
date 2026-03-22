@@ -1,0 +1,9 @@
+FormKey: 4664A1:AlternatePerspective.esp
+EditorID: APS_Forsworn_Msg
+Description:
+  TargetLanguage: English
+  Value: You are now a Traitor to the Forsworn of Druadach Redoubt.
+INAM: 0x00000000
+Quest: 46649F:AlternatePerspective.esp
+Flags:
+- MessageBox

@@ -1,0 +1,17 @@
+FormKey: 1B01E2:AlternatePerspective.esp
+EditorID: AP_LItemJuniperMead
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 107A8A:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 1B01E3:AlternatePerspective.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 1B01E3:AlternatePerspective.esp
+    Count: 1

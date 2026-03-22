@@ -1,0 +1,12 @@
+FormKey: 34F9F7:AlternatePerspective.esp
+EditorID: AP_WantedWEBounty
+Parent: 0F8A84:Skyrim.esm
+PreviousSibling: Null
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestRunningConditionData
+    Quest: 34F9F2:AlternatePerspective.esp
+  ComparisonValue: 1
+Flags: []
+MaxConcurrentQuests: 0

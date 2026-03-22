@@ -1,0 +1,26 @@
+FormKey: 206780:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: 0D5135:Skyrim.esm
+FavorLevel: None
+LinkTo:
+- 206781:AlternatePerspective.esp
+- 206784:AlternatePerspective.esp
+Responses:
+- Emotion: Happy
+  EmotionValue: 25
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: It's good to see some of the townsfolk still alive.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01327E:Skyrim.esm
+  ComparisonValue: 1

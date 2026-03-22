@@ -1,0 +1,37 @@
+FormKey: 34FA27:AlternatePerspective.esp
+EditorID: APS_LeftForDeadRiften
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_LeftForDeadRiften_0634FA27
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 34FA27:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFarmClothesVariant03
+      Object: 06C1DA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dedMarker
+      Object: 34FA26:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: diseaseSpell
+      Object: 34FA22:AlternatePerspective.esp
+  FileName: QF_APS_LeftForDeadRiften_0634FA27
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_LeftForDeadRiften_0634FA27
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 1
+Aliases:
+- Name: Player
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null

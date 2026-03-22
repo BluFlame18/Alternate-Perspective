@@ -1,0 +1,30 @@
+FormKey: 47F943:AlternatePerspective.esp
+EditorID: APS_MQSkipKeep
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_MQSkipKeep_0547F943
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelgenDialogue
+      Object: 1E301D:AlternatePerspective.esp
+  FileName: QF_APS_MQSkipKeep_0547F943
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_APS_MQSkipKeep_0547F943
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_APS_MQSkipKeep_0547F943
+    FragmentName: Fragment_1
+Stages:
+- {}
+- Index: 5
+  Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+NextAliasID: 0

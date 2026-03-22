@@ -1,0 +1,29 @@
+FormKey: 20164F:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: 201641:AlternatePerspective.esp
+FavorLevel: None
+LinkTo:
+- 201643:AlternatePerspective.esp
+- 20164D:AlternatePerspective.esp
+Responses:
+- Emotion: Sad
+  EmotionValue: 30
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Good times. Now I can barely swing a sword anymore, but damn me if I were to just sit around while the war rages.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 4
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: You fought for the Empire?

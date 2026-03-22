@@ -1,0 +1,61 @@
+FormKey: 34A8E2:AlternatePerspective.esp
+EditorID: APS_InnRavenRock
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_InnRavenRock_0634A8E2
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CenterCell
+      Object: 34A8E2:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Inn
+      Object: 34A8E2:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC2Init
+      Object: 016E02:Dragonborn.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC2RRASForce
+      Object: 032152:Dragonborn.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC2RRGjalundInit
+      Object: 02ADD5:Dragonborn.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myWeap
+      Object: 01E60A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RRShipRide
+      Object: 018B0F:Dragonborn.esm
+  FileName: QF_APS_InnRavenRock_0634A8E2
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_InnRavenRock_0634A8E2
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 2
+Aliases:
+- Type: Location
+  Name: Inn
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 019A24:Dragonborn.esm
+- ID: 1
+  Name: CenterCell
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 0
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null

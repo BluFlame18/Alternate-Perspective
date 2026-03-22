@@ -1,0 +1,8 @@
+FormKey: 0BFADD:Skyrim.esm
+EditorID: DialogueSolitudeFihada02Topic
+Name:
+  TargetLanguage: English
+  Value: I need some arrows that can take down a dragon...
+Branch: 0BFAFC:Skyrim.esm
+Quest: 02E1AD:Skyrim.esm
+SubtypeName: CUST

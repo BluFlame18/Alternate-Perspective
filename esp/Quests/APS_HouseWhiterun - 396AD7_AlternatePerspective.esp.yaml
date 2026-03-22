@@ -1,0 +1,99 @@
+FormKey: 396AD7:AlternatePerspective.esp
+EditorID: APS_HouseWhiterun
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_HouseWhiterun_06396AD7
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_homeCenter
+      Object: 396AD7:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HouseCarl
+      Object: 396AD7:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_playerHouse
+      Object: 396AD7:AlternatePerspective.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: disableMarkers
+      Objects:
+      - Name: ''
+        Object: 0E4ECB:Skyrim.esm
+      - Name: ''
+        Object: 0E4EF1:Skyrim.esm
+      - Name: ''
+        Object: 0E4EE3:Skyrim.esm
+      - Name: ''
+        Object: 0E4EFB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: enableMarkers
+      Objects:
+      - Name: ''
+        Object: 0C6E3A:Skyrim.esm
+      - Name: ''
+        Object: 0E4EC9:Skyrim.esm
+      - Name: ''
+        Object: 0C6E3C:Skyrim.esm
+      - Name: ''
+        Object: 0C6E3B:Skyrim.esm
+      - Name: ''
+        Object: 0C6E39:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FavorQ
+      Object: 0A2C9E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: guide
+      Object: 0F11B6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: house
+      Object: 0165A8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HouseKey
+      Object: 093B08:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialMarriageFaction
+      Object: 019809:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PurchaseHouse
+      Object: 0A7B33:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RelationshipAdoptable
+      Object: 004291:HearthFires.esm
+  FileName: QF_APS_HouseWhiterun_06396AD7
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_HouseWhiterun_06396AD7
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 4
+Aliases:
+- ID: 3
+  Type: Location
+  Name: playerHouse
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 01F86F:Skyrim.esm
+- ID: 2
+  Name: homeCenter
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 3
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null
+- Name: Housecarl
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  UniqueActor: 0A2C8E:Skyrim.esm
+  VoiceTypes: Null

@@ -1,0 +1,18 @@
+FormKey: 20A313:AlternatePerspective.esp
+EditorID: AP_SkipIntro02
+Description:
+  TargetLanguage: English
+  Value: Who do you side with?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Imperials
+- Text:
+    TargetLanguage: English
+    Value: Stormcloaks
+- Text:
+    TargetLanguage: English
+    Value: Let me rethink..

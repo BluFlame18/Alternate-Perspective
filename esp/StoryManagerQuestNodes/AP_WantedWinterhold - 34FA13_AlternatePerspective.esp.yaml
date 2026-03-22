@@ -1,0 +1,21 @@
+FormKey: 34FA13:AlternatePerspective.esp
+EditorID: AP_WantedWinterhold
+Parent: 34F9F7:AlternatePerspective.esp
+PreviousSibling: 34FA12:AlternatePerspective.esp
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    Faction: 02816F:Skyrim.esm
+  ComparisonValue: 34F9F9:AlternatePerspective.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetEventDataConditionData
+    Member: OldLocation
+    Record: 01676A:Skyrim.esm
+  ComparisonValue: 1
+MaxConcurrentQuests: 0
+Quests:
+- Quest: 34F9F1:AlternatePerspective.esp
+  HoursUntilReset: 36

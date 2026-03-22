@@ -1,0 +1,9 @@
+FormKey: 00AA20:AlternatePerspective.esp
+EditorID: AP_HelgenInnLocation
+Name:
+  TargetLanguage: English
+  Value: The Resting Pilgrim
+Keywords:
+- 01CB87:Skyrim.esm
+- 0130DC:Skyrim.esm
+ParentLocation: 018A4A:Skyrim.esm

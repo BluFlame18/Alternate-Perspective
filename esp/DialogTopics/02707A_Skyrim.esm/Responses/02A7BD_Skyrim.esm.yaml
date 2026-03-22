@@ -1,0 +1,29 @@
+FormKey: 02A7BD:Skyrim.esm
+Flags:
+  ResetHours: 0.49988556
+PreviousDialog: 02A7BA:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Surprise
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: He has returned... Oh, how Talos has returned. Helgen has been purged in his light. Will Whiterun be next?
+  ScriptNotes: ' '
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 013BAC:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 1

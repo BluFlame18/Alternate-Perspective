@@ -1,0 +1,26 @@
+FormKey: 4E4D7E:AlternatePerspective.esp
+EditorID: AP_ShrineofAkatoshExterior
+VirtualMachineAdapter:
+  Scripts:
+  - Name: APShrineSkipIntro
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ConfirmationMsg
+      Object: 4E4D85:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MessengerUtil
+      Object: 1E301D:AlternatePerspective.esp
+ObjectBounds:
+  First: -16, -16, 55
+  Second: 17, 17, 109
+Name:
+  TargetLanguage: English
+  Value: Shrine of Akatosh
+Model:
+  File: Clutter\Shrines\ShrineAkatosh.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Destroy Helgen
+Flags: []

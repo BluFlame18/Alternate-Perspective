@@ -1,0 +1,44 @@
+FormKey: 0D50E5:Skyrim.esm
+Version2: 3
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 0D50C3:Skyrim.esm
+- 0D50A3:Skyrim.esm
+Responses:
+- Emotion: Surprise
+  EmotionValue: 100
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Really? You're certainly... forthright about your criminal past.
+  ScriptNotes: he's surprised (and a little amused) that you'd admit that
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: But it's none of my concern who the Imperials want to execute. Especially now. What I want to know is what exactly happened at Helgen.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04679E:Skyrim.esm
+  ComparisonValue: 7
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 013BBD:Skyrim.esm
+  ComparisonValue: 1

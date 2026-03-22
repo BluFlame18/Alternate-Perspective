@@ -1,0 +1,9 @@
+FormKey: 0C02C8:Skyrim.esm
+EditorID: DialogueRoriksteadJouaneTopicsBranch3Topic
+Version2: 3
+Name:
+  TargetLanguage: English
+  Value: How will you protect yourselves against the dragons?
+Branch: 0C02ED:Skyrim.esm
+Quest: 03867C:Skyrim.esm
+SubtypeName: CUST

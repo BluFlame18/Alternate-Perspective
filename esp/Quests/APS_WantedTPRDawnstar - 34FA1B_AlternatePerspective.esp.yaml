@@ -1,0 +1,67 @@
+FormKey: 34FA1B:AlternatePerspective.esp
+EditorID: APS_WantedTPRDawnstar
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_WantedTPRDawnstar_0634FA1B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: APSWanted
+      Object: 34F9F2:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: banditWeaponry
+      Objects:
+      - Name: ''
+        Object: 037C1B:Skyrim.esm
+      - Name: ''
+        Object: 037C21:Skyrim.esm
+      - Name: ''
+        Object: 039D2E:Skyrim.esm
+      - Name: ''
+        Object: 039D2F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: CrimeFactions
+      Objects:
+      - Name: ''
+        Object: 02816F:Skyrim.esm
+      - Name: ''
+        Object: 02816B:Skyrim.esm
+      - Name: ''
+        Object: 02816C:Skyrim.esm
+      - Name: ''
+        Object: 02816E:Skyrim.esm
+      - Name: ''
+        Object: 02816D:Skyrim.esm
+      - Name: ''
+        Object: 029DB0:Skyrim.esm
+      - Name: ''
+        Object: 028170:Skyrim.esm
+      - Name: ''
+        Object: 0267E3:Skyrim.esm
+      - Name: ''
+        Object: 0267EA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: portLoc
+      Object: 34FA1C:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: uniform
+      Objects:
+      - Name: ''
+        Object: 013910:Skyrim.esm
+      - Name: ''
+        Object: 01B3A2:Skyrim.esm
+  FileName: QF_APS_WantedTPRDawnstar_0634FA1B
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_WantedTPRDawnstar_0634FA1B
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 0

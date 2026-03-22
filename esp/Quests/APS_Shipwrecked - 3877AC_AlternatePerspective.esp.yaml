@@ -1,0 +1,22 @@
+FormKey: 3877AC:AlternatePerspective.esp
+EditorID: APS_Shipwrecked
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_Shipwrecked_063877AC
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: shipLoc
+      Object: 38779E:AlternatePerspective.esp
+  FileName: QF_APS_Shipwrecked_063877AC
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_Shipwrecked_063877AC
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 0

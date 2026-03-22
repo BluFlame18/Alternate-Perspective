@@ -1,0 +1,24 @@
+FormKey: 20A312:AlternatePerspective.esp
+EditorID: AP_SkipIntro01
+Description:
+  TargetLanguage: English
+  Value: >2-
+
+    Skip the Vanilla Intro and complete Unbound?
+
+
+    *Not intended for regular play
+
+    *Will cause minor oddities in Helgen
+
+    *May cause CTDs
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Missclick!
+- Text:
+    TargetLanguage: English
+    Value: BURN HELGEN, BURN!

@@ -1,0 +1,11 @@
+FormKey: 20167B:AlternatePerspective.esp
+EditorID: AP_SkaleisRequestGift2
+ObjectBounds:
+  First: -12, -24, 0
+  Second: 12, 22, 46
+Name:
+  TargetLanguage: English
+  Value: Sahvee's Package
+Model:
+  File: Clutter\Containers\MiscPouch.nif
+  Data: 0x020000000000000000000000

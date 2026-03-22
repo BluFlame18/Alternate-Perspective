@@ -1,0 +1,88 @@
+FormKey: 3A5DD9:AlternatePerspective.esp
+EditorID: APS_HouseRiften
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_APS_HouseRiften_063A5DD9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_homeCenter
+      Object: 3A5DD9:AlternatePerspective.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HouseCarl
+      Object: 3A5DD9:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_playerHouse
+      Object: 3A5DD9:AlternatePerspective.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: enableMarkers
+      Objects:
+      - Name: ''
+        Object: 0C7F1B:Skyrim.esm
+      - Name: ''
+        Object: 0C7F18:Skyrim.esm
+      - Name: ''
+        Object: 0C7F1D:Skyrim.esm
+      - Name: ''
+        Object: 0C7F19:Skyrim.esm
+      - Name: ''
+        Object: 0C7F1E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FavorQ
+      Object: 065BDF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: guide
+      Object: 0F11B7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: house
+      Object: 016BDD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HouseKey
+      Object: 0A7B36:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialMarriageFaction
+      Object: 019809:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PurchaseHouse
+      Object: 0A7B33:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RelationshipAdoptable
+      Object: 004291:HearthFires.esm
+  FileName: QF_APS_HouseRiften_063A5DD9
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_APS_HouseRiften_063A5DD9
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 4
+Aliases:
+- ID: 3
+  Type: Location
+  Name: playerHouse
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 05E0FD:Skyrim.esm
+- ID: 2
+  Name: homeCenter
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 3
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null
+- Name: Housecarl
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  UniqueActor: 0A2C91:Skyrim.esm
+  VoiceTypes: Null

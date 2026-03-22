@@ -1,0 +1,90 @@
+FormKey: 0D1984:Skyrim.esm
+EditorID: DialogueWhiterunGuardGateStop
+Version2: 5
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_DialogueWhiterunGuardGateS_000D1984
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExteriorGate
+      Object: 0D1984:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_InteriorGate
+      Object: 0D1984:Skyrim.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WhiterunGate
+      Object: 01B1F1:Skyrim.esm
+  - Name: WhiterunStableScene3Script
+  FileName: QF_DialogueWhiterunGuardGateS_000D1984
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_DialogueWhiterunGuardGateS_000D1984
+    FragmentName: Fragment_2
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0D1984:Skyrim.esm
+      Alias: 6
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 6
+  - Property:
+      Name: ''
+      Object: 0D1984:Skyrim.esm
+      Alias: 7
+    Scripts:
+    - Name: APWhiterunGate
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ101
+        Object: 03372B:Skyrim.esm
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 35
+QuestFormVersion: 65
+Filter: Dialogue\Whiterun Hold\Whiterun\
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 03372B:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 0D1985:Skyrim.esm
+  ComparisonValue: 1
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+NextAliasID: 8
+Aliases:
+- ID: 6
+  Name: InteriorGate
+  Flags: []
+  ForcedReference: 01B1F3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: ExteriorGate
+  Flags: []
+  ForcedReference: 01B1F1:Skyrim.esm
+  VoiceTypes: Null

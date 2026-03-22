@@ -1,0 +1,120 @@
+FormKey: 400FFF:AlternatePerspective.esp
+EditorID: AP_HelgenVilodJuniperGathering
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_AP_HelgenVilodJuniperGath_06400FFF
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 400FFF:AlternatePerspective.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vilod
+      Object: 400FFF:AlternatePerspective.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BerryGlobal
+      Object: 401000:AlternatePerspective.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JuniperBerries
+      Object: 05076E:Skyrim.esm
+  FileName: QF_AP_HelgenVilodJuniperGath_06400FFF
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_AP_HelgenVilodJuniperGath_06400FFF
+    FragmentName: Fragment_1
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_AP_HelgenVilodJuniperGath_06400FFF
+    FragmentName: Fragment_0
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_AP_HelgenVilodJuniperGath_06400FFF
+    FragmentName: Fragment_3
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_AP_HelgenVilodJuniperGath_06400FFF
+    FragmentName: Fragment_2
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 400FFF:AlternatePerspective.esp
+      Alias: 0
+    Scripts:
+    - Name: APDefaultGatherIngredientAlias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Gatherer
+        Object: 05076E:Skyrim.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: gatherObjective
+        Data: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: objCount
+        Object: 401000:AlternatePerspective.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: toGather
+        Data: 20
+  - Property:
+      Name: ''
+      Object: 400FFF:AlternatePerspective.esp
+      Alias: 1
+    Scripts:
+    - Name: defaultaliasondeathscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSetOnDeath
+        Data: 100
+Flags:
+- RunOnce
+Priority: 70
+Type: Misc
+TextDisplayGlobals:
+- 401000:AlternatePerspective.esp
+Stages:
+- Index: 10
+  Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 100
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Collect 20 Juniper Berries for Vilod from Helgen (<Global=AP_HelgenVilodJnpC>/20)
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Vilod
+NextAliasID: 2
+Aliases:
+- Name: Player
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Vilod
+  Flags:
+  - AllowReserved
+  UniqueActor: 01363E:Skyrim.esm
+  VoiceTypes: Null

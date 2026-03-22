@@ -1,0 +1,17 @@
+FormKey: 3877A1:AlternatePerspective.esp
+EditorID: APS_ShipwreckedMessageTrigger
+VirtualMachineAdapter:
+  Scripts:
+  - Name: dlc2defaultshowmessageonactivate
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myMessage
+      Object: 3877A2:AlternatePerspective.esp
+ObjectBounds:
+  First: -68, -48, -48
+  Second: 68, 48, 48
+Name:
+  TargetLanguage: English
+  Value: Investigate
+MarkerColor: '#00DA15EA'
+Flags: []

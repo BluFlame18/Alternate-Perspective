@@ -1,0 +1,17 @@
+FormKey: 11D211:AlternatePerspective.esp
+Flags: {}
+PreviousDialog: 020130:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Happy
+  EmotionValue: 15
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: We should keep moving.
+  ScriptNotes: friendly
+  Edits: 'Originally: "We should keep moving. Come here. Let me see if I can get those bindings off."'
