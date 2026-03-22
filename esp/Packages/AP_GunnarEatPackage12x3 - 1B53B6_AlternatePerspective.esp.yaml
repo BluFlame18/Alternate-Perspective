@@ -36,10 +36,6 @@ Data:
         MutagenObjectType: LocationFallback
         Type: NearPackageStart
       Radius: 500
-- Key: 21
-  Value:
-    MutagenObjectType: PackageDataBool
-    Data: True
 - Key: 1
   Value:
     MutagenObjectType: PackageDataTarget
@@ -60,6 +56,9 @@ Data:
   Value:
     MutagenObjectType: PackageDataObjectList
     Data: 0
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataBool
 - Key: 10
   Value:
     MutagenObjectType: PackageDataInt
@@ -68,12 +67,16 @@ Data:
   Value:
     MutagenObjectType: PackageDataBool
     Data: True
-- Key: 16
-  Value:
-    MutagenObjectType: PackageDataBool
 - Key: 14
   Value:
     MutagenObjectType: PackageDataBool
+- Key: 16
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 21
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
 - Key: 23
   Value:
     MutagenObjectType: PackageDataBool
@@ -93,10 +96,6 @@ Data:
   Value:
     MutagenObjectType: PackageDataBool
     Data: True
-- Key: 33
-  Value:
-    MutagenObjectType: PackageDataBool
-    Data: True
 - Key: 29
   Value:
     MutagenObjectType: PackageDataBool
@@ -105,16 +104,17 @@ Data:
   Value:
     MutagenObjectType: PackageDataBool
     Data: True
+- Key: 32
+  Value:
+    MutagenObjectType: PackageDataFloat
+- Key: 33
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
 - Key: 35
   Value:
     MutagenObjectType: PackageDataFloat
     Data: 300
-- Key: 8
-  Value:
-    MutagenObjectType: PackageDataBool
-- Key: 32
-  Value:
-    MutagenObjectType: PackageDataFloat
 XnamMarker: 0x24
 OnBegin:
   Topics:

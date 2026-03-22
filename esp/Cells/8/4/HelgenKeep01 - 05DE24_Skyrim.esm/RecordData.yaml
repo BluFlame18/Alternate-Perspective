@@ -16887,7 +16887,7 @@ Persistent:
   Base: 406083:AlternatePerspective.esp
   Placement:
     Position: 2046.1234, 2742.096, 24.073101
-    Rotation: 0, -0, 0.24000062
+    Rotation: 0, 0, 0.24000062
 - MutagenObjectType: PlacedObject
   FormKey: 484A47:AlternatePerspective.esp
   MajorRecordFlagsRaw: 1024
@@ -16897,7 +16897,7 @@ Persistent:
   Base: 000034:Skyrim.esm
   Placement:
     Position: -3341.3242, -18028.738, -2658.4514
-    Rotation: 0, -0, 5.38319
+    Rotation: 0, 0, 5.38319
 - MutagenObjectType: PlacedObject
   FormKey: 05DF95:Skyrim.esm
   MajorRecordFlagsRaw: 1024
@@ -16909,7 +16909,7 @@ Persistent:
   TeleportDestination:
     Door: 025FAE:Skyrim.esm
     Position: 15817.581, -77873.65, 8222.018
-    Rotation: 0, -0, 2.822419
+    Rotation: 0, 0, 2.822419
   NavigationDoorLink:
     NavMesh: 0BF7A6:Skyrim.esm
     TeleportMarkerTriangle: 178
@@ -16932,14 +16932,14 @@ Persistent:
   TeleportDestination:
     Door: 05EB06:Skyrim.esm
     Position: 12155.861, -71991.34, 6011.8125
-    Rotation: 0, -0, -1.2899982
+    Rotation: 0, 0, -1.2899982
   NavigationDoorLink:
     NavMesh: 0BF7A6:Skyrim.esm
     TeleportMarkerTriangle: 1756
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: -4547.1265, -20651.248, -3277.3906
-    Rotation: 0, -0, 3.1415927
+    Rotation: 0, 0, 3.1415927
 - MutagenObjectType: PlacedObject
   FormKey: 0947D1:Skyrim.esm
   MajorRecordFlagsRaw: 1024
@@ -16951,7 +16951,7 @@ Persistent:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: -4476.83, -17823.639, -2910.2258
-    Rotation: 0, -0, 3.5783515
+    Rotation: 0, 0, 3.5783515
 - MutagenObjectType: PlacedObject
   FormKey: 0F8237:Skyrim.esm
   MajorRecordFlagsRaw: 1024
@@ -16963,7 +16963,7 @@ Persistent:
   TeleportDestination:
     Door: 05DF01:Skyrim.esm
     Position: 15829.146, -77912.61, 8223.734
-    Rotation: 0, -0, 2.837338
+    Rotation: 0, 0, 2.837338
   NavigationDoorLink:
     NavMesh: 0BF7A6:Skyrim.esm
     TeleportMarkerTriangle: 178
@@ -16981,7 +16981,7 @@ Temporary:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: 1182.038, 6387.306, 409.1777
-    Rotation: 0, -0, 3.4231894
+    Rotation: 0, 0, 3.4231894
 - MutagenObjectType: PlacedObject
   FormKey: 09B0BF:Skyrim.esm
   Version2: 5
@@ -16989,7 +16989,7 @@ Temporary:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: 1244.2294, 6449.207, 412.12543
-    Rotation: 0, -0, 3.4231877
+    Rotation: 0, 0, 3.4231877
 - MutagenObjectType: PlacedObject
   FormKey: 09B0C0:Skyrim.esm
   Version2: 4
@@ -16997,7 +16997,7 @@ Temporary:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: 1161.584, 6478.7373, 410.53802
-    Rotation: 0, -0, 3.053188
+    Rotation: 0, 0, 3.053188
 - MutagenObjectType: PlacedObject
   FormKey: 0B7E00:Skyrim.esm
   Version2: 3
@@ -17070,7 +17070,7 @@ Temporary:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: -4509.704, -18096.617, -2683.811
-    Rotation: 0, -0, 0.12500028
+    Rotation: 0, 0, 0.12500028
 - MutagenObjectType: PlacedObject
   FormKey: 103AF5:Skyrim.esm
   EditorID: MQ101SetStage220
@@ -17092,7 +17092,7 @@ Temporary:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: -380.5, 5504, 611.5
-    Rotation: 0, -0, 3.1415927
+    Rotation: 0, 0, 3.1415927
 MajorFlags:
 - 0x40000
 - CantWait

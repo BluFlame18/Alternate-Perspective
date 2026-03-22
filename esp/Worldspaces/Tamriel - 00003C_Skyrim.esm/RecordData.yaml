@@ -58,7 +58,7 @@ TopCell:
     TeleportDestination:
       Door: 04C92C:AlternatePerspective.esp
       Position: 296, 16, 136
-      Rotation: 0, -0, -1.5707964
+      Rotation: 0, 0, -1.5707964
     NavigationDoorLink:
       NavMesh: 02AC81:Skyrim.esm
       TeleportMarkerTriangle: 13
@@ -97,7 +97,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 16822.889, -81539.24, 9128.177
-      Rotation: 0, -0, 3.5769913
+      Rotation: 0, 0, 3.5769913
   - MutagenObjectType: PlacedObject
     FormKey: 0B747D:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -112,7 +112,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 16893.846, -80977.71, 9125.029
-      Rotation: 0, -0, 5.9331856
+      Rotation: 0, 0, 5.9331856
   - MutagenObjectType: PlacedObject
     FormKey: 0B747E:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -127,7 +127,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 17315.55, -81315.8, 9319.861
-      Rotation: 0, -0, 1.55
+      Rotation: 0, 0, 1.55
   - MutagenObjectType: PlacedObject
     FormKey: 0D09A7:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -142,7 +142,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 13779.663, -82431.3, 8694.031
-      Rotation: 0, -0, 4.1331873
+      Rotation: 0, 0, 4.1331873
   - MutagenObjectType: PlacedObject
     FormKey: 0D09A8:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -157,7 +157,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 13194.298, -81209.3, 8669.857
-      Rotation: 0, -0, 4.333187
+      Rotation: 0, 0, 4.333187
   - MutagenObjectType: PlacedObject
     FormKey: 0D09A9:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -172,7 +172,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 13500.055, -81689.09, 8665.877
-      Rotation: 0, -0, 1.0331881
+      Rotation: 0, 0, 1.0331881
   - MutagenObjectType: PlacedObject
     FormKey: 0D09AE:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -182,7 +182,7 @@ TopCell:
     Base: 030428:Skyrim.esm
     Placement:
       Position: 15015.174, -81046.375, 9447.756
-      Rotation: 0, -0, 2.8411696
+      Rotation: 0, 0, 2.8411696
   - MutagenObjectType: PlacedObject
     FormKey: 0D09AF:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -197,7 +197,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 16612.188, -77245.88, 8695.971
-      Rotation: 0, -0, 0.18319103
+      Rotation: 0, 0, 0.18319103
   - MutagenObjectType: PlacedObject
     FormKey: 0D09B1:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -212,7 +212,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 17615.03, -78955.52, 8681.301
-      Rotation: 0, -0, 4.4663773
+      Rotation: 0, 0, 4.4663773
   - MutagenObjectType: PlacedObject
     FormKey: 0D09B2:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -227,7 +227,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 17510.184, -78313.1, 8772.271
-      Rotation: 0, -0, 1.0331911
+      Rotation: 0, 0, 1.0331911
   - MutagenObjectType: PlacedObject
     FormKey: 0D09B4:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -242,7 +242,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 16964.33, -80394.34, 8634.243
-      Rotation: 0, -0, 6.116378
+      Rotation: 0, 0, 6.116378
   - MutagenObjectType: PlacedObject
     FormKey: 0D09B6:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -253,7 +253,7 @@ TopCell:
     - Reference: 0D09B7:AlternatePerspective.esp
     Placement:
       Position: 15064.293, -80397.29, 8616.811
-      Rotation: 0, -0, 2.683193
+      Rotation: 0, 0, 2.683193
   - MutagenObjectType: PlacedObject
     FormKey: 0D09B7:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -268,7 +268,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 13478.525, -80654.67, 8680.24
-      Rotation: 0, -0, 2.333192
+      Rotation: 0, 0, 2.333192
   - MutagenObjectType: PlacedObject
     FormKey: 0D09B8:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -283,7 +283,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 14693.237, -80317.74, 8612.529
-      Rotation: 0, -0, 0.0331937
+      Rotation: 0, 0, 0.0331937
   - MutagenObjectType: PlacedObject
     FormKey: 0D09B9:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -298,7 +298,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 16146.102, -80323.14, 8626.466
-      Rotation: 0, -0, 3.1663811
+      Rotation: 0, 0, 3.1663811
   - MutagenObjectType: PlacedObject
     FormKey: 0D09BA:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -313,7 +313,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 17521.598, -80664.73, 8591
-      Rotation: 0, -0, 2.2428102
+      Rotation: 0, 0, 2.2428102
   - MutagenObjectType: PlacedObject
     FormKey: 0D09BB:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -324,7 +324,7 @@ TopCell:
     - Reference: 0D09B2:AlternatePerspective.esp
     Placement:
       Position: 17417.863, -80583.13, 8592.049
-      Rotation: 0, -0, 3.142809
+      Rotation: 0, 0, 3.142809
   - MutagenObjectType: PlacedObject
     FormKey: 0D09BC:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -339,7 +339,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 17278.176, -77745.47, 8700.618
-      Rotation: 0, -0, 0.9163819
+      Rotation: 0, 0, 0.9163819
   - MutagenObjectType: PlacedObject
     FormKey: 0D5445:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -349,7 +349,7 @@ TopCell:
     Base: 00003B:Skyrim.esm
     Placement:
       Position: 22404.363, -78920.17, 8831.525
-      Rotation: 0, -0, 4.2949944
+      Rotation: 0, 0, 4.2949944
   - MutagenObjectType: PlacedObject
     FormKey: 0D5446:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -359,7 +359,7 @@ TopCell:
     Base: 00003B:Skyrim.esm
     Placement:
       Position: 23183.762, -78708.21, 8943.173
-      Rotation: 0, -0, 4.516389
+      Rotation: 0, 0, 4.516389
   - MutagenObjectType: PlacedObject
     FormKey: 0E4748:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -369,7 +369,7 @@ TopCell:
     Base: 00003B:Skyrim.esm
     Placement:
       Position: 15421.793, -81813.805, 8205.708
-      Rotation: 0, -0, 2.4864416
+      Rotation: 0, 0, 2.4864416
   - MutagenObjectType: PlacedObject
     FormKey: 0E56C5:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -379,7 +379,7 @@ TopCell:
     TeleportDestination:
       Door: 0E56C4:AlternatePerspective.esp
       Position: 7025.7495, 15733.755, 1872.4319
-      Rotation: 0, -0, 3.1331875
+      Rotation: 0, 0, 3.1331875
     NavigationDoorLink:
       NavMesh: 368EDD:AlternatePerspective.esp
       TeleportMarkerTriangle: 370
@@ -388,7 +388,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 14725.218, -79058.305, 8203.377
-      Rotation: 0, -0, 5.9873333
+      Rotation: 0, 0, 5.9873333
   - MutagenObjectType: PlacedObject
     FormKey: 0E56C6:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -398,7 +398,7 @@ TopCell:
     TeleportDestination:
       Door: 0E56C3:AlternatePerspective.esp
       Position: 4972.6533, 14531.545, 1874.5791
-      Rotation: 0, -0, 3.0915926
+      Rotation: 0, 0, 3.0915926
     Scale: 1.23
     NavigationDoorLink:
       NavMesh: 368EDD:AlternatePerspective.esp
@@ -408,7 +408,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 15857.102, -78095.945, 8215.417
-      Rotation: 0, -0, 5.9873333
+      Rotation: 0, 0, 5.9873333
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7C7:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -423,7 +423,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 19860.53, -79470.766, 8450.112
-      Rotation: 0, -0, 5.9831867
+      Rotation: 0, 0, 5.9831867
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7CE:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -438,7 +438,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 14953.554, -81711, 8203.213
-      Rotation: 0, -0, 3.0000005
+      Rotation: 0, 0, 3.0000005
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7D1:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -449,7 +449,7 @@ TopCell:
     - Reference: 0EA7D2:AlternatePerspective.esp
     Placement:
       Position: 15521.245, -79780.72, 8186.837
-      Rotation: 0, -0, 3.5831878
+      Rotation: 0, 0, 3.5831878
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7D2:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -460,7 +460,7 @@ TopCell:
     - Reference: 2619DE:AlternatePerspective.esp
     Placement:
       Position: 15324.288, -80829.18, 8203.315
-      Rotation: 0, -0, 3.3831887
+      Rotation: 0, 0, 3.3831887
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7D3:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -471,7 +471,7 @@ TopCell:
     - Reference: 0EA7D4:AlternatePerspective.esp
     Placement:
       Position: 15519.019, -82406.3, 8218.671
-      Rotation: 0, -0, 2.1831892
+      Rotation: 0, 0, 2.1831892
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7D4:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -486,7 +486,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 17057.932, -82406.03, 8330.696
-      Rotation: 0, -0, 1.1831933
+      Rotation: 0, 0, 1.1831933
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7D5:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -497,7 +497,7 @@ TopCell:
     - Reference: 0EA7DA:AlternatePerspective.esp
     Placement:
       Position: 18894.729, -81367.766, 8318.619
-      Rotation: 0, -0, 0.73319006
+      Rotation: 0, 0, 0.73319006
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7D6:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -508,7 +508,7 @@ TopCell:
     - Reference: 0EA7D7:AlternatePerspective.esp
     Placement:
       Position: 19805.477, -79225.17, 8456.296
-      Rotation: 0, -0, 6.0663753
+      Rotation: 0, 0, 6.0663753
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7D7:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -523,7 +523,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 19097.969, -78057.89, 8469.169
-      Rotation: 0, -0, 4.916379
+      Rotation: 0, 0, 4.916379
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7D8:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -534,7 +534,7 @@ TopCell:
     - Reference: 26BBE2:AlternatePerspective.esp
     Placement:
       Position: 17276.295, -78424.914, 8241.585
-      Rotation: 0, -0, 4.5163774
+      Rotation: 0, 0, 4.5163774
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7D9:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -545,7 +545,7 @@ TopCell:
     - Reference: 0EA7D5:AlternatePerspective.esp
     Placement:
       Position: 17893.326, -81684.54, 8329.665
-      Rotation: 0, -0, 1.2831901
+      Rotation: 0, 0, 1.2831901
   - MutagenObjectType: PlacedObject
     FormKey: 0EA7DA:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -556,7 +556,7 @@ TopCell:
     - Reference: 0EA7D6:AlternatePerspective.esp
     Placement:
       Position: 19864.307, -80290.9, 8419.993
-      Rotation: 0, -0, 0.08319067
+      Rotation: 0, 0, 0.08319067
   - MutagenObjectType: PlacedObject
     FormKey: 0FEBF3:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -567,7 +567,7 @@ TopCell:
     - Reference: 0FEBF4:AlternatePerspective.esp
     Placement:
       Position: 15483.52, -82497.664, 8218.984
-      Rotation: 0, -0, 2.15
+      Rotation: 0, 0, 2.15
   - MutagenObjectType: PlacedObject
     FormKey: 0FEBF4:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -578,7 +578,7 @@ TopCell:
     - Reference: 0FEBF5:AlternatePerspective.esp
     Placement:
       Position: 16382.104, -82603.555, 8325.147
-      Rotation: 0, -0, 1.6500009
+      Rotation: 0, 0, 1.6500009
   - MutagenObjectType: PlacedObject
     FormKey: 0FEBF5:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -589,7 +589,7 @@ TopCell:
     - Reference: 0FEBF6:AlternatePerspective.esp
     Placement:
       Position: 17303.012, -82300.59, 8330.696
-      Rotation: 0, -0, 0.95000154
+      Rotation: 0, 0, 0.95000154
   - MutagenObjectType: PlacedObject
     FormKey: 0FEBF6:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -600,7 +600,7 @@ TopCell:
     - Reference: 0FEBF7:AlternatePerspective.esp
     Placement:
       Position: 18246.2, -81659.914, 8314.685
-      Rotation: 0, -0, 1.1000011
+      Rotation: 0, 0, 1.1000011
   - MutagenObjectType: PlacedObject
     FormKey: 0FEBF7:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -611,7 +611,7 @@ TopCell:
     - Reference: 0EA7C7:AlternatePerspective.esp
     Placement:
       Position: 19524.893, -80955.87, 8360.5205
-      Rotation: 0, -0, 0.250003
+      Rotation: 0, 0, 0.250003
   - MutagenObjectType: PlacedObject
     FormKey: 0FEBF8:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -622,7 +622,7 @@ TopCell:
     - Reference: 0FEBFA:AlternatePerspective.esp
     Placement:
       Position: 19297.643, -80789.84, 8346.311
-      Rotation: 0, -0, 3.9000003
+      Rotation: 0, 0, 3.9000003
   - MutagenObjectType: PlacedObject
     FormKey: 0FEBFA:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -633,7 +633,7 @@ TopCell:
     - Reference: 0FEBFB:AlternatePerspective.esp
     Placement:
       Position: 18190.99, -81439.586, 8315.25
-      Rotation: 0, -0, 4.05
+      Rotation: 0, 0, 4.05
   - MutagenObjectType: PlacedObject
     FormKey: 0FEBFB:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -644,7 +644,7 @@ TopCell:
     - Reference: 0FEBFC:AlternatePerspective.esp
     Placement:
       Position: 17209.29, -82166.875, 8330.696
-      Rotation: 0, -0, 3.9000003
+      Rotation: 0, 0, 3.9000003
   - MutagenObjectType: PlacedObject
     FormKey: 0FEBFC:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -655,7 +655,7 @@ TopCell:
     - Reference: 0FEBFD:AlternatePerspective.esp
     Placement:
       Position: 16428.107, -82466.88, 8300.848
-      Rotation: 0, -0, 4.65
+      Rotation: 0, 0, 4.65
   - MutagenObjectType: PlacedObject
     FormKey: 0FEBFD:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -666,7 +666,7 @@ TopCell:
     - Reference: 2619DF:AlternatePerspective.esp
     Placement:
       Position: 15569.325, -82411.33, 8245.09
-      Rotation: 0, -0, 5.1000037
+      Rotation: 0, 0, 5.1000037
   - MutagenObjectType: PlacedObject
     FormKey: 102D4A:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -694,13 +694,13 @@ TopCell:
     TeleportDestination:
       Door: 1409D8:AlternatePerspective.esp
       Position: 734.72644, -10606.652, -1815.115
-      Rotation: 0, -0, -0.21999736
+      Rotation: 0, 0, -0.21999736
     EnableParent:
       Reference: 0D09AE:AlternatePerspective.esp
       Unknown: 0x000000
     Placement:
       Position: 12771.968, -72186.1, 6067.1187
-      Rotation: 0, -0, 5.113188
+      Rotation: 0, 0, 5.113188
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E7A:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -715,7 +715,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 15864.314, -81267.15, 8187.4497
-      Rotation: 0, -0, 4.1061954
+      Rotation: 0, 0, 4.1061954
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E7B:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -726,7 +726,7 @@ TopCell:
     - Reference: 1A0E7A:AlternatePerspective.esp
     Placement:
       Position: 15522.42, -80503.68, 8213.188
-      Rotation: 0, -0, 2.806196
+      Rotation: 0, 0, 2.806196
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E7C:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -737,7 +737,7 @@ TopCell:
     - Reference: 1A0E7B:AlternatePerspective.esp
     Placement:
       Position: 14678.22, -79627, 8229.369
-      Rotation: 0, -0, 1.8561974
+      Rotation: 0, 0, 1.8561974
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E7F:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -752,7 +752,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 13230.23, -80528.91, 8672.993
-      Rotation: 0, -0, 2.5561962
+      Rotation: 0, 0, 2.5561962
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E81:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -763,7 +763,7 @@ TopCell:
     - Reference: 1A0E7F:AlternatePerspective.esp
     Placement:
       Position: 14346.779, -79734.734, 8213.269
-      Rotation: 0, -0, 4.706195
+      Rotation: 0, 0, 4.706195
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E82:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -774,7 +774,7 @@ TopCell:
     - Reference: 275DE7:AlternatePerspective.esp
     Placement:
       Position: 16554.773, -78928.74, 8209.28
-      Rotation: 0, -0, 4.256195
+      Rotation: 0, 0, 4.256195
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E83:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -785,7 +785,7 @@ TopCell:
     - Reference: 1A0E82:AlternatePerspective.esp
     Placement:
       Position: 19106.832, -78045, 8436.365
-      Rotation: 0, -0, 4.806195
+      Rotation: 0, 0, 4.806195
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E84:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -796,7 +796,7 @@ TopCell:
     - Reference: 1A0E83:AlternatePerspective.esp
     Placement:
       Position: 19860.102, -79995.94, 8419.516
-      Rotation: 0, -0, 6.206195
+      Rotation: 0, 0, 6.206195
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E85:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -807,7 +807,7 @@ TopCell:
     - Reference: 1A0E84:AlternatePerspective.esp
     Placement:
       Position: 18408.057, -81509.57, 8319.743
-      Rotation: 0, -0, 1.1730093
+      Rotation: 0, 0, 1.1730093
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E86:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -818,7 +818,7 @@ TopCell:
     - Reference: 1A0E85:AlternatePerspective.esp
     Placement:
       Position: 15721.567, -82429.42, 8241.178
-      Rotation: 0, -0, 1.6230106
+      Rotation: 0, 0, 1.6230106
   - MutagenObjectType: PlacedObject
     FormKey: 1A0E87:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -829,7 +829,7 @@ TopCell:
     - Reference: 1A0E86:AlternatePerspective.esp
     Placement:
       Position: 15205.805, -81767.66, 8206.975
-      Rotation: 0, -0, 2.856196
+      Rotation: 0, 0, 2.856196
   - MutagenObjectType: PlacedObject
     FormKey: 1B530B:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -848,7 +848,7 @@ TopCell:
     TeleportDestination:
       Door: 1B532F:AlternatePerspective.esp
       Position: 48, 0, 0
-      Rotation: 0, -0, 1.5707964
+      Rotation: 0, 0, 1.5707964
     NavigationDoorLink:
       NavMesh: 3BA037:AlternatePerspective.esp
       TeleportMarkerTriangle: 23
@@ -859,7 +859,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 18892.713, -79078.89, 8448
-      Rotation: 0, -0, 4.69319
+      Rotation: 0, 0, 4.69319
   - MutagenObjectType: PlacedObject
     FormKey: 1B53BA:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -879,7 +879,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 14345.909, -81892.41, 8242.77
-      Rotation: 0, -0, 4.213205
+      Rotation: 0, 0, 4.213205
   - MutagenObjectType: PlacedObject
     FormKey: 1C9938:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -907,7 +907,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 18281.068, -82239.49, 8381.594
-      Rotation: 0, -0, 2.5832043
+      Rotation: 0, 0, 2.5832043
   - MutagenObjectType: PlacedObject
     FormKey: 1CEAE5:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -927,7 +927,7 @@ TopCell:
     TeleportDestination:
       Door: 1CEAF3:AlternatePerspective.esp
       Position: -3.0070908, -276.0693, 0
-      Rotation: 0, -0, -0.10840324
+      Rotation: 0, 0, -0.10840324
     NavigationDoorLink:
       NavMesh: 3BA037:AlternatePerspective.esp
       TeleportMarkerTriangle: 387
@@ -969,7 +969,7 @@ TopCell:
     TeleportDestination:
       Door: 1DDEFA:AlternatePerspective.esp
       Position: 251.8169, 67.52168, 72.47534
-      Rotation: 0, -0, -1.8999975
+      Rotation: 0, 0, -1.8999975
     NavigationDoorLink:
       NavMesh: 2AD8EF:AlternatePerspective.esp
       TeleportMarkerTriangle: 45
@@ -980,7 +980,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 19550.96, -77668.62, 8496
-      Rotation: 0, -0, 1.0200013
+      Rotation: 0, 0, 1.0200013
   - MutagenObjectType: PlacedObject
     FormKey: 1E1AF6:AlternatePerspective.esp
     MajorRecordFlagsRaw: 3072
@@ -996,7 +996,7 @@ TopCell:
       Type: Box
     Placement:
       Position: 18224, -81712, 8592
-      Rotation: 0, -0, 0.53321046
+      Rotation: 0, 0, 0.53321046
   - MutagenObjectType: PlacedObject
     FormKey: 21451B:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1023,7 +1023,7 @@ TopCell:
       TeleportMarkerTriangle: 1
     Placement:
       Position: 16548.184, -81222.586, 8342.442
-      Rotation: 0, -0, 1.6707966
+      Rotation: 0, 0, 1.6707966
   - MutagenObjectType: PlacedObject
     FormKey: 21961D:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1033,14 +1033,14 @@ TopCell:
     TeleportDestination:
       Door: 04C92B:AlternatePerspective.esp
       Position: -360, 16, 136
-      Rotation: 0, -0, 1.5707964
+      Rotation: 0, 0, 1.5707964
     Scale: 0.9
     NavigationDoorLink:
       NavMesh: 42E8FD:AlternatePerspective.esp
       TeleportMarkerTriangle: 20
     Placement:
       Position: 17367.31, -80887, 8596.369
-      Rotation: 0, -0, 3.6039863
+      Rotation: 0, 0, 3.6039863
   - MutagenObjectType: PlacedObject
     FormKey: 24D5B5:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1049,7 +1049,7 @@ TopCell:
     Base: 0140BD:Skyrim.esm
     Placement:
       Position: 14943.705, -79170.81, 8192
-      Rotation: 0, -0, 2.7499998
+      Rotation: 0, 0, 2.7499998
   - MutagenObjectType: PlacedObject
     FormKey: 2619DE:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1060,7 +1060,7 @@ TopCell:
     - Reference: 2850E8:AlternatePerspective.esp
     Placement:
       Position: 15184.589, -81422.28, 8209.934
-      Rotation: 0, -0, 3.1331885
+      Rotation: 0, 0, 3.1331885
   - MutagenObjectType: PlacedObject
     FormKey: 2619DF:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1071,7 +1071,7 @@ TopCell:
     - Reference: 2850E9:AlternatePerspective.esp
     Placement:
       Position: 15307.805, -82243.09, 8194.572
-      Rotation: 0, -0, 5.500002
+      Rotation: 0, 0, 5.500002
   - MutagenObjectType: PlacedObject
     FormKey: 26BBE2:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1082,7 +1082,7 @@ TopCell:
     - Reference: 2850EA:AlternatePerspective.esp
     Placement:
       Position: 16756.648, -78655.336, 8185.1416
-      Rotation: 0, -0, 4.066378
+      Rotation: 0, 0, 4.066378
   - MutagenObjectType: PlacedObject
     FormKey: 275DE7:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1093,7 +1093,7 @@ TopCell:
     - Reference: 1A0E81:AlternatePerspective.esp
     Placement:
       Position: 15849.141, -79430.85, 8209.442
-      Rotation: 0, -0, 4.4561954
+      Rotation: 0, 0, 4.4561954
   - MutagenObjectType: PlacedObject
     FormKey: 2850E8:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1104,7 +1104,7 @@ TopCell:
     - Reference: 0EA7D3:AlternatePerspective.esp
     Placement:
       Position: 15302.065, -81944.56, 8200.254
-      Rotation: 0, -0, 2.8331892
+      Rotation: 0, 0, 2.8331892
   - MutagenObjectType: PlacedObject
     FormKey: 2850E9:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1115,7 +1115,7 @@ TopCell:
     - Reference: 0EA7CE:AlternatePerspective.esp
     Placement:
       Position: 15125.406, -82006.055, 8194.466
-      Rotation: 0, -0, 5.650002
+      Rotation: 0, 0, 5.650002
   - MutagenObjectType: PlacedObject
     FormKey: 2850EA:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1126,7 +1126,7 @@ TopCell:
     - Reference: 28F2EB:AlternatePerspective.esp
     Placement:
       Position: 16265.84, -78959.164, 8194.043
-      Rotation: 0, -0, 4.066378
+      Rotation: 0, 0, 4.066378
   - MutagenObjectType: PlacedObject
     FormKey: 28F2EB:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1137,7 +1137,7 @@ TopCell:
     - Reference: 0EA7D1:AlternatePerspective.esp
     Placement:
       Position: 15707.733, -79264.56, 8202.15
-      Rotation: 0, -0, 3.6663785
+      Rotation: 0, 0, 3.6663785
   - MutagenObjectType: PlacedObject
     FormKey: 2994EC:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1148,7 +1148,7 @@ TopCell:
     - Reference: 0FEBF3:AlternatePerspective.esp
     Placement:
       Position: 15162.774, -82147.46, 8198.58
-      Rotation: 0, -0, 2.4168167
+      Rotation: 0, 0, 2.4168167
   - MutagenObjectType: PlacedObject
     FormKey: 2D1029:AlternatePerspective.esp
     MajorRecordFlagsRaw: 3072
@@ -1164,7 +1164,7 @@ TopCell:
       Type: Box
     Placement:
       Position: 13232, -81744, 9079.956
-      Rotation: 0, -0, 1.0623925
+      Rotation: 0, 0, 1.0623925
   - MutagenObjectType: PlacedObject
     FormKey: 312D3C:AlternatePerspective.esp
     MajorRecordFlagsRaw: 3072
@@ -1194,7 +1194,7 @@ TopCell:
     Owner: 1CEAF7:AlternatePerspective.esp
     Placement:
       Position: 15443, -80381, 8689
-      Rotation: 0, -0, 3.11319
+      Rotation: 0, 0, 3.11319
   - MutagenObjectType: PlacedObject
     FormKey: 34F996:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1203,7 +1203,7 @@ TopCell:
     Base: 052FF5:Skyrim.esm
     Placement:
       Position: 16427.305, -82861.39, 8312
-      Rotation: 0, -0, 6.213186
+      Rotation: 0, 0, 6.213186
   - MutagenObjectType: PlacedObject
     FormKey: 34F9EB:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1213,7 +1213,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: -70309, 93330, -13957
-      Rotation: 0, -0, 4.683186
+      Rotation: 0, 0, 4.683186
   - MutagenObjectType: PlacedObject
     FormKey: 34FA1A:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1223,7 +1223,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 207344, -116208, 12441
-      Rotation: 0, -0, 2.3
+      Rotation: 0, 0, 2.3
   - MutagenObjectType: PlacedObject
     FormKey: 34FA1C:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1233,7 +1233,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 38624, 113488, -13929
-      Rotation: 0, -0, 0.750001
+      Rotation: 0, 0, 0.750001
   - MutagenObjectType: PlacedObject
     FormKey: 34FA1F:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1251,7 +1251,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 126672, -64064, 11419
-      Rotation: 0, -0, 5.033186
+      Rotation: 0, 0, 5.033186
   - MutagenObjectType: PlacedObject
     FormKey: 34FA28:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1261,7 +1261,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: -148592, 50608, -4816
-      Rotation: 0, -0, 4.3
+      Rotation: 0, 0, 4.3
   - MutagenObjectType: PlacedObject
     FormKey: 359BD4:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1270,7 +1270,7 @@ TopCell:
     Base: 037A1E:Skyrim.esm
     Placement:
       Position: 15538.137, -78654.79, 8207.13
-      Rotation: 0, -0, 1.4100064
+      Rotation: 0, 0, 1.4100064
   - MutagenObjectType: PlacedObject
     FormKey: 3730E2:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1280,7 +1280,7 @@ TopCell:
     Base: 0BFB04:Skyrim.esm
     Placement:
       Position: 15174.921, -80658.46, 8188.9863
-      Rotation: 0, -0, 2.903596
+      Rotation: 0, 0, 2.903596
   - MutagenObjectType: PlacedObject
     FormKey: 3730E5:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1290,7 +1290,7 @@ TopCell:
     Base: 0BFB04:Skyrim.esm
     Placement:
       Position: 15649.155, -78527.3, 8181.7075
-      Rotation: 0, -0, 2.973596
+      Rotation: 0, 0, 2.973596
   - MutagenObjectType: PlacedNpc
     FormKey: 3730E8:AlternatePerspective.esp
     MajorRecordFlagsRaw: 3072
@@ -1300,7 +1300,7 @@ TopCell:
     Base: 3730E7:AlternatePerspective.esp
     Placement:
       Position: 15705.609, -78543.35, 8185.6035
-      Rotation: 0, -0, 3.4831898
+      Rotation: 0, 0, 3.4831898
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -1328,7 +1328,7 @@ TopCell:
     - Reference: 3AFE84:AlternatePerspective.esp
     Placement:
       Position: 18914.613, -78039.86, 8417.939
-      Rotation: 0, -0, 4.3831944
+      Rotation: 0, 0, 4.3831944
   - MutagenObjectType: PlacedObject
     FormKey: 3AFE82:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1357,7 +1357,7 @@ TopCell:
     - Reference: 10BEDD:Skyrim.esm
     Placement:
       Position: 18155.818, -78269.766, 8365.261
-      Rotation: 0, -0, 4.383195
+      Rotation: 0, 0, 4.383195
   - MutagenObjectType: PlacedObject
     FormKey: 3BA038:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1427,7 +1427,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 22838.3, -95195.7, 13897.011
-      Rotation: 0, -0, 6.034128
+      Rotation: 0, 0, 6.034128
   - MutagenObjectType: PlacedObject
     FormKey: 3BA03F:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1565,7 +1565,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 22743.576, -95230.69, 13914.719
-      Rotation: 0, -0, 6.2039394
+      Rotation: 0, 0, 6.2039394
   - MutagenObjectType: PlacedObject
     FormKey: 3C43C1:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1586,7 +1586,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 16898.578, -84189.555, 8372.132
-      Rotation: 0, -0, 5.433186
+      Rotation: 0, 0, 5.433186
   - MutagenObjectType: PlacedObject
     FormKey: 3DD8E5:AlternatePerspective.esp
     MajorRecordFlagsRaw: 66560
@@ -1597,7 +1597,7 @@ TopCell:
     Scale: 0.1
     Placement:
       Position: 17115.852, -84472.734, 8529.557
-      Rotation: 0, -0, 5.61319
+      Rotation: 0, 0, 5.61319
   - MutagenObjectType: PlacedObject
     FormKey: 3F6D6F:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1609,7 +1609,7 @@ TopCell:
     - Reference: 0BB973:Skyrim.esm
     Placement:
       Position: 22060.215, -79609.945, 8802.443
-      Rotation: 0, -0, 5.0964575
+      Rotation: 0, 0, 5.0964575
   - MutagenObjectType: PlacedObject
     FormKey: 400F70:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1621,7 +1621,7 @@ TopCell:
     - Reference: 0BB973:Skyrim.esm
     Placement:
       Position: 21892.688, -79521.336, 8747.577
-      Rotation: 0, -0, 5.0964575
+      Rotation: 0, 0, 5.0964575
   - MutagenObjectType: PlacedNpc
     FormKey: 40B18A:AlternatePerspective.esp
     MajorRecordFlagsRaw: 3072
@@ -1639,7 +1639,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 16985.986, -84405.94, 8409.88
-      Rotation: 0, -0, 5.4731865
+      Rotation: 0, 0, 5.4731865
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -1654,7 +1654,7 @@ TopCell:
     - Reference: 0B6430:Skyrim.esm
     Placement:
       Position: 16477.883, -78733.36, 8191.0737
-      Rotation: 0, -0, 4.2128906
+      Rotation: 0, 0, 4.2128906
   - MutagenObjectType: PlacedObject
     FormKey: 438AB9:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1665,7 +1665,7 @@ TopCell:
     Owner: 40B189:AlternatePerspective.esp
     Placement:
       Position: 16524.959, -82901.17, 8995.043
-      Rotation: 0, -0, 5.7731895
+      Rotation: 0, 0, 5.7731895
   - MutagenObjectType: PlacedObject
     FormKey: 438ABD:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1676,7 +1676,7 @@ TopCell:
     Owner: 40B189:AlternatePerspective.esp
     Placement:
       Position: 13206.537, -79727.09, 9671.104
-      Rotation: 0, -0, 1.240003
+      Rotation: 0, 0, 1.240003
   - MutagenObjectType: PlacedObject
     FormKey: 46B4C9:AlternatePerspective.esp
     MajorRecordFlagsRaw: 1024
@@ -1696,7 +1696,7 @@ TopCell:
     Base: 4E4D7E:AlternatePerspective.esp
     Placement:
       Position: 17131.277, -84462.695, 8464.671
-      Rotation: 0, -0, 1.5
+      Rotation: 0, 0, 1.5
   - MutagenObjectType: PlacedObject
     FormKey: 015B6A:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1718,7 +1718,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 15881.592, -83264.39, 8408.13
-      Rotation: 0, -0, 3.1666
+      Rotation: 0, 0, 3.1666
   - MutagenObjectType: PlacedObject
     FormKey: 017780:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1739,7 +1739,7 @@ TopCell:
       Type: Town
     Placement:
       Position: 16742.13, -80131.17, 9204.411
-      Rotation: 0, -0, 1.4832076
+      Rotation: 0, 0, 1.4832076
   - MutagenObjectType: PlacedObject
     FormKey: 018574:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1780,7 +1780,7 @@ TopCell:
     TeleportDestination:
       Door: 05DF95:Skyrim.esm
       Position: -389.11234, 5510.2983, 384
-      Rotation: 0, -0, 3.1000009
+      Rotation: 0, 0, 3.1000009
     NavigationDoorLink:
       NavMesh: 368EDD:AlternatePerspective.esp
       TeleportMarkerTriangle: 341
@@ -1790,7 +1790,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 15690.734, -77588.73, 8186.755
-      Rotation: 0, -0, 2.822419
+      Rotation: 0, 0, 2.822419
   - MutagenObjectType: PlacedObject
     FormKey: 025FB2:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -1802,14 +1802,14 @@ TopCell:
     TeleportDestination:
       Door: 0909D2:Skyrim.esm
       Position: 1664, 6688, 384
-      Rotation: 0, -0, 3.1415927
+      Rotation: 0, 0, 3.1415927
     NavigationDoorLink:
       NavMesh: 368EDD:AlternatePerspective.esp
       TeleportMarkerTriangle: 370
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 14682.135, -78891.836, 8200.392
-      Rotation: 0, -0, 2.822419
+      Rotation: 0, 0, 2.822419
   - MutagenObjectType: PlacedNpc
     FormKey: 02BF9E:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -1824,7 +1824,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 19840.773, -79532.5, 8450.62
-      Rotation: 0, -0, 0.49
+      Rotation: 0, 0, 0.49
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -1843,7 +1843,7 @@ TopCell:
     Horse: 0654E1:Skyrim.esm
     Placement:
       Position: 20044.33, -79478.76, 8473.915
-      Rotation: 0, -0, 0.49
+      Rotation: 0, 0, 0.49
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -1861,7 +1861,7 @@ TopCell:
     LocationReference: 01916F:Skyrim.esm
     Placement:
       Position: -153623.34, 58788.395, -6595.9062
-      Rotation: 0, -0, 0.2000023
+      Rotation: 0, 0, 0.2000023
     MajorFlags:
     - Persistent
   - MutagenObjectType: PlacedNpc
@@ -1878,7 +1878,7 @@ TopCell:
     LocationReference: 01916F:Skyrim.esm
     Placement:
       Position: -154388.7, 57811.992, -6243.7744
-      Rotation: 0, -0, 0.3000004
+      Rotation: 0, 0, 0.3000004
     MajorFlags:
     - Persistent
   - MutagenObjectType: PlacedObject
@@ -1891,7 +1891,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 23229.977, -78865.94, 8943.173
-      Rotation: 0, -0, 6.0414133
+      Rotation: 0, 0, 6.0414133
   - MutagenObjectType: PlacedObject
     FormKey: 04678F:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1902,7 +1902,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 23289.312, -78491.62, 8943.172
-      Rotation: 0, -0, 2.9996028
+      Rotation: 0, 0, 2.9996028
   - MutagenObjectType: PlacedObject
     FormKey: 046790:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1913,7 +1913,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 23177.531, -78508.22, 8943.172
-      Rotation: 0, -0, 2.899605
+      Rotation: 0, 0, 2.899605
   - MutagenObjectType: PlacedObject
     FormKey: 046791:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1923,7 +1923,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 22498.836, -79064.59, 8830.076
-      Rotation: 0, -0, 5.9746156
+      Rotation: 0, 0, 5.9746156
   - MutagenObjectType: PlacedObject
     FormKey: 046792:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1933,7 +1933,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 23041.654, -78549.27, 8943.172
-      Rotation: 0, -0, 2.7996278
+      Rotation: 0, 0, 2.7996278
   - MutagenObjectType: PlacedObject
     FormKey: 046793:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1943,7 +1943,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 22261.271, -78832.92, 8815.643
-      Rotation: 0, -0, 2.3914292
+      Rotation: 0, 0, 2.3914292
   - MutagenObjectType: PlacedObject
     FormKey: 046795:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1954,7 +1954,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 23709.225, -78704.836, 8965.033
-      Rotation: 0, -0, 4.5871263
+      Rotation: 0, 0, 4.5871263
   - MutagenObjectType: PlacedObject
     FormKey: 046796:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1965,7 +1965,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 21065.746, -79013.94, 8648.572
-      Rotation: 0, -0, 3.2949946
+      Rotation: 0, 0, 3.2949946
   - MutagenObjectType: PlacedObject
     FormKey: 046797:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1977,7 +1977,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 19256, -78176, 8448.696
-      Rotation: 0, -0, 2.9064345
+      Rotation: 0, 0, 2.9064345
   - MutagenObjectType: PlacedObject
     FormKey: 046798:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -1989,7 +1989,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 19099.31, -77881.48, 8452.228
-      Rotation: 0, -0, 2.6064343
+      Rotation: 0, 0, 2.6064343
   - MutagenObjectType: PlacedObject
     FormKey: 046799:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2001,7 +2001,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 19055.59, -78010, 8449.562
-      Rotation: 0, -0, 2.6064343
+      Rotation: 0, 0, 2.6064343
   - MutagenObjectType: PlacedNpc
     FormKey: 0527F1:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -2015,7 +2015,7 @@ TopCell:
     Owner: 039F26:Skyrim.esm
     Placement:
       Position: 18981.922, -77689.125, 8455.17
-      Rotation: 0, -0, 2.5118005
+      Rotation: 0, 0, 2.5118005
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -2028,7 +2028,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 22070.727, -79116.53, 8795.962
-      Rotation: 0, -0, 4.1131964
+      Rotation: 0, 0, 4.1131964
   - MutagenObjectType: PlacedObject
     FormKey: 0596FE:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2044,7 +2044,7 @@ TopCell:
     LocationReference: 076F3A:Skyrim.esm
     Placement:
       Position: 115198.69, 110451.016, -7690.2036
-      Rotation: 0, -0, 3.9081936
+      Rotation: 0, 0, 3.9081936
   - MutagenObjectType: PlacedObject
     FormKey: 05DF01:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2055,7 +2055,7 @@ TopCell:
     TeleportDestination:
       Door: 0F8237:Skyrim.esm
       Position: -384.69043, 5515.6987, 391.92194
-      Rotation: 0, -0, -3.1299942
+      Rotation: 0, 0, -3.1299942
     Scale: 1.23
     NavigationDoorLink:
       NavMesh: 368EDD:AlternatePerspective.esp
@@ -2068,7 +2068,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 15857.102, -78095.945, 8215.417
-      Rotation: 0, -0, 5.9873333
+      Rotation: 0, 0, 5.9873333
   - MutagenObjectType: PlacedObject
     FormKey: 05EB06:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2079,7 +2079,7 @@ TopCell:
     TeleportDestination:
       Door: 091608:Skyrim.esm
       Position: -4538.705, -19930.604, -3284.2273
-      Rotation: 0, -0, -0.0684009
+      Rotation: 0, 0, -0.0684009
     LocationReference: 018A4A:Skyrim.esm
     EnableParent:
       Reference: 0D09AE:AlternatePerspective.esp
@@ -2088,7 +2088,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 12771.968, -72186.1, 6067.1187
-      Rotation: 0, -0, 5.113188
+      Rotation: 0, 0, 5.113188
   - MutagenObjectType: PlacedNpc
     FormKey: 0654E1:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -2106,7 +2106,7 @@ TopCell:
     Owner: 02BF9A:Skyrim.esm
     Placement:
       Position: 23712.209, -78617.87, 8967.525
-      Rotation: 0, -0, 4.6371264
+      Rotation: 0, 0, 4.6371264
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -2122,7 +2122,7 @@ TopCell:
     - Reference: 0B9DF4:Skyrim.esm
     Placement:
       Position: 22775.127, -78825.14, 8898.292
-      Rotation: 0, -0, 4.344992
+      Rotation: 0, 0, 4.344992
   - MutagenObjectType: PlacedObject
     FormKey: 0654E6:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2134,7 +2134,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 14680.486, -81710.89, 8210.116
-      Rotation: 0, -0, 6.1911664
+      Rotation: 0, 0, 6.1911664
   - MutagenObjectType: PlacedNpc
     FormKey: 0654ED:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -2208,7 +2208,7 @@ TopCell:
     - 0654EB:Skyrim.esm
     Placement:
       Position: 15781.723, -78807.445, 8185.62
-      Rotation: 0, -0, 2.8831933
+      Rotation: 0, 0, 2.8831933
     MajorFlags:
     - Persistent
   - MutagenObjectType: PlacedObject
@@ -2223,7 +2223,7 @@ TopCell:
     - Reference: 0654E4:Skyrim.esm
     Placement:
       Position: 23578.562, -78652.99, 8952.11
-      Rotation: 0, -0, 4.567314
+      Rotation: 0, 0, 4.567314
   - MutagenObjectType: PlacedObject
     FormKey: 065500:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2236,7 +2236,7 @@ TopCell:
     - Reference: 0F7B50:Skyrim.esm
     Placement:
       Position: 20983.121, -79131.24, 8600.126
-      Rotation: 0, -0, 3.5396307
+      Rotation: 0, 0, 3.5396307
   - MutagenObjectType: PlacedObject
     FormKey: 091A00:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2247,7 +2247,7 @@ TopCell:
     TeleportDestination:
       Door: 0F8238:Skyrim.esm
       Position: 1657.655, 6681.9424, 384
-      Rotation: 0, -0, 3.1331904
+      Rotation: 0, 0, 3.1331904
     NavigationDoorLink:
       NavMesh: 368EDD:AlternatePerspective.esp
       TeleportMarkerTriangle: 370
@@ -2259,7 +2259,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 14725.218, -79058.305, 8203.377
-      Rotation: 0, -0, 5.9873333
+      Rotation: 0, 0, 5.9873333
   - MutagenObjectType: PlacedObject
     FormKey: 0A9D96:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2276,7 +2276,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 18090.844, -76018.94, 7999.605
-      Rotation: 0, -0, 2.736195
+      Rotation: 0, 0, 2.736195
   - MutagenObjectType: PlacedObject
     FormKey: 0A9DD4:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2289,7 +2289,7 @@ TopCell:
     - Reference: 3F6D6F:AlternatePerspective.esp
     Placement:
       Position: 22568.295, -79885.7, 8984.127
-      Rotation: 0, -0, 5.1523743
+      Rotation: 0, 0, 5.1523743
   - MutagenObjectType: PlacedNpc
     FormKey: 0A9DE7:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -2307,7 +2307,7 @@ TopCell:
     Owner: 02BF9A:Skyrim.esm
     Placement:
       Position: 21007.033, -78985.836, 8643.116
-      Rotation: 0, -0, 3.2949946
+      Rotation: 0, 0, 3.2949946
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -2321,7 +2321,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 23342.533, -78842.01, 8943.173
-      Rotation: 0, -0, 6.0746136
+      Rotation: 0, 0, 6.0746136
   - MutagenObjectType: PlacedObject
     FormKey: 0A9DE9:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2332,7 +2332,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 22375.25, -78775.46, 8830.076
-      Rotation: 0, -0, 2.674609
+      Rotation: 0, 0, 2.674609
   - MutagenObjectType: PlacedObject
     FormKey: 0A9DEA:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2343,7 +2343,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 22479.275, -78723.234, 8819.482
-      Rotation: 0, -0, 2.7746096
+      Rotation: 0, 0, 2.7746096
   - MutagenObjectType: PlacedObject
     FormKey: 0A9DEB:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2354,7 +2354,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 22597.342, -79016.41, 8833.359
-      Rotation: 0, -0, 5.7246184
+      Rotation: 0, 0, 5.7246184
   - MutagenObjectType: PlacedObject
     FormKey: 0AA79F:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2370,7 +2370,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 20506.225, -79351.734, 8466.6455
-      Rotation: 0, -0, 1.5707964
+      Rotation: 0, 0, 1.5707964
   - MutagenObjectType: PlacedObject
     FormKey: 0AA7A0:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2382,7 +2382,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15586.981, -82781.84, 8260.784
-      Rotation: 0, -0, 5.9161696
+      Rotation: 0, 0, 5.9161696
   - MutagenObjectType: PlacedObject
     FormKey: 0AA7B2:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2394,7 +2394,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15371.493, -81208.95, 8192
-      Rotation: 0, -0, 2.4164283
+      Rotation: 0, 0, 2.4164283
   - MutagenObjectType: PlacedObject
     FormKey: 0AA7B3:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2406,7 +2406,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15260.78, -81410.305, 8195.156
-      Rotation: 0, -0, 1.1164228
+      Rotation: 0, 0, 1.1164228
   - MutagenObjectType: PlacedObject
     FormKey: 0AA7B7:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2418,7 +2418,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15189.221, -81148.195, 8197.887
-      Rotation: 0, -0, 1.4914273
+      Rotation: 0, 0, 1.4914273
   - MutagenObjectType: PlacedObject
     FormKey: 0AA7B8:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2430,7 +2430,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15277.083, -81512.984, 8202.593
-      Rotation: 0, -0, 1.341433
+      Rotation: 0, 0, 1.341433
   - MutagenObjectType: PlacedObject
     FormKey: 0AA7CC:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2469,7 +2469,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 15671.149, -81493.375, 8192.266
-      Rotation: 0, -0, 4.724796
+      Rotation: 0, 0, 4.724796
   - MutagenObjectType: PlacedObject
     FormKey: 0AA7D1:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2486,7 +2486,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 15606.094, -81041.086, 8183.907
-      Rotation: 0, -0, 3.9164405
+      Rotation: 0, 0, 3.9164405
   - MutagenObjectType: PlacedObject
     FormKey: 0AA7D2:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2503,7 +2503,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 15359.766, -81014.27, 8186.3936
-      Rotation: 0, -0, 3.4435952
+      Rotation: 0, 0, 3.4435952
   - MutagenObjectType: PlacedObject
     FormKey: 0AA7DE:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2526,7 +2526,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15606.765, -81302.88, 8191.0503
-      Rotation: 0, -0, 4.771081
+      Rotation: 0, 0, 4.771081
   - MutagenObjectType: PlacedObject
     FormKey: 0AAF9F:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2542,7 +2542,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 19090.549, -79555.125, 8451.22
-      Rotation: 0, -0, 4.666391
+      Rotation: 0, 0, 4.666391
   - MutagenObjectType: PlacedObject
     FormKey: 0B62F9:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2554,7 +2554,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 17346.56, -82417.16, 8334.465
-      Rotation: 0, -0, 0.35468832
+      Rotation: 0, 0, 0.35468832
   - MutagenObjectType: PlacedObject
     FormKey: 0B6300:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2566,7 +2566,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15488.958, -81903.82, 8207.804
-      Rotation: 0, -0, 5.5164347
+      Rotation: 0, 0, 5.5164347
   - MutagenObjectType: PlacedObject
     FormKey: 0B6430:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2578,7 +2578,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15508.647, -81270.016, 8194.094
-      Rotation: 0, -0, 4.8628907
+      Rotation: 0, 0, 4.8628907
   - MutagenObjectType: PlacedObject
     FormKey: 0B817D:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -2624,7 +2624,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 18001.943, -79960.65, 8301.81
-      Rotation: 0, -0, 1.7032564
+      Rotation: 0, 0, 1.7032564
   - MutagenObjectType: PlacedObject
     FormKey: 0B8187:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2641,7 +2641,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 18036.959, -82923.016, 8355.697
-      Rotation: 0, -0, 0.51326007
+      Rotation: 0, 0, 0.51326007
   - MutagenObjectType: PlacedObject
     FormKey: 0B8188:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2658,7 +2658,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 17941.23, -82992.16, 8356.877
-      Rotation: 0, -0, 0.1532633
+      Rotation: 0, 0, 0.1532633
   - MutagenObjectType: PlacedObject
     FormKey: 0B818D:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2668,7 +2668,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 14813.959, -79835.99, 8219.218
-      Rotation: 0, -0, 4.301096
+      Rotation: 0, 0, 4.301096
   - MutagenObjectType: PlacedObject
     FormKey: 0B8195:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2680,7 +2680,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 18037.557, -80296.195, 8280.905
-      Rotation: 0, -0, 0.1846968
+      Rotation: 0, 0, 0.1846968
   - MutagenObjectType: PlacedNpc
     FormKey: 0B9DF2:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -2695,7 +2695,7 @@ TopCell:
     Owner: 039F26:Skyrim.esm
     Placement:
       Position: 22192.174, -79026.03, 8826.823
-      Rotation: 0, -0, 4.3249927
+      Rotation: 0, 0, 4.3249927
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -2723,7 +2723,7 @@ TopCell:
     - Reference: 0B9DF7:Skyrim.esm
     Placement:
       Position: 22003.076, -79161.26, 8783.831
-      Rotation: 0, -0, 4.259622
+      Rotation: 0, 0, 4.259622
   - MutagenObjectType: PlacedObject
     FormKey: 0B9DF7:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2736,7 +2736,7 @@ TopCell:
     - Reference: 0BB973:Skyrim.esm
     Placement:
       Position: 21823.242, -79260.62, 8741.433
-      Rotation: 0, -0, 4.3096204
+      Rotation: 0, 0, 4.3096204
   - MutagenObjectType: PlacedObject
     FormKey: 0B9E1B:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2748,7 +2748,7 @@ TopCell:
     - Reference: 0F7B4A:Skyrim.esm
     Placement:
       Position: 22723.385, -79927.836, 9027.471
-      Rotation: 0, -0, 5.036461
+      Rotation: 0, 0, 5.036461
   - MutagenObjectType: PlacedObject
     FormKey: 0BB970:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -2778,7 +2778,7 @@ TopCell:
     Owner: 039F26:Skyrim.esm
     Placement:
       Position: 22955.412, -78770.18, 8941.002
-      Rotation: 0, -0, 4.4949913
+      Rotation: 0, 0, 4.4949913
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -2794,7 +2794,7 @@ TopCell:
     - Reference: 0BB975:Skyrim.esm
     Placement:
       Position: 21538.98, -79358.72, 8697.949
-      Rotation: 0, -0, 4.6864595
+      Rotation: 0, 0, 4.6864595
   - MutagenObjectType: PlacedObject
     FormKey: 0BF46B:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2807,7 +2807,7 @@ TopCell:
     - Reference: 0BF46C:Skyrim.esm
     Placement:
       Position: 17356.898, -82089.33, 8330.696
-      Rotation: 0, -0, 3.8864505
+      Rotation: 0, 0, 3.8864505
   - MutagenObjectType: PlacedObject
     FormKey: 0BF471:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2820,7 +2820,7 @@ TopCell:
     - Reference: 0BF47F:Skyrim.esm
     Placement:
       Position: 15857.304, -82492.61, 8257.124
-      Rotation: 0, -0, 4.936474
+      Rotation: 0, 0, 4.936474
   - MutagenObjectType: PlacedObject
     FormKey: 0C2C37:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2866,7 +2866,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15455.315, -81491.8, 8191.7544
-      Rotation: 0, -0, 3.166441
+      Rotation: 0, 0, 3.166441
   - MutagenObjectType: PlacedObject
     FormKey: 0CD6B1:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2883,7 +2883,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 17678.812, -81979.45, 8317.78
-      Rotation: 0, -0, 0.87079644
+      Rotation: 0, 0, 0.87079644
   - MutagenObjectType: PlacedObject
     FormKey: 0D67BA:Skyrim.esm
     MajorRecordFlagsRaw: 66560
@@ -2896,7 +2896,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 13986.728, -82153.56, 8692.618
-      Rotation: 0, -0, 0.8031972
+      Rotation: 0, 0, 0.8031972
   - MutagenObjectType: PlacedObject
     FormKey: 0D67BD:Skyrim.esm
     MajorRecordFlagsRaw: 1073744896
@@ -2934,7 +2934,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15460.067, -80528.08, 8219.329
-      Rotation: 0, -0, 3.137876
+      Rotation: 0, 0, 3.137876
   - MutagenObjectType: PlacedObject
     FormKey: 0D7D7A:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2963,7 +2963,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 18002.47, -80225.625, 8280.987
-      Rotation: 0, -0, 0.4146967
+      Rotation: 0, 0, 0.4146967
   - MutagenObjectType: PlacedObject
     FormKey: 0DB923:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2979,7 +2979,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 17809.998, -81876.16, 8315.802
-      Rotation: 0, -0, 4.8931894
+      Rotation: 0, 0, 4.8931894
   - MutagenObjectType: PlacedObject
     FormKey: 0DEDBF:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -2990,7 +2990,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 19343.865, -78277.81, 8465.245
-      Rotation: 0, -0, 5.8810883
+      Rotation: 0, 0, 5.8810883
   - MutagenObjectType: PlacedObject
     FormKey: 0DEEC7:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3002,7 +3002,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 17464.693, -82597.76, 8362.359
-      Rotation: 0, -0, 2.4678872
+      Rotation: 0, 0, 2.4678872
   - MutagenObjectType: PlacedObject
     FormKey: 0DF7AC:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3018,7 +3018,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 14797.319, -83181.19, 8297.184
-      Rotation: 0, -0, 0.24000004
+      Rotation: 0, 0, 0.24000004
   - MutagenObjectType: PlacedObject
     FormKey: 0DF7D0:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3035,7 +3035,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 19701.736, -79082.65, 8463.919
-      Rotation: 0, -0, 2.9514546
+      Rotation: 0, 0, 2.9514546
   - MutagenObjectType: PlacedObject
     FormKey: 0E1504:Skyrim.esm
     MajorRecordFlagsRaw: 68608
@@ -3048,7 +3048,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 17995.762, -83980.266, 9187.522
-      Rotation: 0, -0, 5.3339863
+      Rotation: 0, 0, 5.3339863
   - MutagenObjectType: PlacedObject
     FormKey: 0E151C:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -3080,7 +3080,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 17510.031, -78318.516, 8772.276
-      Rotation: 0, -0, 1.3200147
+      Rotation: 0, 0, 1.3200147
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -3094,7 +3094,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 17517.463, -78329.625, 8772.386
-      Rotation: 0, -0, 1.1546122
+      Rotation: 0, 0, 1.1546122
   - MutagenObjectType: PlacedObject
     FormKey: 0E491A:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3105,7 +3105,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15131.441, -81240.87, 8208.302
-      Rotation: 0, -0, 2.7446127
+      Rotation: 0, 0, 2.7446127
   - MutagenObjectType: PlacedObject
     FormKey: 0E6D66:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3122,7 +3122,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 19188.73, -78447.9, 8447.544
-      Rotation: 0, -0, 2.8032684
+      Rotation: 0, 0, 2.8032684
   - MutagenObjectType: PlacedObject
     FormKey: 0ECA89:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3148,7 +3148,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 14581.911, -83143.805, 8297.184
-      Rotation: 0, -0, 1.44
+      Rotation: 0, 0, 1.44
   - MutagenObjectType: PlacedObject
     FormKey: 0ED5FE:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3161,7 +3161,7 @@ TopCell:
     - Reference: 3A0B79:AlternatePerspective.esp
     Placement:
       Position: 19533.889, -78995.2, 8444.765
-      Rotation: 0, -0, 4.5696087
+      Rotation: 0, 0, 4.5696087
   - MutagenObjectType: PlacedObject
     FormKey: 0F1226:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3173,7 +3173,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 14686.884, -81709.1, 8209.824
-      Rotation: 0, -0, 6.2411666
+      Rotation: 0, 0, 6.2411666
   - MutagenObjectType: PlacedNpc
     FormKey: 0F3E70:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -3187,7 +3187,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 13933.744, -80441.625, 8608.237
-      Rotation: 0, -0, 1.1132158
+      Rotation: 0, 0, 1.1132158
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -3207,7 +3207,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 14882.556, -81545.55, 8213.517
-      Rotation: 0, -0, 0.30798087
+      Rotation: 0, 0, 0.30798087
   - MutagenObjectType: PlacedObject
     FormKey: 0F7B4A:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3218,7 +3218,7 @@ TopCell:
     - Reference: 0F7B4B:Skyrim.esm
     Placement:
       Position: 22329.246, -79731.4, 8875.134
-      Rotation: 0, -0, 5.036461
+      Rotation: 0, 0, 5.036461
   - MutagenObjectType: PlacedObject
     FormKey: 0F7B4B:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3229,7 +3229,7 @@ TopCell:
     - Reference: 0F7B4C:Skyrim.esm
     Placement:
       Position: 21810.684, -79475.375, 8721.488
-      Rotation: 0, -0, 5.001462
+      Rotation: 0, 0, 5.001462
   - MutagenObjectType: PlacedObject
     FormKey: 0F7B4C:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3238,7 +3238,7 @@ TopCell:
     Base: 000034:Skyrim.esm
     Placement:
       Position: 21632.42, -79356.08, 8688.356
-      Rotation: 0, -0, 4.7364616
+      Rotation: 0, 0, 4.7364616
   - MutagenObjectType: PlacedObject
     FormKey: 0F7B4F:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3250,7 +3250,7 @@ TopCell:
     - Reference: 0F7B50:Skyrim.esm
     Placement:
       Position: 21271.38, -79325.89, 8666.859
-      Rotation: 0, -0, 4.786457
+      Rotation: 0, 0, 4.786457
   - MutagenObjectType: PlacedObject
     FormKey: 0F7B50:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3262,7 +3262,7 @@ TopCell:
     - Reference: 0F7B51:Skyrim.esm
     Placement:
       Position: 20930.09, -79334.7, 8590.623
-      Rotation: 0, -0, 4.786457
+      Rotation: 0, 0, 4.786457
   - MutagenObjectType: PlacedObject
     FormKey: 0F7B5E:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3273,7 +3273,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15082.448, -81542.305, 8209.817
-      Rotation: 0, -0, 4.4796968
+      Rotation: 0, 0, 4.4796968
   - MutagenObjectType: PlacedObject
     FormKey: 0F8242:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3290,7 +3290,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 14515.767, -82776.18, 9804.373
-      Rotation: 0, -0, 5.6263804
+      Rotation: 0, 0, 5.6263804
   - MutagenObjectType: PlacedNpc
     FormKey: 0F8244:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3322,7 +3322,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 16070.288, -79117.41, 8196.244
-      Rotation: 0, -0, 4.247898
+      Rotation: 0, 0, 4.247898
   - MutagenObjectType: PlacedNpc
     FormKey: 0F94B6:Skyrim.esm
     MajorRecordFlagsRaw: 536874496
@@ -3340,7 +3340,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 15332.693, -81321.88, 8206.974
-      Rotation: 0, -0, 5.2531886
+      Rotation: 0, 0, 5.2531886
     MajorFlags:
     - StartsDead
     - Persistent
@@ -3356,7 +3356,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15722.365, -81159.62, 8184.254
-      Rotation: 0, -0, 4.0128927
+      Rotation: 0, 0, 4.0128927
   - MutagenObjectType: PlacedObject
     FormKey: 0FDCC9:Skyrim.esm
     MajorRecordFlagsRaw: 3072
@@ -3368,7 +3368,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15415.921, -82086.055, 9156.712
-      Rotation: 0, -0, 3.1415927
+      Rotation: 0, 0, 3.1415927
   - MutagenObjectType: PlacedObject
     FormKey: 0FECF4:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3384,7 +3384,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 19809.88, -79098.04, 8466.904
-      Rotation: 0, -0, 4.8481927
+      Rotation: 0, 0, 4.8481927
   - MutagenObjectType: PlacedObject
     FormKey: 101584:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3406,7 +3406,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 14822.021, -83108.695, 8297.184
-      Rotation: 0, -0, 3.73
+      Rotation: 0, 0, 3.73
   - MutagenObjectType: PlacedObject
     FormKey: 101585:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3428,7 +3428,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: 14639.512, -83114.25, 8297.184
-      Rotation: 0, -0, 4.3399997
+      Rotation: 0, 0, 4.3399997
   - MutagenObjectType: PlacedObject
     FormKey: 101AEF:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3441,7 +3441,7 @@ TopCell:
     - Reference: 101AF0:Skyrim.esm
     Placement:
       Position: 15134.362, -81455.164, 8207.681
-      Rotation: 0, -0, 1.3215103
+      Rotation: 0, 0, 1.3215103
   - MutagenObjectType: PlacedObject
     FormKey: 101AF0:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3454,7 +3454,7 @@ TopCell:
     - Reference: 0AAF8E:Skyrim.esm
     Placement:
       Position: 15392.985, -81401.32, 8191.4385
-      Rotation: 0, -0, 1.2965107
+      Rotation: 0, 0, 1.2965107
   - MutagenObjectType: PlacedObject
     FormKey: 105EE4:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3465,7 +3465,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15014.193, -82359.086, 8209.059
-      Rotation: 0, -0, 0.74144655
+      Rotation: 0, 0, 0.74144655
   - MutagenObjectType: PlacedObject
     FormKey: 106B86:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3476,7 +3476,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 14768, -82064, 8213.395
-      Rotation: 0, -0, 0.966448
+      Rotation: 0, 0, 0.966448
   - MutagenObjectType: PlacedObject
     FormKey: 107575:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3487,7 +3487,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15727.77, -81392.86, 8190.972
-      Rotation: 0, -0, 4.7128754
+      Rotation: 0, 0, 4.7128754
   - MutagenObjectType: PlacedObject
     FormKey: 10757B:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3500,7 +3500,7 @@ TopCell:
     IsOpenByDefault: True
     Placement:
       Position: 14933.163, -82697.28, 8302.264
-      Rotation: 0, -0, 3.6800075
+      Rotation: 0, 0, 3.6800075
   - MutagenObjectType: PlacedObject
     FormKey: 10908B:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3512,7 +3512,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 15728.057, -81394.06, 8190.984
-      Rotation: 0, -0, 4.7331886
+      Rotation: 0, 0, 4.7331886
   - MutagenObjectType: PlacedObject
     FormKey: 10980B:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3526,7 +3526,7 @@ TopCell:
     LocationReference: 076F3A:Skyrim.esm
     Placement:
       Position: 115125.86, 110396.74, -7562.0625
-      Rotation: 0, -0, 0.8000006
+      Rotation: 0, 0, 0.8000006
   - MutagenObjectType: PlacedObject
     FormKey: 10BEDD:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3538,7 +3538,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 16897.47, -78566.086, 8191.5474
-      Rotation: 0, -0, 4.9414363
+      Rotation: 0, 0, 4.9414363
   - MutagenObjectType: PlacedObject
     FormKey: 10C504:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3548,7 +3548,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 14768, -82064, 8213.789
-      Rotation: 0, -0, 0.966448
+      Rotation: 0, 0, 0.966448
   - MutagenObjectType: PlacedObject
     FormKey: 10F0C8:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3558,7 +3558,7 @@ TopCell:
     Base: 000032:Skyrim.esm
     Placement:
       Position: -4604.017, -8100.5073, -5738.3066
-      Rotation: 0, -0, 4.6831865
+      Rotation: 0, 0, 4.6831865
   - MutagenObjectType: PlacedObject
     FormKey: 10F925:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -3569,7 +3569,7 @@ TopCell:
     LocationReference: 018A4A:Skyrim.esm
     Placement:
       Position: 18007.281, -78686.914, 8364.283
-      Rotation: 0, -0, 0.076443516
+      Rotation: 0, 0, 0.076443516
   - MutagenObjectType: PlacedObject
     FormKey: 10FDE3:Skyrim.esm
     MajorRecordFlagsRaw: 3072

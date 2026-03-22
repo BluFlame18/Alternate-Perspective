@@ -24,6 +24,12 @@ OwnerQuest: 03372B:Skyrim.esm
 PackageTemplate: 0A9277:Skyrim.esm
 DataInputVersion: 2
 Data:
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataFloat
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
 - Key: 16
   Value:
     MutagenObjectType: PackageDataTarget
@@ -31,12 +37,6 @@ Data:
     Target:
       MutagenObjectType: PackageTargetSpecificReference
       Reference: 0AA7CC:Skyrim.esm
-- Key: 3
-  Value:
-    MutagenObjectType: PackageDataFloat
-- Key: 4
-  Value:
-    MutagenObjectType: PackageDataBool
 XnamMarker: 0x11
 OnBegin:
   Topics:

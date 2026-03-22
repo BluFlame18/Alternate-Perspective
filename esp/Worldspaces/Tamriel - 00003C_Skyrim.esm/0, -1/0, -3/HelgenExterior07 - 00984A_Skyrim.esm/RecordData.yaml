@@ -7758,7 +7758,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 15837.824, -83133.766, 8469.461
-    Rotation: 0, -0, 4.7331877
+    Rotation: 0, 0, 4.7331877
 - MutagenObjectType: PlacedNpc
   FormKey: 0D09BE:AlternatePerspective.esp
   Base: 0D09BD:AlternatePerspective.esp
@@ -7779,7 +7779,7 @@ Temporary:
   Scale: 1.18
   Placement:
     Position: 13641.281, -82109.33, 8072.227
-    Rotation: 0, -0, 5.82319
+    Rotation: 0, 0, 5.82319
 - MutagenObjectType: PlacedObject
   FormKey: 20F419:AlternatePerspective.esp
   MajorRecordFlagsRaw: 32768
@@ -7789,7 +7789,7 @@ Temporary:
   Scale: 1.18
   Placement:
     Position: 13927.331, -82592.69, 8091.437
-    Rotation: 0, -0, 5.5731907
+    Rotation: 0, 0, 5.5731907
 - MutagenObjectType: PlacedObject
   FormKey: 2432FB:AlternatePerspective.esp
   Base: 01EF55:Skyrim.esm
@@ -7808,13 +7808,13 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 14468.244, -82494.3, 8199.514
-    Rotation: 0, -0, 4.583188
+    Rotation: 0, 0, 4.583188
 - MutagenObjectType: PlacedObject
   FormKey: 24D512:AlternatePerspective.esp
   Base: 0A7329:Skyrim.esm
   Placement:
     Position: 14767.683, -82583.39, 8253.96
-    Rotation: 0, -0, 4.5131907
+    Rotation: 0, 0, 4.5131907
 - MutagenObjectType: PlacedObject
   FormKey: 24D514:AlternatePerspective.esp
   Base: 0BCF3F:Skyrim.esm
@@ -7858,7 +7858,7 @@ Temporary:
   Base: 018BA7:Skyrim.esm
   Placement:
     Position: 16270.043, -82834.445, 8289.904
-    Rotation: 0, -0, 5.8531866
+    Rotation: 0, 0, 5.8531866
 - MutagenObjectType: PlacedObject
   FormKey: 24D525:AlternatePerspective.esp
   Base: 10C0E3:Skyrim.esm
@@ -7869,7 +7869,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 16221.624, -82978.84, 8312
-    Rotation: 0, -0, 5.283189
+    Rotation: 0, 0, 5.283189
 - MutagenObjectType: PlacedObject
   FormKey: 24D526:AlternatePerspective.esp
   Base: 018BA5:Skyrim.esm
@@ -7895,7 +7895,7 @@ Temporary:
   Scale: 0.78
   Placement:
     Position: 16206.762, -83214.47, 8290.909
-    Rotation: 0, -0, 0.18681788
+    Rotation: 0, 0, 0.18681788
 - MutagenObjectType: PlacedObject
   FormKey: 24D53D:AlternatePerspective.esp
   Base: 01B0A9:Skyrim.esm
@@ -7918,7 +7918,7 @@ Temporary:
   Scale: 0.94
   Placement:
     Position: 15432.171, -83166.1, 8292.389
-    Rotation: 0, -0, 6.173194
+    Rotation: 0, 0, 6.173194
 - MutagenObjectType: PlacedObject
   FormKey: 24D541:AlternatePerspective.esp
   Base: 0A7313:Skyrim.esm
@@ -7973,7 +7973,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 15274.587, -83836.45, 8398.144
-    Rotation: 0, -0, 6.173194
+    Rotation: 0, 0, 6.173194
 - MutagenObjectType: PlacedObject
   FormKey: 252666:AlternatePerspective.esp
   Base: 0185B5:Skyrim.esm
@@ -7984,7 +7984,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 14937.569, -83143.22, 8297.184
-    Rotation: 0, -0, 2.9469419
+    Rotation: 0, 0, 2.9469419
 - MutagenObjectType: PlacedObject
   FormKey: 252667:AlternatePerspective.esp
   Base: 05B198:Skyrim.esm
@@ -7996,7 +7996,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 15070.472, -83185.95, 8292.953
-    Rotation: 0, -0, 0.35088915
+    Rotation: 0, 0, 0.35088915
 - MutagenObjectType: PlacedObject
   FormKey: 252668:AlternatePerspective.esp
   Base: 050D03:Skyrim.esm
@@ -8018,7 +8018,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 14550.937, -83156.78, 9065.185
-    Rotation: 0, -0, 3.4631915
+    Rotation: 0, 0, 3.4631915
 - MutagenObjectType: PlacedObject
   FormKey: 25266A:AlternatePerspective.esp
   Base: 02EC1F:Skyrim.esm
@@ -8029,7 +8029,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 14618.79, -83034.05, 9065.185
-    Rotation: 0, -0, 0.22
+    Rotation: 0, 0, 0.22
 - MutagenObjectType: PlacedObject
   FormKey: 25266B:AlternatePerspective.esp
   Base: 01397D:Skyrim.esm
@@ -8037,7 +8037,7 @@ Temporary:
   ItemCount: 13
   Placement:
     Position: 14643.276, -83043.31, 9127.433
-    Rotation: 0, -0, 2.2699995
+    Rotation: 0, 0, 2.2699995
 - MutagenObjectType: PlacedObject
   FormKey: 25266C:AlternatePerspective.esp
   Base: 093D3D:Skyrim.esm
@@ -8066,7 +8066,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 13995.084, -82911.68, 9252.394
-    Rotation: 0, -0, 0.66239244
+    Rotation: 0, 0, 0.66239244
 - MutagenObjectType: PlacedObject
   FormKey: 2F472A:AlternatePerspective.esp
   Base: 000021:Skyrim.esm
@@ -8080,7 +8080,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 14560.32, -83904.305, 9382.007
-    Rotation: 0, -0, 4.9055796
+    Rotation: 0, 0, 4.9055796
 - MutagenObjectType: PlacedObject
   FormKey: 34F991:AlternatePerspective.esp
   Base: 000021:Skyrim.esm
@@ -8094,7 +8094,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 14480.116, -83520.195, 9856
-    Rotation: 0, -0, 0.5523934
+    Rotation: 0, 0, 0.5523934
 - MutagenObjectType: PlacedObject
   FormKey: 34F992:AlternatePerspective.esp
   Base: 000021:Skyrim.esm
@@ -8108,7 +8108,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 14274, -83248, 9891
-    Rotation: 0, -0, 1.2623935
+    Rotation: 0, 0, 1.2623935
 - MutagenObjectType: PlacedObject
   FormKey: 36DFDF:AlternatePerspective.esp
   Base: 000021:Skyrim.esm
@@ -8123,7 +8123,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 16320.013, -83651.56, 8537.954
-    Rotation: 0, -0, 3.1632013
+    Rotation: 0, 0, 3.1632013
 - MutagenObjectType: PlacedObject
   FormKey: 41F619:AlternatePerspective.esp
   Base: 000021:Skyrim.esm
@@ -8137,7 +8137,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 15703.252, -83582.41, 9239.569
-    Rotation: 0, -0, 6.2123923
+    Rotation: 0, 0, 6.2123923
 - MutagenObjectType: PlacedObject
   FormKey: 08C39C:Skyrim.esm
   Version2: 6
@@ -8221,7 +8221,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 15907.467, -81940.15, 8246.347
-    Rotation: 0, -0, 4.844591
+    Rotation: 0, 0, 4.844591
 - MutagenObjectType: PlacedObject
   FormKey: 0C2C9B:Skyrim.esm
   Version2: 2
@@ -8250,7 +8250,7 @@ Temporary:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: 14222.242, -82551.945, 8250.892
-    Rotation: 0.09, -0, 0.1500029
+    Rotation: 0.09, 0, 0.1500029
 - MutagenObjectType: PlacedObject
   FormKey: 0C2CA2:Skyrim.esm
   Version2: 2
@@ -8258,7 +8258,7 @@ Temporary:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: 15296.2705, -82928.6, 8245.973
-    Rotation: 0.18000002, -0, 0
+    Rotation: 0.18000002, 0, 0
 - MutagenObjectType: PlacedObject
   FormKey: 0C2CA3:Skyrim.esm
   Version2: 2
@@ -8311,7 +8311,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 15869.231, -82100.79, 8242.965
-    Rotation: 0, -0, 0.10000083
+    Rotation: 0, 0, 0.10000083
 - MutagenObjectType: PlacedObject
   FormKey: 0C59AB:Skyrim.esm
   Version2: 1
@@ -8324,7 +8324,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 16349.313, -82189.65, 8261.082
-    Rotation: 0, -0, 6.153187
+    Rotation: 0, 0, 6.153187
 - MutagenObjectType: PlacedObject
   FormKey: 0E658C:Skyrim.esm
   MajorRecordFlagsRaw: 131072
@@ -8342,7 +8342,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 14647.428, -82971.69, 8495.839
-    Rotation: 0, -0, 2.1400003
+    Rotation: 0, 0, 2.1400003
 - MutagenObjectType: PlacedObject
   FormKey: 0E6594:Skyrim.esm
   Version2: 2
@@ -8384,7 +8384,7 @@ Temporary:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: 15678.964, -82461.2, 8383.91
-    Rotation: 0, -0, 4.9273844
+    Rotation: 0, 0, 4.9273844
 - MutagenObjectType: PlacedObject
   FormKey: 0F8212:Skyrim.esm
   Base: 000021:Skyrim.esm
@@ -8399,7 +8399,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 15575.739, -83381.44, 9064.582
-    Rotation: 0, -0, 5.3123913
+    Rotation: 0, 0, 5.3123913
 - MutagenObjectType: PlacedNpc
   FormKey: 0F94B7:Skyrim.esm
   MajorRecordFlagsRaw: 536873472
@@ -8436,7 +8436,7 @@ Temporary:
   - 0F7B52:Skyrim.esm
   Placement:
     Position: 15202.447, -82627.62, 8222.525
-    Rotation: 0, -0, 0.48320246
+    Rotation: 0, 0, 0.48320246
   MajorFlags:
   - InitiallyDisabled
 - MutagenObjectType: PlacedNpc
@@ -8454,7 +8454,7 @@ Temporary:
   - 0F7B53:Skyrim.esm
   Placement:
     Position: 14876.242, -82428.68, 8224.16
-    Rotation: 0, -0, 0.6100002
+    Rotation: 0, 0, 0.6100002
   MajorFlags:
   - InitiallyDisabled
 - MutagenObjectType: PlacedObject
@@ -8487,7 +8487,7 @@ Temporary:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: 14797.987, -83426.46, 8999.242
-    Rotation: 0, -0, 1.2330275
+    Rotation: 0, 0, 1.2330275
 - MutagenObjectType: PlacedObject
   FormKey: 108223:Skyrim.esm
   Base: 018199:Skyrim.esm
@@ -8495,7 +8495,7 @@ Temporary:
   LocationReference: 018A4A:Skyrim.esm
   Placement:
     Position: 15237.56, -84081.414, 8325.577
-    Rotation: 0, -0, 3.7900023
+    Rotation: 0, 0, 3.7900023
 - MutagenObjectType: PlacedObject
   FormKey: 109094:Skyrim.esm
   Version2: 1

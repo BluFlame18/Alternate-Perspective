@@ -50,13 +50,6 @@ Data:
     Flags:
     - Public
     Data: 150
-- Key: 16
-  Value:
-    MutagenObjectType: PackageDataFloat
-    Name: WaitTime
-    Flags:
-    - Public
-    Data: 5
 - Key: 2
   Value:
     MutagenObjectType: PackageDataBool
@@ -70,6 +63,13 @@ Data:
     Name: False
     Flags:
     - Public
+- Key: 16
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: WaitTime
+    Flags:
+    - Public
+    Data: 5
 - Key: 4
   Value:
     MutagenObjectType: APackageData

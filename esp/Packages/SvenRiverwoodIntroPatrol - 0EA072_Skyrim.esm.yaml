@@ -44,52 +44,9 @@ Conditions:
 PackageTemplate: 0587DC:Skyrim.esm
 DataInputVersion: 20
 Data:
-- Key: 12
-  Value:
-    MutagenObjectType: PackageDataTarget
-    Type: SingleRef
-    Target:
-      MutagenObjectType: PackageTargetSpecificReference
-      Reference: 0960FE:Skyrim.esm
-- Key: 13
-  Value:
-    MutagenObjectType: PackageDataFloat
-    Data: 128
-- Key: 14
-  Value:
-    MutagenObjectType: PackageDataBool
-    Data: True
-- Key: 15
-  Value:
-    MutagenObjectType: PackageDataBool
-    Data: True
 - Key: -90
   Value:
     MutagenObjectType: PackageDataBool
-- Key: 17
-  Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationKeyword
-        Link: 0587DD:Skyrim.esm
-      Radius: 1000
-- Key: 22
-  Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationKeyword
-        Link: 0587DD:Skyrim.esm
-      Radius: 1000
-- Key: 25
-  Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationKeyword
-        Link: 0587DD:Skyrim.esm
-      Radius: 1000
 - Key: -77
   Value:
     MutagenObjectType: PackageDataTarget
@@ -159,6 +116,49 @@ Data:
       Target:
         MutagenObjectType: LocationKeyword
         Link: 0E1381:Skyrim.esm
+- Key: 12
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 0960FE:Skyrim.esm
+- Key: 13
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 128
+- Key: 14
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 17
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0587DD:Skyrim.esm
+      Radius: 1000
+- Key: 22
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0587DD:Skyrim.esm
+      Radius: 1000
+- Key: 25
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+        Link: 0587DD:Skyrim.esm
+      Radius: 1000
 XnamMarker: 0xB8
 OnBegin:
   Topics:

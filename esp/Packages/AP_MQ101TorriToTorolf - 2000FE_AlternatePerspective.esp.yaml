@@ -23,24 +23,12 @@ Data:
         Type: AliasForReference
         Data: 51
       Radius: 170
-- Key: 18
+- Key: 2
   Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationFallback
-        Type: AliasForReference
-        Data: 51
-      Radius: 300
-- Key: 16
+    MutagenObjectType: PackageDataBool
+- Key: 4
   Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationFallback
-        Type: AliasForReference
-        Data: 51
-      Radius: 600
+    MutagenObjectType: PackageDataBool
 - Key: 14
   Value:
     MutagenObjectType: PackageDataLocation
@@ -50,12 +38,24 @@ Data:
         Type: AliasForReference
         Data: 51
       Radius: 1000
-- Key: 2
+- Key: 16
   Value:
-    MutagenObjectType: PackageDataBool
-- Key: 4
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: AliasForReference
+        Data: 51
+      Radius: 600
+- Key: 18
   Value:
-    MutagenObjectType: PackageDataBool
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: AliasForReference
+        Data: 51
+      Radius: 300
 XnamMarker: 0x13
 OnBegin:
   Topics:

@@ -88,6 +88,6 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 12110.642, -71977.71, 6161.2725
-    Rotation: 0, -0, 4.933189
+    Rotation: 0, 0, 4.933189
 MajorFlags:
 - 0x40000

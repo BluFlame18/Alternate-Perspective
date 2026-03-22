@@ -52,6 +52,6 @@ Persistent:
   Base: 000034:Skyrim.esm
   Placement:
     Position: -397, -663, 65
-    Rotation: 0, -0, 0.40000066
+    Rotation: 0, 0, 0.40000066
 MajorFlags:
 - 0x40000

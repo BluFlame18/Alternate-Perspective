@@ -26,10 +26,6 @@ Unknown3: 0x000000
 PackageTemplate: 068B86:Skyrim.esm
 DataInputVersion: 17
 Data:
-- Key: 92
-  Value:
-    MutagenObjectType: PackageDataBool
-    Data: True
 - Key: 0
   Value:
     MutagenObjectType: PackageDataLocation
@@ -37,68 +33,6 @@ Data:
       Target:
         MutagenObjectType: LocationCell
         Link: 0D5AC1:AlternatePerspective.esp
-- Key: 32
-  Value:
-    MutagenObjectType: PackageDataFloat
-    Data: 120
-- Key: 35
-  Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationCell
-        Link: 005900:AlternatePerspective.esp
-- Key: 41
-  Value:
-    MutagenObjectType: PackageDataFloat
-- Key: 37
-  Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationCell
-        Link: 04C921:AlternatePerspective.esp
-- Key: 43
-  Value:
-    MutagenObjectType: PackageDataFloat
-    Data: 60
-- Key: 39
-  Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationCell
-        Link: 0D5AC1:AlternatePerspective.esp
-- Key: 45
-  Value:
-    MutagenObjectType: PackageDataFloat
-    Data: 60
-- Key: 95
-  Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationCell
-        Link: 0D5AC1:AlternatePerspective.esp
-- Key: 97
-  Value:
-    MutagenObjectType: PackageDataFloat
-    Data: 60
-- Key: 96
-  Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationFallback
-        Type: NearEditorLocation
-      Radius: 1024
-- Key: 98
-  Value:
-    MutagenObjectType: PackageDataFloat
-    Data: 60
-- Key: 14
-  Value:
-    MutagenObjectType: PackageDataBool
 - Key: 1
   Value:
     MutagenObjectType: PackageDataBool
@@ -119,27 +53,93 @@ Data:
   Value:
     MutagenObjectType: PackageDataBool
     Data: True
-- Key: 94
-  Value:
-    MutagenObjectType: PackageDataBool
-    Data: True
 - Key: 7
   Value:
     MutagenObjectType: PackageDataBool
     Data: True
+- Key: 14
+  Value:
+    MutagenObjectType: PackageDataBool
 - Key: 25
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 27
   Value:
     MutagenObjectType: PackageDataBool
 - Key: 29
   Value:
     MutagenObjectType: PackageDataFloat
     Data: 75
-- Key: 27
+- Key: 32
   Value:
-    MutagenObjectType: PackageDataBool
+    MutagenObjectType: PackageDataFloat
+    Data: 120
 - Key: 33
   Value:
     MutagenObjectType: PackageDataBool
+- Key: 35
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationCell
+        Link: 005900:AlternatePerspective.esp
+- Key: 37
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationCell
+        Link: 04C921:AlternatePerspective.esp
+- Key: 39
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationCell
+        Link: 0D5AC1:AlternatePerspective.esp
+- Key: 41
+  Value:
+    MutagenObjectType: PackageDataFloat
+- Key: 43
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 60
+- Key: 45
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 60
+- Key: 92
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 94
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 95
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationCell
+        Link: 0D5AC1:AlternatePerspective.esp
+- Key: 96
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearEditorLocation
+      Radius: 1024
+- Key: 97
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 60
+- Key: 98
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 60
 XnamMarker: 0x63
 OnBegin:
   Topics:

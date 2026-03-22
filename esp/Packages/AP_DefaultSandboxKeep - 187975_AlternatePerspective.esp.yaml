@@ -41,10 +41,6 @@ Data:
       Target:
         MutagenObjectType: LocationCell
         Link: 0D5AC1:AlternatePerspective.esp
-- Key: 14
-  Value:
-    MutagenObjectType: PackageDataBool
-    Data: True
 - Key: 1
   Value:
     MutagenObjectType: PackageDataBool
@@ -65,11 +61,11 @@ Data:
   Value:
     MutagenObjectType: PackageDataBool
     Data: True
-- Key: 31
+- Key: 7
   Value:
     MutagenObjectType: PackageDataBool
     Data: True
-- Key: 7
+- Key: 14
   Value:
     MutagenObjectType: PackageDataBool
     Data: True
@@ -83,6 +79,10 @@ Data:
   Value:
     MutagenObjectType: PackageDataFloat
     Data: 75
+- Key: 31
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
 XnamMarker: 0x20
 OnBegin:
   Topics:

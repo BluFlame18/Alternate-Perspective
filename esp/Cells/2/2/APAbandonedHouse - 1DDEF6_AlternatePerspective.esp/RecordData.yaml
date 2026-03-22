@@ -50,14 +50,14 @@ Persistent:
   TeleportDestination:
     Door: 1DDEF5:AlternatePerspective.esp
     Position: 19485.691, -77710.2, 8498.6875
-    Rotation: 0, -0, -2.1299944
+    Rotation: 0, 0, -2.1299944
   Lock:
     Level: 255
     Unused: 0x000000
     Unused2: 0x0000000000000000000000
   Placement:
     Position: 315.98495, 99.48796, 72.47534
-    Rotation: 0, -0, 1.0500001
+    Rotation: 0, 0, 1.0500001
 Temporary:
 - MutagenObjectType: PlacedObject
   FormKey: 1DDEF8:AlternatePerspective.esp
@@ -79,6 +79,6 @@ Temporary:
   Base: 000032:Skyrim.esm
   Placement:
     Position: 125.57261, -534.869, 48.62298
-    Rotation: 0, -0, 2.8500004
+    Rotation: 0, 0, 2.8500004
 MajorFlags:
 - 0x40000

@@ -35,31 +35,6 @@ Data:
         MutagenObjectType: LocationTarget
         Link: 1CEBC9:AlternatePerspective.esp
       Radius: 50
-- Key: 32
-  Value:
-    MutagenObjectType: PackageDataTarget
-    Type: SingleRef
-    Target:
-      MutagenObjectType: PackageTargetSpecificReference
-      Reference: 000014:Skyrim.esm
-- Key: 36
-  Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationCell
-        Link: 1CEAEF:AlternatePerspective.esp
-- Key: 34
-  Value:
-    MutagenObjectType: PackageDataLocation
-    Location:
-      Target:
-        MutagenObjectType: LocationFallback
-        Type: NearEditorLocation
-- Key: 14
-  Value:
-    MutagenObjectType: PackageDataBool
-    Data: True
 - Key: 1
   Value:
     MutagenObjectType: PackageDataBool
@@ -77,13 +52,13 @@ Data:
 - Key: 6
   Value:
     MutagenObjectType: PackageDataBool
-- Key: 38
-  Value:
-    MutagenObjectType: PackageDataBool
-    Data: True
 - Key: 7
   Value:
     MutagenObjectType: PackageDataBool
+- Key: 14
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
 - Key: 25
   Value:
     MutagenObjectType: PackageDataBool
@@ -94,6 +69,31 @@ Data:
   Value:
     MutagenObjectType: PackageDataFloat
     Data: 50
+- Key: 32
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 000014:Skyrim.esm
+- Key: 34
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearEditorLocation
+- Key: 36
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationCell
+        Link: 1CEAEF:AlternatePerspective.esp
+- Key: 38
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
 XnamMarker: 0x27
 OnBegin:
   Topics:

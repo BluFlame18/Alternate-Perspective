@@ -34,9 +34,6 @@ Data:
         MutagenObjectType: LocationTarget
         Link: 13FAEA:AlternatePerspective.esp
       Radius: 100
-- Key: 14
-  Value:
-    MutagenObjectType: PackageDataBool
 - Key: 1
   Value:
     MutagenObjectType: PackageDataBool
@@ -55,11 +52,10 @@ Data:
   Value:
     MutagenObjectType: PackageDataBool
     Data: True
-- Key: 31
+- Key: 7
   Value:
     MutagenObjectType: PackageDataBool
-    Data: True
-- Key: 7
+- Key: 14
   Value:
     MutagenObjectType: PackageDataBool
 - Key: 25
@@ -72,6 +68,10 @@ Data:
   Value:
     MutagenObjectType: PackageDataFloat
     Data: 50
+- Key: 31
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
 XnamMarker: 0x20
 OnBegin:
   Topics:
