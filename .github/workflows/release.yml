@@ -1,0 +1,289 @@
+name: Release On Version Change
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  prepare:
+    name: Determine whether release is needed
+    runs-on: windows-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      latest_release_version: ${{ steps.version.outputs.latest_release_version }}
+      should_release: ${{ steps.version.outputs.should_release }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve project version
+        id: version
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $ppjPath = 'AltPersp.ppj'
+          if (-not (Test-Path $ppjPath)) {
+            throw "Could not find $ppjPath"
+          }
+
+          $ppj = Get-Content $ppjPath -Raw
+          $versionMatch = [regex]::Match($ppj, 'Name="Ver"\s+Value="([^"]+)"')
+          if (-not $versionMatch.Success) {
+            throw 'Could not parse Ver from AltPersp.ppj'
+          }
+
+          $currentVersion = $versionMatch.Groups[1].Value.Trim()
+
+          $latestTag = ''
+          try {
+            $latestTag = (gh api "repos/${{ github.repository }}/releases/latest" --jq '.tag_name').Trim()
+          }
+          catch {
+            Write-Host 'No existing releases found (or API unavailable); treating as first release.'
+          }
+
+          $normalize = {
+            param([string]$value)
+            if ([string]::IsNullOrWhiteSpace($value)) { return '' }
+            $trimmed = $value.Trim()
+            if ($trimmed.StartsWith('v')) {
+              return $trimmed.Substring(1)
+            }
+            return $trimmed
+          }
+
+          $latestVersion = & $normalize $latestTag
+          $shouldRelease = if ([string]::IsNullOrWhiteSpace($latestVersion)) {
+            $true
+          }
+          else {
+            $currentVersion -ne $latestVersion
+          }
+
+          "version=$currentVersion" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          "latest_release_version=$latestVersion" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          "should_release=$($shouldRelease.ToString().ToLowerInvariant())" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+
+          Write-Host "Current version: $currentVersion"
+          Write-Host "Latest release version: $latestVersion"
+          Write-Host "Should release: $shouldRelease"
+
+  build-plugin:
+    name: Build ESP from Spriggit files
+    needs: prepare
+    if: ${{ needs.prepare.outputs.should_release == 'true' }}
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cache Spriggit
+        id: cache-spriggit
+        uses: actions/cache@v4
+        with:
+          path: .github/spriggit
+          key: ${{ runner.os }}-spriggit-cli
+
+      - name: Fetch Spriggit
+        if: steps.cache-spriggit.outputs.cache-hit != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: |
+          gh release download -R Mutagen-Modding/Spriggit --pattern "SpriggitCLI.zip" --dir .github
+          7z x .github/SpriggitCLI.zip -o".github/spriggit/"
+          if (-not (Test-Path ".github/spriggit/Spriggit.CLI.exe")) {
+            Write-Error "Spriggit.CLI.exe not found after extraction."
+            exit 1
+          }
+
+      - name: Deserialize ESP
+        shell: pwsh
+        run: .github\spriggit\Spriggit.CLI.exe deserialize --InputPath "esp" --OutputPath "AlternatePerspective.esp"
+
+      - name: Upload Plugin Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugin
+          path: AlternatePerspective.esp
+
+  compile-scripts:
+    name: Compile Papyrus scripts
+    needs: prepare
+    if: ${{ needs.prepare.outputs.should_release == 'true' }}
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cache Script Sources
+        id: cache-ss
+        uses: actions/cache@v4
+        with:
+          path: |
+            .github/Papyrus/SRC
+            .github/Papyrus/SRC_OTHER
+            .github/Papyrus/SRC/TESV_Papyrus_Flags.flg
+          key: script-sources-clean
+
+      - name: Cache Compiler
+        id: cache-com
+        uses: actions/cache@v4
+        with:
+          path: .github/Caprica
+          key: ${{ runner.os }}-papyrus-compiler
+
+      - name: Fetch Caprica 0.3.0
+        if: steps.cache-com.outputs.cache-hit != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: |
+          gh release download -O .github/Caprica.7z -p '*.7z' -R Orvid/Caprica v0.3.0
+          7z x .github/Caprica.7z "-o.github\Caprica"
+
+      - name: Checkout Papyrus Sources
+        if: steps.cache-ss.outputs.cache-hit != 'true'
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path .github/Papyrus -Force | Out-Null
+          $repos = @('SRC', 'SRC_OTHER')
+          Push-Location .github/Papyrus
+          foreach ($repo in $repos) {
+            New-Item -ItemType Directory -Name $repo -Force | Out-Null
+            Push-Location $repo
+            git init
+            git remote add origin https://github.com/IHateMyKite/PAPYRUS.git
+            git sparse-checkout set --no-cone $repo
+            git fetch --depth=1 origin main
+            git checkout main
+            Remove-Item .git -Recurse -Force
+            Pop-Location
+          }
+          Pop-Location
+
+      - name: Checkout TESV Flags File
+        if: steps.cache-ss.outputs.cache-hit != 'true'
+        shell: pwsh
+        run: |
+          Push-Location .github/Papyrus/SRC
+          New-Item -ItemType Directory -Name temp -Force | Out-Null
+          Push-Location temp
+          git init
+          git remote add origin https://github.com/Rukan/Grimy-Skyrim-Papyrus-Source.git
+          git sparse-checkout set --no-cone 'TESV_Papyrus_Flags.flg'
+          git fetch --depth=1 origin master
+          git checkout master
+          Remove-Item .git -Recurse -Force
+          Move-Item TESV_Papyrus_Flags.flg ../TESV_Papyrus_Flags.flg -Force
+          Pop-Location
+          Remove-Item temp -Recurse -Force
+          Pop-Location
+
+      - name: Run Caprica
+        shell: pwsh
+        run: |
+          .github/Caprica/Caprica.exe --game skyrim --import ".github/Papyrus/SRC;.github/Papyrus/SRC_OTHER;" --output "Scripts" --flags=".github/Papyrus/SRC/TESV_Papyrus_Flags.flg" "${{ github.workspace }}/Source/Scripts" -R -q
+
+      - name: Upload Compiled Scripts
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-scripts
+          path: Scripts
+
+  release:
+    name: Package and publish release
+    needs: [prepare, build-plugin, compile-scripts]
+    if: ${{ needs.prepare.outputs.should_release == 'true' }}
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run translations
+        run: python Interface/Translations/Translation.py
+
+      - name: Download Plugin Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: plugin
+
+      - name: Download Compiled Scripts
+        uses: actions/download-artifact@v4
+        with:
+          name: compiled-scripts
+          path: Scripts
+
+      - name: Package release archives
+        shell: pwsh
+        env:
+          VERSION: ${{ needs.prepare.outputs.version }}
+        run: |
+          $version = $env:VERSION
+          if ([string]::IsNullOrWhiteSpace($version)) {
+            throw 'Version output is empty.'
+          }
+
+          New-Item -ItemType Directory -Path dist -Force | Out-Null
+
+          $mainName = "AlternatePerspective-$version"
+          $mainRoot = Join-Path dist $mainName
+          New-Item -ItemType Directory -Path $mainRoot -Force | Out-Null
+
+          $mainIncludes = @(
+            'AlternatePerspective.esp',
+            'Interface',
+            'meshes',
+            'Scripts',
+            'SKSE',
+            'Seq',
+            'Sound',
+            'Source',
+            'textures'
+          )
+
+          foreach ($item in $mainIncludes) {
+            if (Test-Path $item) {
+              Copy-Item $item -Destination $mainRoot -Recurse -Force
+            }
+          }
+
+          Compress-Archive -Path "$mainRoot/*" -DestinationPath (Join-Path dist "$mainName.zip") -Force
+
+          $patches = @(
+            @{ Folder = 'AE Bone Wolf'; Name = 'AlternatePerspective-AE-Bone-Wolf.zip' },
+            @{ Folder = 'No Startroom Markers'; Name = 'No-Startroom-Markers.zip' },
+            @{ Folder = 'Classic Start'; Name = 'Classic-Start.zip' },
+            @{ Folder = 'Messenger Spawn'; Name = 'Messenger-Spawn.zip' }
+          )
+
+          foreach ($patch in $patches) {
+            $folderPath = Join-Path patches $patch.Folder
+            if (Test-Path $folderPath) {
+              Compress-Archive -Path "$folderPath/*" -DestinationPath (Join-Path dist $patch.Name) -Force
+            }
+          }
+
+      - name: Upload release artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-files-${{ needs.prepare.outputs.version }}
+          path: dist/*.zip
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ needs.prepare.outputs.version }}
+          name: Alternate Perspective v${{ needs.prepare.outputs.version }}
+          generate_release_notes: true
+          files: dist/*.zip
