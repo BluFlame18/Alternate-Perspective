@@ -121,6 +121,7 @@ jobs:
             .github/Papyrus/SRC
             .github/Papyrus/SRC_OTHER
             .github/Papyrus/SRC/TESV_Papyrus_Flags.flg
+            .github/Papyrus/Base
           key: script-sources-clean
 
       - name: Cache Compiler
@@ -138,6 +139,20 @@ jobs:
         run: |
           gh release download -O .github/Caprica.7z -p '*.7z' -R Orvid/Caprica v0.3.0
           7z x .github/Caprica.7z "-o.github\Caprica"
+
+      - name: Checkout TESVScripts Sources
+        if: steps.cache-ss.outputs.cache-hit != 'true'
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path .github/Papyrus/Base -Force | Out-Null
+          Push-Location .github/Papyrus/Base
+          git init
+          git remote add origin https://github.com/digital-apple/TESVScripts.git
+          git sparse-checkout set --no-cone Base
+          git fetch --depth=1 origin main
+          git checkout main
+          Remove-Item .git -Recurse -Force
+          Pop-Location
 
       - name: Checkout Papyrus Sources
         if: steps.cache-ss.outputs.cache-hit != 'true'
@@ -180,7 +195,7 @@ jobs:
       - name: Run Caprica
         shell: pwsh
         run: |
-          .github/Caprica/Caprica.exe --game skyrim --import ".github/Papyrus/SRC;.github/Papyrus/SRC_OTHER;" --output "Scripts" --flags=".github/Papyrus/SRC/TESV_Papyrus_Flags.flg" "${{ github.workspace }}/Source/Scripts" -R -q
+          .github/Caprica/Caprica.exe --game skyrim --import ".github/Papyrus/SRC;.github/Papyrus/SRC_OTHER;.github/Papyrus/Base;" --output "Scripts" --flags=".github/Papyrus/SRC/TESV_Papyrus_Flags.flg" "${{ github.workspace }}/Source/Scripts" -R -q
 
       - name: Upload Compiled Scripts
         uses: actions/upload-artifact@v4
