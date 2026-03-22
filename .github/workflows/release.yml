@@ -218,7 +218,7 @@ jobs:
           python-version: '3.x'
 
       - name: Run translations
-        run: python Interface/Translations/Translation.py
+        run: python tools/translation.py
 
       - name: Download Plugin Artifact
         uses: actions/download-artifact@v4
