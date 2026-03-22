@@ -3,6 +3,8 @@ set -euo pipefail
 
 repo_root="$(git rev-parse --show-toplevel)"
 
+echo "Running Spriggit pre-commit hook..."
+
 if command -v pwsh >/dev/null 2>&1; then
   ps_cmd="pwsh"
 elif command -v powershell.exe >/dev/null 2>&1; then

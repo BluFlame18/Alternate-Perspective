@@ -112,8 +112,6 @@ Function knockoutPlayer()
   PlayerRef.ResetHealthAndLimbs()
   FadeToBlackHoldImod.PopTo(FadeUpFromBlack) ; fade the Screen back in
   PlayerRef.PlayIdle(TG05_GetUp)
-  ; Utility.Wait(1.5)
-  ; SetStage(160)
   ; Player should be free to move now & escape Helgen.
 EndFunction
 
