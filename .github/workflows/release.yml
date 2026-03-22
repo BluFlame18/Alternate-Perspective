@@ -121,7 +121,7 @@ jobs:
             .github/Papyrus/Base
             .github/Papyrus/skse64
             .github/Papyrus/jcontainersse
-            .github/Papyrus/SRC/TESV_Papyrus_Flags.flg
+            .github/Papyrus/Base/TESV_Papyrus_Flags.flg
           key: script-sources-clean
 
       - name: Cache Compiler
@@ -178,7 +178,7 @@ jobs:
         if: steps.cache-ss.outputs.cache-hit != 'true'
         shell: pwsh
         run: |
-          Push-Location .github/Papyrus/SRC
+          Push-Location .github/Papyrus/Base
           New-Item -ItemType Directory -Name temp -Force | Out-Null
           Push-Location temp
           git init
@@ -195,7 +195,7 @@ jobs:
       - name: Run Caprica
         shell: pwsh
         run: |
-          .github/Caprica/Caprica.exe --game skyrim --import ".github/Papyrus/Base;.github/Papyrus/skse64;.github/Papyrus/jcontainersse;" --output "Scripts" --flags=".github/Papyrus/SRC/TESV_Papyrus_Flags.flg" "${{ github.workspace }}/Source/Scripts" -R -q
+          .github/Caprica/Caprica.exe --game skyrim --import ".github/Papyrus/Base;.github/Papyrus/skse64;.github/Papyrus/jcontainersse;" --output "Scripts" --flags=".github/Papyrus/Base/TESV_Papyrus_Flags.flg" "${{ github.workspace }}/Source/Scripts" -R -q
 
       - name: Upload Compiled Scripts
         uses: actions/upload-artifact@v4
